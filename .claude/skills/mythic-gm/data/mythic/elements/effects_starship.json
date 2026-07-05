@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.effects_starship",
+ "title": "Elements — EFFECTS STARSHIP",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Animal"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Animate"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Assist"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Attack"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Attract"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bestow"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bizarre"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Block"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Break"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bright"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Burn"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Change"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cloud"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Cold"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Communicate"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Conceal"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Conjure"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Control"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Counteract"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Create"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Creature"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Curse"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Damage"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dark"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Death"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Deceive"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Decrease"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Defense"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Destroy"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Detect"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Diminish"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Disease"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Dominate"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Duplicate"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Earth"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Elements"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Emotion"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Enemies"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Energy"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Enhance"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Environment"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Expose"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Fire"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Fix"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Food"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Free"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Group"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Guide"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Hamper"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Harm"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Heal"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Helpful"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Ice"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Illusion"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Imbue"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Immunity"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Imprison"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Information"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Inspect"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Life"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Light"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Limitation"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Liquid"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Loud"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Manipulation"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mind"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Nature"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Object"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Others"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pain"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Physical"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Plant"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Poison"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Portal"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Powerful"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Protect"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Radius"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Ranged"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Resistance"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Restore"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Self"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Senses"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Shield"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Soul"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Strange"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Strength"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Stun"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Summon"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Time"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Transform"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Trap"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Travel"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Trigger"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Uncertain"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Undead"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Wall"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Water"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weak"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weapon"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weather"
+  }
+ ],
+ "checksum": "sha256:6367c78ba77ed377"
+}

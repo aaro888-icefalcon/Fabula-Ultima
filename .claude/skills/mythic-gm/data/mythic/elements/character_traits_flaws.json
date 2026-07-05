@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_traits_flaws",
+ "title": "Elements — Character_Traits_Flaws",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Academic"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Adversity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Animal"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Assist"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Attract"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Beautiful"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Benefits"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bestow"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bizarre"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Block"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Burden"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Combat"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Communicate"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Connection"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Control"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Create"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Criminal"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Damaged"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Dangerous"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Decrease"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Defense"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Delicate"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Different"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dominate"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Driven"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Emotion"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Enemy"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Energy"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Environment"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Failure"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fame"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Familiar"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fast"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Feeble"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Flawless"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Focused"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fortunate"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Friends"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Good"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Healthy"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Illness"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Impaired"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Increase"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Information"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Inspect"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Intellect"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Intense"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Interesting"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Lacking"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Large"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Leadership"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Legal"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Less"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Lethal"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Limited"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Loyal"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mental"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Military"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Misfortune"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Missing"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Move"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Multi"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Nature"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Object"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Odd"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Old"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Partial"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Passion"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Perception"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Physical"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Poor"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Possessions"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Power"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Principles"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Public"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Rare"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Remarkable"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Resistant"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Resource"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rich"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Sense"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Skill"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Small"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Social"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Specialized"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Spirit"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strong"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Suffering"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Technical"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Technology"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tough"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Travel"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trouble"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Trustworthy"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Unusual"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Very"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weak"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weapon"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:a5aeaeef096ecaf8"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/subsystems.schema.json",
+  "title": "Fabula Ultima — end-of-scene subsystems the tick dispatches (executable rows)",
+  "type": "object",
+  "required": ["id", "subsystems"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "subsystems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "cadence", "advance"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "cadence": { "type": "string", "description": "every_scene | every_N | on_trigger:<label>" },
+          "advance": { "type": "string",
+            "enum": ["front_tick", "clock_tick", "project_tick", "reseed", "fabula_reconcile", "chaos_judge"],
+            "description": "the closed op-set tick.py dispatches" },
+          "surface": { "type": "string", "enum": ["none", "telegraph", "turning_point", "telegraph_or_turning_point", "random_event"] },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

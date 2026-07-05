@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.scavenging",
+ "title": "Elements — Scavenging",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abundance"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Activity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Adversity"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Allies"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Animal"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Art"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Barrier"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Beauty"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bizarre"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bleak"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Broken"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Clean"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Clothes"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Comfort"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Communicate"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Competition"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Concealment"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Conflict"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Container"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Control"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Crisis"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Damaged"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Danger"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Death"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dirty"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Disgusting"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Dispute"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Drink"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Elements"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Empty"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Enemies"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Energy"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Extravagance"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Failure"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fear"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fight"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Food"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fresh"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Friendship"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Fuel"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Good"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Health"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Helpful"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Hope"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Important"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Information"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Joy"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Large"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Lavish"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Lean"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Less"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Lethal"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Mechanical"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Medicinal"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Messy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Misfortune"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mundane"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mysterious"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Nature"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "New"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Normal"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Odd"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Official"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Old"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Open"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Opposition"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Pain"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Peace"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pleasures"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Portal"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Possessions"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Protection"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Reassuring"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Repairable"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Rotten"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Rough"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Ruined"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Scary"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Shelter"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Simple"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Small"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Smelly"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Strange"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Struggle"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Success"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Supply"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Technology"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Tool"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Travel"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Triumph"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Trouble"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Useless"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Valuable"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Vehicle"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Victory"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Violence"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Warm"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Waste"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapon"
+  }
+ ],
+ "checksum": "sha256:2a9c42c5206a4452"
+}

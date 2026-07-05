@@ -1,0 +1,12 @@
+{
+ "id": "mythic.discovery_fate_question",
+ "title": "Discovery Fate Question",
+ "type": "answer_keyed",
+ "source": "references/canon/Mythic-GME.md",
+ "answers": {
+  "yes": "Roll on the Thread Discovery Check Table.",
+  "no": "Nothing useful is found.",
+  "exc_yes": "Roll twice on the Thread Discovery Check Table, combining results.",
+  "exc_no": "Nothing found; no further Discovery Check this Scene."
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "id": "mythic.npc_statistics",
+ "title": "NPC Statistics Table",
+ "type": "answer_keyed",
+ "source": "references/canon/Mythic-GME.md",
+ "answers": {
+  "yes": "The value is what you expect.",
+  "exc_yes": "About 25% higher.",
+  "no": "About 25% lower.",
+  "exc_no": "About 50% lower.",
+  "random_event": "A special condition tied to this statistic."
+ }
+}

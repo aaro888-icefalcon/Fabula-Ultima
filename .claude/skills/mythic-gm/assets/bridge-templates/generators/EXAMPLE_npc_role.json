@@ -1,0 +1,9 @@
+{ "id":"companion.npc_role","title":"NPC Role","type":"list_d100","dice":"1d100",
+  "note":"Example companion generate:character table. Rolled on any NEW CHARACTER when the bridge's generators_map.character points here (mode conjunction = also runs the AC Character Crafter).",
+  "entries":[
+    {"min":1,"max":25,"value":"Soldier / enforcer"},
+    {"min":26,"max":45,"value":"Merchant / fixer"},
+    {"min":46,"max":62,"value":"Official / authority"},
+    {"min":63,"max":78,"value":"Outcast / criminal"},
+    {"min":79,"max":90,"value":"Scholar / specialist"},
+    {"min":91,"max":100,"value":"Zealot / true believer"}] }

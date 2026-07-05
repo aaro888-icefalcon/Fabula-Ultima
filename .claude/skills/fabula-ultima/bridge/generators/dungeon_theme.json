@@ -1,0 +1,14 @@
+{ "id": "fu.dungeon_theme", "title": "Dungeon / Site Theme", "type": "list_d10", "dice": "1d10",
+  "note": "The character of a themed location. Traverse it as a Clock (fu.py clock). Layer the created world's magic/technology level onto the theme.",
+  "entries": [
+    {"min": 1, "max": 1, "value": "Ancient ruin of a fallen civilization"},
+    {"min": 2, "max": 2, "value": "Living cave or monster lair"},
+    {"min": 3, "max": 3, "value": "Sealed vault or tomb — guardians and curses"},
+    {"min": 4, "max": 4, "value": "Corrupted natural place — blighted forest, poisoned mine"},
+    {"min": 5, "max": 5, "value": "Enemy-held fortress or stronghold"},
+    {"min": 6, "max": 6, "value": "Arcane laboratory or workshop gone wrong"},
+    {"min": 7, "max": 7, "value": "Sunken or flooded place"},
+    {"min": 8, "max": 8, "value": "Shifting, unreal space — dream, pocket world, or Wyld"},
+    {"min": 9, "max": 9, "value": "Sacred site turned hostile"},
+    {"min": 10, "max": 10, "value": "Machine-dungeon — magitech, clockwork, techno-fantasy"}
+  ] }

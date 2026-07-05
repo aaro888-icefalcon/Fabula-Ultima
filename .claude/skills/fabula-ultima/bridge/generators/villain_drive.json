@@ -1,0 +1,14 @@
+{ "id": "fu.villain_drive", "title": "Villain Drive", "type": "list_d10", "dice": "1d10",
+  "note": "The agenda a recurring antagonist pursues on a Clock (even offscreen). Pair with statgen.py villain for Ultima Points; tie the drive to a PC's Theme or Bond for JRPG stakes.",
+  "entries": [
+    {"min": 1, "max": 1, "value": "Conquest — dominion over a land, people, or throne"},
+    {"min": 2, "max": 2, "value": "Revenge for an old wound or betrayal"},
+    {"min": 3, "max": 3, "value": "Forbidden knowledge or power, at any cost"},
+    {"min": 4, "max": 4, "value": "Restore a lost past — undo a death, a fall, a ruined empire"},
+    {"min": 5, "max": 5, "value": "Purge the world of a corruption only they perceive"},
+    {"min": 6, "max": 6, "value": "Greed — wealth, resources, a monopoly on something vital"},
+    {"min": 7, "max": 7, "value": "Devotion to a dark god or cosmic force"},
+    {"min": 8, "max": 8, "value": "Escape or unmake their own suffering — dragging the world with them"},
+    {"min": 9, "max": 9, "value": "Prove supremacy over a rival, a people, or fate itself"},
+    {"min": 10, "max": 10, "value": "Twisted love — possession of a person or an ideal"}
+  ] }

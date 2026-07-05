@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_identity",
+ "title": "Elements — Character Identity",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandoned"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Administrator"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Adventurous"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Adversary"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Advisor"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Ally"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Art"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Artist"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Assistant"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Athlete"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Authority"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bureaucrat"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Business"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Combatant"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Competitor"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Controller"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Crafter"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Crafter   Creator"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Disrupt"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Emotion"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Enemy"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Environment"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Escape"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Failure"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Confident"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Enforcer"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Fear"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Fight"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Entertainer   Executive"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Free"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Friend"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Goal"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Farmer"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Group"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Devoted   Disagreeable   Dull"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Foreigner"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Friend"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Gambler"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Help"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Gatherer   Guardian"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Home"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Hope"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Idea"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Illness"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Important"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Imprison"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Increase"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Information"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Innocent"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Intellect"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Killer"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Laborer"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Lackey"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Law"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Leader"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Legal"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Lost"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mechanical"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mediator"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Merchant"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Messenger"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Military"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Mundane"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Mystery"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Official"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Organizer"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Outsider"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Obligation"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Official"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Oppose"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Pain"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Passion"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Principled"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Professional"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Quiet"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Place"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Plan"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Radical"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Power"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Pride"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Protect"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Pursue"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Rude"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Scholar"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Scientist"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Scout"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Servant"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Socialite"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Soldier"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Serve"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Start"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Stop"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Strange"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Struggle"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Success"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Suffering"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Support"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Take"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Transform"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Travel"
+  }
+ ],
+ "checksum": "sha256:82ad3bc60abaf3ca"
+}

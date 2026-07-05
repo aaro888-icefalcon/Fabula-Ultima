@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.locations",
+ "title": "Elements — Locations",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandoned"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Active"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Artistic"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Atmosphere"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Beautiful"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bleak"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bright"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Business"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Calm"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Charming"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Clean"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Cluttered"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Colorful"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Colorless"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Confusing"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cramped"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Creepy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Crude"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Cute"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Damaged"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dangerous"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Dark"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Delightful"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dirty"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Domestic"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Empty"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Enclosed"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Enormous"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Entrance"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Exclusive"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Exposed"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Extravagant"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Familiar"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fancy"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Festive"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Foreboding"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fortunate"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fragrant"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Frantic"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Frightening"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Full"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Harmful"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Helpful"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Horrible"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Important"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Impressive"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Inactive"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Intense"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Intriguing"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Lively"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Lonely"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Long"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Loud"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Meaningful"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Messy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mobile"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Modern"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mundane"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Mysterious"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Natural"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "New"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Occupied"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Odd"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Official"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Old"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Open"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Peaceful"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Personal"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Plain"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Portal"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Protected"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Protection"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Purposeful"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Quiet"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Reassuring"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Remote"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Resourceful"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Ruined"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rustic"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Safe"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Services"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Simple"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Small"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Spacious"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Storage"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Stylish"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Suspicious"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tall"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Threatening"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tranquil"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Unexpected"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Unpleasant"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unusual"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Useful"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Warm"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Warning"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Watery"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Welcoming"
+  }
+ ],
+ "checksum": "sha256:973be165baee3a8b"
+}

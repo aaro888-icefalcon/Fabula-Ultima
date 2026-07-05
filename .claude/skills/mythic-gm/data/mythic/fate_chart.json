@@ -1,0 +1,455 @@
+{
+ "id": "mythic.fate_chart",
+ "title": "Fate Chart",
+ "type": "grid_fate_chart",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#fate-chart",
+ "odds": [
+  "Certain",
+  "Nearly Certain",
+  "Very Likely",
+  "Likely",
+  "50/50",
+  "Unlikely",
+  "Very Unlikely",
+  "Nearly Impossible",
+  "Impossible"
+ ],
+ "chaos_factor": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "grid": {
+  "Certain": [
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   },
+   {
+    "exc_yes_max": 18,
+    "yes_max": 90,
+    "exc_no_min": 99
+   },
+   {
+    "exc_yes_max": 19,
+    "yes_max": 95,
+    "exc_no_min": 100
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   }
+  ],
+  "Nearly Certain": [
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   },
+   {
+    "exc_yes_max": 18,
+    "yes_max": 90,
+    "exc_no_min": 99
+   },
+   {
+    "exc_yes_max": 19,
+    "yes_max": 95,
+    "exc_no_min": 100
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   }
+  ],
+  "Very Likely": [
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   },
+   {
+    "exc_yes_max": 18,
+    "yes_max": 90,
+    "exc_no_min": 99
+   },
+   {
+    "exc_yes_max": 19,
+    "yes_max": 95,
+    "exc_no_min": 100
+   },
+   {
+    "exc_yes_max": 20,
+    "yes_max": 99,
+    "exc_no_min": 101
+   }
+  ],
+  "Likely": [
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   },
+   {
+    "exc_yes_max": 18,
+    "yes_max": 90,
+    "exc_no_min": 99
+   },
+   {
+    "exc_yes_max": 19,
+    "yes_max": 95,
+    "exc_no_min": 100
+   }
+  ],
+  "50/50": [
+   {
+    "exc_yes_max": 2,
+    "yes_max": 10,
+    "exc_no_min": 83
+   },
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   },
+   {
+    "exc_yes_max": 18,
+    "yes_max": 90,
+    "exc_no_min": 99
+   }
+  ],
+  "Unlikely": [
+   {
+    "exc_yes_max": 1,
+    "yes_max": 5,
+    "exc_no_min": 82
+   },
+   {
+    "exc_yes_max": 2,
+    "yes_max": 10,
+    "exc_no_min": 83
+   },
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   },
+   {
+    "exc_yes_max": 17,
+    "yes_max": 85,
+    "exc_no_min": 98
+   }
+  ],
+  "Very Unlikely": [
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 1,
+    "yes_max": 5,
+    "exc_no_min": 82
+   },
+   {
+    "exc_yes_max": 2,
+    "yes_max": 10,
+    "exc_no_min": 83
+   },
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   },
+   {
+    "exc_yes_max": 15,
+    "yes_max": 75,
+    "exc_no_min": 96
+   }
+  ],
+  "Nearly Impossible": [
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 1,
+    "yes_max": 5,
+    "exc_no_min": 82
+   },
+   {
+    "exc_yes_max": 2,
+    "yes_max": 10,
+    "exc_no_min": 83
+   },
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   },
+   {
+    "exc_yes_max": 13,
+    "yes_max": 65,
+    "exc_no_min": 94
+   }
+  ],
+  "Impossible": [
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 0,
+    "yes_max": 1,
+    "exc_no_min": 81
+   },
+   {
+    "exc_yes_max": 1,
+    "yes_max": 5,
+    "exc_no_min": 82
+   },
+   {
+    "exc_yes_max": 2,
+    "yes_max": 10,
+    "exc_no_min": 83
+   },
+   {
+    "exc_yes_max": 3,
+    "yes_max": 15,
+    "exc_no_min": 84
+   },
+   {
+    "exc_yes_max": 5,
+    "yes_max": 25,
+    "exc_no_min": 86
+   },
+   {
+    "exc_yes_max": 7,
+    "yes_max": 35,
+    "exc_no_min": 88
+   },
+   {
+    "exc_yes_max": 10,
+    "yes_max": 50,
+    "exc_no_min": 91
+   }
+  ]
+ },
+ "checksum": "sha256:97dcea619932c75e"
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/rules.schema.json",
+  "title": "Fabula Ultima — core rules constants & procedures",
+  "type": "object",
+  "required": ["id", "source", "attributes", "difficulty_levels", "critical", "fumble", "high_roll", "opportunities", "bonds", "fabula_points", "hp_mp", "zero_hp", "resting"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "attributes": {
+      "type": "object",
+      "required": ["list", "die_sizes"],
+      "properties": {
+        "list": { "type": "array", "items": { "type": "string", "enum": ["Dexterity", "Insight", "Might", "Willpower"] } },
+        "abbr": { "type": "object" },
+        "die_sizes": { "type": "array", "items": { "type": "integer", "enum": [6, 8, 10, 12] } },
+        "text": { "type": "string" }
+      }
+    },
+    "check": {
+      "type": "object",
+      "description": "The two-die check procedure and terminology.",
+      "properties": { "dice_per_check": { "const": 2 }, "text": { "type": "string" } }
+    },
+    "difficulty_levels": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["dl", "difficulty", "who"],
+        "additionalProperties": false,
+        "properties": {
+          "dl": { "type": "integer", "enum": [7, 10, 13, 16] },
+          "difficulty": { "type": "string" },
+          "who": { "type": "string" }
+        }
+      }
+    },
+    "critical": {
+      "type": "object",
+      "required": ["rule", "text"],
+      "properties": {
+        "rule": { "type": "string", "description": "e.g. 'both dice equal AND >= 6'" },
+        "min_face": { "const": 6 },
+        "auto_success": { "type": "boolean" },
+        "text": { "type": "string" }
+      }
+    },
+    "fumble": {
+      "type": "object",
+      "required": ["rule", "text"],
+      "properties": {
+        "rule": { "type": "string", "description": "e.g. 'both dice show 1'" },
+        "auto_failure": { "type": "boolean" },
+        "grants_fabula_point": { "type": "integer" },
+        "text": { "type": "string" }
+      }
+    },
+    "high_roll": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "opportunities": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["name", "text"],
+        "additionalProperties": false,
+        "properties": { "name": { "type": "string" }, "text": { "type": "string" } }
+      }
+    },
+    "check_variants": {
+      "type": "object",
+      "description": "opposed / open / group / accuracy / magic / situational modifiers.",
+      "additionalProperties": true
+    },
+    "bonds": {
+      "type": "object",
+      "required": ["max_strength", "text"],
+      "properties": {
+        "max_strength": { "type": "integer" },
+        "emotions": { "type": "array", "items": { "type": "string" } },
+        "text": { "type": "string" }
+      }
+    },
+    "fabula_points": {
+      "type": "object",
+      "required": ["starting", "gain", "spend", "text"],
+      "properties": {
+        "starting": { "type": "integer" },
+        "gain": { "type": "array", "items": { "type": "object", "required": ["trigger", "amount"], "properties": { "trigger": { "type": "string" }, "amount": { "type": "integer" } } } },
+        "spend": { "type": "array", "items": { "type": "object", "required": ["effect", "cost"], "properties": { "effect": { "type": "string" }, "cost": { "type": "string" }, "text": { "type": "string" } } } },
+        "text": { "type": "string" }
+      }
+    },
+    "hp_mp": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "zero_hp": {
+      "type": "object",
+      "description": "The Surrender / Sacrifice fork; text must be verbatim for fu.py to print.",
+      "required": ["surrender", "sacrifice", "text"],
+      "properties": {
+        "crisis": { "type": "string" },
+        "surrender": { "type": "string" },
+        "sacrifice": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    },
+    "resting": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "clocks": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "inventory_points": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "travel": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "economy": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "projects": { "type": "object", "properties": { "text": { "type": "string" } } },
+    "experience": { "type": "object", "properties": { "text": { "type": "string" } } }
+  }
+}

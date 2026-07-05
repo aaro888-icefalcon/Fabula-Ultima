@@ -1,0 +1,11 @@
+# Python bytecode from the skill scripts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Personal, machine-local Claude Code settings (the shared hook lives in settings.json)
+.claude/settings.local.json
+
+# NOTE: play state under .claude/skills/fabula-ultima/campaign/ is intentionally
+# NOT ignored — committing it is how a solo campaign is saved and resumed across
+# ephemeral Claude Code on the web containers.

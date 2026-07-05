@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.sounds",
+ "title": "Elements — Sounds",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Activity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Alarm"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Animal"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Approach"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Banging"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Battle"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Beep"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bell"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Beseeching"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Burning"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Busy"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Calm"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Ceaseless"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Celebrate"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Chaotic"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cheerful"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Clang"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Combative"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Communicate"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Construction"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Conversation"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Crash"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Creaking"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Creepy"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Cries"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Damage"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Danger"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Distant"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Drip"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Echo"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Emotion"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Energetic"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Explosion"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Familiar"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Ferocious"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Footsteps"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Frantic"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Frightening"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Grinding"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Growl"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Hammering"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Helpful"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Imitate"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Important"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Indistinct"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Industry"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Information"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Innocent"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Intense"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Interesting"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Irritating"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Loud"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Machinery"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Meaningful"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Metallic"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Muffled"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Multiple"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Music"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mysterious"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Natural"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Near"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Noisy"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Normal"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Odd"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Productivity"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Pursuit"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Quiet"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Reassuring"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Remarkable"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Rip"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Roar"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Rumbling"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Rustling"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Scary"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Scraping"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Scratching"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Simple"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Sizzle"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Slam"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Slow"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Soft"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Start"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Stop"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Strange"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Tapping"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Technology"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Threatening"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Thud"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Traffic"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tranquil"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Uncertain"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Warning"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Water"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Weather"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Whirring"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Whistle"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wind"
+  }
+ ],
+ "checksum": "sha256:dbe52b654e8478b1"
+}

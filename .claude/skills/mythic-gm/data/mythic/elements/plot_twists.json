@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.plot_twists",
+ "title": "Elements — Plot_Twists",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Action"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Attack"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Bad"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Barrier"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Betray"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Business"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Change"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Character"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Conclude"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Conditional"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Conflict"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Connection"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Consequence"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Control"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Danger"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Death"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Delay"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Destroy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Diminish"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Disaster"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Discover"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Emotion"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Enemy"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Enhance"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enter"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Escape"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Evidence"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Failure"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Family"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Free"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Friend"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Good"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Group"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Harm"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Headquarters"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Help"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Helpless"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Hidden"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Idea"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Immediate"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Impending"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Important"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Incapacitate"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Information"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Injustice"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Leader"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Legal"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Lethal"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Lie"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Limit"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Location"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Lucky"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Mental"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Missing"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Mundane"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Mystery"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Necessary"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "News"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Object"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Oppose"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Outcast"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Overcome"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Past"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Peace"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Personal"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Persuade"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Physical"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Plan"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Power"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Prepare"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Problem"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Promise"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Protect"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Public"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Pursue"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Rare"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Remote"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Repair"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Repeat"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Require"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Rescue"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Resource"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Response"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Reveal"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Revenge"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Reversal"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Reward"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Skill"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Social"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Solution"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Strange"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Success"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Tension"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trap"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Travel"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Unknown"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Unlikely"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Unusual"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Urgent"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Useful"
+  }
+ ],
+ "checksum": "sha256:12d604ab892d1448"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "fu.subsystems",
+  "note": "The end-of-scene bookkeeping loop as executable rows. tick.py reads this + campaign/state.json + genre.json and ADVANCES world state (rolling stochastic advances through the engine, scaled by Chaos), emitting a JSON changelog + surfacing directives. bridge/subsystems.md keeps only the Operative pointer for the engine's tick.py.",
+  "subsystems": [
+    {"id": "villain_fronts", "cadence": "every_scene", "advance": "front_tick", "surface": "telegraph_or_turning_point",
+     "note": "advance each open villain/faction/threat front's clock (1 + a Chaos-scaled roll); surface a telegraph when it crosses a stage, a Turning Point when it fills"},
+    {"id": "campaign_clocks", "cadence": "every_scene", "advance": "clock_tick", "surface": "telegraph",
+     "note": "list open campaign clocks (clocks.json); the GM advances the ones the fiction implies via fu.py clock tick"},
+    {"id": "projects_rituals", "cadence": "on_trigger:downtime", "advance": "project_tick", "surface": "none",
+     "note": "tick in-progress PC Projects and Rituals toward completion during downtime/rest"},
+    {"id": "fabula_economy", "cadence": "every_scene", "advance": "fabula_reconcile", "surface": "none",
+     "note": "0 FP at session start -> +1; villain entrance -> +1 each PC; Surrender -> +2; show villain Ultima pools"},
+    {"id": "seed_deck", "cadence": "every_scene", "advance": "reseed", "surface": "none",
+     "note": "rebuild the 30-40 card seed deck from PC Bonds/Themes, open fronts, live NPCs, and genre conflict themes"},
+    {"id": "chaos", "cadence": "every_scene", "advance": "chaos_judge", "surface": "none",
+     "note": "raise Chaos when a front fills or the heroes are overwhelmed; lower when they resolve a threat; respect the genre floor"}
+  ]
+}

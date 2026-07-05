@@ -1,0 +1,453 @@
+{
+  "id": "fu.atlas.high",
+  "atlas": "high",
+  "summary": "The High Fantasy Atlas for Fabula Ultima: a classic, epic JRPG toolkit where heroes rise from humble origins to challenge the gods. It adds ten archetypal locations (from the Starting Kingdom to the Infernal Fortress), guidance on conflicts, magic/rituals, technology and magitech, rare items and world-changing artifacts, four new Classes (Chanter, Commander, Dancer, Symbolist), 24 new Heroic Skills, and new optional subsystems: Custom Weapons, Quirks, and Zero Powers. It closes with five sample Villains for levels 10-60 (Eileen the Pirate Queen, the Flame Dragon, Cerine the Mournful Lady, Maximilian, and the metanarrative final boss Tragedia).",
+  "rules_options": [
+    {
+      "key": "custom_weapons",
+      "name": "Custom Weapons",
+      "text": "An optional rule for making unusual signature weapons during character creation, with no profound gameplay implications. A custom weapon: belongs to one Category of your choice (arcane, bow, brawling, dagger, firearm, flail, heavy, spear, sword or thrown); is not martial (but may become martial via customizations); is two-handed (occupies both hand slots, cannot use Monkey Grip); is melee or ranged (your choice, regardless of Category); costs 300 zenit; its Accuracy Check relies on [DEX + INS] or [DEX + MIG]; and it deals [HR + 5] physical damage. It then receives three customizations (each chosen once). CUSTOMIZATIONS: Accurate (+2 to Accuracy formula); Defense Boost (+2 Defense, treated as having a shield for your Skills); Elemental (choose a damage type; damage becomes that type and deals +2); Magic Defense Boost [martial] (+2 Magic Defense); Powerful [martial] (+5 damage, or +7 if heavy; not for arcane/dagger/quick weapons); Quick [counts as two customizations, martial] (Attack action makes two attacks under two-weapon fighting rules); Transforming [+100 zenit cost] (a second form designed as a separate custom weapon that also has Transforming and costs no zenit; you may swap forms once per turn before/after an action; a transforming weapon has only one Quality shared by both forms). If a weapon's two forms differ in melee/ranged or Category, you only gain the benefits of one form at a time."
+    },
+    {
+      "key": "quirks",
+      "name": "High Fantasy Quirks",
+      "text": "An advanced optional rule giving each Player Character a set of unique thematic and mechanical abilities. A PC may only ever have one Quirk; if Quirks are used it is strongly suggested every PC begins with one, and no two PCs share an identical Quirk. A character may lose and change their Quirk if the story supports it. On average a group with Quirks can tackle more challenging situations than normal for their level. Effects range from flight to spending Fabula Points for spellcasting. Use Quirks if you are comfortable setting aside power balance in favor of strong characterization; best for tight, collaborative groups. Many Quirks touch sensitive themes (gaslighting, xenophobia, social pressure, tragedy, being treated as \"not human\") — use lines and veils and pause the game if needed."
+    },
+    {
+      "key": "zero_powers",
+      "name": "Zero Powers",
+      "text": "The most explosive optional rule in the book: each character unleashes an incredible effect when cornered. A character with a Zero Power gets a 6-section Zero Clock, charged during conflict scenes by: filling 1 section each time you spend 1 Fabula Point to invoke a Trait or Bond; filling 1 section each time you lose Hit Points (unless self-inflicted); and filling a variable number of sections when your chosen zero trigger activates. On your turn, if the Zero Clock is full, you may perform the Skill action to unleash your zero effect (once per turn); this erases all sections. Sections also fully erase at the end of each scene, and may only be filled/erased as described (or via Zero Chance). When creating a Zero Power, choose a trigger and an effect; a group must never include two PCs sharing a trigger, nor two sharing an effect. On average a group using Zero Powers defeats most foes easily. Variations: Awakened Power (choose the effect at creation but not the trigger; gain access only when you awaken it, once per campaign) and Combined Powers (Zero Clocks of 4 sections, each pair of PCs shares one zero effect unleashed only when both their Clocks are full; use with four or fewer PCs)."
+    }
+  ],
+  "entries": [
+    {
+      "kind": "location",
+      "key": "oniria",
+      "name": "Oniria - The Starting Kingdom",
+      "text": "The idyllic Starting Kingdom, a sheltered nest where life is serene (if boring) and a haven the party returns to between adventures. Oniria is the first location the protagonists visit, backdrop for the first relaxed sessions. It typically has an enigmatic leader who cares for the people, an ancient order of magical knights, and secret access to a forgotten place. Later it is either attacked by someone coveting its resources, or becomes the lair of an important Villain (a coup, catastrophe, or a revealed hidden base). Story hooks include Founder's Plaza (a marble plaza and the Night of Lights festival with its Contest of Heroes), the Nefti Ruins hidden behind Oniria's waterfall (holding the legendary Iris Sphere and the river nymph Sequana), and \"The Scam of the Century\" (the fraudulent merchant Emmet and his bodyguard Asher)."
+    },
+    {
+      "kind": "location",
+      "key": "artemis",
+      "name": "Artemis - The Dark Forest",
+      "text": "A dense, mysterious forest of tangled roads and untrodden paths that cloud the senses; something dark and terrible lurks at its heart, slowly corrupting it. Keywords: corruption, nature, secrets, unstable magic. Themes: destruction versus preservation, bewilderment, mysteries that should remain so. The group may cross it briefly early on but only face its lesser dangers; its deeper secrets lie beyond inexperienced heroes. An antagonist might use it as a lair. Story hooks: the Heart of the Forest and the corrupted oak home of the arboreal spirit Hathor and the corruption-spawning cocoon; the Verdant Sanctuary of the Lady of the Forest (an ancient minor Villain witch guarded by Guardian Roots); and Cursed Moon, the tale of Fenrir, a snow-white lycanthrope minor Villain and the Hunters' Guild."
+    },
+    {
+      "kind": "location",
+      "key": "mirage",
+      "name": "Mirage - The Hidden Village",
+      "text": "A village that appears like an illusion in the desert: buildings and palaces dug into solid red rock, crowned by carved stone towers, around a crystalline azure pond closely guarded by the people. Keywords: ancient magic, desert, mirage, reflection. Themes: the courage to face oneself in the mirror, the strength to challenge darkness and solitude. A hidden place appearing in an inhospitable area, reachable by a discovery roll or a Fabula Point. Its secrets entice Villains hungry for magical power. Story hooks: the Tower of Ten Thousand Mirrors and its test of courage (the Acceptance/Denial Clocks and the invisible sand spirit Xander); the Voice of Water spring inhabited by the gargantuan plant minor Villain Velaurog; and Lost in the Tunnels (Esther, the tomb raiders and their undead-raising leader Lord Chamberlain)."
+    },
+    {
+      "kind": "location",
+      "key": "yggdrasill",
+      "name": "Yggdrasill - The World Tree",
+      "text": "A single majestic tree whose branches stretch above the clouds and whose roots nourish the earth. Legend says all living things originated in Yggdrasill and will return to it at the world's last winter. Keywords: creation, divinity, humanity. Themes: protecting a fragile balance, tolerating all living creatures, understanding each other. An ideal place to conclude the first half of the campaign; as a point of connection between all creatures it is both threat and resource for antagonists, who may seek to destroy or conquer it. Story hooks: Eden, the city built within the bark, ruled by Consul Halcyon's council, with the magic Academy and the Light Bridges portals; Blue Despair, a magic illness of distrust cured by the Heart of Yggdrasill; and People on the Run, the Velimian refugees fleeing through an activated Light Bridge."
+    },
+    {
+      "kind": "location",
+      "key": "tethys",
+      "name": "Tethys - The Great Ocean",
+      "text": "A near-boundless, treacherous ocean rife with mysteries, frequent storms, and colossal sea beasts; mysterious music is sometimes heard from the depths on calm nights. Keywords: envy, specters, the past, transformation. Themes: loss of bearings, eternal wandering, old sins, forgotten tales. A great place to transition between the first and second halves of the story, or a boundary observed in wonder early on; the perfect setting for a chase between heroes and antagonists. Story hooks: the ghost ship Empress and its Skeleton crew and Skeletal Quartermaster; the Sunken City held in place by magic (the Song of Remembrance spell and the pirate captain Edwards of the Timoria); and the Goddesses' Envy, the tale of Scylla, a sea-fiend minor Villain with a ten-section Clock that swallows the PCs' ship."
+    },
+    {
+      "kind": "location",
+      "key": "endir",
+      "name": "Endir - The Imperial Capital",
+      "text": "A sprawling, ever-growing city that has covered the land and forces it to serve as nourishment; from its center rises the Dome, a research center for Imperial machines, under a gray sky where dusk and dawn are indistinguishable. Keywords: cynicism, experiments, machines, pollution. Themes: relentless land exploitation, magitech development, imperialist expansion. A place to resolve plot elements and a crucial, hard-to-reach destination usually home to a faction opposing the PCs, and often the birthplace of Villains. Story hooks: the Dome fortress-factory (the Alert! Clock, the inactive crystal golem Prototype Y-Mir, and the artificial Arcanum Halo); A Superb Mind (the crystallomancer Doctor Heart and her assistant Vygor); and the Resistance led by \"the Duke\" (escorting Princess Lilian past the bounty hunter Neela)."
+    },
+    {
+      "kind": "location",
+      "key": "verge",
+      "name": "Verge - Lands of Cataclysm",
+      "text": "A vast green expanse beyond the edge of the known world, without cities, roads, or people; long ago it witnessed world-shaping events now lost to history along with its true name. Keywords: answers, border, mistake, monsters. Themes: answers to many questions, a mistake with grave consequences, silence for salvation. A dangerous place full of secrets that could resolve the campaign's plot; ideally visited during the final act. This is likely where it all began. Story hooks: the Ruins of Pandora (floating rock fragments, the telepathic winged Stribog, and Pandora's Box artifact that can raise the dead); Forgotten by History (the Forgotten King, an undead minor Villain wielding the Blade of Sorrow artifact); and Unseen Predator (Will's lost sister Powell and the chameleon-like monster Dolgange)."
+    },
+    {
+      "kind": "location",
+      "key": "arcantis",
+      "name": "Arcantis - The City of the Ancients",
+      "text": "Once the heart of an ancient, advanced civilization swallowed by darkness, now crumbling ruins clinging to a narrow chasm beneath unrecognizable structures. Keywords: cataclysm, silence, wait. Themes: what remains, those left behind, solitude after the fall, the ancestors' mistakes. In high fantasy an ancient civilization has already faced the main Villain (or something like them) and lost; learning the truth about Arcantis should drive the PCs into the campaign's final stretch. Great lost secrets here may be sought by the Villain. Story hooks: the Planetarium, an observatory imprisoning the trapped souls of the Arcanteans (its Entropism seal and the fills-per-round Clock); the Eclipse, a living Arcantean airship governed by the AI Layla; and The Judge (Hadenor, a minor Villain guardian created to prevent the abuse of magic, and the soul Krizia)."
+    },
+    {
+      "kind": "location",
+      "key": "seraphim",
+      "name": "Seraphim - The Realm in the Sky",
+      "text": "A city lifted into the skies by ancient magic and separated from the world, filled with a strange mist that steals a creature's lifeforce; its silent inhabitants cover their faces with masks to protect themselves and hide a great secret. Keywords: isolation, secret, servitude. Themes: the difficulty of asking for help, a mist of lies that conceals the truth, solitude and isolation. Reachable only during the second part of the campaign, needing means of flight; being so far from all they know proves deadly. Story hooks: the Babilis Acropolis and the Mist engine that keeps Seraphim afloat; the True Queen, Apate, a masked major Villain who nearly resembles the goddess Aletheia (whose true form she hides); and the Princess and the Mirror (Princess Amber's quest for the Mirror of Truth, guarded by the White Masks)."
+    },
+    {
+      "kind": "location",
+      "key": "concussio_mundi",
+      "name": "Concussio Mundi - The Infernal Fortress",
+      "text": "At the heart of the abyss where all nations converge stands a burning fortress, a raging obelisk reaching skyward; in its depths, within a shifting volcano, the Great Stone awakens, protected by constant eruptions and magma sprays. In one word: unconquerable. Keywords: beginning, change, choices, end. Themes: to preserve or change the world, the danger of ultimate power, the task's end. This should be the location of the campaign's crowning event, the final act, the pride and joy of the main antagonist (usually a supreme Villain) and an embodiment of their corrupted soul; here Ultima Points will almost never be spent to flee. Story hooks: the Hall of Guardians, an arena where the four elemental Guardians (Basilisk, Calypso, Garuda, Nosferat, treated as a single major Villain) make their stand; the Crystal Hall (crystal sarcophagi holding the spiritual energy of past heroes and the PCs' ultimate weapons); and Imprisoned Power (Eza, a Jinn drained by the Villain)."
+    },
+    {
+      "kind": "conflict",
+      "key": "clash_of_ideals",
+      "name": "A Clash of Ideals",
+      "text": "When building high fantasy conflicts, understand what grand ideals are at odds: the genre is defined by the tragic conflict between incompatible worldviews. Pay attention to: PC Identities and Themes (conflict should center on a concept or ideal a PC holds close; if a situation touches no PC's Identity or Themes, rethink it); the Villain's plan (all conflicts should be part of one or more Villains' plans, or at least let an antagonist pursue their goals); high stakes (conflicts should have dramatic, setting-wide effects — not just conquering a city but releasing the demons beneath its temple); and unexpected twists (conflicts reveal new information about characters, history, and secrets, which can also soften the sting of defeat — e.g. an Ultima Point escape that lets slip a critical clue)."
+    },
+    {
+      "kind": "conflict",
+      "key": "war_and_battles",
+      "name": "War and Battles",
+      "text": "Though combat is the most common conflict, treat battle and violence as the final, desperate play when all else fails (that is what the Anger and Vengeance Themes are for, but the character should evolve over time). Allies are crucial: NPCs may join scenes, provide help directly, or eliminate enemies before an engagement, while a party lacking support should infiltrate stealthily and avoid open conflict. For battles with many foes, focus on the crucial elements and treat the rest abstractly: zoom in on a single mighty foe, turn mass combat into environmental effects (e.g. catapults dealing minor damage to a random PC each round), use swarm rules (an archer becomes a unit of archers), or bring in waves of enemies. Don't overcomplicate things — plausibility and realism are secondary in JRPGs."
+    },
+    {
+      "kind": "conflict",
+      "key": "extraordinary_and_aerial",
+      "name": "Colossal Beings, Aerial Battles, Rulers & Something Memorable",
+      "text": "Extraordinary and colossal beings: breathtaking battles against massive magical creatures with unique, memorable strengths and weaknesses (elder dragons, building-tall golems) are a staple; conflicts are primarily between ideals, which may take physical form (incarnations). Aerial battles: \"if we all fly, no one flies\" — combatants can usually reach each other; a defeated PC plummeting should have a way to save themselves unless making a Sacrifice; riders can be unsaddled via a Clock; aircraft usually work as a stage needing no statistics (or be treated as constructs). Rulers, hierarchies and audiences: don't name every lordling, provide transparent information about how rank and origin help or hinder, and always give heroes a chance to recover from a social blunder (Fabula Ultima is heroic and optimistic; the Orator excels here). Something memorable: spectacular events make scenes memorable — a desperate race to stop a machine from destroying a shrine, a duel against a witch's bodyguard, a fight against a demon wielding the cardinal sins, a singing competition (background music not optional), or a battle across the body of a reforming chaos god."
+    },
+    {
+      "kind": "magic",
+      "key": "arcana_and_summons",
+      "name": "Arcana and Summons",
+      "text": "Summoning ancestral beings is a staple; in Fabula Ultima this is the Arcana, who often play crucial roles. In high fantasy the Arcana are within reach and can usually be communicated with, in particular locations or through Rituals. An Arcanum in its complete and true form is essentially a demon, born from worship of a mythological entity, a celebrated past hero, or the manifestation of an ideal or universal emotion. What you hold is a fraction of borrowed power, which Villains can also wield. Even Grand Summoning produces a pale imitation shaped by the Arcanist's understanding. Themed groups (the Twelve Arcana of the Zodiac, etc.) work well, often with a final hidden Arcanum. Multiple Arcanists may not be needed (Zero Powers can grant callable power); Arcana may have visual variations depending on who summons them. New Arcana require whole-table collaboration, simplicity, moderation, and sensible, useful domains — examples given include the Arcanum of Taurus (immunity to weak and enraged, +5 MP recovery, plus the Quake dismiss dealing 30 earth damage ignoring Resistances) and Boudicca, Rebel Lance (attacks deal +5 damage, all your damage becomes light and cannot change; Second Chance dismiss recovers status and 30 HP, usable only in Crisis)."
+    },
+    {
+      "kind": "magic",
+      "key": "gods_and_demons",
+      "name": "Gods and Demons",
+      "text": "Godlike ancestral beings play a pivotal role, and at the campaign's end the heroes often clash with the gods themselves. Supreme Villains are usually ancient, powerful beings worshiped by some and feared by many, culminating in a confrontation with the incarnation of the concept the heroes have fought since the start. Gods as demons: creatures of the demon Species embody legends and beliefs, so faith, religion, tradition, and propaganda can generate demons with astonishing powers — here \"demon\" is closer to the Greek daimon (\"divine being\") than to evil. People of incredible willpower, or the widely feared or revered, may become demons themselves (potentially during an escalation). Demons are a mass of energy held together by willpower (their own or their believers'); you cannot truly kill a demon until the emotions that created it disappear, making the heroes' role as mediators crucial and enabling \"sequel campaigns.\""
+    },
+    {
+      "kind": "magic",
+      "key": "stream_of_souls",
+      "name": "The Stream of Souls",
+      "text": "The atoms of Fabula Ultima's worlds are spiritual energy: life originates from the stream of souls and returns to it at death; the characters' superhuman abilities also derive from it, and it should be at least partially visible in high fantasy (creatures burst into blue particles when they die, magic objects emit luminous auras). The stream contains fragments of memories; Arcana may originate from this accumulation, and tampering with the stream might change the fabric of reality (space-time anomalies). Changes to the stream should be tied to the group's objectives or the Villains' schemes (a witch rewinding time, an empire destroying sacred oaks, a nihilist tyrant breeding a God of Chaos, or the heroes returning elemental gems to stabilize it)."
+    },
+    {
+      "kind": "magic",
+      "key": "rituals_and_life_beyond_death",
+      "name": "Common and Special Rituals; Life Beyond Death",
+      "text": "Rituals usually play one of two narrative roles: common Rituals (less imposing, everyday magic — crystal torches, airship elemental cores, city-maintenance golems) and special Rituals (rare, tied to major story junctures — awakening a curse, trapping a dragon, calling an avalanche). Both follow the same rules; the difference is the lasting mark special Rituals leave on the world. Life beyond death: creatures normally return to the stream of souls when they die, and blocking or twisting this creates an undead; some reincarnate as demons via great willpower or devotion. High fantasy allows exceptions: special methods (an object, place, or formula that revives without corrupting — always with a terrible price and tied to Villains' plans) and resurrected characters (those with the Revenant Quirk return with full awareness). There should be no coming back from death by Sacrifice — at most the fallen hero's spirit may appear as an NPC for a scene."
+    },
+    {
+      "kind": "technology",
+      "key": "technology",
+      "name": "Technology and Magitech",
+      "text": "Though usually less central than magic, technology is still widespread in high fantasy, often for aesthetic or symbolic/narrative flair rather than practical realism. Influences on the game: easily accessible transport (especially air transport, which triples travel speed and ignores most obstacles) accelerates pacing; abundant raw materials please Tinkerers but industrialization makes inventions boilerplate; new Inventory items can be added but consider implications (an item reviving a surrendered character may drag combat out). Aesthetics and meaning: high fantasy technology takes hybrid forms driven by taste, and can carry ethical meaning — steel, fossil fuels and heavy industry signal distance from nature and lack of warmth, while marble, bronze, wood and colorful materials evoke dreamlike wonder. Magitech science (the union of magic and technology) is common; discuss its environmental, social, and political impact, and avoid the trite \"traditional magic versus invasive technology\" trope — instead create Villains who embody the toxic extremes so the heroes can forge a world where both coexist."
+    },
+    {
+      "kind": "rare_item",
+      "key": "designing_rare_items",
+      "name": "Designing High Fantasy Rare Items",
+      "text": "High fantasy rare weapons, armor, shields, and accessories should never feel dull, even at low levels. Guidance: lavish battle-ready weapons (bronze, banners, precious stones, visible elemental auras, levitating blades); splendid refined armor (obsidian, jade, crystal; forgoing realism to channel personality and iconic colors); mighty and varied shields (loricas, tower shields, enchanted bracers — same rules as standard shields); and accessories for all tastes (rings, headdresses, necklaces, hand-gems, hair ornaments). Draw on mythology (Arthurian swords, the astra of the Ramayana and Mahabharata), but research the original cultural context. Consider iconic dedicated gear per hero via the Wishlist, and items that strengthen or add flexibility to Class Skills. You usually don't need to change rules to reskin an item (an arcane weapon can be a flute); otherwise use Custom Weapons."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_weapons",
+      "name": "Sample High Fantasy Rare Weapons",
+      "text": "Bringer of Justice (600z; brawling, one-handed melee; [DEX+MIG]+1, [HR+6] physical): using Provoke against a creature with more current HP than you is automatically successful (no Check). Chimera Tail (900z; flail, two-handed melee, martial; [DEX+DEX], [HR+12] physical): +1 damage per different creature Species you learned your known Chimerist spells from. Major Arcana (900z; thrown, one-handed ranged; [DEX+INS], [HR+4] physical): while merged with an Arcanum, Accuracy Checks crit when both dice match (not a fumble). Midas (900z; dagger, one-handed melee; [DEX+INS]+1, [HR+4] dark): a successful Soul Steal on an elite/champion raises the soul treasure by 100 zenit. Achilles (1000z; spear, one-handed melee, martial; [DEX+MIG], [HR+12] physical): while at max HP, immune to all status effects. Bestiarium (1200z; arcane, two-handed melee; [INS+INS], [HR+6] light): +2 to Magic and Opposed Checks against creatures whose two or more Traits you know. Chiaroscuro (1200z; arcane, two-handed melee, martial; [INS+WLP], [HR+10] physical): when you apply a symbol to creatures, each recovers or loses 5 HP. Floating Edge (1200z; sword, two-handed melee, martial; [DEX+INS]+1, [HR+10] air): damage from your spells costing 20 MP total or less ignores Immunities and Resistances. Grim Waltz (1200z; spear, two-handed melee, martial; [DEX+MIG], [HR+12] physical): after reducing a creature to 0 HP, immediately perform an Instantaneous dance you know (MP cost never below 10). Heavy Metal (1200z; heavy, two-handed melee, martial; [MIG+MIG], [HR+14] bolt): with Vibrato, all damage becomes the [key type] of your last verse. Tametomo (1500z; bow, two-handed ranged, martial; [DEX+DEX], [HR+12] ice): +5 damage vs slow and/or shaken targets. Immernacht (1800z; bow, two-handed ranged, martial; [DEX+DEX], [HR+8] dark): while in Crisis, a creature targeting you with an offensive spell must spend HP instead of MP to cast it. Ultimatum (1800z; firearm, one-handed ranged, martial; [DEX+INS]+1, [HR+12] earth): a creature must spend 5 MP to include you among an attack or offensive spell's targets, else it cannot. Revenger (2000z; heavy, one-handed melee, martial; [MIG+MIG], [HR+14] fire): when a creature inflicts a status on you, it also suffers the same status (unless you are immune or already had it)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_armor_shields_accessories",
+      "name": "Sample High Fantasy Rare Armor, Shields & Accessories",
+      "text": "ARMOR: Dancing Dress (1000z; DEX die Def, INS die+2 M.Def, -1 Init): when you perform a dance lasting \"Until the start of your next turn\", heal from one status effect of your choice. Elemental Robe (1800z; DEX die+1, INS die+2, -2 Init): while in Crisis, your air/fire/bolt/ice/earth spells deal +5 damage. Orichalcum (2500z, martial; Def 12, INS die -4 M.Def): +10 max HP while equipped; cannot be destroyed. SHIELDS: Bag Shield (1000z; +2 Def): when a Skill lets you recover Inventory Points, recover 1 additional. Drumshield (1700z; +2 Def): if you have Resonance, treat its Skill Level as +2 (max SL 5). Argus (2000z, martial; +2 Def/+2 M.Def): when you use King's Castle and Bishop's Edict, exclude one creature you can see from their effects. Shield of Blades (2000z, martial; +2 Def/+2 M.Def): heavy/spear/sword attacks with the multi property deal +5 damage. Parry Shield (2500z, martial; +2 Def/+2 M.Def): Counterattack also triggers when the enemy's Accuracy Check is odd. ACCESSORIES: Ring of Denial (600z): Dispel's cost becomes 10xT and target becomes up to three creatures. Ring of the Occultist (600z): your \"up to three creatures\" spells become \"up to four\" (extra MP still required). Ivory Ring (700z): when your Faithful Companion loses HP, you may lose an equal amount instead. Magic Palette (700z): damage you deal to a creature bearing your symbol ignores Resistance. Tactician's Diadem (800z): an ally taking their turn right after yours in the same round recovers 5 MP at the start of that turn. Alchemist's Bag (1000z): when creating a potion with Gadgets (Alchemy), roll an additional d20. Sorcerer's Pendant (1200z): if you have Cheap Shot, its extra damage also applies to single-target offensive spells against a creature suffering a status effect. Dancing Ribbon (2000z): your Dexterity die is one size larger (max d12)."
+    },
+    {
+      "kind": "artifact",
+      "key": "artifacts_intro",
+      "name": "Artifacts (Ancient Relics)",
+      "text": "High fantasy pushes artifacts to the next level, from ancient contraptions to legendary amulets that can change the world's fate. Most belong to bygone ages and have been hidden or guarded; the theft or disappearance of one often triggers the campaign's opening crisis, and their connection to the world's past should always remain strong. They should be capable of unleashing terrible events, whether through innate power or the prestige they bestow — each is an opportunity and a terrible temptation. Some artifacts are so powerful they develop consciousness and become de facto NPCs (talking artifacts); these risk monopolizing play and are best introduced in later arcs."
+    },
+    {
+      "kind": "artifact",
+      "key": "armor_of_supremacy",
+      "name": "Armor of Supremacy",
+      "text": "Fine black armor bearing a gaping dragon's maw. The sentient dragon head speaks in the wearer's mind if they show enough bravery and ambition; once this bond exists, the wearer can use an action to inflict heavy fire damage against one target, ignoring Immunities and Resistance. The fire is as hot as the lava of the Black Volcano, where the armor was said to be forged; a sealed ancient fortress deep within that volcano may hold the armor's true power."
+    },
+    {
+      "kind": "artifact",
+      "key": "behemoths_heart",
+      "name": "Behemoth's Heart",
+      "text": "The heart of a mighty dragon preserved in a glass casket. Behemoth, Lord of Dragons, sacrificed himself to save his kin during the Celestial War, but his valor was such that his heart refused to die. Those who receive the approval of the spirit bound to the Heart are granted the ability to transform into dragons themselves and will be respected by all of dragonkind."
+    },
+    {
+      "kind": "artifact",
+      "key": "chalice_of_youth",
+      "name": "Chalice of Youth",
+      "text": "A simple metal chalice decorated with an unsettling red gem. Whoever drinks from it (even plain water) is rejuvenated to their ideal perceived shape, but the transformation lasts only a few days and each use slightly twists the drinker's personality — their emotions are absorbed by the crimson gem. Only the youngest are immune, but those who yearn for eternal youth easily fall prey to its allure."
+    },
+    {
+      "kind": "artifact",
+      "key": "elemental_stones",
+      "name": "Elemental Stones",
+      "text": "Four colorful hand-sized stones (water, fire, earth, air) that can be combined. They let their wielder perform Elementalism Rituals tied to the corresponding element without spending Mind Points and with no Magic Check required, from lighting a campfire to unleashing a volcano or tidal wave. Their true potential is revealed only when combined — whoever can do so masters the Fifth Element, whose properties are yet undiscovered."
+    },
+    {
+      "kind": "artifact",
+      "key": "emarillion",
+      "name": "Emarillion",
+      "text": "A mint-condition book with parchment pages and a red leather binding. All events are instantly and expertly transcribed into it regardless of where and when they occurred, granting access to the whole universe's history; but the information is so dense that few can process more than a paragraph or two, and the book seems to choose who may read it. Ancient archivists hid it at the edge of space and time."
+    },
+    {
+      "kind": "artifact",
+      "key": "eye_of_awakening",
+      "name": "Eye of Awakening",
+      "text": "An irregular emerald gem no bigger than a pebble that can awaken a dormant ability hidden in the owner's memories. When triggered it lodges in the user's forehead, forming the eye of wisdom (third eye) and granting access to hidden memories — the equivalent of an extreme Spiritism Ritual: the owner gains a Heroic Skill normally available to one of the Classes they have mastered. Some say it once belonged to the Tiara of Control."
+    },
+    {
+      "kind": "artifact",
+      "key": "lantern_of_discovery",
+      "name": "Lantern of Discovery",
+      "text": "A small glass lantern holding an undying flame, jealously kept within an ancient library whose name was lost. Its power allows the understanding of any text or glyph bathed in its light — place a hand on it and a translation appears as small dancing flames. No one knows its fuel or whether it is truly inextinguishable, only that it has always shown the true meaning of any word or symbol, revealing truths that have led more than one person to make terrible choices."
+    },
+    {
+      "kind": "artifact",
+      "key": "mirror_of_appearances",
+      "name": "Mirror of Appearances",
+      "text": "A portable gold mirror with an iridescent surface. Its owner can freely change their features to become identical to another person. Used by assassins, courtiers, and power-hungry tyrants, it is believed to have caused more wars than entire hordes of fiends and demons. It vanished from all reports centuries ago, save the claims of peddlers and antiquarians — and if any of them are right, the world may again be on the brink of chaos."
+    },
+    {
+      "kind": "artifact",
+      "key": "orichalcum_chess",
+      "name": "Orichalcum Chess",
+      "text": "A richly engraved chess board with 6 indestructible orichalcum statuettes in an ebony case. Once the owner ties their essence to the board (via a Ritualism Ritual with individual area of effect and extreme power), they may set each piece atop the board, causing it to grow into a creature ready to serve them. No master has ever summoned more than one piece at a time; only the Knight (a fierce, agile fighter) and the Queen (a potent witch) have known properties."
+    },
+    {
+      "kind": "artifact",
+      "key": "red_lion_key",
+      "name": "Red Lion Key",
+      "text": "An old engraved key of fire-red metal decorated with a lion's head, usable in any lock as a universal master key. A door opened with it leads to a spacious majestic hall surrounded by countless doors, protected by magic as a safe resting place where invisible servants bring food and heal the wounded. The only way to leave is to open a side door with the key, functioning like an Entropism Ritual requiring no MP but with a Difficulty Level based on how hidden the destination is; any items left in the hall will not be found upon return."
+    },
+    {
+      "kind": "artifact",
+      "key": "soulpiercing_spectacles",
+      "name": "Soulpiercing Spectacles",
+      "text": "Very large glasses with wide round lenses and a heavy ice-colored frame. The wearer can use a Skill action to look at a living creature and learn everything about it — abilities, history, objectives, even its darkest secrets, revealed in images and words (the GM should show a creature's full NPC profile). However, an alien presence twists within the lenses' reflections, extending its thoughts and ambitions into this world with each use, hungrily searching for something unknown."
+    },
+    {
+      "kind": "artifact",
+      "key": "tiara_of_control",
+      "name": "Tiara of Control",
+      "text": "A tiara of white gold set with three diamonds emitting multicolored lights, said to have been forged by an ancient tyrannical god who nearly stole free will from all living beings. Whoever wears it can control the minds of living beings; but the ancient deity still dwells within its jewels, and after repeated uses it can substitute its consciousness for the wearer's, sealing their soul within one of its gems."
+    },
+    {
+      "kind": "artifact",
+      "key": "time_wand",
+      "name": "Time Wand",
+      "text": "A thirty-centimeter metal wand that emits a strange ticking sound. Grasp it and point it at an object or living being to move the target back and forth through time without shifting its location — equal to an Entropism Ritual of extreme power and large area of effect, requiring no MP (the Magic Check is performed as usual). Used on a living being, the effects vanish after about a day. The lower part has a hook, as if it were once part of a larger machine."
+    },
+    {
+      "kind": "artifact",
+      "key": "timebreaker_bracers",
+      "name": "Timebreaker Bracers",
+      "text": "A gold-and-silver glove that channels lightning into tiny sparks, surrounded by an Entropic magic aura. The wearer can use an action to create a semitransparent sphere ringed by counterclockwise bolts, enclosing up to two creatures within short distance (one must be the wearer); time outside stops for a few seconds — long enough for a single Check, or one action each during a conflict. Every activation permanently costs the wearer 5 Hit Points and 5 Mind Points, and the artifact overheats and cannot be reused until the end of the scene."
+    },
+    {
+      "kind": "artifact",
+      "key": "wine_of_sorrow",
+      "name": "Wine of Sorrow",
+      "text": "A crystal jar of thick, blood-red liquor that shatters the body and mind of anyone who drinks it, after which they vanish in a puff of purple spiritual energy — so potent it tears the soul from the eternal flow, dissolving it forever. It stirs and moves away from any who would not drink it consciously. Legends say anyone who survives the agony of drinking it becomes godlike, immune to pain and unbound by emotion; but in 500 years, no one has survived."
+    },
+    {
+      "kind": "option",
+      "key": "new_options_overview",
+      "name": "New Options Overview",
+      "text": "The Protagonists chapter adds new optional rules to enhance the high fantasy vibe (usable in any campaign if the whole group agrees). Custom Weapons: a simple, straightforward option for unusual weapons, safe to leave open to anyone. High Fantasy Quirks: a more complex option with significant effect on character creation, giving each PC a set of unique mechanics (from flying to spending Fabula Points for spellcasting); powerful, best for tight collaborative groups, and possibly too complex for a first game. Zero Powers: the most explosive rule, letting each PC unleash incredible effects when cornered — excellent for superhero-style or casual play. The Atlas also adds four new Classes (Chanter, Commander, Dancer, Symbolist), New Classic Characters sample builds and two premade Groups, and 24 new Heroic Skills (many tied to the new Classes, plus skills for each melee and ranged weapon Category for Weaponmasters and Sharpshooters)."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "sample_custom_weapons",
+      "name": "Sample High Fantasy Custom Weapons",
+      "text": "Sample custom weapons with rare evolutions (a custom weapon may never be wielded in a single hand; for transforming weapons any modification applies to both forms). CHAIN DAGGERS — Dancing Knives (400z; Form I: dagger, two-handed melee, martial, quick+transforming, [DEX+MIG]+2, [HR+10] physical; Form II: flail, two-handed ranged, martial, accurate+powerful+transforming); rare evolution Blazing Chains (1200z; both forms +5 damage to demons and undead, [HR+9]/[HR+14] fire). COMBAT GRIMOIRES — Grimoire of Force (300z; arcane, two-handed ranged, martial, magic defense boost+quick, [HR+5] physical); rare Grimoire of Wind (1200z; [DEX+INS]+1, [HR+9] air, grants immunity to slow). MORPHSPEARS — Hoplite's Axe (400z; Form I: spear, two-handed melee, accurate+defense boost+transforming, [DEX+MIG]+2, [HR+5] physical; Form II: heavy, two-handed melee, martial, elemental+powerful+transforming, [HR+14] bolt); rare Dragonspine (1600z; both forms grant Resistance to fire and ice). PROTECTOR GREATSWORDS — Guardian Claymore (300z; sword, two-handed, martial, defense boost+magic defense boost+powerful, [HR+10] physical); rare Queenswarden (2700z; [DEX+MIG]+1, [HR+14] light, additional +1 Def/+1 M.Def for a total +3/+3). REVENGERS — Somber Memory (300z; bow, two-handed, martial, accurate+magic defense boost+powerful, [DEX+INS]+2, [HR+10] physical); rare Angelslayer (1600z; [HR+14] dark, force hit flying targets to land). THUNDER GRIPS — Cannon Gauntlets (400z; Form I: brawling, two-handed melee, martial, quick+transforming, [HR+5] physical; Form II: firearm, two-handed melee, martial, defense boost+powerful+transforming, [HR+10] bolt); rare Groundsplitters (2000z; brawling form accurate+defense boost+transforming, firearm form defense boost+powerful+transforming, creatures hit suffer dazed, [HR+5]/[HR+10] earth). TWO-HANDED SHURIKEN — Giant Shuriken (300z; thrown, two-handed ranged, martial, accurate+defense boost+powerful, [DEX+INS]+2, [HR+10] physical); rare Pale Presence (1600z; [HR+14] ice, attacks have multi (2))."
+    },
+    {
+      "kind": "quirk",
+      "key": "arboreal",
+      "name": "Quirk: Arboreal",
+      "text": "You are a sentient plant creature with humanoid intelligence. Choose a status effect (dazed, enraged, or shaken): you are immune to it. However, you also become Vulnerable to a damage type of your choice (air, bolt, earth, fire, or ice). You also learn one NPC spell (you cannot choose Devastation); if a Magic Check is required, use [INS + WLP]; customize the spell as needed. When you cast this spell while in sunlight, its total MP cost is reduced by 5 (minimum 0 MP)."
+    },
+    {
+      "kind": "quirk",
+      "key": "cursed",
+      "name": "Quirk: Cursed",
+      "text": "You bear the burden of a strange curse. When you acquire this Quirk, describe the nature of your curse and tie it to one of your world's threats; once that threat is resolved you will have a chance to break the curse. When you are about to perform a Check, you may instead describe how your curse gets in the way and automatically roll a fumble (both dice treated as 1); if you do, you receive 2 Fabula Points instead of 1 and generate an opportunity as normal. If you ever break the curse, immediately gain a Heroic Skill of your choice (even one whose requirements you do not satisfy, unless they include a Skill you don't have, and even for a Class you do not have)."
+    },
+    {
+      "kind": "quirk",
+      "key": "elemental_soul",
+      "name": "Quirk: Elemental Soul",
+      "text": "You are deeply infused with the power of a natural element. Choose your elemental damage type (air, bolt, earth, fire, or ice): you gain Resistance to it, and whenever you deal damage you may change its type to match your elemental type. However, you also become Vulnerable to a different damage type chosen among those five. You also gain the ability to perform Rituals of the Elementalism discipline, but only if those Rituals manipulate your chosen element (air, electricity, earth/rock, fire, or ice/water respectively)."
+    },
+    {
+      "kind": "quirk",
+      "key": "empty_hands",
+      "name": "Quirk: Empty Hands",
+      "text": "You have forsaken the use of weapons, purely relying on your hands and feet. Your attacks with unarmed strikes deal 6 extra damage, increasing to 10 extra damage if you are level 30 or higher. Additionally, while you have no weapons or shields equipped (aside from unarmed strikes), you gain a +1 bonus to Defense and a +1 bonus to Magic Defense."
+    },
+    {
+      "kind": "quirk",
+      "key": "fettered_heart",
+      "name": "Quirk: Fettered Heart",
+      "text": "For many years you obeyed the precepts of a certain person or authority and built your existence upon them; now you begin to see those rules in a darker light. You may acquire this Quirk only if your Theme is Doubt, and your Theme cannot be changed while you have it. When acquired, create a Bond towards the NPC or institution that shaped your life (with three emotions, unlosable while you have this Quirk) and three commandments (things you must always or never do). The first time you break a commandment during each scene, you immediately suffer shaken and weak and lose half your current HP and MP (rounded down), but gain 2 Fabula Points. After breaking commandments 6 times, ignore further violations unless in the presence of a Villain who follows or embodies your commandments. Upon your 7th violation, you lose this Quirk and change your Theme to Belonging, Guilt, Justice, or Vengeance; immediately gain a Heroic Skill among those available for your Classes (even one whose requirements you don't satisfy, unless they include a Skill you don't have); recover all HP and MP and recover from all status effects; and from now on the strength of your Bonds is always treated as 1 point higher."
+    },
+    {
+      "kind": "quirk",
+      "key": "flight",
+      "name": "Quirk: Flight",
+      "text": "You belong to a unique heritage of humanoids who can fly or levitate. You are able to fly. In addition to the mobility advantage, your melee attacks can target flying creatures and you cannot be targeted by melee attacks unless the attacker is flying or can otherwise reach flying targets. While in Crisis or unable to fly freely (inside a vehicle designed for human-sized creatures, in a narrow corridor, etc.), you lose all benefits of this Quirk. Additionally, when you suffer air, bolt, or ice damage during a conflict scene, you lose the benefits of this Quirk until the start of your next turn."
+    },
+    {
+      "kind": "quirk",
+      "key": "from_a_distant_world",
+      "name": "Quirk: From a Distant World",
+      "text": "Your presence here is an anomaly, an unexpected knot in the weave of destiny: the rules of this land sometimes fail to bind you. When you participate in a conflict scene, you automatically gain 1 Fabula Point. Additionally, you can invoke a Trait to reroll dice even if you fumbled your Check (if you do so, you do not receive a Fabula Point for the fumble)."
+    },
+    {
+      "kind": "quirk",
+      "key": "glorious_fate",
+      "name": "Quirk: Glorious Fate",
+      "text": "There is a prophecy surrounding you, a prophecy of hope for a better world. When acquired, write down the prophecy (with the whole group), tie it to a known threat or emergency, and describe the sign or omen that marks you. At the end of each session, before assigning XP, honestly choose one of five options: The prophecy was fulfilled (lose this Quirk, fully restore HP and MP, recover from all status effects, gain a Heroic Skill available for your Classes even if you don't meet its requirements unless they include a Skill you lack); You acted in accordance to the prophecy (fully restore HP and MP, recover from all status effects); You acted neither in accordance nor against it (nothing happens); You acted against the prophecy (gain 1 Fabula Point); The prophecy can never be fulfilled (lose this Quirk, gain 6 Fabula Points, and gain a Heroic Skill as above). Choosing the first or last option ends the prophecy's role in the world."
+    },
+    {
+      "kind": "quirk",
+      "key": "heirloom",
+      "name": "Quirk: Heirloom",
+      "text": "You possess one or more pieces of equipment with unique properties. You obtain a single rare item worth 1200 zenit or less, or two rare items worth up to 800 zenit each; choose from the available lists or design them with your group. Once per session, the Game Master may give you 1 Fabula Point to have sudden complications arise from the unique nature of the item(s) (rival duelists, strange monsters drawn by its magic, etc.). Items acquired through this Quirk cannot be destroyed, damaged, lost, or stolen without your permission as a Player."
+    },
+    {
+      "kind": "quirk",
+      "key": "old_transport",
+      "name": "Quirk: Old Transport",
+      "text": "You own an old vehicle you love dearly, but the cursed thing barely holds together. You obtain a transport of your choice from the Core Rulebook (a land vehicle, ship, or airship) big enough for you and the group plus two or three guests, but unfit for combat. Once per session, the Game Master can give you 2 Fabula Points to make the transport's engines fail, cause an enemy missile to damage its hull, or introduce similar story-based complications. However, the transport can never be destroyed without your permission."
+    },
+    {
+      "kind": "quirk",
+      "key": "revenant",
+      "name": "Quirk: Revenant",
+      "text": "You were brought back after death, unable to peacefully merge with the stream of souls. You are not considered a living creature and gain Immunity to dark damage and poison damage, but become Vulnerable to light damage. You are also immune to the poisoned status effect. You do not need to breathe, eat, or drink, but still follow the normal rules for resting; you recover HP and recover from status effects as normal (unlike undead, effects that restore HP cannot be used to harm you). Finally, whenever you deal damage you may change its type to dark, and all dark damage you deal ignores Immunities and Resistances."
+    },
+    {
+      "kind": "quirk",
+      "key": "rival_prodigies",
+      "name": "Quirk: Rival Prodigies",
+      "text": "You possess incredible talent, one of the very best in your field, but you're always one step behind your eternal rival. When acquired, choose what you specialize in (Rituals, Skills, or spells) and name your rival, an NPC who becomes a minor Villain (5 Ultima Points); create a Bond towards them with 1 emotion (admiration or inferiority). When a rule or ability pertaining to your specialization requires you to spend HP or MP, you may spend 1 Fabula Point instead to completely ignore that cost. However, while your rival is present on the scene with 1 or more Ultima Points, any Check you fail is automatically treated as a fumble (cannot be rerolled; you gain 1 Fabula Point). If the rival has no Ultima Points but escalates into a stronger Villain, they recharge their Ultima Points and the penalty resumes; only the rival's death or ceasing to be a Villain removes it."
+    },
+    {
+      "kind": "quirk",
+      "key": "robot",
+      "name": "Quirk: Robot",
+      "text": "You are an artificial body animated through science or magic. You are not considered a living creature and gain Immunity to poison damage and Resistance to earth damage. You are also immune to the poisoned status effect. You do not need to breathe, eat, or drink, but still follow the normal rules for resting; you recover HP and recover from status effects as normal. You gain a +2 bonus to all Checks you perform to examine or interact with machines, technology, and constructs (except for Accuracy Checks and Magic Checks)."
+    },
+    {
+      "kind": "quirk",
+      "key": "ruinbringer",
+      "name": "Quirk: Ruinbringer",
+      "text": "You possess almost limitless power, but at a price: you shall bring doom to this world. When acquired, name the ruin you are supposed to bring; it immediately becomes one of your world's threats. Until your ruin comes true, you cannot Sacrifice yourself. When a rule or ability requires you to spend Hit Points, Mind Points, or Fabula Points, you may instead let your ruin advance to completely ignore that cost (describe the dark omens; the GM gains an opportunity usable after the current scene). At the end of each session, before assigning XP, roll 2d20; if you roll equal to or lower than your current level, your ruin advances (it always advances at level 40 or higher). When your ruin advances for the 9th time, you lose this Quirk and your ruin manifests as a supreme Villain (15 Ultima Points); however, you immediately gain a Heroic Skill available for your Classes (even one whose requirements you don't satisfy, unless they include a Skill you don't have)."
+    },
+    {
+      "kind": "quirk",
+      "key": "souls_entwined",
+      "name": "Quirk: Souls Entwined",
+      "text": "You made a magical deal with another character and can now dwell inside their body and physically manifest if necessary. When acquired, choose another PC as a host body; you both immediately create a Bond towards each other with 1 emotion (admiration, affection, or loyalty). You and your host may communicate telepathically. Outside conflict scenes you may enter or leave the host's body at will (if ever more than 1 travel day away, you vanish and reappear at their side); during conflict, you may enter or leave at the start of your turn (no action). While inside, you cannot perceive or interact with the outside world and creatures cannot perceive or interact with you, though anyone able to sense souls realizes the host contains two. You cannot benefit from a Rest unless the host rests too. When you Surrender, you vanish into the host's body; when the host Surrenders, you enter their body and cannot leave until they regain consciousness. When your host Sacrifices themselves, choose Survive (leave their body, lose this Quirk, current HP becomes 0 and you Surrender, then permanently gain +10 max HP and +10 max MP) or Final Farewell (you Sacrifice yourself in their place; the host recovers HP equal to their Crisis score and no longer needs to Surrender or Sacrifice)."
+    },
+    {
+      "kind": "quirk",
+      "key": "zero_triggers",
+      "name": "Zero Powers: Triggers",
+      "text": "A Zero Power's trigger fills a variable number of Zero Clock sections when it activates. Compassion (1 per trigger): when you autonomously restore the HP and/or MP of one or more allies. Defiance (1 per trigger): at the start of your turn during a conflict, provided one or more Villains and/or champion-Rank enemies are present. Love (1 per trigger; special rule): tie it to a PC you have fallen in love with; activates when they lose HP (unless self-inflicted) and/or Surrender, provided you can see them; if they Sacrifice themselves and you witness it, immediately fill your Zero Clock, then choose a different trigger at the end of the scene. Revenge (3 per trigger): when you enter Crisis for the first time during a scene. Sequence (2 per trigger): when an ally you can see unleashes their zero effect. Strategy (1 per trigger): at the end of your turn during a conflict, provided one or more enemies present are suffering a total of two or more different status effects. Synergy (varies): when you deal damage to one or more creatures, filling 1 section for each creature that was Vulnerable to the type of damage dealt."
+    },
+    {
+      "kind": "quirk",
+      "key": "zero_effects",
+      "name": "Zero Powers: Effects",
+      "text": "When your Zero Clock is full you perform the Skill action to unleash your zero effect (erasing the Clock). Zero Blitz: perform a free attack with each equipped weapon; with one weapon the attack deals 20 extra damage, with more than one you gain +5 to each Accuracy Check. Zero Chance: choose odd or even, roll 3d6, and see how many match; apply the corresponding effect or the one above it. No dice — fill 3 sections of your Zero Clock and 1 section of every other visible PC's, then perform an additional action; One die — free attack with one weapon dealing extra damage equal to the 3d6 total; Two dice — one visible creature takes [30 + half your level + the 3d6 total] typeless damage; Three dice — you and every visible ally recover from all status effects and recover HP and MP equal to [your Crisis score + the 3d6 total]; if all three dice match, perform an additional action. Zero Cost: until the end of the scene treat all Inventory Point costs as halved, and immediately perform the Inventory action for free. Zero Elements (special rule; choose two damage types): all your damage becomes one of the two chosen types, its type cannot change, and it ignores Absorption/Immunity/Resistance; you also deal 5 extra damage; lasts until end of scene/reuse/you end it; perform an additional action. Zero Limits: until the end of the scene treat all your Attributes as one die size higher (max d12); perform an additional action. Zero Magic: immediately perform the Spell action for free casting a known spell with total MP cost treated as 0; the spell deals 10 extra damage and, if offensive, you gain +5 to the Magic Check. Zero Objective: fill 3 sections or erase 3 sections of a Clock tied to the current scene. Zero Remedy: you and any number of visible allies recover from all status effects and recover HP equal to [40 + half your level]. Zero Scourge (special rule; choose a damage type and two status effects): any number of visible creatures suffer [30 + half your level] of that damage type and the chosen status effects. Zero Shield: until the start of your next turn, all damage suffered by you and every ally present is halved (before Affinities). Zero Triangle: you and up to two visible allies immediately perform a free attack with an equipped weapon (or basic attack for NPCs), each gaining +5 to the Accuracy Check."
+    },
+    {
+      "kind": "villain",
+      "key": "eileen_pirate_queen",
+      "name": "Eileen, Pirate Queen",
+      "level": 10,
+      "species": "Humanoid",
+      "rank": "Champion 3 (worth 3 soldiers)",
+      "villain_type": "Minor Villain (5 Ultima Points)",
+      "attributes": "DEX d8, INS d8, MIG d8, WLP d8",
+      "hp": "180 (Crisis 90)",
+      "mp": "120",
+      "init": "12",
+      "def": "+3 (+1 without harpoon form)",
+      "mdef": "+1",
+      "affinities": "RS air; VU poison",
+      "traits": "authoritarian, charismatic, cunning, rebellious",
+      "equipment": "fox garb (immune to slow while worn); revolver-harpoon (transforming custom weapon; form I: spear, melee, defense boost, powerful; form II: firearm, quick, ranged; 400 zenit).",
+      "text": "An infamous pirate with an unquenchable thirst for gold whose sailors are fiercely loyal; her first priority is her own safety, profit a close second. BASIC ATTACKS: Harpoon (form I) [DEX+MIG]+4, [HR+10] physical; Revolver (form II) [DEX+INS]+4, [HR+5] physical — when Eileen performs the Attack action with the Revolver she can perform two separate attacks (two-weapon fighting), and while in Crisis all this attack's damage becomes fire. SKILLS: Soaring Strike (10 MP, Self, Instantaneous) — a free attack with the Harpoon dealing 5 extra damage that can target ranged-only creatures; a hit flying creature can be forced to land. Strike Now! — action + 10 MP to have a single ally she can see immediately perform a free basic attack. SPECIAL RULES: Calm Seas — while not in Crisis, all her allies present gain +2 to Accuracy and Magic Checks. Charismatic Presence — on a successful Opposed Check that fills/erases a Clock, if she can rely on her charisma or crew she fills/erases 1 additional section. Fox Garb — immune to slow while wearing this armor. Lady of Fortune — after an Accuracy Check, if both dice match and it's not a fumble she may trigger a critical success (treat High Roll as 0 for damage). Stormy Seas — while in Crisis she gains immunity to shaken and loses her Vulnerability to poison damage. She may be aided by Salamanders, Cryomanders, and Pirates; she always saves 1 Ultima Point for Escaping."
+    },
+    {
+      "kind": "villain",
+      "key": "flame_dragon",
+      "name": "Flame Dragon",
+      "level": 20,
+      "species": "Monster",
+      "rank": "Champion 4 (worth 4 soldiers)",
+      "villain_type": "Minor Villain (5 Ultima Points)",
+      "attributes": "DEX d8, INS d8, MIG d10, WLP d8",
+      "hp": "360 (Crisis 180)",
+      "mp": "120",
+      "init": "13",
+      "def": "+1",
+      "mdef": "+2",
+      "affinities": "IM fire; VU ice",
+      "traits": "ancient, colossal, territorial, ruthless",
+      "text": "An ancient, fiercely territorial dragon deeply tied to magic. BASIC ATTACKS: Piercing Fangs [DEX+MIG]+2, [HR+15] physical; Rending Claws [DEX+MIG]+2, [HR+10] physical (gains multi (2) while in Crisis). SPELLS/SKILLS: Draconic Breath [MIG+WLP]+2, 10 MP, one creature, Instantaneous — [HR+15] fire damage, +5 to shaken targets. Thundering Roar — 20 MP, Special, Instantaneous — any number of visible creatures suffer shaken. Gift of Flame — action + 10 MP to make all damage dealt by a visible creature's equipped weapon become fire until end of scene or reuse. SPECIAL RULES: Draconic Vitality — on entering Crisis for the first time in a scene, recover 20 HP, recover from all status effects, lose Hardened Scales, and increase Might die size by one until end of scene. Flying. Fuel to the Fire — when the dragon loses 30 or more HP from a single source, its next Draconic Breath deals +5 damage (stacks per such loss until unleashed). Hardened Scales — while airborne, Resistance to all damage types except ice. Rain of Fire — while not in Crisis, Draconic Breath costs 10 x T MP and targets up to two creatures. Reverential Fear — shaken creatures suffer -2 to Accuracy and Opposed Checks against the dragon. Variants suggested: ice, stone, storm, and divine dragons."
+    },
+    {
+      "kind": "villain",
+      "key": "cerine_mournful_lady",
+      "name": "Cerine, Mournful Lady",
+      "level": 30,
+      "species": "Undead",
+      "rank": "Champion 3 (worth 3 soldiers)",
+      "villain_type": "Major Villain (10 Ultima Points)",
+      "attributes": "DEX d8, INS d10, MIG d6, WLP d10",
+      "hp": "270 (Crisis 135)",
+      "mp": "220",
+      "init": "14",
+      "def": "+2",
+      "mdef": "+4",
+      "affinities": "IM dark; VU light (regains VU light if she loses her armor); RS fire",
+      "traits": "bitter, devout, jaded, priestess",
+      "equipment": "heart of the goddess (like a culte des ghoules but deals light damage); holy cloak (sage robe with Resistance to fire and light damage; 1200z).",
+      "text": "A priestess turned lich, dedicating her life to bringing her betrayed sister Cecilia back; Cecilia's ghost stands by her as an unshakable guardian. BASIC ATTACK: Heart of the Goddess [INS+INS]+3, [HR+11] light — when she hits one or more creatures she recovers 5 HP. SPELLS: Acceleration (20 MP, one creature, Scene) — the target gains one additional action per turn until they take two extra actions. Dispel (10 MP, one creature, Instantaneous) — removes Scene-duration spells. Enrage (offensive, [MIG+WLP]+6, 10 MP, one creature, Instantaneous) — target suffers enraged and cannot Guard or Spell next turn. Forced Tribute (offensive, [MIG+WLP]+6, 10 MP, one creature, Instantaneous) — target loses [HR+15] MP and Cerine recovers half. Lux (offensive, [INS+WLP]+6, 10 x T MP, up to three creatures, Instantaneous) — [HR+20] light damage; opportunity: each hit target suffers dazed. Soulshift — action + any amount of MP to have another present creature recover that many MP. SPECIAL RULES: All Light Casts a Shadow — when Cerine or a visible ally deals dark or light damage, she may change all damage from that source to the opposite type. Undead — immune to poisoned, HP recovery may harm her, regains Vulnerability to light if she loses her armor. She summons her sister Cecilia (Elite, Lv 30 Undead; no HP, uses MP as health via Arcane Resurrection; Resentment greatsword [DEX+MIG]+7, [HR+15] dark ignoring Resistances; Cleanse; Martyr's Slash; Undying Devotion protects Cerine) and is guarded by Spectral Servants."
+    },
+    {
+      "kind": "villain",
+      "key": "maximilian",
+      "name": "Maximilian",
+      "level": 40,
+      "species": "Humanoid",
+      "rank": "variable (Prince: Champion 3; Bastion: Champion 2)",
+      "villain_type": "Major Villain (10 Ultima Points)",
+      "attributes": "Prince: DEX d8, INS d8, MIG d10, WLP d10; Bastion: DEX d10, INS d8, MIG d8, WLP d10",
+      "hp": "Prince 390 (Crisis 195); Bastion 280 (Crisis 140)",
+      "mp": "Prince 200; Bastion 180",
+      "init": "Prince 7; Bastion 11",
+      "def": "Prince 14; Bastion 14",
+      "mdef": "Prince +2; Bastion +0",
+      "affinities": "Prince: RS physical, RS ice, RS bolt; VU air. Bastion: RS physical, RS air, RS bolt; VU earth, VU ice",
+      "traits": "Prince: ambitious, dignified, honorable, proud. Bastion: arrogant, determined, desperate, proud",
+      "equipment": "Prince: adamantorso, bronze sword, runic shield. Bastion: adamantorso, Conviction (mortar-shield; rare custom weapon; firearm, ranged, accurate, defense boost, powerful; +4 damage; deals light damage and grants Immunity to all status effects; 2400z).",
+      "text": "The Empire's charismatic second-born prince, a natural leader whose calm hides deep insecurity. The first clash is against his Prince variant; if defeated in the capital he takes his second form, the Bastion, and Nike and Theo join him. PRINCE — Bronze Sword [DEX+MIG]+5, [HR+16] physical (+10 if target's current Might die is smaller than his); Shield Bash [DEX+MIG]+4, [HR+15] physical + weak; Awaken (20 MP, one creature, Scene) increases one Attribute die by one (max d12); Smash Through (action + 10 MP) free Shield Bash then free Bronze Sword vs same target (HR 0). Special rules include Clash of Wills, Endure Alone, Instinctive Dodge, Punishment, and Weak Spot. BASTION — Conviction [DEX+INS]+6, [HR+24] light; the Charges (Elemental, Exploding multi (3), Piercing ignore Resistances) each cost 10 MP; Raise the Banner (once per conflict) buffs Maximilian, Nike, and Theo while it stands (removed via a six-section Clock); Desperate Measures, Desperate Times, Last Stand (survives at 1 HP once if the banner stands), and Token of Conviction (immune to all status effects while Conviction is equipped). Allies: Nike (Lv 40 Humanoid; Twin Shields multi (2); Dual Shieldbearer; Shield of the Empire) and Theo (Lv 40 Humanoid healer; Heal, Elemental Shroud, Ventus, caduceus)."
+    },
+    {
+      "kind": "villain",
+      "key": "tragedia",
+      "name": "Tragedia",
+      "level": 60,
+      "species": "Demon (final phase forms; the dramatist's quill is an Elemental)",
+      "rank": "variable — Phase 1 Mimesis: Champion 3; Phase 2 Anagnorisis: Champion 2; Phase 3 Catharsis: Champion 3",
+      "villain_type": "Supreme Villain (15 Ultima Points)",
+      "attributes": "Mimesis: DEX d8, INS d10, MIG d8, WLP d12; Anagnorisis: DEX d8, INS d10, MIG d8, WLP d12; Catharsis: DEX d8, INS d12, MIG d10, WLP d8",
+      "hp": "Mimesis 480 (Crisis 240); Anagnorisis 320 (Crisis 160); Catharsis 510 (Crisis 255)",
+      "mp": "Mimesis 240; Anagnorisis 240; Catharsis 200",
+      "init": "Mimesis 16; Anagnorisis 13; Catharsis 13",
+      "def": "+4 (all phases)",
+      "mdef": "+2 (all phases)",
+      "affinities": "Anagnorisis: RS earth, RS dark. Catharsis: RS to all damage types (all become Vulnerabilities once it enters Crisis via the Catharsis rule)",
+      "traits": "Mimesis: inevitable, mutable, plus all Traits gained via Echoes of Fate. Anagnorisis: authoritarian, oppressive, tenacious, unfathomable. Catharsis: divine, dominating, imposing, punishing",
+      "text": "The metanarrative final boss: ruin incarnate, the unseen writer weaving threads of fate toward mournful ends. Before the session the GM selects a number of past Villains equal to the number of PCs. PHASE 1 MIMESIS — Transcendental Spike [MIG+WLP]+6, [HR+20] physical (the next damage the target takes deals +20). Wheel of Fate embodies a random selected Villain each turn (gaining 1 Destiny, max 5, once all have been embodied). Apocrypha (attacks gain multi equal to Destiny), Echoes of Fate (gains the embodied Villain's Traits, Affinities, basic attacks, and Spells, with +15/+10/+5 damage by the Villain's level tier), Final Clash, Flying, Red String Aegis (damage reduced by current Destiny). PHASE 2 ANAGNORISIS — Interpolation [MIG+WLP]+6, [HR+20] physical (ignores all Affinities except Resistances; fills the Predestination Clock when it drives a PC into Crisis). Death of the Author (immune to poisoned and enraged), Dramatis Personae (damage reduced by the attacker's total Bond strength), Fourth Wall (Immune to all damage while the dramatist's quill is not in Crisis). Accompanied by the DRAMATIST'S QUILL (Lv 60 Elemental; HP 180/Crisis 90) and a thirteen-section Clock (4 filled) that, if it reaches 13, makes all PCs lose 9999 HP unless a PC Sacrifices. PHASE 3 CATHARSIS — Slow Epilogue [MIG+WLP]+6, [HR+20] typeless damage with multi (3) ignoring Affinities; Abyssal Agony (all creatures except Catharsis suffer dazed, shaken, slow, and weak; a PC may spend 1 Fabula Point to negate); Divine Frenzy (reduces all enemies' HP and MP to 1; negatable with 1 Fabula Point). Bonds that Transcend Destiny (PCs deal extra damage equal to their total Bond strength), Catharsis (on first entering Crisis, each PC gains 15 Fabula Points, all its Resistances become Vulnerabilities, and Slow Epilogue loses its +6 bonus), Divine Tribute (a damaged PC suffers extra damage equal to their current Fabula Points)."
+    }
+  ]
+}

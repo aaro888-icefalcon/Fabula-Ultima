@@ -1,0 +1,136 @@
+{
+  "id": "fu.genre",
+  "source": "core",
+  "note": "Machine-readable genre constraints consumed by gen.py (generation bias/filter), the interpretation hook (lens), tick (world escalation), and worldgen (defaults). Genre is weighted bias + a small deny-list, not a wall — Fabula Ultima explicitly invites the odd-one-out hero. 'core' is the neutral default when no Atlas is chosen.",
+  "genres": [
+    {
+      "key": "core",
+      "name": "Fabula Ultima (neutral)",
+      "source": "core",
+      "pillars": [
+        {"key": "heroes_matter", "name": "It's about the heroes", "text": "The Player Characters are the protagonists; the world reacts to their Bonds, Themes, and choices."},
+        {"key": "bonds_drive", "name": "Bonds drive the story", "text": "Relationships (admiration/inferiority, loyalty/mistrust, affection/hatred) are the engine of drama and are invoked mechanically."},
+        {"key": "hope_vs_despair", "name": "Hope against despair", "text": "Hardship feeds resolve (Fabula Points) which feeds growth; defeat is real but not the end."},
+        {"key": "wonder", "name": "A world of wonder", "text": "Magic, myth, and spectacle in a JRPG register; the world hides secrets worth uncovering."}
+      ],
+      "magic_level": "medium",
+      "tech_level": "low",
+      "chaos": {"start": 5},
+      "theme_weights": {"Personal": 5, "Social": 4, "Action": 4, "Mystery": 2, "Tension": 1},
+      "featured_classes": [],
+      "featured_species": ["beast", "construct", "demon", "elemental", "humanoid", "monster", "plant", "undead"],
+      "damage_flavor": [],
+      "conflict_themes": [
+        {"value": "a rising power threatens the region", "weight": 2},
+        {"value": "a monster or villain terrorizes the innocent", "weight": 2},
+        {"value": "an ancient secret resurfaces with a price", "weight": 2},
+        {"value": "a personal betrayal or lost bond returns", "weight": 2},
+        {"value": "a community is torn between two hard choices", "weight": 1}
+      ],
+      "item_flavor": "classic fantasy arms, relics, and potions",
+      "generation_bias": {},
+      "content_filters": {"prefer": [], "deny": []}
+    },
+    {
+      "key": "high",
+      "name": "High Fantasy",
+      "source": "high",
+      "pillars": [
+        {"key": "tip_of_the_iceberg", "name": "The tip of the iceberg", "text": "The world hides incredible secrets and powerful magic; today's Villains are often pawns in a much vaster game revealed as the campaign delves deeper."},
+        {"key": "warring_powers", "name": "Warring nations & magitech empires", "text": "Empires, kingdoms, and orders clash; alone, few peoples can stand against an expansionist magitech power."},
+        {"key": "ancient_powers", "name": "Awakening ancient powers", "text": "Elemental Guardians, sacred flames, astral drakes, and world-shaping relics slumber until crisis wakes them."},
+        {"key": "chosen_heroes", "name": "Heroes of destiny", "text": "Unlikely and chosen heroes alike are pulled into legends far larger than themselves."}
+      ],
+      "magic_level": "high",
+      "tech_level": "medium",
+      "chaos": {"start": 5, "floor": 5},
+      "theme_weights": {"Personal": 5, "Social": 4, "Action": 5, "Mystery": 3, "Tension": 2},
+      "featured_classes": ["chanter", "commander", "dancer", "symbolist"],
+      "featured_species": ["humanoid", "demon", "elemental", "monster", "undead", "beast"],
+      "damage_flavor": ["light", "dark", "fire", "ice", "air", "bolt"],
+      "conflict_themes": [
+        {"value": "an empire's magitech army invades a weaker neighbor", "weight": 3},
+        {"value": "an ancient power (guardian, drake, sacred flame) is stirring", "weight": 3},
+        {"value": "monster hordes surge from rifts opened by a hidden hand", "weight": 2},
+        {"value": "magic is outlawed or hoarded by a ruling caste", "weight": 2},
+        {"value": "reacting relics (Light Stone / Shadow Stone) threaten catastrophe", "weight": 2},
+        {"value": "a pilgrimage or quest demands a terrible sacrifice", "weight": 1}
+      ],
+      "item_flavor": "enchanted arms, elemental stones, holy relics, magitech armor",
+      "generation_bias": {
+        "npc_role": {"Noble, gentry, or courtier": 2, "Mage, artificer, or arcanist": 2, "Priest, cultist, or zealot": 2, "Power-broker": 2},
+        "villain_drive": {"Conquest": 3, "Forbidden knowledge": 2, "Restore a lost past": 2, "Devotion to a dark god": 2},
+        "dungeon_theme": {"Ancient ruin": 3, "Sacred site turned hostile": 2, "Sealed vault or tomb": 2}
+      },
+      "content_filters": {"prefer": ["elemental guardian", "empire", "relic"], "deny": []}
+    },
+    {
+      "key": "natural",
+      "name": "Natural Fantasy",
+      "source": "natural",
+      "pillars": [
+        {"key": "small_scale", "name": "Small-scale conflict", "text": "Clashes are intimate: tensions between neighboring villages or clans, humans against animals or spirits, or feuds within one people."},
+        {"key": "nature_and_seasons", "name": "Nature, seasons & spirits", "text": "The land lives — ancient trees, seasonal essences, and guardian fairies; harm to nature is harm to all."},
+        {"key": "survival_and_craft", "name": "Survival, herbalism & craft", "text": "Herbalism, medicine, cooking, foraging, and camp life matter as much as combat."},
+        {"key": "cozy_to_dark", "name": "From cozy to dark", "text": "Tone ranges from gentle and pastoral to expropriation, violence, and even genocide in its darkest forms."}
+      ],
+      "magic_level": "medium",
+      "tech_level": "low",
+      "chaos": {"start": 4},
+      "theme_weights": {"Personal": 5, "Social": 5, "Action": 3, "Mystery": 3, "Tension": 1},
+      "featured_classes": ["floralist", "gourmet", "invoker", "merchant"],
+      "featured_species": ["beast", "plant", "elemental", "humanoid", "monster"],
+      "damage_flavor": ["earth", "poison", "air", "ice", "physical"],
+      "conflict_themes": [
+        {"value": "two villages or clans feud over land, water, or a sacred site", "weight": 3},
+        {"value": "a wilderness is dying or blighted; its spirit begs for aid", "weight": 3},
+        {"value": "a nature spirit or guardian has been angered or corrupted", "weight": 2},
+        {"value": "the balance of a season is broken", "weight": 2},
+        {"value": "outsiders expropriate or exploit a natural community", "weight": 2},
+        {"value": "a beloved mentor's illness needs a rare natural cure", "weight": 1}
+      ],
+      "item_flavor": "herbal remedies, foraged materials, hand-crafted tools, seasonal charms",
+      "generation_bias": {
+        "npc_role": {"Commoner": 2, "Artisan or craftsperson": 2, "Priest, cultist, or zealot": 2, "Merchant, trader": 2},
+        "villain_drive": {"Purge the world of a corruption": 2, "Greed": 2, "Twisted love": 2, "Revenge": 2},
+        "dungeon_theme": {"Corrupted natural place": 3, "Living cave or monster lair": 2, "Sacred site turned hostile": 2}
+      },
+      "content_filters": {"prefer": ["spirit", "season", "village"], "deny": []}
+    },
+    {
+      "key": "techno",
+      "name": "Techno Fantasy",
+      "source": "techno",
+      "pillars": [
+        {"key": "ruins_and_harsh_lands", "name": "Ancient ruins & harsh lands", "text": "Wondrous ruins and hostile environments hide lost technology and government experiments."},
+        {"key": "world_in_peril", "name": "A world in peril", "text": "Ecological collapse, orbital weapons, and reckless powers push whole planets toward ruin."},
+        {"key": "clashing_communities", "name": "Clashing communities", "text": "Corporations, federations, protectorates, and rebels grind against each other for control and survival."},
+        {"key": "everything_has_a_soul", "name": "Everything has a soul", "text": "Psychospace and the soul-network let thought travel as data — and let thoughts become very real demons."},
+        {"key": "magic_and_technology", "name": "Magic and technology", "text": "Magitech blends spellcraft with machines; the two are not opposites but tools of the same world."},
+        {"key": "many_shapes", "name": "Heroes of many shapes", "text": "Heroes are humans, aliens, uplifted animals, constructs — bound by cause, not kind."}
+      ],
+      "magic_level": "medium",
+      "tech_level": "very_high",
+      "chaos": {"start": 5, "floor": 5},
+      "theme_weights": {"Personal": 5, "Social": 4, "Action": 4, "Mystery": 3, "Tension": 2},
+      "featured_classes": ["esper", "mutant", "pilot"],
+      "featured_species": ["construct", "humanoid", "monster", "demon", "beast"],
+      "damage_flavor": ["bolt", "fire", "dark", "physical", "air"],
+      "conflict_themes": [
+        {"value": "a corporation exploits workers or a world for profit", "weight": 3},
+        {"value": "a soul-network / AI node goes rogue and gathers followers", "weight": 3},
+        {"value": "an orbital or military power imposes tyranny by force", "weight": 2},
+        {"value": "a government experiment breaks containment", "weight": 2},
+        {"value": "extraction strips a planet of its resources or souls", "weight": 2},
+        {"value": "psychospace demons spill into the real world", "weight": 1}
+      ],
+      "item_flavor": "magitech, cybernetics, vehicles, soul-tech, technospheres",
+      "generation_bias": {
+        "npc_role": {"Official, bailiff, or bureaucrat": 2, "Mage, artificer, or arcanist": 2, "Merchant, trader": 2, "Power-broker": 2},
+        "villain_drive": {"Forbidden knowledge": 2, "Greed": 3, "Conquest": 2, "Prove supremacy": 2},
+        "dungeon_theme": {"Machine-dungeon": 3, "Arcane laboratory": 2, "Enemy-held fortress": 2}
+      },
+      "content_filters": {"prefer": ["corporation", "soul-network", "magitech"], "deny": []}
+    }
+  ]
+}

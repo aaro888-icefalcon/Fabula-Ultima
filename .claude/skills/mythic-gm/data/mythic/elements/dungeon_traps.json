@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.dungeon_traps",
+ "title": "Elements — Dungeon_Traps",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Aggressive"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Allies"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Ambush"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Animals"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Animate"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Antagonize"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Aromatic"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Art"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Attach"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Attention"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Attract"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Balance"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Beautiful"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Bestow"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Betray"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Bizarre"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Blades"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Break"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Ceiling"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Change"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Choice"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Climb"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Cloud"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Cold"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Colorful"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Combative"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Communicate"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Confuse"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Constrain"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Control"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Create"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Creepy"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Crush"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Damaged"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Danger"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Dark"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Deceive"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Delay"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Deprive"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Disrupt"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Divide"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Door"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Drop"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Duplicate"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Elaborate"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Enemies"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Energy"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Fall"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Fear"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Fight"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Fire"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Floor"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Frightening"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Harm"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Heat"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Heavy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Helpless"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Horrible"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Illusion"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Imprison"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Lethal"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Loud"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Lure"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Magic"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mechanical"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mental"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Messy"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Monster"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Natural"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Object"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Odd"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Old"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Pain"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Plants"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Portal"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Possessions"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Prison"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Projectile"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Riddle"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Scary"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Simple"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Sounds"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Stab"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Stop"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Strange"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Strangle"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Suppress"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Take"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Toxin"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Transform"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Transport"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Treasure"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Trials"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trigger"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unleash"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Wall"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Warning"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Water"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weapon"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wound"
+  }
+ ],
+ "checksum": "sha256:5fb6e38cb1c318b3"
+}

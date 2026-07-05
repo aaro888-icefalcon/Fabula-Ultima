@@ -1,0 +1,51 @@
+{
+ "id": "mythic.fate_check",
+ "title": "Fate Check (2d10)",
+ "type": "modifier_lookup",
+ "dice": "2d10",
+ "source": "references/canon/Mythic-GME.md#the-fate-check",
+ "odds_mod": {
+  "Certain": 5,
+  "Nearly Certain": 4,
+  "Very Likely": 2,
+  "Likely": 1,
+  "50/50": 0,
+  "Unlikely": -1,
+  "Very Unlikely": -2,
+  "Nearly Impossible": -4,
+  "Impossible": -5
+ },
+ "cf_mod": {
+  "9": 5,
+  "8": 4,
+  "7": 2,
+  "6": 1,
+  "5": 0,
+  "4": -1,
+  "3": -2,
+  "2": -4,
+  "1": -5
+ },
+ "answers": [
+  {
+   "min": 18,
+   "max": 20,
+   "value": "Exceptional Yes"
+  },
+  {
+   "min": 11,
+   "max": 17,
+   "value": "Yes"
+  },
+  {
+   "min": 5,
+   "max": 10,
+   "value": "No"
+  },
+  {
+   "min": 2,
+   "max": 4,
+   "value": "Exceptional No"
+  }
+ ]
+}

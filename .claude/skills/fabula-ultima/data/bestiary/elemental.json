@@ -1,0 +1,416 @@
+{
+  "id": "fu.bestiary.elemental",
+  "source": "core",
+  "species": "elemental",
+  "entries": [
+    {
+      "key": "acorn-pixie",
+      "name": "Acorn Pixie",
+      "level": 5,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 40,
+      "mp": 55,
+      "crisis": 20,
+      "initiative": 8,
+      "defense": 10,
+      "magic_defense": 6,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "vulnerable",
+        "earth": "immune",
+        "light": "immune",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Sharp Needle",
+          "accuracy": "【DEX + DEX】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "This attack deals 5 extra damage against slow targets."
+        },
+        {
+          "name": "Entangle",
+          "accuracy": "【INS + WLP】",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 5 MP · One creature · Instantaneous. The target suffers slow."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Heal",
+          "text": "10 × T MP · Up to three creatures · Instantaneous. Each target recovers 40 Hit Points (50 if level 20+, 60 if level 40+)."
+        },
+        {
+          "name": "Elemental",
+          "text": "The acorn pixie is immune to poisoned."
+        },
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "curious",
+        "glowing",
+        "kind",
+        "playful"
+      ],
+      "text": "These fairies gather in places where life force flows untainted. If said energy becomes corrupted, their minds may grow clouded by rage.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "chaos-shard",
+      "name": "Chaos Shard",
+      "level": 5,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 50,
+      "mp": 35,
+      "crisis": 25,
+      "initiative": 9,
+      "defense": 8,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "immune",
+        "fire": "resistant",
+        "ice": "resistant",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Chaos Dart",
+          "accuracy": "【DEX + INS】",
+          "damage": "【HR + 5】 dark",
+          "range": "ranged",
+          "text": "The target suffers weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Elemental",
+          "text": "The chaos shard is immune to poisoned."
+        },
+        {
+          "name": "Empty Mind",
+          "text": "The chaos shard is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "alien",
+        "hungry",
+        "small",
+        "spreads darkness"
+      ],
+      "text": "A fragment of negative energy given form. It is largely mindless, generally feeding on decaying matter and residual arcane energy.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "grenado",
+      "name": "Grenado",
+      "level": 10,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 8,
+        "WLP": 10
+      },
+      "hp": 60,
+      "mp": 60,
+      "crisis": 30,
+      "initiative": 7,
+      "defense": 9,
+      "magic_defense": 8,
+      "affinities": {
+        "earth": "vulnerable",
+        "fire": "absorb",
+        "ice": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Flame Belch",
+          "accuracy": "【DEX + WLP】+1",
+          "damage": "【HR + 10】 fire",
+          "range": "melee",
+          "text": "The target loses Resistance to fire damage until the end of the grenado's next turn."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Detonation",
+          "text": "When reduced to 0 HP, the grenado explodes dealing minor (10) fire damage to every other creature on the scene. If reduced to 0 Hit Points by ice damage, the grenado will not explode."
+        },
+        {
+          "name": "Elemental",
+          "text": "The grenado is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "bright",
+        "excitable",
+        "scorching",
+        "unstable"
+      ],
+      "text": "Born in proximity to wildfires or industrial furnaces, these unstable elementals embody the more destructive qualities of fire.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "static-ooze",
+      "name": "Static Ooze",
+      "level": 10,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 10
+      },
+      "hp": 70,
+      "mp": 70,
+      "crisis": 35,
+      "initiative": 6,
+      "defense": 7,
+      "magic_defense": 8,
+      "affinities": {
+        "physical": "resistant",
+        "bolt": "absorb",
+        "earth": "vulnerable",
+        "fire": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Jelly Slam",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Static Wave",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 bolt",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 bolt damage and suffers slow."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Elemental",
+          "text": "The static ooze is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "hungry",
+        "slow",
+        "soft",
+        "static"
+      ],
+      "text": "These creatures are often created by magitech scientists and wizards — they are little more than slimy magical batteries.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "nymph",
+      "name": "Nymph",
+      "level": 15,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 70,
+      "mp": 55,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 8,
+      "magic_defense": 10,
+      "affinities": {
+        "earth": "immune",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Seasonal Touch",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 10】 air",
+          "range": "melee",
+          "text": "Creatures hit by this attack suffer a status effect based on the current season: dazed during spring, shaken during winter, slow during autumn, and weak during summer."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Elemental",
+          "text": "The nymph is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "fast",
+        "territorial",
+        "wary",
+        "wise"
+      ],
+      "text": "These spirits dwell within woods, lakes, mountains, and rivers. While generally peaceful, they will fiercely defend their dwellings.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "spikeflake",
+      "name": "Spikeflake",
+      "level": 15,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 70,
+      "mp": 65,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 9,
+      "magic_defense": 12,
+      "affinities": {
+        "bolt": "vulnerable",
+        "fire": "vulnerable",
+        "ice": "absorb",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Cold Bite",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 5】 ice",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Frost Breath",
+          "accuracy": "【INS + WLP】+4",
+          "damage": "【HR + 15】 ice",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 ice damage and suffers weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Elemental",
+          "text": "The spikeflake is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "fear of heat",
+        "floating",
+        "ice-cold",
+        "spinning"
+      ],
+      "text": "Frost spikes rise and fall from the surface of these barrel-sized spheres of pure winter magic.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "cragboar",
+      "name": "Cragboar",
+      "level": 20,
+      "species": "elemental",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 12,
+        "WLP": 8
+      },
+      "hp": 110,
+      "mp": 60,
+      "crisis": 55,
+      "initiative": 7,
+      "defense": 8,
+      "magic_defense": 6,
+      "affinities": {
+        "air": "vulnerable",
+        "bolt": "resistant",
+        "earth": "immune",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Rock Charge",
+          "accuracy": "【DEX + MIG】+2",
+          "damage": "【HR + 15】 physical",
+          "range": "melee",
+          "text": "This attack has multi (2). If this attack misses any of its targets, the cragboar loses a minor amount (20) of Hit Points."
+        },
+        {
+          "name": "Rock Tusk",
+          "accuracy": "【MIG + MIG】+2",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Rock Barrage",
+          "accuracy": "【MIG + WLP】+2",
+          "damage": "【HR + 20】 earth",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 20】 earth damage and suffers dazed."
+        },
+        {
+          "name": "Terra",
+          "accuracy": "【MIG + WLP】+2",
+          "damage": "【HR + 20】 earth",
+          "range": "ranged",
+          "text": "Offensive spell. 10 × T MP · Up to three creatures · Instantaneous. Each target suffers 【HR + 20】 earth damage. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air. Opportunity: Each target performs one fewer action on their next turn (to a minimum of 0 actions)."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Angry Snort",
+          "text": "On its next turn, the cragboar must perform Stone Charge, and each target hit by that attack will suffer shaken."
+        },
+        {
+          "name": "Elemental",
+          "text": "The cragboar is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "destructive",
+        "irritable",
+        "massive",
+        "rocky"
+      ],
+      "text": "A huge rock formation awakened by earth spirits. It may lay motionless for centuries, then suddenly rise and sow destruction.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    }
+  ]
+}

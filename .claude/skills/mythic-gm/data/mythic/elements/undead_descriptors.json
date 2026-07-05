@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.undead_descriptors",
+ "title": "Elements — Undead Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Active"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Angry"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Animal"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Anxious"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Attract"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Beautiful"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bestow"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bizarre"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bleak"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bold"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bound"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Combative"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Communicate"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Control"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Create"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Creepy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Dangerous"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dark"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Deceive"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dirty"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Disgusting"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Elements"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enemies"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Energy"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Environment"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Evil"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Fast"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Fear"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fight"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Floating"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Friendly"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Frightening"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Glad"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Glow"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Goals"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Good"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Guide"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Harm"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Helpful"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Helpless"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Historical"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Horrible"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Hungry"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Imitate"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Information"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Insubstantial"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Intelligent"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Large"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Leadership"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Lethal"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Light"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Limited"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Lonely"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Love"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Macabre"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Malice"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Message"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Messy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mighty"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mindless"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Miserable"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Misfortune"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Monstrous"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mundane"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Odd"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Old"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Pain"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pale"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Passive"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Possessions"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Possessive"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Powerful"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Powers"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Purposeful"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Pursue"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Quiet"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Resistant"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rotting"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Scary"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Seeking"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Shambling"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Slow"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Small"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Smelly"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strong"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Threatening"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tough"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Transform"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Travel"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Trick"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Vengeful"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Violent"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Weak"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weakness"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weapons"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wounds"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:6c97a050f4945b8e"
+}

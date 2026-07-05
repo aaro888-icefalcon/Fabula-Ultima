@@ -1,0 +1,234 @@
+{
+ "id": "ac.plot_points.action",
+ "title": "Plot Point Table — Action",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion (ends the Thread if an Advancement)"
+  },
+  {
+   "min": 9,
+   "max": 24,
+   "value": "None"
+  },
+  {
+   "min": 25,
+   "max": 26,
+   "value": "A Character Is Attacked In A Non-Lethal Way",
+   "char": true
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Collateral Damage"
+  },
+  {
+   "min": 28,
+   "max": 29,
+   "value": "A Character Is Attacked In A Lethal Way",
+   "char": true
+  },
+  {
+   "min": 30,
+   "max": 31,
+   "value": "Ambush"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Catastrophe"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Character Has A Clever Idea",
+   "char": true
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Something Is Getting Away"
+  },
+  {
+   "min": 35,
+   "max": 36,
+   "value": "Hunted",
+   "char": true
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Distraction"
+  },
+  {
+   "min": 38,
+   "max": 39,
+   "value": "A Character Is Attacked To Abduct",
+   "char": true
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Something Exotic"
+  },
+  {
+   "min": 41,
+   "max": 42,
+   "value": "Immediately"
+  },
+  {
+   "min": 43,
+   "max": 44,
+   "value": "Chase"
+  },
+  {
+   "min": 45,
+   "max": 46,
+   "value": "Escape"
+  },
+  {
+   "min": 47,
+   "max": 48,
+   "value": "Heavily Guarded"
+  },
+  {
+   "min": 49,
+   "max": 50,
+   "value": "Rescue",
+   "char": true
+  },
+  {
+   "min": 51,
+   "max": 52,
+   "value": "Physical Contest Of Skills"
+  },
+  {
+   "min": 53,
+   "max": 54,
+   "value": "Mass Battle"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "A Crucial Life Support System Begins To Fail"
+  },
+  {
+   "min": 56,
+   "max": 57,
+   "value": "Victory!"
+  },
+  {
+   "min": 58,
+   "max": 59,
+   "value": "Taking Chances"
+  },
+  {
+   "min": 60,
+   "max": 61,
+   "value": "Sole Survivor",
+   "char": true
+  },
+  {
+   "min": 62,
+   "max": 63,
+   "value": "Stop That"
+  },
+  {
+   "min": 64,
+   "max": 65,
+   "value": "Defend Or Not To Defend"
+  },
+  {
+   "min": 66,
+   "max": 67,
+   "value": "Crash"
+  },
+  {
+   "min": 68,
+   "max": 69,
+   "value": "Physical Barrier To Overcome"
+  },
+  {
+   "min": 70,
+   "max": 71,
+   "value": "Double Down"
+  },
+  {
+   "min": 72,
+   "max": 73,
+   "value": "Theft"
+  },
+  {
+   "min": 74,
+   "max": 75,
+   "value": "Dealing With A Calamity"
+  },
+  {
+   "min": 76,
+   "max": 77,
+   "value": "Sudden Cessation"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Used Against Them"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Travel Setting"
+  },
+  {
+   "min": 80,
+   "max": 81,
+   "value": "Frenetic Activity"
+  },
+  {
+   "min": 82,
+   "max": 83,
+   "value": "Sneaky Barrier"
+  },
+  {
+   "min": 84,
+   "max": 85,
+   "value": "A Moment Of Peace"
+  },
+  {
+   "min": 86,
+   "max": 87,
+   "value": "Beat You To It"
+  },
+  {
+   "min": 88,
+   "max": 89,
+   "value": "Confrontation"
+  },
+  {
+   "min": 90,
+   "max": 91,
+   "value": "Protector",
+   "char": true
+  },
+  {
+   "min": 92,
+   "max": 93,
+   "value": "Crescendo"
+  },
+  {
+   "min": 94,
+   "max": 95,
+   "value": "Destroy The Thing"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "Roll on the Meta Plot Points Table"
+  }
+ ],
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:3c4d88492dfd2f9d"
+}

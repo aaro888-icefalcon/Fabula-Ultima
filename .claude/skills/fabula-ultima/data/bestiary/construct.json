@@ -1,0 +1,434 @@
+{
+  "id": "fu.bestiary.construct",
+  "source": "core",
+  "species": "construct",
+  "entries": [
+    {
+      "key": "arcane-lantern",
+      "name": "Arcane Lantern",
+      "level": 5,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 40,
+      "mp": 55,
+      "crisis": 20,
+      "initiative": 8,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "physical": "vulnerable",
+        "earth": "resistant",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Elemental Discharge",
+          "accuracy": "【DEX + INS】",
+          "damage": "【HR + 5】 damage",
+          "range": "ranged",
+          "text": "When the arcane lantern performs this attack, roll a d6 to determine the damage type: 1-2 bolt; 3-4 fire; 5-6 ice."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Mana Transfer",
+          "text": "The arcane lantern may use an action and spend up to 10 Mind Points to choose another creature it can see. That creature recovers an equal amount of Mind Points."
+        },
+        {
+          "name": "Construct",
+          "text": "The lantern is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "glowing",
+        "helpful",
+        "magical",
+        "tiny"
+      ],
+      "text": "Mages often keep these creatures as magical repositories. In a pinch, the lanterns can even help in battle.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "clatterclown",
+      "name": "Clatterclown",
+      "level": 10,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 60,
+      "mp": 50,
+      "crisis": 30,
+      "initiative": 13,
+      "defense": 8,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "vulnerable",
+        "earth": "resistant",
+        "fire": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Jester Kick",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "This attack deals 5 extra damage against dazed or shaken targets."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Dancing Jester",
+          "text": "20 MP · Special · Instantaneous. The clatterclown chooses any number of creatures it can see: each of them suffers shaken."
+        },
+        {
+          "name": "Construct",
+          "text": "The clatterclown is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "creepy",
+        "loud",
+        "small",
+        "vengeful"
+      ],
+      "text": "A discarded toy jester inhabited by loathsome spirits. Perhaps it is simply looking for someone to play with?",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "gargoyle",
+      "name": "Gargoyle",
+      "level": 10,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 50,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "resistant",
+        "earth": "resistant",
+        "fire": "resistant",
+        "ice": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Stone Claws",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "This attack targets Magic Defense."
+        },
+        {
+          "name": "Stone Barrage",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 earth",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 earth damage and suffers dazed."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construct",
+          "text": "The gargoyle is immune to poisoned."
+        },
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "bound to a location",
+        "cunning",
+        "floating",
+        "vigilant"
+      ],
+      "text": "Despite their weight, gargoyles can levitate using their moderate magical powers. They make for excellent guardians.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "magitech-trooper",
+      "name": "Magitech Trooper",
+      "level": 10,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 80,
+      "mp": 40,
+      "crisis": 40,
+      "initiative": 5,
+      "defense": 11,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "bolt": "vulnerable",
+        "earth": "resistant",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Axe Strike",
+          "accuracy": "【MIG + MIG】+1",
+          "damage": "【HR + 14】 physical",
+          "range": "melee",
+          "text": "The target suffers slow."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construct",
+          "text": "The magitech trooper is immune to poisoned."
+        },
+        {
+          "name": "Exposed Core",
+          "text": "As long as it is in Crisis, the magitech trooper loses Resistance to fire and ice damage and all damage dealt by its Axe Strike becomes bolt."
+        }
+      ],
+      "traits": [
+        "loyal",
+        "predictable",
+        "ruthless",
+        "vigilant"
+      ],
+      "equipment": [
+        "waraxe",
+        "bronze plate"
+      ],
+      "text": "A suit of armor animated by soul energy. Immensely powerful in battle, but its strategies tend to be very predictable.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": null,
+      "defense_fixed": true
+    },
+    {
+      "key": "bronze-golem",
+      "name": "Bronze Golem",
+      "level": 15,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 8,
+        "MIG": 12,
+        "WLP": 6
+      },
+      "hp": 100,
+      "mp": 45,
+      "crisis": 50,
+      "initiative": 7,
+      "defense": 8,
+      "magic_defense": 9,
+      "affinities": {
+        "air": "vulnerable",
+        "bolt": "vulnerable",
+        "earth": "resistant",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Punch",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "The target suffers dazed."
+        },
+        {
+          "name": "Whirlwind",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 air",
+          "range": "melee",
+          "text": "This attack has multi (2)."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construct",
+          "text": "The bronze golem is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "clattering",
+        "looming",
+        "powerful",
+        "slow"
+      ],
+      "text": "These clockwork automatons are often employed as guardians by aristocrats and merchants. They are imposing but slow.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    },
+    {
+      "key": "razorbird",
+      "name": "Razorbird",
+      "level": 15,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 80,
+      "mp": 45,
+      "crisis": 40,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "bolt": "vulnerable",
+        "earth": "resistant",
+        "fire": "immune",
+        "ice": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Razor Dive",
+          "accuracy": "【DEX + DEX】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "After performing this attack, the razorbird loses all benefits granted by the Flying Skill until the start of its next turn."
+        },
+        {
+          "name": "Gatling Gun",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "ranged",
+          "text": "This attack has multi (2)."
+        },
+        {
+          "name": "Scorch Rocket",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 10】 fire",
+          "range": "ranged",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construct",
+          "text": "The razorbird is immune to poisoned."
+        },
+        {
+          "name": "Fast & Furious",
+          "text": "The razorbird is immune to slow and weak."
+        },
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "fast",
+        "flying",
+        "heavily armed",
+        "loyal"
+      ],
+      "text": "Often found in the aerial forces of large empires, razorbirds carry a mighty arsenal of magitech weapons.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "forest-golem",
+      "name": "Forest Golem",
+      "level": 20,
+      "species": "construct",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 6,
+        "MIG": 12,
+        "WLP": 10
+      },
+      "hp": 110,
+      "mp": 80,
+      "crisis": 55,
+      "initiative": 6,
+      "defense": 6,
+      "magic_defense": 6,
+      "affinities": {
+        "air": "resistant",
+        "bolt": "resistant",
+        "earth": "resistant",
+        "fire": "vulnerable",
+        "ice": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Bark Claws",
+          "accuracy": "【MIG + MIG】+2",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "This attack has multi (2)."
+        },
+        {
+          "name": "Life Blast",
+          "accuracy": "【DEX + MIG】+2",
+          "damage": "【HR + 15】 light",
+          "range": "ranged",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Dispel",
+          "text": "10 MP · One creature · Instantaneous. If the target is affected by one or more spells with a duration of \"Scene\", instead they are no longer affected by any of those spells."
+        },
+        {
+          "name": "Spore Breath",
+          "text": "【MIG + WLP】+2 · 10 MP · One creature · Instantaneous. Offensive spell. The target suffers 【HR + 15】 poison damage and suffers weak."
+        },
+        {
+          "name": "Vine Burst",
+          "text": "20 MP · Special · Instantaneous. The golem chooses any number of creatures it can see: each of them suffers shaken."
+        },
+        {
+          "name": "Construct",
+          "text": "The forest golem is immune to poisoned."
+        }
+      ],
+      "traits": [
+        "emotionless",
+        "flammable",
+        "lonely",
+        "towering"
+      ],
+      "text": "Druids and witches often weave together these creatures and order them to guard sacred locations.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    }
+  ]
+}

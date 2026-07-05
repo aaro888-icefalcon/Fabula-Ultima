@@ -1,0 +1,2 @@
+{ "id":"companion.region","title":"Regions","type":"list_d100","dice":"1d100",
+  "entries":[{"min":1,"max":50,"value":"Warfront"},{"min":51,"max":100,"value":"Refuge"}] }

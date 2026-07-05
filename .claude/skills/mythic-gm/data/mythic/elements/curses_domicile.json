@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.curses_domicile",
+ "title": "Elements — CURSES DOMICILE",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandon"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Age"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Attract"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Bad"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Beauty"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Betray"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bizarre"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Block"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Body"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Break"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Burden"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Business"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Change"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Compel"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Condemn"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Conflict"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Create"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Creepy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cruel"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Danger"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Death"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Decrease"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Delay"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Disrupt"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Divide"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Dominate"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Dreams"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Elements"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Emotions"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Enemies"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Energy"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Environment"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Evil"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Failure"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fame"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Family"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fate"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fear"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Feeble"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Fight"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Friends"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Frightening"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Goals"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Good"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Gratify"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Guide"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Happiness"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Harm"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Health"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Helpless"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Home"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Illness"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Illusions"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Imprison"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Incapacity"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Information"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Intellect"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Ironic"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Jealously"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Joy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Legal"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Lethal"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Liberty"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Limit"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Lonely"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Love"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Luck"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Malice"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Meaningful"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Miserable"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Misfortune"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Mistrust"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Mock"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Move"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Mundane"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Mysterious"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Nature"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Neglect"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Old"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Oppress"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Pain"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Passion"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Peace"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Permanent"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Possessions"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Punish"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Pursue"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Riches"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Ruin"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Senses"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Separate"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Start"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Stop"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Strange"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Struggle"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Success"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Temporary"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Vengeance"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Violence"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapon"
+  }
+ ],
+ "checksum": "sha256:9653bab07bc96235"
+}

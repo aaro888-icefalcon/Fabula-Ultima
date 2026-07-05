@@ -1,0 +1,450 @@
+{
+  "id": "fu.bestiary.monster",
+  "source": "core",
+  "species": "monster",
+  "entries": [
+    {
+      "key": "cait-sith",
+      "name": "Cait Sith",
+      "level": 5,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 40,
+      "mp": 65,
+      "crisis": 20,
+      "initiative": 12,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "bolt": "vulnerable",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Scratch",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Ghostfire",
+          "accuracy": "【INS + WLP】",
+          "damage": "【HR + 5】 fire or ice",
+          "range": "ranged",
+          "text": "This attack targets Magic Defense."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Heat Control",
+          "text": "【INS + WLP】 · 15 MP · One creature · Scene. Offensive spell. The cait sith chooses fire or ice. Until this spell ends, the target suffers 5 extra damage from all sources that deal damage of the chosen type."
+        }
+      ],
+      "traits": [
+        "curious",
+        "playful",
+        "smart",
+        "tiny"
+      ],
+      "text": "When a cat dies in winter, a spirit might take possession of the body, transforming them into a magical Cait Sith.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "dreadmoth",
+      "name": "Dreadmoth",
+      "level": 5,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 8,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 55,
+      "crisis": 30,
+      "initiative": 8,
+      "defense": 10,
+      "magic_defense": 6,
+      "affinities": {
+        "fire": "vulnerable",
+        "ice": "resistant",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Moth Bite",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Poison Cloud",
+          "accuracy": "【MIG + WLP】",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 10 × T MP · Up to three creatures · Instantaneous. Each target suffers poisoned."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "creepy",
+        "flying",
+        "hairy",
+        "smelly"
+      ],
+      "text": "A large carrion-eating moth, its translucent wings are covered in poisonous spores that cause terrible vertigo.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "mellow-ooze",
+      "name": "Mellow Ooze",
+      "level": 5,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 55,
+      "crisis": 30,
+      "initiative": 7,
+      "defense": 9,
+      "magic_defense": 8,
+      "affinities": {
+        "physical": "resistant",
+        "bolt": "resistant",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Mellow Lick",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Mellow Woosh",
+          "accuracy": "【DEX + INS】",
+          "damage": "【HR + 5】 air",
+          "range": "ranged",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Mellow Dance",
+          "text": "10 MP · One creature · Instantaneous. The target recovers 30 Hit Points (40 if level 20+, 50 if level 40+, 60 if level 60+) and also recovers from one status effect of the mellow ooze's choice."
+        }
+      ],
+      "traits": [
+        "glowing",
+        "soft",
+        "terribly cute",
+        "warm"
+      ],
+      "text": "Mellow oozes often live in symbiosis with larger monsters. They can be easily recognized due to their unique noise: pwih, pwih!",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "drake",
+      "name": "Drake",
+      "level": 10,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 50,
+      "crisis": 35,
+      "initiative": 8,
+      "defense": 10,
+      "magic_defense": 9,
+      "affinities": {
+        "fire": "immune",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Bite",
+          "accuracy": "【MIG + MIG】+4",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Dragonbreath",
+          "accuracy": "【MIG + WLP】+4",
+          "damage": "【HR + 15】 fire",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 fire damage and suffers shaken."
+        }
+      ],
+      "skills": [],
+      "traits": [
+        "heavy",
+        "hungry",
+        "lazy",
+        "scaly"
+      ],
+      "text": "Despite being the weakest among dragons, drakes are nonetheless formidable opponents; luckily, they are also very lazy.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    },
+    {
+      "key": "hexeye",
+      "name": "Hexeye",
+      "level": 10,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 8,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 60,
+      "crisis": 30,
+      "initiative": 12,
+      "defense": 10,
+      "magic_defense": 6,
+      "affinities": {
+        "air": "resistant",
+        "bolt": "vulnerable",
+        "earth": "resistant",
+        "light": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Claw",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Chaos Glare",
+          "accuracy": "【DEX + WLP】+1",
+          "damage": "【HR + 5】 dark",
+          "range": "ranged",
+          "text": "If the target is dazed, they will perform one fewer action on their next turn (to a minimum of 0 actions)."
+        },
+        {
+          "name": "Doomgaze",
+          "accuracy": "【MIG + WLP】+4",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers dazed and weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "cunning",
+        "hypnotic",
+        "silent",
+        "winged"
+      ],
+      "text": "A winged, one-eyed monstrosity feared for its cursed gaze. Some say it was born from the eye of a dead witch.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "hydrozoa",
+      "name": "Hydrozoa",
+      "level": 10,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 40,
+      "crisis": 35,
+      "initiative": 8,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "bolt": "vulnerable",
+        "ice": "resistant",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Acid Touch",
+          "accuracy": "【MIG + MIG】+1",
+          "damage": "【HR + 10】 poison",
+          "range": "melee",
+          "text": "Each target hit by this attack loses 1 Inventory Point."
+        },
+        {
+          "name": "Stinging Tentacle",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 bolt",
+          "range": "melee",
+          "text": "The target suffers enraged."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "floating",
+        "glowing",
+        "silent",
+        "transparent"
+      ],
+      "text": "Every slithering tentacle of these bizarre, floating jellyfish monsters is filled with a powerful neurotoxin.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "cockatrice",
+      "name": "Cockatrice",
+      "level": 15,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 45,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 9,
+      "magic_defense": 12,
+      "affinities": {
+        "bolt": "resistant",
+        "earth": "resistant",
+        "ice": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Petrifying Peck",
+          "accuracy": "【DEX + INS】+4",
+          "damage": "No damage",
+          "range": "melee",
+          "text": "This attack targets Magic Defense instead of Defense. Each target hit by this attack suffers slow; if a target is already slow, they must instead succeed on a DL 10 【MIG + WLP】 Check or be turned to stone — healing a petrified creature is an adventure in and of itself."
+        },
+        {
+          "name": "Toxic Peck",
+          "accuracy": "【DEX + MIG】+4",
+          "damage": "【HR + 10】 poison",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [],
+      "traits": [
+        "agile",
+        "small",
+        "smelly",
+        "unpredictable"
+      ],
+      "text": "Round, smelly, and unexpectedly quick, cockatrices are chicken-like abominations whose pecks can turn creatures to stone.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "mimic",
+      "name": "Mimic",
+      "level": 15,
+      "species": "monster",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 45,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 11,
+      "magic_defense": 10,
+      "affinities": {
+        "physical": "resistant",
+        "air": "resistant",
+        "dark": "resistant",
+        "earth": "vulnerable",
+        "light": "resistant",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Mimic Claw",
+          "accuracy": "【DEX + MIG】+4",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "If the mimic ambushed an unsuspecting target, this attack deals double damage."
+        },
+        {
+          "name": "Item Steal",
+          "accuracy": "【DEX + INS】+4",
+          "damage": "【HR + 5】 physical",
+          "range": "ranged",
+          "text": "Each target hit by this attack loses 2 Inventory Points."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Shapeshifting",
+          "text": "As long as it remains transformed, the mimic is identical to the object it copied — except for a single disturbing and/or unusual detail which the Game Master must include when describing them."
+        }
+      ],
+      "traits": [
+        "cunning",
+        "formless",
+        "ravenous",
+        "stealthy"
+      ],
+      "text": "Devious shapeshifters that can disguise themselves as objects. Some say they are divine punishment for greedy adventurers.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    }
+  ]
+}

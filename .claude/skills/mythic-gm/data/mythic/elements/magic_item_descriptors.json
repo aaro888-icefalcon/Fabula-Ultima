@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.magic_item_descriptors",
+ "title": "Elements — Magic_Item_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Animal"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Animate"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Area"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Armor"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Assist"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Attack"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Attract"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Benefit"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bestow"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Block"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Book"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Change"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Clothing"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Cloud"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cold"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Communication"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Container"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Control"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Create"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Curse"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Damage"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Death"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Deceit"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Decrease"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Defense"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Destroy"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Detect"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Dimensions"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Elements"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Emotion"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Energy"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Enhance"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Environment"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Escape"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Evil"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Explode"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fear"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fire"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Flight"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Food"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Gem"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Good"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Group"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Harm"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Heal"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Health"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Helpful"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Illness"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Illusion"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Imbue"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Imitate"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Increase"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Information"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Inhibit"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Instant"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Jewelry"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Lethal"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Life"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Light"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Limited"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Liquid"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mental"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Monster"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Multi"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Nature"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Object"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Orb"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Others"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Physical"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Plants"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Poison"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Potion"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Power"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Ranged"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Resistance"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Restore"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Ring"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Rope"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Rune"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Safety"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Scroll"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Self"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Senses"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Skill"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Special"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Speed"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Spell"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Staff"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Strange"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Summon"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Sword"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tool"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Transform"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trap"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Travel"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Useful"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Utility"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Wand"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Water"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapon"
+  }
+ ],
+ "checksum": "sha256:8d913439ceafaf3e"
+}

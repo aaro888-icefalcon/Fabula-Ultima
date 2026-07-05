@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.animal_actions",
+ "title": "Elements — Animal_Actions",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandon"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Abnormal"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aggressive"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Angry"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Anxious"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Assist"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Attack"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Befriend"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bestow"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bold"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Break"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Busy"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Calm"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Careful"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Careless"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cautious"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Ceaseless"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Change"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Combative"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Curious"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dangerous"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Deliberate"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Disinterested"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Disrupt"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Distracted"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Dominate"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Energetic"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Excited"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Exotic"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Familiar"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fearful"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Feeble"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Ferocious"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fierce"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fight"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Flee"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Follow"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Food"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Frantic"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Friendship"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Frightening"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Generous"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Gentle"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Graceful"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Harm"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Hasty"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Helpful"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Helpless"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Hungry"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Hunt"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Ignore"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Imitate"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Implore"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Imprison"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Inspect"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Intense"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Irritating"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Juvenile"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Lazy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Leave"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Lethal"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Loud"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Loyal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Messy"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mistrust"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Move"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Mundane"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Mysterious"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Natural"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Neglect"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Normal"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Observe"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Odd"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Oppose"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Playful"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Protect"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Pursue"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Quiet"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Reassuring"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Release"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Return"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Scary"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Simple"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Slow"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Strange"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Struggle"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Swift"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Tactics"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Take"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Threatening"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tranquil"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Transform"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trick"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Trust"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Violent"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Warn"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Waste"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Yield"
+  }
+ ],
+ "checksum": "sha256:75df86be92ed8b06"
+}

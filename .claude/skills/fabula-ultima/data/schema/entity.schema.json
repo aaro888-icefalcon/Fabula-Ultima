@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/entity.schema.json",
+  "title": "Fabula Ultima — unified actor entity (PC / companion / NPC / villain / monster)",
+  "type": "object",
+  "required": ["id", "kind", "name"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "description": "stable id, e.g. 'villain.eligor', 'pc.valea', 'monster.drake-1'" },
+    "kind": { "type": "string", "enum": ["pc", "companion", "npc", "villain", "monster"] },
+    "name": { "type": "string" },
+    "level": { "type": "integer" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "genre": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "species": { "type": "string", "enum": ["beast", "construct", "demon", "elemental", "humanoid", "monster", "plant", "undead"] },
+    "rank": { "type": "string", "description": "soldier / elite / champion(N) / minor / major / supreme" },
+    "attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "DEX": { "type": "integer", "enum": [6, 8, 10, 12] },
+        "INS": { "type": "integer", "enum": [6, 8, 10, 12] },
+        "MIG": { "type": "integer", "enum": [6, 8, 10, 12] },
+        "WLP": { "type": "integer", "enum": [6, 8, 10, 12] }
+      }
+    },
+    "hp": { "type": "integer" }, "max_hp": { "type": "integer" },
+    "mp": { "type": "integer" }, "max_mp": { "type": "integer" },
+    "crisis": { "type": "integer" },
+    "defense": { "type": "integer" }, "magic_defense": { "type": "integer" },
+    "initiative": { "type": "integer" },
+    "affinities": { "type": "object",
+      "additionalProperties": { "type": "string", "enum": ["vulnerable", "resistant", "immune", "absorb"] } },
+    "skills": { "type": "array" },
+    "attacks": { "type": "array" },
+    "statuses": { "type": "array", "items": { "type": "string", "enum": ["dazed", "enraged", "poisoned", "shaken", "slow", "weak"] } },
+    "bonds": { "type": "array", "items": {
+      "type": "object", "required": ["toward"], "additionalProperties": true,
+      "properties": { "toward": { "type": "string" }, "strength": { "type": "integer" }, "emotions": { "type": "array", "items": { "type": "string" } } } } },
+    "identity": { "type": "string" }, "theme": { "type": "string" }, "origin": { "type": "string" },
+    "fabula_points": { "type": "integer" },
+    "want": { "type": "string", "description": "what an NPC pursues in a scene" },
+    "drive": { "type": "string", "description": "an antagonist's core agenda (villain_drive key/text)" },
+    "agenda_front": { "type": "string", "description": "id of the front this antagonist advances" },
+    "ultima": { "type": "integer", "description": "a villain's Ultima Point pool" },
+    "faction": { "type": "string" },
+    "home": { "type": "string" },
+    "equipment": { "type": "array" },
+    "zenit": { "type": "integer" }, "inventory_points": { "type": "integer" },
+    "provenance": {
+      "type": "object",
+      "properties": { "by": { "type": "string" }, "seed": { "type": "integer" }, "genre": { "type": "string" }, "created_scene": { "type": "integer" } }
+    },
+    "notes": { "type": "string" }
+  }
+}

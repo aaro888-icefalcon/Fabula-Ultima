@@ -1,0 +1,45 @@
+{
+ "id": "mythic.scene_adjustment",
+ "title": "Scene Adjustment Table",
+ "type": "list_d10",
+ "dice": "1d10",
+ "source": "references/canon/Mythic-GME.md#scene-adjustment-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Remove A Character"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Add A Character"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Reduce/Remove An Activity"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Increase An Activity"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Remove An Object"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Add An Object"
+  },
+  {
+   "min": 7,
+   "max": 10,
+   "value": "Make 2 Adjustments"
+  }
+ ],
+ "checksum": "sha256:b708dad01c7be941"
+}

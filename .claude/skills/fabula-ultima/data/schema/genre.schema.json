@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/genre.schema.json",
+  "title": "Fabula Ultima — genre constraints (core + the three Atlases), machine-readable",
+  "type": "object",
+  "required": ["id", "genres"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "genres": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "pillars", "magic_level", "tech_level", "chaos",
+                     "theme_weights", "featured_classes", "featured_species", "conflict_themes"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+          "name": { "type": "string" },
+          "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+          "pillars": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["key", "text"],
+              "additionalProperties": false,
+              "properties": { "key": { "type": "string" }, "name": { "type": "string" }, "text": { "type": "string" } }
+            }
+          },
+          "magic_level": { "type": "string", "enum": ["none", "low", "medium", "high", "very_high"] },
+          "tech_level": { "type": "string", "enum": ["primitive", "low", "medium", "high", "very_high"] },
+          "chaos": {
+            "type": "object",
+            "required": ["start"],
+            "properties": { "start": { "type": "integer" }, "floor": { "type": "integer" } }
+          },
+          "theme_weights": {
+            "type": "object",
+            "description": "per-genre Adventure-Crafter theme weights (override the base)",
+            "additionalProperties": { "type": "integer" }
+          },
+          "featured_classes": { "type": "array", "items": { "type": "string" },
+            "description": "class keys native to this genre (all core classes are always available)" },
+          "featured_species": { "type": "array",
+            "items": { "type": "string", "enum": ["beast", "construct", "demon", "elemental", "humanoid", "monster", "plant", "undead"] } },
+          "damage_flavor": { "type": "array",
+            "items": { "type": "string", "enum": ["physical", "air", "bolt", "dark", "earth", "fire", "ice", "light", "poison"] },
+            "description": "damage types this genre leans on (empty = all)" },
+          "conflict_themes": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["value", "weight"],
+              "additionalProperties": false,
+              "properties": { "value": { "type": "string" }, "weight": { "type": "integer" } }
+            }
+          },
+          "item_flavor": { "type": "string" },
+          "generation_bias": {
+            "type": "object",
+            "description": "re-weight the shared bridge/generators tables; keys are (sub)strings of table entry values",
+            "additionalProperties": { "type": "object", "additionalProperties": { "type": "integer" } }
+          },
+          "content_filters": {
+            "type": "object",
+            "properties": {
+              "prefer": { "type": "array", "items": { "type": "string" } },
+              "deny": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

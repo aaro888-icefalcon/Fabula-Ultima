@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_conversations",
+ "title": "Elements — Character_Conversations",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abuse"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Advice"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aggressive"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Agree"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Amusing"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Angry"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Anxious"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Assist"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Awkward"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Betray"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bizarre"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bleak"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Bold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Business"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Calm"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Careful"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Careless"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Cautious"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cheerful"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Classy"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Cold"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Colorful"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Combative"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Crazy"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Creepy"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Curious"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Defiant"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Delightful"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Dispute"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Efficient"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Energetic"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Enthusiastic"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Excited"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fearful"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fierce"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Foolish"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Frantic"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Frightening"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Generous"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Gentle"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Glad"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Grateful"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Haggle"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Happy"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Harsh"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Hasty"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Helpful"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Helpless"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Hopeless"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Ideas"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Inform"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Innocent"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Inquire"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Intense"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Interesting"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Intolerance"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Irritating"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Joyful"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Judgmental"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Juvenile"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Kind"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Leadership"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Lie"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Loud"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Loving"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Loyal"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Macabre"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Mature"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Meaningful"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Miserable"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Mistrust"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Mocking"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Mundane"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Mysterious"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "News"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Nice"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Normal"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Odd"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Offensive"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Official"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Oppose"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Peace"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Plans"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Playful"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Polite"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Positive"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Praise"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Quarrelsome"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Quiet"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Reassuring"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Refuse"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Rude"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Rumor"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Simple"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Threatening"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Truce"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Trust"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Warm"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wild"
+  }
+ ],
+ "checksum": "sha256:1a5174748a3058f7"
+}

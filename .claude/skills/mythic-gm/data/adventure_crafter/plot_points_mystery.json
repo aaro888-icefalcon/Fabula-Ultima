@@ -1,0 +1,276 @@
+{
+ "id": "ac.plot_points.mystery",
+ "title": "Plot Point Table — Mystery",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion (ends the Thread if an Advancement)"
+  },
+  {
+   "min": 9,
+   "max": 24,
+   "value": "None"
+  },
+  {
+   "min": 25,
+   "max": 26,
+   "value": "Into The Unknown"
+  },
+  {
+   "min": 27,
+   "max": 28,
+   "value": "Useful Information From An Unknown Source"
+  },
+  {
+   "min": 29,
+   "max": 30,
+   "value": "A Motive Free Crime"
+  },
+  {
+   "min": 31,
+   "max": 32,
+   "value": "A Character Disappears",
+   "char": true
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "This Isn't Working"
+  },
+  {
+   "min": 34,
+   "max": 35,
+   "value": "A Resource Disappears"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fortuitous Find"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "All Is Revealed!"
+  },
+  {
+   "min": 38,
+   "max": 39,
+   "value": "Useful Information From A Known Source"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Cryptic Information From A Known Source"
+  },
+  {
+   "min": 41,
+   "max": 42,
+   "value": "Lie Discovered"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Something Exotic"
+  },
+  {
+   "min": 44,
+   "max": 45,
+   "value": "A Crime Is Committed"
+  },
+  {
+   "min": 46,
+   "max": 47,
+   "value": "It's A Secret"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Something Lost Has Been Found"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "The Observer",
+   "char": true
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "A Secret Weapon"
+  },
+  {
+   "min": 51,
+   "max": 52,
+   "value": "Liar!",
+   "char": true
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "A Character Acts Out Of Character",
+   "char": true
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Dead",
+   "char": true
+  },
+  {
+   "min": 55,
+   "max": 56,
+   "value": "Mystery Solved"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Secret Information Leaked"
+  },
+  {
+   "min": 58,
+   "max": 59,
+   "value": "Suspicion",
+   "char": true
+  },
+  {
+   "min": 60,
+   "max": 61,
+   "value": "Evidence"
+  },
+  {
+   "min": 62,
+   "max": 63,
+   "value": "The Plot Thickens"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Dubious Rationale"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "A Crucial Life Support System Begins To Fail"
+  },
+  {
+   "min": 66,
+   "max": 67,
+   "value": "Cryptic Information From An Unknown Source"
+  },
+  {
+   "min": 68,
+   "max": 69,
+   "value": "A Common Thread"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Not Their Master",
+   "char": true
+  },
+  {
+   "min": 71,
+   "max": 72,
+   "value": "The Secret To The Power"
+  },
+  {
+   "min": 73,
+   "max": 74,
+   "value": "Hidden Agenda"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "An Object Of Unknown Use Is Found"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Clear The Record"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Framed"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "An Improbable Crime"
+  },
+  {
+   "min": 79,
+   "max": 80,
+   "value": "The Hidden Hand",
+   "char": true
+  },
+  {
+   "min": 81,
+   "max": 82,
+   "value": "Find It Or Else"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Travel Setting"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "An Old Deal"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "A Mysterious New Person",
+   "char": true
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Rural Setting"
+  },
+  {
+   "min": 87,
+   "max": 88,
+   "value": "Someone Is Where They Should Not Be",
+   "char": true
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Vulnerability Exploited"
+  },
+  {
+   "min": 90,
+   "max": 91,
+   "value": "Fraud"
+  },
+  {
+   "min": 92,
+   "max": 93,
+   "value": "Beat You To It"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Conspiracy Theory"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "An Opposing Story"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "Roll on the Meta Plot Points Table"
+  }
+ ],
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:671abfdfa0f7eead"
+}

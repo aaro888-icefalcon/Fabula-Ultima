@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/npc_design.schema.json",
+  "title": "Fabula Ultima — NPC / villain construction math",
+  "type": "object",
+  "required": ["id", "source", "level_range", "attribute_arrays", "species", "secondary_scores", "damage_bonus_bands", "npc_skills"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "level_range": {
+      "type": "object",
+      "required": ["min", "max"],
+      "properties": { "min": { "type": "integer" }, "max": { "type": "integer" }, "text": { "type": "string" } }
+    },
+    "attribute_arrays": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["name", "dice"],
+        "properties": {
+          "name": { "type": "string", "description": "Jack of All Trades / Standard / Specialized / Super Specialized" },
+          "dice": { "type": "array", "items": { "type": "integer", "enum": [6, 8, 10, 12] } }
+        }
+      }
+    },
+    "attribute_upgrades": { "type": "object", "description": "die-size increases at levels 20/40/60", "properties": { "levels": { "type": "array", "items": { "type": "integer" } }, "text": { "type": "string" } } },
+    "species": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "starting_skills", "rules_text"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string", "enum": ["beast", "construct", "demon", "elemental", "humanoid", "monster", "plant", "undead"] },
+          "name": { "type": "string" },
+          "starting_skills": { "type": "integer" },
+          "examples": { "type": "array", "items": { "type": "string" } },
+          "rules_text": { "type": "string", "description": "the Species innate affinities/rules, verbatim" }
+        }
+      }
+    },
+    "basic_attacks": { "type": "object", "properties": { "profile": { "type": "string", "description": "[Attr+Attr] . [HR+5] (type)" }, "text": { "type": "string" } } },
+    "skills_budget": { "type": "object", "description": "species base + 1 per 10 levels + extra via vulnerabilities", "properties": { "text": { "type": "string" } } },
+    "secondary_scores": {
+      "type": "object",
+      "required": ["max_hp", "max_mp", "crisis", "initiative", "defense", "magic_defense"],
+      "properties": {
+        "max_hp": { "type": "string", "description": "formula: 2*level + 5*baseMIG" },
+        "max_mp": { "type": "string", "description": "formula: level + 5*baseWLP" },
+        "crisis": { "type": "string", "description": "half max HP" },
+        "initiative": { "type": "string", "description": "(baseDEX + baseINS)/2, minus armor penalty" },
+        "defense": { "type": "string", "description": "current DEX die size" },
+        "magic_defense": { "type": "string", "description": "current INS die size" },
+        "check_bonus": { "type": "string", "description": "accuracy & magic bonus = floor(level/10)" }
+      }
+    },
+    "damage_bonus_bands": {
+      "type": "array",
+      "description": "extra damage on attacks/spells by level band",
+      "items": { "type": "object", "required": ["level_min", "bonus"], "properties": { "level_min": { "type": "integer" }, "bonus": { "type": "integer" } } }
+    },
+    "danger_ranks": {
+      "type": "array",
+      "description": "soldier / elite / champion(N) — how many soldiers an NPC counts as",
+      "items": { "type": "object", "required": ["key", "text"], "properties": { "key": { "type": "string" }, "counts_as": { "type": "integer" }, "text": { "type": "string" } } }
+    },
+    "villain_ranks": {
+      "type": "array",
+      "description": "minor / major / supreme + Ultima Point pools",
+      "items": { "type": "object", "required": ["key", "text"], "properties": { "key": { "type": "string" }, "ultima_points": { "type": "integer" }, "extra_turns": { "type": "integer" }, "text": { "type": "string" } } }
+    },
+    "npc_skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "text"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "limited": { "type": "boolean" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

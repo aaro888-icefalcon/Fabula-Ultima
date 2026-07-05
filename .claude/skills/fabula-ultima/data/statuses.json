@@ -1,0 +1,23 @@
+{
+  "id": "fu.statuses",
+  "source": "core",
+  "floor_die": 6,
+  "statuses": [
+    { "key": "dazed", "name": "Dazed", "downgrades": ["Insight"], "text": "Temporarily reduces your Insight die size by one." },
+    { "key": "enraged", "name": "Enraged", "downgrades": ["Dexterity", "Insight"], "text": "Temporarily reduces your Dexterity and Insight die sizes by one." },
+    { "key": "poisoned", "name": "Poisoned", "downgrades": ["Might", "Willpower"], "text": "Temporarily reduces your Might and Willpower die sizes by one." },
+    { "key": "shaken", "name": "Shaken", "downgrades": ["Willpower"], "text": "Temporarily reduces your Willpower die size by one." },
+    { "key": "slow", "name": "Slow", "downgrades": ["Dexterity"], "text": "Temporarily reduces your Dexterity die size by one." },
+    { "key": "weak", "name": "Weak", "downgrades": ["Might"], "text": "Temporarily reduces your Might die size by one." }
+  ],
+  "rules": {
+    "cumulative": "Different status effects that influence the same Attribute will stack — for instance, being both dazed and enraged reduces your Insight die size by two. That said, your Attributes cannot be reduced below a d6 size.",
+    "reapply_noop": "If a character is suffering from a status effect and receives that same status effect again, nothing happens.",
+    "immunity": "If a character is immune to a given status effect, they cannot suffer it — if they become immune to that status effect while they have it, then they immediately recover from that status effect.",
+    "recovery": "Status effects can be healed through resting or via specific spells, Skills, or items.",
+    "text": "Characters — be they PCs or NPCs — can suffer status effects during play. These will often be a consequence of attacks and spells. Different status effects that influence the same Attribute will stack, but Attributes cannot be reduced below a d6. Receiving a status effect you already have does nothing. Status effects are healed through resting or via specific spells, Skills, or items. A character immune to a status effect cannot suffer it, and recovers from it immediately if they gain immunity while affected."
+  },
+  "non_status_afflictions": {
+    "text": "The six status effects are an abstract representation of a character's diminished abilities; poisoned can represent being drunk or sick, shaken might be caused by fear or hallucinations, slow can come from ice magic as well as especially sticky ooze, and so on. Many other afflictions could be treated as their own status effect, such as being asleep or petrified; however, these are NOT status effects and behave in a different way. Instead of reducing a character's game statistics, they affect the way that character can act within the game world. Petrified creatures, for instance, will be unable to act. Unless established by the game rules, it is the Game Master's job to decide which events translate to status effects and which are handled as narrative elements."
+  }
+}

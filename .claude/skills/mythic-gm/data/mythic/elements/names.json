@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.names",
+ "title": "Elements — Names",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "A"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Action"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Ah"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ahg"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "An"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Animal"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Ar"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "As"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "B"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bah"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Be"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bih"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Brah"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Col"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Color"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Cor"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Dah"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Deeds"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Del"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Drah"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Eee"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Eh"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Ei"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Ell"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Elements"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Emotion"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Ess"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Est"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Et"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Fah"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fer"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fi"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Floral"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Gah"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Go"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Grah"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Hee"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Ia"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Ick"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "In"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Iss"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Je"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Ke"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Jen"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Kha"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Kr"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Lah"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Lee"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Len"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Lin"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Location"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Ly"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Mah"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Military"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Misdeed"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "N"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Nah"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Nature"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Nee"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Nn"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Number"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Occupation"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Oh"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "On"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Or"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Orn"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Oth"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Ow"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Ph"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pr"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "R"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Rah"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Ren"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Sah"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Se"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Sh"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Sha"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "T"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Ta"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Tal"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Tar"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Th"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Thah"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Thoh"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Ti"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Time"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Tor"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Uh"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Va"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Vah"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Ve"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Vice"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Virtue"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Wah"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Wr"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "X"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Y"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Yah"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Yuh"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Z"
+  }
+ ],
+ "checksum": "sha256:57e3820805a2fe79"
+}

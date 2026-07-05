@@ -1,0 +1,14 @@
+{ "id": "fu.complication", "title": "Scene Complication", "type": "list_d10", "dice": "1d10",
+  "note": "An edge to hang on a Turning Point or a 'success at a cost'. Prefer one that presses a PC's Bond or Theme.",
+  "entries": [
+    {"min": 1, "max": 1, "value": "A hidden traitor or double agent is revealed"},
+    {"min": 2, "max": 2, "value": "The clock is worse than it looked — advance a threat Clock"},
+    {"min": 3, "max": 3, "value": "An innocent is caught in the middle"},
+    {"min": 4, "max": 4, "value": "A rival party wants the same prize"},
+    {"min": 5, "max": 5, "value": "The environment turns hostile — collapse, storm, flood"},
+    {"min": 6, "max": 6, "value": "A Bond is threatened or leveraged against a PC"},
+    {"min": 7, "max": 7, "value": "Reinforcements arrive for the opposition"},
+    {"min": 8, "max": 8, "value": "A resource fails — out of MP/IP, or a key tool breaks"},
+    {"min": 9, "max": 9, "value": "The truth is not what they were told"},
+    {"min": 10, "max": 10, "value": "A Villain makes an entrance — each PC gains 1 Fabula Point"}
+  ] }

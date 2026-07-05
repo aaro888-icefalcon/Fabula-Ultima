@@ -1,0 +1,47 @@
+{
+  "id": "fu.damage",
+  "source": "core",
+  "types": [
+    { "key": "physical", "name": "Physical", "text": "The most common damage, caused by weapons and impacts." },
+    { "key": "air", "name": "Air", "text": "Caused by supernatural winds and sky monsters." },
+    { "key": "bolt", "name": "Bolt", "text": "Caused by lightning and electricity." },
+    { "key": "dark", "name": "Dark", "text": "Caused by undead and life-destroying magic." },
+    { "key": "earth", "name": "Earth", "text": "Caused by supernatural tremors and earth spirits." },
+    { "key": "fire", "name": "Fire", "text": "Caused by flames, magma or intense heat." },
+    { "key": "ice", "name": "Ice", "text": "Caused by very low temperatures and frost magic." },
+    { "key": "light", "name": "Light", "text": "Caused by pure and untainted spiritual energy." },
+    { "key": "poison", "name": "Poison", "text": "Caused by poison, infections and pollution." }
+  ],
+  "no_type_damage": {
+    "text": "Damage that has no type (such as from the Arcanum of the Sword) is unaffected by affinities."
+  },
+  "affinities_note": {
+    "text": "Some creatures have a particular Affinity towards certain damage types, often due to their Species — for instance, undead creatures are Vulnerable to light damage."
+  },
+  "affinities": [
+    { "key": "vulnerable", "abbr": "VU", "name": "Vulnerability", "multiplier": 2, "text": "If a creature is Vulnerable towards a damage type, they will lose twice the normal amount of Hit Points." },
+    { "key": "resistant", "abbr": "RS", "name": "Resistance", "multiplier": 0.5, "text": "If a creature Resists a damage type, they will only lose half the normal amount of Hit Points." },
+    { "key": "immune", "abbr": "IM", "name": "Immunity", "multiplier": 0, "text": "If a creature is Immune to a damage type, they will lose no Hit Points." },
+    { "key": "absorb", "abbr": "AB", "name": "Absorption", "multiplier": -1, "text": "If a creature Absorbs a damage type, they will lose no Hit Points and will instead recover an amount of Hit Points equal to the damage they suffered." }
+  ],
+  "affinity_resolution": {
+    "text": "Some game effects may cause you to gain a variety of Affinities: if a character is both Vulnerable and Resistant to a specific type of damage, they are treated as having no Affinity towards it. Immunity, on the other hand, always supersedes both Resistance and Vulnerability; finally, Absorption supersedes all other Affinities.",
+    "vulnerable_and_resistant": "If a character is both Vulnerable and Resistant to a specific type of damage, they are treated as having no Affinity towards it.",
+    "immunity_supersedes": "Immunity always supersedes both Resistance and Vulnerability.",
+    "absorption_supersedes": "Absorption supersedes all other Affinities."
+  },
+  "extra_damage": {
+    "text": "Some game effects let you deal \"extra damage\". These effects do not apply to attacks or spells that deal no damage, only to those which already deal damage."
+  },
+  "changing_damage_types": {
+    "text": "There are a variety of game effects that change the type of damage dealt by a spell or weapon. When this happens, the most recent effect \"overwrites\" any previous changes — and when such an effect ends, damage will return to its previous type."
+  },
+  "improvised_damage": [
+    { "level_min": 5, "minor": 10, "heavy": 30, "massive": 40 },
+    { "level_min": 20, "minor": 20, "heavy": 40, "massive": 60 },
+    { "level_min": 40, "minor": 30, "heavy": 50, "massive": 80 }
+  ],
+  "improvised_damage_note": {
+    "text": "The Game Master should use the improvised_damage table to determine the amount of damage suffered in situations such as falling from a bridge or being buried under debris; the damage type will vary depending on the circumstances. Sources of damage such as traps and hazards cannot kill a Player Character unless they choose to sacrifice themselves; this should be portrayed as a sudden stroke of luck or as a consequence of the character's heroic resolve."
+  }
+}

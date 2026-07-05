@@ -1,0 +1,65 @@
+{
+ "id": "ac.themes",
+ "title": "Adventure Crafter Themes",
+ "type": "reference",
+ "source": "references/canon/The-Adventure-Crafter.md#themes",
+ "themes": [
+  "Action",
+  "Tension",
+  "Mystery",
+  "Social",
+  "Personal"
+ ],
+ "theme_translation": {
+  "Action": "Action",
+  "Horror": "Tension",
+  "Mystery": "Mystery",
+  "Social": "Social",
+  "Personal": "Personal",
+  "Tension": "Tension"
+ },
+ "style_weights": {
+  "action": {
+   "Action": 4,
+   "Tension": 2,
+   "Mystery": 1,
+   "Social": 1,
+   "Personal": 1
+  },
+  "horror": {
+   "Tension": 4,
+   "Mystery": 2,
+   "Personal": 2,
+   "Action": 1,
+   "Social": 1
+  },
+  "mystery": {
+   "Mystery": 4,
+   "Tension": 2,
+   "Social": 1,
+   "Personal": 1,
+   "Action": 1
+  },
+  "intrigue": {
+   "Social": 4,
+   "Personal": 2,
+   "Mystery": 2,
+   "Tension": 1,
+   "Action": 1
+  },
+  "drama": {
+   "Personal": 3,
+   "Social": 3,
+   "Tension": 1,
+   "Mystery": 1,
+   "Action": 1
+  },
+  "balanced": {
+   "Action": 1,
+   "Tension": 1,
+   "Mystery": 1,
+   "Social": 1,
+   "Personal": 1
+  }
+ }
+}

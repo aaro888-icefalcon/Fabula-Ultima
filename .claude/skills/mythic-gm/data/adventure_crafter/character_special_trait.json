@@ -1,0 +1,49 @@
+{
+ "id": "ac.character_special_trait",
+ "title": "Character Special Trait",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#character-special-trait",
+ "entries": [
+  {
+   "min": 1,
+   "max": 50,
+   "value": "The Character is an Individual"
+  },
+  {
+   "min": 51,
+   "max": 57,
+   "value": "The Character is an Organization"
+  },
+  {
+   "min": 58,
+   "max": 64,
+   "value": "The Character is an Object"
+  },
+  {
+   "min": 65,
+   "max": 71,
+   "value": "Connected to this Thread"
+  },
+  {
+   "min": 72,
+   "max": 78,
+   "value": "Not Connected to this Thread"
+  },
+  {
+   "min": 79,
+   "max": 85,
+   "value": "Assists in Resolving this Thread"
+  },
+  {
+   "min": 86,
+   "max": 92,
+   "value": "Hinders Resolving this Thread"
+  },
+  {
+   "min": 93,
+   "max": 100,
+   "value": "Connected to an Existing Character (roll on Characters List; New→Choose Most Logical)"
+  }
+ ]
+}

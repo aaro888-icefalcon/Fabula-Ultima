@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_personality",
+ "title": "Elements — Character Personality",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Active"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Adventurous"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aggressive"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Agreeable"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Ambitious"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Amusing"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Angry"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Annoying"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Anxious"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Arrogant"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Average"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Awkward"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Bad"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Bitter"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Bold"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Brave"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Calm"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Diminish"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Criminal"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Deceiver"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Deliverer"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dependent"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Escape"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Driver/Pilot   Elite"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Fame"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Family"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Fear"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Creative"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Find"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Expert"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Explorer"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Family"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Devoted"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Farmer   Fighter   Fixer"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Emotion"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Empathetic"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fair"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fastidious"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Hide"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Healer"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Helpless"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Hero"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Hunter"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Information"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Innocent"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Inspector"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Intellectual"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Investigator"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Judge"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Humorous"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Inconsistent"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Independent"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Interesting"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Intolerant"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Irresponsible"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Knowledgeable"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Larcenous"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Leader"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Likable"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Loyal"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Manipulative"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Mercurial"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Naive"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Nervous"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Oblivious"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Object"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Optimistic"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Persecutor"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Planner"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Pleaser"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Power"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Prisoner"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Peace"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Physical"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Quirky"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Punish"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Pleasure"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Power"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Represent"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Rogue"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Ruffian"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Ruler"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Savvy"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Searching"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Selfish"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Selfless"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Shallow"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Search"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Serve"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Subverter"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Supporter"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Survivor"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Teacher"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Thief"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Trader"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Victim"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Villain"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wanderer"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Warrior"
+  }
+ ],
+ "checksum": "sha256:68c0347fdd58c7be"
+}
