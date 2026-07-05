@@ -79,13 +79,13 @@ _Σ weighted slots = 10_
 - **Self-audit drift counter (consecutive soft scenes):** 0
 - **Ultima pool available to the Quiet Hand (from Eira):** 10 (log spends via `fu.py points ultima`)
 
-### LIVE COMBAT — Scene 1, ‼ KESTREL AT 0 HP — awaiting player's SURRENDER/SACRIFICE choice
-- Kestrel sold "harmless" (Deceive SUCCESS) → went LOUD, **cover BLOWN** to party + foes (witnesses reaching Voss/court = open thread, depends on survivors).
-- Rounds 1-2: Kestrel isolated himself blurring into 3 scouts at the water, spent all 50 MP, and rolled catastrophically — **6 of 7 melee swings missed** (soured Entropist luck). Took 16+15+20 = 51 dmg → **HP 40 → 0**. Acceleration ended. **Lucky Seven STILL UNSPENT.** FP 3.
-- **DECISION PENDING (player only):** Surrender (unconscious for scene, +2 FP, wake next scene at Crisis HP 20, GM imposes a consequence — likely the enemy makes a decisive move on Odile) OR Sacrifice (permanent death; ≥2 criteria met: lieutenant-villain present + benefits his Bonds).
-- Board: Isabeau 40/40 (at coach, just shot the Quiet Hand). Odile UNHURT but **frozen by Doubt** (failed to act R1 & R2), pulled to cover in the coach by Emeric. Emeric 35/35 shielding her.
-- **Quiet Hand** ~75/90 (Isabeau's ball), at the window, snatch STILL unsecured (Manacle missed twice), Eira's **Ultima 10 unspent**. Scouts: A 60/60, B 47/60 (fouled arm, just fumbled → party has an unused opportunity), C 60/60 — all at the water over Kestrel.
-- Clocks: Capture Odile [0/4]; Reinforcement [1/4] (end-of-R2 tick held pending the fork). War-engine (Magitech Trooper + caged Kindred) inbound.
+### LIVE COMBAT — Scene 1, Kestrel SURRENDERED · war-engine has ARRIVED · crew's final choice pending
+- Kestrel went LOUD (cover BLOWN), isolated himself, missed 6 of 7 swings, dropped to 0 HP → **SURRENDERED**. Now unconscious/out for the scene; **FP 3→5**; wakes NEXT scene at Crisis HP 20. Scouts securing him (a captured Duke's-agent = valuable).
+- **Surrender consequence = LOSS (decisive enemy move):** the Voss **war-engine** (Magitech Trooper L10, HP80, air/bolt vulnerable, a **caged Kindred glowing in its chest**) crests the rise — reinforcement clock **[4/4] FILLED**. Position collapses.
+- **PLAYER MANDATE: keep the crew TOGETHER — no split/separation consequences.** Whatever the cost, it lands on all four together (→ steer toward captured-together, not scattered).
+- Remaining crew (no fighter left): Isabeau 40/40 (over the downed knight, pistol), Odile UNHURT but **still frozen by Doubt** (failed to act R1 & R2), Emeric 35/35 (Feral Speech — the caged Kindred is his wildcard).
+- Foes: Quiet Hand ~75/90 (Ultima 10 unspent), Scouts A 60, B 47 (fouled arm), C 60, + the war-engine now. Capture Odile clock [0/4] (three Manacles/pins failed).
+- PENDING: player chooses the crew's final move — last stand / yield to protect the children / gamble on Emeric+the caged Kindred. All honest roads lead toward the party taken TOGETHER (villain wins this round; setup for a captivity/escape arc → toward Eira herself).
 
 ## Archive pointer
 - Resolved threads / dead characters → `archive.md`

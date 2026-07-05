@@ -1,0 +1,14 @@
+{
+  "balances": {
+    "fabula:Kestrel Vane": 2
+  },
+  "log": [
+    {
+      "ledger": "fabula",
+      "owner": "Kestrel Vane",
+      "delta": 2,
+      "reason": "",
+      "balance": 2
+    }
+  ]
+}
