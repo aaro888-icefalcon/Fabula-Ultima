@@ -31,7 +31,8 @@ _Σ weighted slots = 2_
 4. The Gildern Foundry
 5. The Kindred
 6. King Aldous IV of Vairelle
-_Σ weighted slots = 6_
+7. Duke Advain
+_Σ weighted slots = 7_
 
 <!-- LISTS:END -->
 
@@ -39,10 +40,13 @@ _Σ weighted slots = 6_
 - n/a
 
 ## Campaign roster (persists across adventures: recurring NPCs, long arcs)
-- Party: Ser Kestrel Vane (PC, royal tutor), Prince Emeric (12), Princess Odile (9), Countess Isabeau of Greywatch (companions)
+- Party: Magister Kestrel Vane (PC, 30 — undercover arcane knight posing as buffoon tutor), Princess Odile (12, dutiful crown heir), Prince Emeric (9, scamp), Countess Isabeau of Greywatch (30, maternal aunt) — companions
+- Duke Advain — the children's maternal uncle, Kestrel's old commander; planted him undercover; trusts neither court nor rite. ONLY he knows Kestrel's true role.
 - King Aldous IV of Vairelle — the children's father; sends them to walk the Pilgrimage
+- The Queen — dead some years; spoken of at court only in the past tense (cause unstated)
 - The Gildern Foundry — chartered magitech guild; cages Kindred to fire its engines
 - The Kindred — small god-beasts anchoring the leylines; gathering at the Greywatch March
+- COVER SECRET: if Kestrel's competence is exposed, it is a scandal — a Duke's agent planted on the heirs
 
 ## PC(s)
 - Sheets in `campaign/sheets/*.yaml` (all validated LEGAL). FP 3 each. No conditions.

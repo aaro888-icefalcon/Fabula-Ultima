@@ -1,0 +1,76 @@
+name: Kestrel Vane
+kind: pc
+level: 5
+identity: "Magister Kestrel Vane, 30: publicly a doddering, goofy, good-hearted buffoon of a royal tutor; secretly an arcane knight sworn to Duke Advain, planted to guard the heirs"
+theme: Duty
+origin: "The Reedmark front, under Duke Advain's command"
+attributes:
+  DEX: 8
+  INS: 10
+  MIG: 6
+  WLP: 8
+max_hp: 40
+hp: 40
+crisis: 20
+max_mp: 50
+mp: 50
+defense: 11
+magic_defense: 13
+initiative: 0
+inventory_points: 6
+fabula_points: 3
+zenit: 80
+classes:
+  - name: weaponmaster
+    level: 2
+  - name: entropist
+    level: 2
+  - name: rogue
+    level: 1
+skills:
+  - class: weaponmaster
+    key: bladestorm
+    name: Bladestorm
+    sl: 1
+  - class: weaponmaster
+    key: counterattack
+    name: Counterattack
+    sl: 1
+  - class: entropist
+    key: entropic_magic
+    name: Entropic Magic
+    sl: 1
+  - class: entropist
+    key: lucky_seven
+    name: Lucky Seven
+    sl: 1
+  - class: rogue
+    key: high_speed
+    name: High Speed
+    sl: 1
+bonds:
+  - toward: Princess Odile
+    emotions: [loyalty]
+    strength: 1
+  - toward: Prince Emeric
+    emotions: [affection]
+    strength: 1
+  - toward: Countess Isabeau
+    emotions: [admiration, mistrust]
+    strength: 2
+  - toward: Duke Advain
+    emotions: [loyalty]
+    strength: 1
+statuses: []
+equipment:
+  - key: rapier
+    slot: weapon
+    note: "a 'ceremonial' rapier he wears backwards half the time — on purpose"
+  - key: runic-shield
+    slot: shield
+    note: "a battered kite shield painted with the tutor's guild sigil, runes hidden under the paint"
+  - key: combat-tunic
+    slot: armor
+    note: "rumpled scholar's robes over a fencer's tunic"
+notes: "UNDERCOVER: only Duke Advain knows what he is. Cover: doddering buffoon; Lucky Seven explains away his 'accidents' of competence. Rapier DEX+INS+1. Entropism Magic Check INS+WLP. DEF 8+1 tunic+2 shield=11; MDEF 10+1+2=13."
+spells: [acceleration]

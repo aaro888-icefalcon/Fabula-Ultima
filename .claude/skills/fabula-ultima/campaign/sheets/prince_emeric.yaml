@@ -1,57 +1,61 @@
 name: Prince Emeric
 kind: companion
 level: 5
-identity: "Crown Prince of Vairelle, twelve years old; a studious boy who feels the leylines humming and fears he is not ready"
-theme: Doubt
+identity: "Prince of Vairelle, nine years old; a wild scamp the Kindred follow like ducklings"
+theme: Mercy
 origin: "Aurelance, the capital"
 attributes:
   DEX: 8
-  INS: 10
+  INS: 8
   MIG: 6
-  WLP: 8
+  WLP: 10
 max_hp: 35
 hp: 35
 crisis: 17
-max_mp: 58
-mp: 58
-defense: 9
-magic_defense: 12
-initiative: -2
+max_mp: 60
+mp: 60
+defense: 10
+magic_defense: 9
+initiative: -1
 inventory_points: 6
 fabula_points: 3
-zenit: 270
+zenit: 280
 classes:
-  - name: elementalist
+  - name: chimerist
     level: 3
-  - name: loremaster
+  - name: rogue
     level: 2
 skills:
-  - class: elementalist
-    key: elemental_magic
-    name: Elemental Magic
-    sl: 3
-  - class: loremaster
-    key: focused
-    name: Focused
+  - class: chimerist
+    key: feral_speech
+    name: Feral Speech
     sl: 1
-  - class: loremaster
-    key: flash_of_insight
-    name: Flash of Insight
+  - class: chimerist
+    key: spell_mimic
+    name: Spell Mimic
+    sl: 2
+  - class: rogue
+    key: dodge
+    name: Dodge
+    sl: 1
+  - class: rogue
+    key: see_you_later
+    name: See You Later
     sl: 1
 bonds:
-  - toward: Ser Kestrel Vane
-    emotions: [admiration]
+  - toward: Kestrel Vane
+    emotions: [affection]
     strength: 1
-  - toward: Princess Odile
+  - toward: Countess Isabeau
     emotions: [affection]
     strength: 1
 statuses: []
 equipment:
-  - key: tome
+  - key: steel-dagger
     slot: weapon
-    note: "his lesson-book, corners banded in bronze"
-  - key: sage-robe
+    note: a fruit knife he is absolutely not allowed to have
+  - key: travel-garb
     slot: armor
-    note: "a pilgrim-scholar's robe over travel clothes"
-notes: "Spells: Ignis, Glacies, Elemental Shroud. Focused SL1: +3 max MP (counted). Magic Check INS+WLP."
-spells: [ignis, glacies, elemental-shroud]
+    note: "play clothes, pockets full of crumbs for the Kindred"
+notes: "Spell Mimic: no spells yet — learns from creatures in play. Dodge +1 DEF baked in. Feral Speech: talks with the Kindred. Adores his ridiculous tutor."
+spells: []

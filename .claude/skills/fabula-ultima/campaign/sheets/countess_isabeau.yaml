@@ -1,7 +1,7 @@
 name: Countess Isabeau
 kind: companion
 level: 5
-identity: "Countess and heir to the Greywatch March, the children's aunt; a border-bred tactician in court silk"
+identity: "Countess Isabeau, 30: the children's maternal aunt, heir to the Greywatch March; a border-bred tactician in court silk, younger sister of Duke Advain and the late Queen"
 theme: Ambition
 origin: The Greywatch March
 attributes:
@@ -47,14 +47,17 @@ skills:
     name: My Trust in You
     sl: 1
 bonds:
-  - toward: Prince Emeric
-    emotions: [affection]
-    strength: 1
   - toward: Princess Odile
     emotions: [affection]
     strength: 1
-  - toward: Ser Kestrel Vane
-    emotions: [admiration]
+  - toward: Prince Emeric
+    emotions: [affection]
+    strength: 1
+  - toward: Kestrel Vane
+    emotions: [affection, mistrust]
+    strength: 2
+  - toward: Duke Advain
+    emotions: [loyalty]
     strength: 1
 statuses: []
 equipment:
@@ -64,4 +67,4 @@ equipment:
   - key: silk-shirt
     slot: armor
     note: "court silk over a rider's spine"
-notes: "Heir to the Greywatch March. Commander: may equip martial melee + ranged."
+notes: "Heir to the Greywatch March. Commander: martial melee+ranged allowed. Thinks the tutor is a good-hearted incompetent; fond of him the way one is fond of a large clumsy dog. Does NOT know his true role."
