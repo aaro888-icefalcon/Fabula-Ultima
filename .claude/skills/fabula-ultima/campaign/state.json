@@ -1,6 +1,6 @@
 {
-  "scene": 0,
-  "chaos": 5,
+  "scene": 1,
+  "chaos": 6,
   "genre": "high",
   "entities": [
     "pc.princess-odile",
@@ -14,5 +14,32 @@
     "front.a-pilgrimage-or-quest-de",
     "front.eira-the-ashen-s-design"
   ],
-  "seeds": []
+  "seeds": [
+    "Bond: Kestrel Vane \u2194 Princess Odile (loyalty)",
+    "Bond: Kestrel Vane \u2194 Prince Emeric (affection)",
+    "Bond: Kestrel Vane \u2194 Countess Isabeau (admiration, mistrust)",
+    "Bond: Kestrel Vane \u2194 Duke Advain (loyalty)",
+    "Theme under pressure: Kestrel Vane \u2014 Duty",
+    "Bond: Countess Isabeau \u2194 Princess Odile (affection)",
+    "Bond: Countess Isabeau \u2194 Prince Emeric (affection)",
+    "Bond: Countess Isabeau \u2194 Kestrel Vane (affection, mistrust)",
+    "Bond: Countess Isabeau \u2194 Duke Advain (loyalty)",
+    "Theme under pressure: Countess Isabeau \u2014 Ambition",
+    "Bond: Prince Emeric \u2194 Kestrel Vane (affection)",
+    "Bond: Prince Emeric \u2194 Countess Isabeau (affection)",
+    "Theme under pressure: Prince Emeric \u2014 Mercy",
+    "Bond: Princess Odile \u2194 Kestrel Vane (mistrust)",
+    "Bond: Princess Odile \u2194 Prince Emeric (affection)",
+    "Theme under pressure: Princess Odile \u2014 Doubt",
+    "Front: Eira the Ashen's design [2/8]",
+    "Front: The Empire of Voss invades Vairelle [1/8]",
+    "Villain Eira the Ashen: Conquest \u2014 dominion over a land, people, or throne",
+    "Genre pull: magic is outlawed or hoarded by a ruling caste",
+    "Genre pull: an ancient power (guardian, drake, sacred flame) is stirring",
+    "Genre pull: reacting relics (Light Stone / Shadow Stone) threaten catastrophe",
+    "New face: Scholar, sage, or physician",
+    "Complication: The truth is not what they were told",
+    "Hook: A named Atlas villain makes a move \u2014 roll villain_drive.json and build them with statgen.py villain",
+    "Hook: A wondrous discovery: an Atlas artifact or rare material surfaces, and it comes with a price"
+  ]
 }

@@ -1,0 +1,64 @@
+{
+  "ticks": [
+    {
+      "scene": 1,
+      "chaos": 5,
+      "surfaced": 1,
+      "changes": [
+        {
+          "sub": "villain_fronts",
+          "front": "front.eira-the-ashen-s-design",
+          "surface": "telegraph",
+          "detail": "rumors and distant signs of conquest — dominion over a land, people, or throne"
+        },
+        {
+          "sub": "villain_fronts",
+          "front": "front.eira-the-ashen-s-design",
+          "advance": 2,
+          "clock": [
+            2,
+            8
+          ],
+          "accel": true
+        },
+        {
+          "sub": "villain_fronts",
+          "front": "front.the-voss-invasion",
+          "advance": 1,
+          "clock": [
+            1,
+            8
+          ],
+          "accel": false
+        },
+        {
+          "sub": "campaign_clocks",
+          "clock": 1,
+          "state": [
+            0,
+            4
+          ],
+          "name": "Capture Odile (the Quiet Hand's snatch)",
+          "note": "GM advances via fu.py clock tick if the fiction implies"
+        },
+        {
+          "sub": "fabula_economy",
+          "zero_fp": [],
+          "ultima_ledger": 0,
+          "villain_ultima": {
+            "villain.eira-the-ashen": 10
+          }
+        },
+        {
+          "sub": "seed_deck",
+          "count": 26
+        },
+        {
+          "sub": "chaos",
+          "from": 5,
+          "to": 5
+        }
+      ]
+    }
+  ]
+}
