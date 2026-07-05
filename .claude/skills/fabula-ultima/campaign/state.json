@@ -7,10 +7,12 @@
     "pc.prince-emeric",
     "pc.ser-kestrel-vane",
     "pc.countess-isabeau",
-    "pc.kestrel-vane"
+    "pc.kestrel-vane",
+    "villain.eira-the-ashen"
   ],
   "fronts": [
-    "front.a-pilgrimage-or-quest-de"
+    "front.a-pilgrimage-or-quest-de",
+    "front.eira-the-ashen-s-design"
   ],
   "seeds": []
 }

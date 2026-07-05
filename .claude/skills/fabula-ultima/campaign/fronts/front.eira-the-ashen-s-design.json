@@ -1,20 +1,23 @@
 {
-  "id": "front.a-pilgrimage-or-quest-de",
+  "id": "front.eira-the-ashen-s-design",
   "kind": "front",
-  "name": "a pilgrimage or quest demands a terrible sacrifice",
-  "drive": "a pilgrimage or quest demands a terrible sacrifice",
+  "name": "Eira the Ashen's design",
+  "drive": "Conquest — dominion over a land, people, or throne",
   "genre": "high",
+  "owner": "villain.eira-the-ashen",
   "clock": {
     "size": 8,
     "filled": 0
   },
   "stage": 0,
   "telegraphs": [
-    "rumors and distant signs of a pilgrimage or quest demands a terrible sacrifice",
+    "rumors and distant signs of conquest — dominion over a land, people, or throne",
     "a visible move against an ally, place, or resource the heroes value",
     "open action — the threat strikes in the light of day",
     "the agenda nears completion; the world reels"
   ],
-  "linked_entities": [],
+  "linked_entities": [
+    "villain.eira-the-ashen"
+  ],
   "resolved": false
 }

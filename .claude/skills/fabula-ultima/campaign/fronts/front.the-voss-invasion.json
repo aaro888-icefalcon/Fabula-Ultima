@@ -1,0 +1,23 @@
+{
+  "id": "front.the-voss-invasion",
+  "kind": "front",
+  "name": "The Empire of Voss invades Vairelle",
+  "drive": "an empire's magitech army invades a weaker neighbor",
+  "genre": "high",
+  "owner": null,
+  "clock": {
+    "size": 8,
+    "filled": 0
+  },
+  "stage": 0,
+  "telegraphs": [
+    "refugees, requisitions and ash on the wind \u2014 the war is elsewhere but coming",
+    "the front buckles: a place or person the heroes value is threatened",
+    "the war arrives where the heroes stand",
+    "Vairelle itself teeters; the realm reels"
+  ],
+  "linked_entities": [
+    "villain.eira-the-ashen"
+  ],
+  "resolved": false
+}

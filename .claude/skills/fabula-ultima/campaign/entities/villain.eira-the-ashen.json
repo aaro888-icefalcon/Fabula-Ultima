@@ -1,0 +1,46 @@
+{
+  "id": "villain.eira-the-ashen",
+  "kind": "villain",
+  "name": "Eira the Ashen",
+  "genre": "high",
+  "source": "high",
+  "species": "monster",
+  "level": 30,
+  "rank": "major/champion(2)",
+  "attributes": {
+    "DEX": 12,
+    "INS": 8,
+    "MIG": 6,
+    "WLP": 6
+  },
+  "hp": 180,
+  "max_hp": 180,
+  "mp": 120,
+  "max_mp": 120,
+  "crisis": 90,
+  "defense": 12,
+  "magic_defense": 8,
+  "initiative": 12,
+  "affinities": {
+    "fire": "resistant"
+  },
+  "statuses": [],
+  "drive": "Conquest — dominion over a land, people, or throne",
+  "ultima": 10,
+  "bonds": [
+    {
+      "toward": "pc.princess-odile",
+      "strength": 2,
+      "emotions": [
+        "hatred",
+        "inferiority"
+      ]
+    }
+  ],
+  "provenance": {
+    "by": "gen.py villain",
+    "genre": "high",
+    "created_scene": 0
+  },
+  "agenda_front": "front.eira-the-ashen-s-design"
+}
