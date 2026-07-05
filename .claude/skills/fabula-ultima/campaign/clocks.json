@@ -1,0 +1,17 @@
+{
+  "next_id": 3,
+  "clocks": [
+    {
+      "id": 1,
+      "name": "Capture Odile (the Quiet Hand's snatch)",
+      "size": 4,
+      "filled": 0
+    },
+    {
+      "id": 2,
+      "name": "Voss reinforcements (war-engine on the road)",
+      "size": 4,
+      "filled": 0
+    }
+  ]
+}

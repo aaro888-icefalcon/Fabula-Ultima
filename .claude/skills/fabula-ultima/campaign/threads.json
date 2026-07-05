@@ -2,11 +2,15 @@
  "kind": "thread",
  "entries": [
   {
-   "name": "Keep the heirs safe at Coldbrook while the war rages",
+   "name": "The war: the Empire of Voss invades Vairelle",
    "weight": 1
   },
   {
-   "name": "The war: the Empire of Voss invades Vairelle",
+   "name": "Get the heirs off the war road alive",
+   "weight": 1
+  },
+  {
+   "name": "Who sold the heirs' route to Voss?",
    "weight": 1
   }
  ]
