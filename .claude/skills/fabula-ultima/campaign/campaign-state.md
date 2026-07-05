@@ -85,6 +85,11 @@ _Σ weighted slots = 11_
 - Kestrel: surrendered, FP **5**, unconscious → wakes Scene 2 at **Crisis HP 20**; cover HELD. Odile: unhurt, but her Doubt froze her the whole fight (a wound of a different kind). Emeric: 35/35, reached the caged Kindred with Feral Speech — FAILED to free it in time, but the creature now KNOWS him (new Bond seed; character added to list). Isabeau: 40/40, yielded to protect the children; now half-wondering what her buffoon tutor really is.
 - Open hooks into Scene 2: the LEAK/betrayal mystery ("Who sold the route?"), Kestrel waking as a prisoner having failed his charge (Duty→? — Surrender did NOT force a Theme change; that pressure is narrative, live), the caged Kindred that heard Emeric, and the road to Eira.
 
+### SCENE 2 — "Cargo" (prison-cart, rolling east; nightfall halt is the window)
+- Kestrel woke (HP 20), cover held; scouted the column (open INS+INS = 9, slim opening): engine must VENT its caged Kindred at a nightfall halt → guard on the cart thins; field-shackles beatable; Isabeau's hands nearly free; catch = the Quiet Hand watches Odile + open stubble before the treeline.
+- **Isabeau's plan (oracle: driver-linchpin + move tonight + "Ambush·Innocent"):** TURN the Reedmark conscript driver (pressed local, no friend of Voss), then at the venting halt use the party's "harmless" look + the boy's help to AMBUSH the thinned cart-guard — arm Kestrel, free the crew, vanish into the dark treeline while the engine's blind. Emeric's Kindred-link = the diversion. Odile = protect (and maybe her chance to break her freeze).
+- Kestrel deferred the planning to Isabeau (cover); player now executes Kestrel's part. First beat: work the Reedmark driver.
+
 ### FABULA / ULTIMA LEDGER
 - Kestrel FP 5 · Odile/Emeric/Isabeau FP 3 each. Ultima (Eira) 10 — the Quiet Hand never needed to spend it.
 - Villain ENTRANCE not yet triggered (Eira absent). When Eira appears → each PC gains 1 FP.
