@@ -10,7 +10,7 @@ attributes:
   MIG: 6
   WLP: 8
 max_hp: 40
-hp: 40
+hp: 0
 crisis: 20
 max_mp: 50
 mp: 0

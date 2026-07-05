@@ -79,13 +79,13 @@ _Σ weighted slots = 10_
 - **Self-audit drift counter (consecutive soft scenes):** 0
 - **Ultima pool available to the Quiet Hand (from Eira):** 10 (log spends via `fu.py points ultima`)
 
-### LIVE COMBAT — Scene 1, top of enemy response (mid-round)
-- Kestrel sold "harmless" (Deceive 10 vs DL10 SUCCESS) → then went LOUD. **Cover BLOWN** to party + foes. Witnesses reaching Voss/court = open thread (depends on survivors, esp. the Quiet Hand fleeing).
-- Kestrel turn: High Speed + Bladestorm x2 + Acceleration = **50 MP spent → MP 0**. 4 rapier swings, 1 hit. Acceleration active on self (1 extra action left, ends after his next turn). Counterattack + **Lucky Seven** unspent. Position: at the water ~30ft from carriage.
-- Foes: Scout #A (crossbow, 60/60), Scout #B (crossbow, **47/60**, shoulder run through), Scout #C (spear, 60/60, cart-gap). All DEF 11 (+1 formation while ≥2 = 12), M.DEF 8. Heavy Spear HR+12 / Crossbow HR+8.
-- **The Quiet Hand** at Odile's window, mid-cast (Leyline Manacle → shaken + Capture tick). Capture clock still [0/4]; reinforcement clock [0/4] telegraphed LOUD (engine close).
-- Companions unacted this round: Odile (HP35, M.DEF12, Ignis/Glacies), Emeric (HP35, Feral Speech, far door), Isabeau (HP40, pistol drawn).
-- Pending player decision: burn Lucky Seven? + party's response as the Quiet Hand's rod comes down on Odile.
+### LIVE COMBAT — Scene 1, ‼ KESTREL AT 0 HP — awaiting player's SURRENDER/SACRIFICE choice
+- Kestrel sold "harmless" (Deceive SUCCESS) → went LOUD, **cover BLOWN** to party + foes (witnesses reaching Voss/court = open thread, depends on survivors).
+- Rounds 1-2: Kestrel isolated himself blurring into 3 scouts at the water, spent all 50 MP, and rolled catastrophically — **6 of 7 melee swings missed** (soured Entropist luck). Took 16+15+20 = 51 dmg → **HP 40 → 0**. Acceleration ended. **Lucky Seven STILL UNSPENT.** FP 3.
+- **DECISION PENDING (player only):** Surrender (unconscious for scene, +2 FP, wake next scene at Crisis HP 20, GM imposes a consequence — likely the enemy makes a decisive move on Odile) OR Sacrifice (permanent death; ≥2 criteria met: lieutenant-villain present + benefits his Bonds).
+- Board: Isabeau 40/40 (at coach, just shot the Quiet Hand). Odile UNHURT but **frozen by Doubt** (failed to act R1 & R2), pulled to cover in the coach by Emeric. Emeric 35/35 shielding her.
+- **Quiet Hand** ~75/90 (Isabeau's ball), at the window, snatch STILL unsecured (Manacle missed twice), Eira's **Ultima 10 unspent**. Scouts: A 60/60, B 47/60 (fouled arm, just fumbled → party has an unused opportunity), C 60/60 — all at the water over Kestrel.
+- Clocks: Capture Odile [0/4]; Reinforcement [1/4] (end-of-R2 tick held pending the fork). War-engine (Magitech Trooper + caged Kindred) inbound.
 
 ## Archive pointer
 - Resolved threads / dead characters → `archive.md`
