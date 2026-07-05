@@ -1,0 +1,32 @@
+{
+ "id": "ac.plot_point_structure",
+ "title": "Plot Point Table — structure",
+ "type": "themed_d100",
+ "dice": "3d10",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "note": "Roll the theme (plot_point_theme), then 1d100 in that theme's column; read the title from canon.",
+ "universal": {
+  "conclusion": {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion (ends the Thread if an Advancement)"
+  },
+  "none": {
+   "min": 9,
+   "max": 24,
+   "value": "None (no Plot Point this slot)"
+  },
+  "meta": {
+   "min": 96,
+   "max": 100,
+   "value": "Roll on the Meta Plot Points Table"
+  }
+ },
+ "themes": [
+  "Action",
+  "Tension",
+  "Mystery",
+  "Social",
+  "Personal"
+ ]
+}

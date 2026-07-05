@@ -1,0 +1,459 @@
+{
+  "id": "fu.bestiary.humanoid",
+  "source": "core",
+  "species": "humanoid",
+  "entries": [
+    {
+      "key": "brigand",
+      "name": "Brigand",
+      "level": 5,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 45,
+      "crisis": 30,
+      "initiative": 10,
+      "defense": 9,
+      "magic_defense": 9,
+      "affinities": {
+        "earth": "resistant",
+        "ice": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Brigand's Axe",
+          "accuracy": "【MIG + MIG】",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Bad Temper",
+          "text": "As long as they are in Crisis, the brigand becomes immune to all status effects."
+        }
+      ],
+      "traits": [
+        "boastful",
+        "irritable",
+        "proud",
+        "strong"
+      ],
+      "equipment": [
+        "broadaxe",
+        "bronze shield",
+        "travel garb"
+      ],
+      "text": "A common sight on less-patrolled roads, brigands take advantage of lone travelers and small caravans.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 3
+    },
+    {
+      "key": "guard",
+      "name": "Guard",
+      "level": 5,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 45,
+      "crisis": 30,
+      "initiative": 5,
+      "defense": 11,
+      "magic_defense": 8,
+      "attacks": [
+        {
+          "name": "Heavy Spear",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 12】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Crossbow",
+          "accuracy": "【DEX + INS】",
+          "damage": "【HR + 8】 physical",
+          "range": "ranged",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Defensive Formation",
+          "text": "The guard gains a +1 bonus to Defense and Magic Defense as long as there are one or more other guards in the conflict."
+        },
+        {
+          "name": "Protect",
+          "text": "When another character is in danger, the guard may choose to take their place (see the Protect Skill on page 197)."
+        }
+      ],
+      "traits": [
+        "brave",
+        "disciplined",
+        "loyal",
+        "trained"
+      ],
+      "equipment": [
+        "heavy spear",
+        "crossbow",
+        "bronze plate"
+      ],
+      "text": "These soldiers are generally found patrolling city streets or escorting caravans in the wilderness.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": null,
+      "defense_fixed": true,
+      "affinities": {}
+    },
+    {
+      "key": "kobold-scout",
+      "name": "Kobold Scout",
+      "level": 5,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 40,
+      "mp": 45,
+      "crisis": 20,
+      "initiative": 8,
+      "defense": 11,
+      "magic_defense": 9,
+      "affinities": {
+        "air": "resistant",
+        "fire": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Steel Dagger",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 4】 physical",
+          "range": "melee",
+          "text": "This attack deals 5 extra damage to targets that are suffering from one or more status effects."
+        },
+        {
+          "name": "Stone",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "ranged",
+          "text": "The target suffers dazed."
+        }
+      ],
+      "skills": [],
+      "traits": [
+        "fast",
+        "hairy",
+        "perceptive",
+        "small"
+      ],
+      "equipment": [
+        "steel dagger",
+        "travel garb"
+      ],
+      "text": "These diminutive creatures are covered in thick, coal-black hair, and mostly dwell within forests or mountainous areas.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 1
+    },
+    {
+      "key": "kobold-witch",
+      "name": "Kobold Witch",
+      "level": 5,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 50,
+      "mp": 55,
+      "crisis": 25,
+      "initiative": 6,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "resistant",
+        "light": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Oaken Staff",
+          "accuracy": "【WLP + WLP】",
+          "damage": "【HR + 6】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Awaken",
+          "text": "20 MP · One creature · Scene. The kobold witch chooses Dexterity, Insight, Might, or Willpower. Until this spell ends, the target treats the chosen Attribute as if it were one die size higher (up to a maximum of d12)."
+        },
+        {
+          "name": "Bad Breath",
+          "text": "【INS + WLP】 · 5 MP · One creature · Instantaneous. Offensive spell. The target suffers 【HR + 10】 poison damage."
+        }
+      ],
+      "traits": [
+        "cryptic",
+        "hairy",
+        "small",
+        "wise"
+      ],
+      "equipment": [
+        "staff",
+        "sage robe"
+      ],
+      "text": "Some kobolds develop a deep bond with beasts and monsters, learning their abilities and using them to reinforce their allies.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "hivekin",
+      "name": "Hivekin",
+      "level": 10,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 50,
+      "crisis": 35,
+      "initiative": 11,
+      "defense": 11,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "resistant",
+        "fire": "vulnerable",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Hiveblade",
+          "accuracy": "【DEX + INS】+5",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Bee Dance",
+          "text": "20 MP · One creature · Instantaneous. The target may immediately perform a free attack with a weapon they have equipped (or with a basic attack, if the target is an NPC)."
+        },
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "buzzing",
+        "industrious",
+        "lover of beauty",
+        "secretive"
+      ],
+      "equipment": [
+        "katana",
+        "sage robe"
+      ],
+      "text": "Half-bee, half-human, these creatures have a long tradition of arts and craftsmanship but tend to be quite reclusive.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "mercenary",
+      "name": "Mercenary",
+      "level": 10,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 50,
+      "crisis": 30,
+      "initiative": 5,
+      "defense": 11,
+      "magic_defense": 9,
+      "affinities": {
+        "air": "resistant",
+        "earth": "vulnerable",
+        "fire": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Bronze Sword",
+          "accuracy": "【DEX + MIG】+5",
+          "damage": "【HR + 11】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Pistol",
+          "accuracy": "【DEX + INS】+4",
+          "damage": "【HR + 8】 physical",
+          "range": "ranged",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Charged Attack",
+          "text": "The mercenary's next attack gains multi (2) and ignores Resistances."
+        }
+      ],
+      "traits": [
+        "competent",
+        "grim",
+        "jaded",
+        "ruthless"
+      ],
+      "equipment": [
+        "bronze sword",
+        "pistol",
+        "runic plate"
+      ],
+      "text": "Mercenaries are experts at survival and combat. Their abilities and equipment make them a dangerous threat.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": null,
+      "defense_fixed": true
+    },
+    {
+      "key": "sniper",
+      "name": "Sniper",
+      "level": 15,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 10,
+        "MIG": 6,
+        "WLP": 6
+      },
+      "hp": 60,
+      "mp": 45,
+      "crisis": 30,
+      "initiative": 13,
+      "defense": 11,
+      "magic_defense": 11,
+      "affinities": {
+        "bolt": "resistant",
+        "fire": "resistant",
+        "ice": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Dagger",
+          "accuracy": "【DEX + INS】+5",
+          "damage": "【HR + 4】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Sniper Bow",
+          "accuracy": "【DEX + DEX】+4",
+          "damage": "【HR + 8】 physical",
+          "range": "ranged",
+          "text": "The target suffers dazed or slow (sniper's choice)."
+        }
+      ],
+      "skills": [],
+      "traits": [
+        "accurate",
+        "disciplined",
+        "furtive",
+        "observant"
+      ],
+      "equipment": [
+        "shortbow",
+        "steel dagger",
+        "travel garb"
+      ],
+      "text": "Snipers provide support fire from the back lines or take out key targets for the army. They are rather unfit for close combat.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 1
+    },
+    {
+      "key": "battlemage",
+      "name": "Battlemage",
+      "level": 20,
+      "species": "humanoid",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 10
+      },
+      "hp": 80,
+      "mp": 90,
+      "crisis": 40,
+      "initiative": 9,
+      "defense": 11,
+      "magic_defense": 9,
+      "affinities": {
+        "fire": "resistant",
+        "ice": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Decorated Staff",
+          "accuracy": "【WLP + WLP】+2",
+          "damage": "【HR + 11】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Fulgur",
+          "accuracy": "【INS + WLP】+5",
+          "damage": "【HR + 20】 bolt",
+          "range": "ranged",
+          "text": "Offensive spell. 10 × T MP · Up to three creatures · Instantaneous. Each target suffers 【HR + 20】 bolt damage. Opportunity: Each target suffers dazed."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Heal",
+          "text": "10 × T MP · Up to three creatures · Instantaneous. Each target recovers 40 Hit Points (50 if level 20+, 60 if level 40+)."
+        }
+      ],
+      "traits": [
+        "ambitious",
+        "cunning",
+        "disciplined",
+        "knowledgeable"
+      ],
+      "equipment": [
+        "staff",
+        "runic plate"
+      ],
+      "text": "Clad in runic armor and wielding a variety of attack and support spells, battlemages are often found at the lead of warrior forces.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": null,
+      "defense_fixed": true
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.forest_descriptors",
+ "title": "Elements — Forest_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Adversity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Ambush"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ancient"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Animal"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Aromatic"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Art"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Assist"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Average"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Beautiful"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bizarre"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bleak"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Block"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Boulder"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cave"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Chaotic"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cliff"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Cold"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Colorful"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Combative"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Communicate"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Creepy"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Damaged"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Danger"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dark"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Death"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Delicate"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Dry"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Elements"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Encounter"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Enormous"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Environment"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fearful"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Feeble"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fierce"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Food"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fortunate"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fresh"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Harsh"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Healthy"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Helpful"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Important"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Information"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Intense"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Interesting"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Lacking"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Lake"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Large"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Lean"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Ledge"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Lethal"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Loud"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Magnificent"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Majestic"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Masses"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Mature"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Message"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mighty"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mundane"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Mysterious"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Natural"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Nature"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Nondescript"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Normal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Odd"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Old"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Path"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Peaceful"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Plants"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pond"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Possessions"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Powerful"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Pursue"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Quiet"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Rare"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Reassuring"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Remarkable"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "River"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Rocks"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rough"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Ruined"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Scary"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Simple"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Slope"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Small"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Sounds"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strong"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Threatening"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tranquil"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Tree"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Unusual"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Valuable"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Violent"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warm"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Watery"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weak"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weather"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:a959e5a82ccc4e8a"
+}

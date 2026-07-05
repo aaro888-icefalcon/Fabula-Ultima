@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.dungeon_descriptors",
+ "title": "Elements — Dungeon_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandoned"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Activity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Adversity"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ambush"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Ancient"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Animal"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Aromatic"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Art"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Beautiful"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bleak"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Chamber"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Clean"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Closed"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cold"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Collapsed"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Colorful"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Creature"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Creepy"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Damaged"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Danger"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dark"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Desolate"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dirty"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Door"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Dry"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Elements"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Empty"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Encounter"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Enemies"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Enormous"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Evil"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Exit"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Extravagant"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Faded"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Familiar"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fancy"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fears"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Foreboding"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Full"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Furnishings"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Gate"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Good"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Harm"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Heavy"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Helpful"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Hole"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Important"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Information"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Interesting"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Large"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Lavish"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Lethal"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Light"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Magnificent"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Malice"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Meaningful"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mechanical"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Messages"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Messy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mighty"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Military"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Misfortune"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Modern"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mundane"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mysterious"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Natural"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Neglect"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Normal"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Object"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Occupied"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Odd"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Open"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Passage"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Path"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Portal"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Possessions"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Quiet"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Rare"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Reassuring"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Remarkable"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Riches"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Room"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Rough"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Ruined"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Rustic"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Scary"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Simple"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Small"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Smelly"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Sound"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Stairs"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Stonework"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Technology"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Trap"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Treasure"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Unnatural"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Valuable"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Warm"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Watery"
+  }
+ ],
+ "checksum": "sha256:8d94047e2c2fd704"
+}

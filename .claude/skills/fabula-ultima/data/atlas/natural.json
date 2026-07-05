@@ -1,0 +1,833 @@
+{
+  "id": "fu.atlas.natural",
+  "atlas": "natural",
+  "summary": "The Natural Fantasy Atlas is a Fabula Ultima expansion for bucolic, Ghibli-esque \"natural fantasy\" campaigns: a compact world in tension between a mostly-forgotten past and an unpredictable future, themes of coexistence, transformation, death-and-rebirth, and the consequences of controlling or exploiting nature. It adds four new Classes (Floralist, Gourmet, Invoker, Merchant), twenty-one Heroic Skills, and toolkit content: ten sample locations, conflict and magic/technology guidance, optional rules for materials & forging, custom weapons, Natural Fantasy Quirks, Camp Activities, rare items & artifacts, and five ready-to-run boss Villains (Tonitranea Rex, Node and Dylon, Brightvale, Titania, Eldgren).",
+  "rules_options": [
+    {
+      "key": "abyss_vertical_worlds",
+      "name": "Vertical Worlds (Abyss campaigns)",
+      "text": "An alternate World Creation flowchart for campaigns of vertical exploration — a great chasm plunging down or a world-tree stretching up (an \"abyss\"). Setup: (1) choose if the abyss develops upward or downward and name it; (2) place a starting settlement at its top or bottom where play begins, each participant contributing an NPC or landmark; (3) at the opposite end sits the heart of the abyss, the campaign's goal (a world-saving resource, the answer to a terrible question, or an entity to be sealed); (4) define the role of magic and technology in the starting settlement; (5) create five strata separating the settlement from the heart, each with a name/ecosystem and at least one connection to each neighboring stratum; (6) give each stratum a historical event plus an enigma; (7) give each stratum a threat, the worst lying in the heart. Journeys across a single stratum use normal travel rules; moving between adjacent strata needs a connection (tower, stairs, frozen waterfall). Provide periodic safe zones for rest/rescue or fast-travel options. Download the abyss sheet from fabulaultima.com."
+    },
+    {
+      "key": "materials_and_forging",
+      "name": "Materials and Forging",
+      "text": "Optional rule (fitting for natural fantasy, usable in any campaign) giving precise values to gathered materials and letting players forge weapons, armor, shields and accessories. Obtaining materials: each is a single-use reward item valued by the GM (ideally 500–3000 zenit) and should clearly suggest one or more uses; use the Materials Generator table to randomize (nature + descriptors). Purchasing: pay zenit equal to a material's value where available (GM's discretion). Selling: half value, like normal items; using a material for a Project or forging uses its FULL value. Forging rare items: requires an NPC artisan, a synthesizing artifact, or a PC with the Tinkerer Class or a relevant Identity. Process (one rest, no limit on number forged): (1) draft the item per Core Rulebook p.266; its total cost must be ≤ 【the highest level among PCs × 60】; (2) indicate materials whose total value ≥ the item's cost (excess is expended anyway); (3) GM approves cost & material fit, else return to step 1; (4) if made by an artisan NPC, pay a tenth of the item's total cost in zenit. Works with custom weapons (use the base custom weapon in the draft), technospheres (Qualities limited to slots α, β, γ, δ), and Pilot's modules (weapon/armor modules ~500 zenit base, support modules ~1000 zenit). Do not use these rules to reenact colonialist fantasies or gratuitous cruelty toward living beings; prefer inanimate materials and create items that pay homage to the creature's original form."
+    },
+    {
+      "key": "custom_weapons",
+      "name": "Custom Weapons",
+      "text": "A rule to create a unique weapon during character creation (later given rare versions per Core Rulebook p.268). Base custom weapon: belongs to one Category of your choice (arcane, bow, brawling, dagger, firearm, flail, heavy, spear, sword, thrown); is NOT martial (E) unless a customization makes it so; is two-handed and cannot benefit from Monkey Grip (always occupies both hand slots); is melee OR ranged (your choice, regardless of Category); costs 300 zenit; Accuracy relies on 【DEX + INS】 or 【DEX + MIG】 (your choice); deals physical damage equal to 【HR + 5】. It receives THREE customizations (each chosen once). Customizations: Accurate (+2 to Accuracy formula); Defense Boost (+2 Defense and treated as having a shield equipped for Skills); Elemental (choose air/bolt/dark/earth/fire/ice/light/poison — deals that type instead of physical and +2 extra damage); Magic Defense Boost E (+2 Magic Defense); Powerful E (5 extra damage, or 7 if a heavy weapon; unavailable for arcane, dagger, or quick weapons); Quick E (counts as two customizations — the Attack action makes two attacks following two-weapon-fighting rules); Transforming (+100 zenit cost — a second form, designed as a separate custom weapon that must also have Transforming and costs no zenit; you may swap forms freely, in conflict only on your turn while no effect resolves and only once per turn; a transforming weapon has only one Quality, applied to both forms). If one form is melee and the other ranged, or they are different Categories, you only gain the benefits of one form at a time. Weapon customizations are NOT part of the weapon's Qualities."
+    },
+    {
+      "key": "natural_fantasy_quirks",
+      "name": "Natural Fantasy Quirks",
+      "text": "An advanced optional rule giving each PC one powerful thematic Quirk (a group with Quirks can tackle harder situations than their level suggests). A PC may only ever have ONE Quirk; if used, it is strongly suggested each PC begins with one and no two PCs share a Quirk. A character may lose their Quirk and gain a different one if the story supports it. Quirks shape the game and characterization at the expense of power balance; use lines and veils, as several Quirks touch sensitive topics (illness, being seen as an anomaly, generational/family pressure, trauma). Individual Quirks are catalogued as entries of kind \"quirk\"."
+    },
+    {
+      "key": "camp_activities",
+      "name": "Camp Activities",
+      "text": "An optional rule giving resting scenes more spotlight beyond adjusting Bonds. Each PC gains access to two different Camp Activities, chosen at character creation (avoid redundancy within the group; fit each PC's concept/Identity). When the group plays a resting scene, each participating PC may perform one of their Camp Activities, describing it and applying its benefit to the chosen target; each PC decides independently, and may still adjust Bonds. Many benefits are single-use before the next rest — track them with tokens/notes. Individual activities are catalogued as entries of kind \"camp_activity\"."
+    }
+  ],
+  "entries": [
+    {
+      "kind": "location",
+      "key": "badger_temple",
+      "name": "Badger Temple — The Ancient Shrine",
+      "keywords": ["curse", "trial", "seal"],
+      "themes": "facing one's fears, gaining self-awareness and self-confidence, understanding the past to build the future.",
+      "terrain": "stone, vines, water.",
+      "travel_roll": "d8",
+      "dangers": "a huge sentient plant guarding the path, a magical mist that fools the senses, a barrier created by the statues that flank the entrance.",
+      "discoveries": "a spirit protector of the forest, a plant with miraculous properties, a shrine hiding a prodigious blessing.",
+      "text": "Few truly know what lurks behind the quiet of this enigmatic place lost in the depths of the forest: the locals never cross its threshold — even during celebrations — and the youngsters show great respect to those who dare enter just the first chamber. Moss and lichens cover the wall of the now forgotten Badger Temple… and its secret should be forgotten as well. The Ancient Shrine should include creatures/spells to test those who enter, an incredibly ancient evil sealed inside, an artifact that belonged to a hero of the past, or a legendary beast of great wisdom. Its location is often known from the start but may require an artifact or magic password to fully explore; it can be the prologue's setting, or a major/supreme Villain may lie sealed within. Story hooks include the Hall of Trials (light-and-dark rattle puzzle, hall of despair, a thorn-covered door, and the Rafflesia plant-creature guarding a glowing bud), the sealed Snake-Spirit and the Soulthorn scepter, and the aristocratic fox-man Zecar (a minor Villain) seeking the sword of ages."
+    },
+    {
+      "kind": "location",
+      "key": "breezeburg",
+      "name": "Breezeburg — The Sleepy Hamlet",
+      "keywords": ["community", "quiet", "wind"],
+      "themes": "a simple life isn't an easy one, blissful ignorance, false security.",
+      "terrain": "hills, grasslands, brooks.",
+      "travel_roll": "d8",
+      "dangers": "a foreboding presence living in the nearby forest, a swarm of crabby insects, a great thunderstorm incoming.",
+      "discoveries": "a hermit who retired here to hide an important secret, an old ruined building lost in the untouched wilds.",
+      "text": "Many people stumble almost by accident into this small hamlet among the hills, far from the capital and trade routes — an idyllic, almost drowsy place living in symbiosis with the wind and its few resources. A Sleepy Hamlet is a starting location par excellence, even the birthplace of the protagonists; it should feature a soothing landscape, an eager but insular population, a wise person of few words, and a small shrine tied to a forgotten legend. It rarely matters to Villains unless one was born here. Story hooks include Highill Road (the windmills, the blacksmith's lone old sword, the Wind Strider inn, and a whispering abandoned temple), Whispering Manor and its minor Villain Demetria — whose family captured Zephyr the spirit of air, now nursing centuries of resentment — and A Missing Friend (Mya's silent snow-furred cat Ruby, revealed to be the reborn cait sith child of the woodland beast Fang)."
+    },
+    {
+      "kind": "location",
+      "key": "candle_bay",
+      "name": "Candle Bay — The Haunted Island",
+      "keywords": ["ghosts", "isolation", "transgression"],
+      "themes": "disturbed balance, respect for the past, exploitation of resources.",
+      "terrain": "thickets, tombstones, reefs.",
+      "travel_roll": "d10",
+      "dangers": "a wrathful ghost that can't find a way back, a small abandoned temple infested with trickster spirits.",
+      "discoveries": "a good luck charm, an ancient holy place, a remote well that allows communication with the dead — for a price.",
+      "text": "A haunted isle of steep inlets and rocky cliffs, named for flocks of ominous will-o-wisps that light up its nights. A Haunted Island should feature an ancient cemetery or ruin haunted by ghosts, a small struggling port, a cruel specter from horror stories, and a direct link to the stream of souls; it usually stages an interlude and has a local minor Villain, though a demon or monster might consume the island's dark energies to metamorphose. Story hooks include the Mining Village (Baron Darius, a minor Villain, driving miners for copper, and the slumbering Centipede monster), the Seven-Tails' Forest (the fox-demon Natsuki and her doomed love Soh; if their bond breaks, an 8-section \"Awakening of the Seven-Tails\" Clock can turn Natsuki into a major Villain), and Diana, the ghost of the reef, seeking reunion with the imprisoned sea nymph Talassia."
+    },
+    {
+      "kind": "location",
+      "key": "cerulean_jungle",
+      "name": "Cerulean Jungle — The Eternal Forest",
+      "keywords": ["magic", "nature", "hidden truths"],
+      "themes": "the majesty of the jungle, feeling small compared to nature, time eventually covers all.",
+      "terrain": "water, moss, roots.",
+      "travel_roll": "d12",
+      "dangers": "a territorial creature protecting its nest, a thick jungle of carnivorous plants, turbulent streams leading to a waterfall.",
+      "discoveries": "an ancestral ruin overgrown by nature, the favor of fairies, an ancient creature considered extinct.",
+      "text": "Majestic trees reaching the sky, roaring waterfalls, and extremely diverse fauna including remnants of primeval epochs — an enchanted place where fairy spirits and arboreal creatures dance with the four seasons and nature reigns supreme. The Eternal Forest usually occupies most of the known map; a Villain might use its size as a hideout or covet its buried treasures and miraculous machines. Story hooks include the Court of Seasons (a colossal four-part tree of Spring Sylphs, Summer Salamanders, Autumn Dryads and Winter Undines, each queen granting a rare gift — Rebirth Leaf, hot springs' fire Resistance, Gnarled Armor, Tiara of Tears), the Echoing Ruins (a crashed airship, constructs, and the Cold Fusion artifact tied to the last lumenflies), and Protection Wanted (the sky-ruling Imperatrix whose stolen hatchling drives her wrath)."
+    },
+    {
+      "kind": "location",
+      "key": "darkdepth",
+      "name": "Darkdepth — The Eerie Village",
+      "keywords": ["hideout", "quiet", "transformation"],
+      "themes": "unusual customs, new life born from death, coexisting with what we don't fully understand.",
+      "terrain": "bark, mud, moss.",
+      "travel_roll": "d10",
+      "dangers": "a corpse-eating monster defending its territory, clouds of choking spores, a giant corrosive slime.",
+      "discoveries": "a fungus with exceedingly rare properties, a precious item left by a traveler, a wellspring of pure water.",
+      "text": "Ancient legends tell of a strange village hidden in the darkest, humid depths of the great forest, inhabited by silent inhuman creatures who drag the bodies of the dying into the murky undergrowth. An Eerie Village fills an ecological or spiritual role that scares or disgusts humans, hosts a completely unique population and a resource found nowhere else, and has a protector figure with an inscrutable personality; it is often a turning point, an allegory of the story's themes (here, the fear of death and the repulsion for decay essential to new life). Story hooks include the Saprobes' Village (silent decaying-fungal humanoids, the human-curious Leto, and Bargain Alley's corpse-recovered trades), the Depths of the Great Tree (the giantess Marshille whose magic breathes new life into the forest from the dead), and the Drake Expedition (Seraphina Drake, whose impatience and hired mercenaries threaten to spawn one or two Villains)."
+    },
+    {
+      "kind": "location",
+      "key": "eisenstadt",
+      "name": "Eisenstadt — The Central City",
+      "keywords": ["elitism", "progress", "urbanism"],
+      "themes": "frantic and ambitious life, cold logic, the forgotten truths and customs of the past.",
+      "terrain": "hills, bridges, streets.",
+      "travel_roll": "d6",
+      "dangers": "night haunts emerging from the mounds, a pair of big time swindlers, the eternal rival of one of the PCs.",
+      "discoveries": "a young traveling merchant, 20% discounts all over the city, exclusive tickets to a private soiree.",
+      "text": "The great city of Eisenstadt rises among the hills in stark contrast with the abandoned, megalith-riddled countryside. Seat of the Alchemists' College and the Government Bureau, it is the industrial, political and economic capital of the region and the destination of all who seek a Special Alchemist License. A Central City often marks a transformative moment and the start of the campaign's second half; it presents strictly humanoid antagonists — greedy merchants, callous industrialists, reckless alchemists. Story hooks include the Alchemists' College (Dean Elsholtz's Commission, the classrooms, the Highflame Library, the dangerous kiln, and the isolated inner quarter), the Cromlech megaliths (weathered stele, and a pattern tied to a pact with fairy folk), and the Hunt for Redglove Erika (a 5000 zenit bounty on a minor Villain — a 60-year-old alchemist sabotaging kilns, flanked by air/fire/ice/earth spirits)."
+    },
+    {
+      "kind": "location",
+      "key": "golden_city",
+      "name": "Golden City — The Remote Ruin",
+      "keywords": ["gloom", "astonishment", "emptiness"],
+      "themes": "the wonders of the ancients, the creation outlasting the creators, the hidden rules of the world, the loneliness of immortals.",
+      "terrain": "buildings, gardens, stone.",
+      "travel_roll": "d12",
+      "dangers": "an illusory trap that locks the travelers in an endless mirage, the dormant security system that protects the city.",
+      "discoveries": "an unknown artifact from a lost civilization, an ancient and forgotten technology, a primordial being and keeper of all lore.",
+      "text": "A vast city floating in the sky that escaped the march of time — legend says humans descend from its mysterious inhabitants, keepers of lost secrets. A Remote Ruin is a classic turning point, inaccessible for a chunk of the story; reaching it grants a new perspective on the world and reveals its most ancient shadows. Its secrets are usually the objective of one or more Villains from the campaign's start. Story hooks include the Celestial Gardens (waterless vibrant flora, the mannequin-like unliving, a sorrowful shapeless chimera-hybrid, and frescoes revealing macabre life-manipulating experiments) and Not All That Glitters Is Gold — the city purifies and reprograms souls for reincarnation, ruled by Deus Ex (a supreme Villain: a colossal bronze angel-statue draining intruders, whose spirit mourns its separation from the stream of souls); Castaways of the Sky adds the death-smelling spirit Necroptes menacing the aviators Will and Orvy."
+    },
+    {
+      "kind": "location",
+      "key": "lowtide",
+      "name": "Lowtide — The Sunny Bay",
+      "keywords": ["curiosity", "memories", "rest"],
+      "themes": "time spent together, childhood memories, dreams of adventure, mysterious horizons.",
+      "terrain": "sea, rocks, sand.",
+      "travel_roll": "d8",
+      "dangers": "an unusually aggressive sea predator, sudden and dangerous marine currents of unknown origin.",
+      "discoveries": "an ancient underwater temple spoken of in many myths and legends, the buried treasure of a famous pirate captain.",
+      "text": "Overlooking clear waters, Lowtide is a nostalgic glimpse of coastal life on an uncontaminated island; on half-moon nights the waters withdraw to reveal hidden secrets. A Sunny Bay is often the start of the adventure — a place of village gathering or a test of courage gone wrong — and usually of no consequence to Villains, though one might make the beach a lair or tourist trap. Story hooks include the Lighthouse on the Cliff (the crab cave with carved carapaces, the vine-covered lighthouse, the coveted Golden egg, and Curlybeard the self-proclaimed Pirate King), the Coral Forest (a labyrinth Clock, the flooded temple with the Horn of Tides guarded by a giant moray eel, and the Trial of Currents keyed to the PCs' Bonds), and the Damaged Boat (the fisherman Orus, the Wood Guardians, and the sacred blooming magnolia)."
+    },
+    {
+      "kind": "location",
+      "key": "rocky_desert",
+      "name": "Rocky Desert — The Barren Wastes",
+      "keywords": ["ruin", "survival", "hope"],
+      "themes": "the irreparable consequences of human arrogance, beautiful and merciless nature, finding strength in each other.",
+      "terrain": "canyons, caves, dunes.",
+      "travel_roll": "d20",
+      "dangers": "a forgotten and extremely unstable alchemical experiment, a gargantuan sand scorpion, a sudden ambush by the desert raiders.",
+      "discoveries": "a random encounter with an ascetic who knows the secrets of the desert, a safe refuge, a precious mineral sedimented over many centuries.",
+      "text": "Beyond the borders of known lands lies a barren, arid desert; under its reddish sands lie the remains of many failed attempts at surpassing humanity's limits, yet the desert people have adapted and found beauty in this hostile land. A Barren Waste often appears mid-adventure as a coming-of-age moment; a Villain might use it as a lair or exploit its precious, unstable resources, or be an ancient spirit obsessed with mirages of past glory. Story hooks include Rustsalt Canyon (a centuries-old ruined railway, the Rocksoarer-tending desert people, the song of the desert whale, and floating sand-boats), the Buried Labyrinth (the water-extracting Condenser artifact that doomed a city, its withered undead inhabitants, and the Nameless Queen — a minor Villain and undead first alchemist), and A Rare Flower (the old nomad Dalen seeking the Snaplion, guarded by the antlion-like Myrmidon)."
+    },
+    {
+      "kind": "location",
+      "key": "vertigo_peak",
+      "name": "Vertigo Peak — The Freezing Mountain",
+      "keywords": ["catastrophe", "ice", "silence"],
+      "themes": "long journeys in extreme environments, punishment for past mistakes, tough harmony.",
+      "terrain": "crevices, geysers, ice.",
+      "travel_roll": "d20",
+      "dangers": "thunder and lightning, a sudden landslide, the surprising evolution of a dangerous predator that the group faced before.",
+      "discoveries": "a safe camp amidst mountain crevasses, the remains of a creature that can be harvested for unique materials.",
+      "text": "The tallest mountain in a frozen, storm-beaten range at the edge of the continent; despite eternal winter, seasoned hunters adapted to it while the local fauna evolves at frantic speed. A Freezing Mountain represents the campaign's climax and final test — unforgiving weather and dangerous creatures make it the ideal final act; it is usually the abode of a simple, brutal threat or the birthplace of a recurring Villain. Story hooks include the Hunting Village (waste-nothing hunters, the ancient bone harpoon Dragon Fang, and the silent scarred old hunter) and Calamity Keep (a ruined dragon-lair castle, a Lost Path Clock, an eternal grudge over exterminated dragons, and Funeris — a major Villain demon, the last of the dragons, split into head/tail/claws with a cataclysm mechanic); Albert the naive explorer-photographer and the benevolent qilin round it out."
+    },
+    {
+      "kind": "conflict",
+      "key": "conflicts_overview",
+      "name": "Building Natural Fantasy Conflicts",
+      "text": "Guidance for natural fantasy conflicts, which share a will to act before understanding the problem, usually out of fear. IGNORANCE AND FEAR: watch for fear/shame, neglected teachings, pride/prejudice, long-term consequences, and a glimmer of hope for negotiation where the PCs step in. MISTAKES OF THE PAST, HOPES OF THE PRESENT: past cruelties fall on the present and present cruelty on the future; classic sources are catastrophic artifacts, punishment incarnate (curses/plagues as the ecosystem's answer), and millennia-old progenies (out-of-control ancient experiments or machines). THE PRICE OF PEACE: peace is not static but redefined day by day. WHEN WORDS ARE NOT ENOUGH: many disputes are failures to communicate (humans vs animals/monsters/spirits); options like Elemental Harmony, Feral Speech and some Rituals let a PC mediate, but you may withhold them so the group struggles. A CRUEL CURIOSITY: knowledge without empathy becomes vivisection, ruin-destruction and cultural theft; archaeology, botany and zoology are strong conflict starting points. BEASTS AND MONSTERS: when antagonists merely follow instinct, approaches include Survival, Conservation, Exorcism (purify weakened corrupted creatures — death is not the rule), and Revenge (fury spawned from human atrocities). All tense scenes should carry a bitter or melancholic aftertaste."
+    },
+    {
+      "kind": "magic",
+      "key": "magic_and_rituals",
+      "name": "Magic and Rituals in Natural Fantasy",
+      "text": "In natural fantasy, magic is a negotiation embodying balance, coexistence, mistakes and punishment. The \"Everything has a soul\" pillar is at its highest here — magic is alive, often an incarnate local spirit reacting by its own will. SPIRITS, DEITIES, AND PRESENCES: divinity is close, everyday and omnipresent yet extraordinary and unpredictable, both individual (spirits/presences in a place, object or creature; elementals; demons) and universal (the cyclical totality, often a spirit realm). Magic draws power from a universal energy through an individual medium, causing immediate individual reactions and long-term universal consequences. FAVORABLE AND UNFAVORABLE REACTIONS: spells, Rituals and magic abilities (excluding Invokers who harmonize) may provoke spirit reactions via Opportunities, Fabula Points, Sacrifices or failed Rituals — use harmful/beneficial environmental effects, a shift in invocation wellsprings, or a new threat. MEDIATION AND RITUALS: Rituals become dialogue; Chimerism, Elementalism and Spiritism negotiate with flora/fauna, elements and living-creature influences; Arcanism gains protector spirits' favor within a vessel (even the caster's body); Entropism and Ritualism relate to magic as control. MAGIC AS CONTROL: Entropism (a relic of reckless advanced civilizations, often wielded by awoken androids) and Ritualism (an academic, tool-like mindset) suit those who reject nature's complexity; some cold-utilitarian Classes (Tinkerer, Merchant, Loremaster, Symbolist) can grow past this. DEICIDE: killing a god here is a violent, ignorant, selfish act, not righteous rebellion. FEAR OF DEATH: the quest for immortality pollutes the cycle of life and unleashes calamity on future generations."
+    },
+    {
+      "kind": "technology",
+      "key": "technology",
+      "name": "Technology in Natural Fantasy",
+      "text": "Technology remains a core element with an ambivalent role — the endless possibilities of the future and the quiet warnings of the past. MACHINES OF A FUTURE PAST: studying ancient relics can accelerate a community but without weighing consequences leads to catastrophe; natural fantasy prefers slower, careful development, critiques technology as \"victory over nature\", and often features the rediscovery of a machine or generator that granted extraordinary power but ruined its creators. VEHICLES AND TRANSPORTS: settlements are small/medium, forests dense, paths winding; travelers go on foot or with mounts, carts and small boats — flying vehicles are extremely rare or nonexistent, though rustic hybrids of ancient tech appear. Traveling on foot is slow but harmless; using mounts/vehicles can be an act of violence against nature depending on treatment (contrast a Faithful Companion with destroying a forest for a railroad). THE ROLE OF THE ARTISAN: a key figure whose role is technical (shaping matter into new solutions), spiritual (mediating the spirits/energies within matter), or a mix; their importance motivates the optional Materials and Forging rules (see rules_options)."
+    },
+    {
+      "kind": "option",
+      "key": "materials_generator",
+      "name": "Materials Generator",
+      "text": "Random tables to generate forging materials by combining a nature word with descriptors. Animal Nature (d10 by body shape): Arthropods (antenna, carapace, gland, horn, leg, mandible, pincer, shell, sting, web); Birds (bone, cranium, crest, egg, feather, membrane, sac, talon, tendon, wattle); Fishes (bone, cartilage, crest, eggs, fin, gland, sac, scale, spine, teeth); Mammals (claw, cranium, fang, fur, horn, rib, tail, tendons, vertebra, whiskers); Mollusks (antenna, gland, membrane, sac, scale, seashell, shell, slime, sting, tentacle); Reptiles (bone, claw, cranium, crest, egg, fang, gland, scale, spine, tail). Other Nature (d8/d12 by context): Fungal (boletus, hen, honeyshroom, morel, mucilage, mushroom, oyster, truffle); Incorporeal (ash, bubble, essence, gas, mirage, smoke, strand, vapor); Liquid (clot, drop, extract, fluid, ichor, oil, reagent, sludge); Artificial (chain, core, fabric, gear, leather, lens, plate, propeller, rope, scrap, spring, valve); Mineral (block, charcoal, crystal, dust, fragment, gem, limestone, rock, salt, shard, stele, stone); Plant (algae, bark, berry, bramble, branch, flower, fruit, leaf, moss, petal, root, thorn). Elemental Descriptor (d6 by element) for Air/Bolt/Dark/Earth/Fire/Ice/Light/Poison/Water, and Other Descriptors (d10 by function) grouped as Agility & Precision, Damage & Power, Protection, Recovery, Sabotage, Support."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "autodrivers_stake_driver",
+      "name": "Autodrivers — Stake Driver / Autoscrapper",
+      "text": "Sample custom weapon family (autodrivers), loud double-pressure tools repurposed as weapons, effective with experimental infusions. STAKE DRIVER (basic, 300 zenit): Spear • Two-handed • Melee • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 10】 physical • No Quality • has the accurate, defense boost and powerful customizations. AUTOSCRAPPER (rare evolution, 1400 zenit): Spear • Two-handed • Melee • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 14】 earth • When you reduce an enemy to 0 Hit Points with this weapon, you gain a material, chosen by the GM, worth ≤ 【your Tinkerer level × 100】 zenit • has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "clockwork_keys_brass_key",
+      "name": "Clockwork Keys — Brass Key / Oxidized Key",
+      "text": "Sample custom weapon family (clockwork keys) that slot into a chest-mounted electrical emitter. BRASS KEY (basic, 300 zenit): Arcane • Two-handed • Ranged • Accuracy 【DEX + INS】+2 • Damage 【HR + 7】 bolt • No Quality • has the accurate, defense boost and elemental customizations. OXIDIZED KEY (rare evolution, 800 zenit): Arcane • Two-handed • Ranged • Accuracy 【DEX + INS】+2 • Damage 【HR + 7】 bolt • All damage dealt by your spells becomes air and its type cannot change. When an ally present on the scene performs the Guard action, you may swap this clockwork key with a different one in your backpack • has the accurate, defense boost and elemental customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "floral_scissors_rosenschwert",
+      "name": "Floral Scissors — Rosenschwert / Crescent Scissors",
+      "text": "Sample custom weapon family (floral scissor-swords) that chop even the toughest shrub. ROSENSCHWERT (basic, 300 zenit): Sword • Two-handed • Melee • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 10】 physical • No Quality • has the accurate, magic defense boost and powerful customizations. CRESCENT SCISSORS (rare evolution, 1000 zenit): Sword • Two-handed • Melee • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 10】 light • When you use the Graft Skill (see Floralist), you may erase 1 section of your Growth Clock • has the accurate, magic defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "gunbrellas_eyre",
+      "name": "Gunbrellas — Eyre / Earnshaw (transforming)",
+      "text": "Sample transforming custom weapon family (gunbrellas), for those who don't sacrifice elegance. EYRE (basic, 400 zenit): Form I — Dagger • Two-handed • Melee • E • Accuracy 【DEX + INS】 • Damage 【HR + 5】 physical • has defense boost, magic defense boost and transforming; Form II — Firearm • Two-handed • Ranged • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 10】 physical • has accurate, powerful and transforming. EARNSHAW (rare evolution, 1000 zenit): Form I — Dagger • Two-handed • Melee • E • Accuracy 【DEX + INS】 • Damage 【HR + 9】 dark; Form II — Firearm • Two-handed • Ranged • E • Accuracy 【DEX + INS】+2 • Damage 【HR + 14】 dark. Both forms: as long as an ally you have a Bond of love towards is present on the scene, damage dealt by this weapon ignores Immunities and Resistances (Form I has defense boost, magic defense boost, transforming; Form II has accurate, powerful, transforming)."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "heavy_arbalests_gastraphetes",
+      "name": "Heavy Arbalests — Gastraphetes / Helepolis",
+      "text": "Sample custom weapon family (heavy tripod-mounted crossbows) built from ancient-ruin metal sheets. GASTRAPHETES (basic, 300 zenit): Bow • Two-handed • Ranged • E • Accuracy 【DEX + MIG】+2 • Damage 【HR + 10】 physical • No Quality • has the accurate, defense boost and powerful customizations. HELEPOLIS (rare evolution, 1600 zenit): Bow • Two-handed • Ranged • E • Accuracy 【DEX + MIG】+2 • Damage 【HR + 14】 fire • Deals 5 extra damage to creatures suffering from slow • has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "meteor_bells_copper_rattles",
+      "name": "Meteor Bells — Copper Rattles / Water Toll (transforming)",
+      "text": "Sample transforming custom weapon family (meteor bells), massive hallowed rattles joined by rope or chain, wielded by warrior-invokers of the Whispering Mountain. COPPER RATTLES (basic, 400 zenit): Form I — Brawling • Two-handed • Melee • Accuracy 【DEX + MIG】 • Damage 【HR + 5】 physical • has quick and transforming; Form II — Flail • Two-handed • Melee • E • Accuracy 【DEX + MIG】 • Damage 【HR + 12】 ice • has elemental, powerful and transforming. WATER TOLL (rare evolution, 1500 zenit): Form I — Brawling • Two-handed • Melee • E • Accuracy 【DEX + MIG】 • Damage 【HR + 9】 physical; Form II — Flail • Two-handed • Melee • E • Accuracy 【DEX + MIG】 • Damage 【HR + 16】 ice. Both forms: after you resolve one of your water invocations, you may perform a free attack with this weapon, treating your High Roll (HR) as 0 when calculating damage (Form I has quick, transforming; Form II has elemental, powerful, transforming)."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "seekers_shovels_shovelpick",
+      "name": "Seeker's Shovels — Shovelpick / Vanguard Spade",
+      "text": "Sample custom weapon family (seeker's shovels), handled from birth by the crystal-seekers of Rockvale. SHOVELPICK (basic, 300 zenit): Heavy • Two-handed • Melee • E • Accuracy 【DEX + MIG】+2 • Damage 【HR + 12】 physical • No Quality • has the accurate, defense boost and powerful customizations. VANGUARD SPADE (rare evolution, 1300 zenit): Heavy • Two-handed • Melee • E • Accuracy 【DEX + MIG】+2 • Damage 【HR + 16】 physical • You have Resistance to earth damage; additionally, when you suffer earth damage, you gain 50 zenit and regain 1 Inventory Point • has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_weapons",
+      "name": "Sample Natural Fantasy Rare Weapons",
+      "text": "Ladle (500 z, 【DEX + INS】, 【HR + 8】 physical): Thrown • One-handed • Ranged • If you have the Made with Love Skill, treat your Skill Level in it as if increased by 1 (max SL 4). Camera Obscura (600 z, 【INS + INS】, 【HR + 6】 dark): Arcane • Two-handed • Melee • On a Check result of 13+ made to examine enemies you can see, if you have Spell Mimic, choose one of those enemies; if it knows one or more spells you may learn one as a Chimerist spell. Memorialis E (700 z, 【DEX + MIG】+1, 【HR + 12】 physical): Spear • Two-handed • Melee • When you use Ripples you recover 5 Mind Points. Blazing Fan (800 z, 【DEX + MIG】+1, 【HR + 6】 fire): Brawling • One-handed • Melee • Your invocations that target two or more creatures deal extra damage equal to your Skill Level in Linked Invocation. Derringer (800 z, 【DEX + INS】+1, 【HR + 8】 physical): Firearm • One-handed • Ranged • The first attack you perform with this weapon each scene deals 5 extra damage; despite being based on the pistol's profile, this isn't a martial (E) weapon. Bronze Libra (900 z, 【INS + INS】, 【HR + 6】 earth): Arcane • Two-handed • Melee • After a Magic Check, if one die's value is a multiple of the other's, regain Inventory Points equal to 【half your Skill Level in Winds of Trade】. Giant Fork E (1000 z, 【DEX + MIG】, 【HR + 16】 physical): Spear • Two-handed • Melee • When used with Knife and Fork, you may add the High Roll to the attack's damage. Viper Bone (1200 z, 【DEX + INS】+1, 【HR + 8】 poison): Dagger • One-handed • Melee • Deals 5 extra damage as long as it's not your turn. Summer Masher E (1300 z, 【MIG + MIG】, 【HR + 18】 ice): Heavy • Two-handed • Melee • When you hit only one creature, if it belongs to the plant Species, deal 10 extra damage; then if it's in Crisis, you and every ally who can see you recover Mind Points equal to your Accuracy High Roll. Norimitsu E (1400 z, 【DEX + INS】+1, 【HR + 14】 physical): Sword • Two-handed • Melee • Deals 6 extra damage to elite or champion-rank enemies. The Barrel E (1500 z, 【MIG + MIG】, 【HR + 18】 physical): Heavy • Two-handed • Melee • You may spend 1 Trade Point to deal extra damage equal to 【your Skill Level in Private Stock × 5】. Pinwheel Rod (1600 z, 【WLP + WLP】, 【HR + 6】 air): Arcane • Two-handed • Melee • As long as one of your spells or invocations deals air damage, it deals 10 extra damage. Voltaic Hound E (1600 z, 【DEX + INS】+1, 【HR + 16】 bolt): Firearm • Two-handed • Ranged • After dealing damage, if at least one target is Vulnerable to bolt, you may deal 10 bolt damage to every enemy you can see. Hirundo E (1800 z, 【DEX + DEX】, 【HR + 12】 light): Bow • Two-handed • Ranged • After resolving your Encourage Skill, you may perform a free attack with this weapon (treat High Roll as 0 for damage)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_armor",
+      "name": "Sample Natural Fantasy Rare Armor",
+      "text": "Woolly Cuirass E (800 z, DEF 11, M.DEF INS size -3): As long as you're not in Crisis, you have Resistance to ice damage and immunity to weak. Engineer Jacket (1000 z, DEF DEX size +1, M.DEF INS size +1, Init -1): When you use an elemental shard, you may deal its damage to each of up to three creatures you can see; additionally, when you deal damage with an elemental shard, you deal 5 extra damage. Noble Dress (1600 z, DEF DEX size +1, M.DEF INS size +1): When an ally who can see you causes you to recover Hit Points, if you are in Crisis, that ally recovers 5 Mind Points. Apothecary Robes (1800 z, DEF DEX size +1, M.DEF INS size +2, Init -2): When you use the Potion Rain Skill, the restoring effect is not halved. Fairy Tunic (2000 z, DEF DEX size +1, M.DEF INS size +2, Init -2): As long as you are affected by one or more spells with a duration of \"Scene\", you gain a +2 bonus to Magic Defense."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_shields",
+      "name": "Sample Natural Fantasy Rare Shields",
+      "text": "Plate Manica (800 z, DEF +2): As long as you don't have a martial armor or another shield equipped, you may apply the effects of the Dodge Skill. Lid Shield E (1500 z, DEF +2, M.DEF +2): When you deal damage with a delicacy, you deal 5 extra damage. Lily Vambrace E (2000 z, DEF +2, M.DEF +2): If you have the Battle Gardening Skill, you can use it when you plant a magiseed with the Graft Skill."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_accessories",
+      "name": "Sample Natural Fantasy Accessories",
+      "text": "Watering Can (500 z): When you perform a water invocation, you may fill 1 section of the Growth Clock of a Player Character you can see. Spicy Powder (600 z): When you deal damage using a delicacy or potion, you may change its type to fire; this effect may change the damage type dealt by the Expiration Date Skill. Dandelion Obi (700 z): When you perform an air invocation, you may recover from a single status effect of your choice. Clockwork Heart (800 z): You are Resistant to bolt and fire damage; if you enter Crisis, the effect ceases until your next rest. Needlefrog Mantle (900 z): When you deal poison damage to one or more creatures during a conflict, each of those creatures who loses Hit Points this way cannot recover Hit Points until the start of your next turn. Handmade Scarf (1000 z): When you gain one or more Trade Points via the Real Treasure Skill, you also gain 1 Fabula Point. Fallen Leaf Amulet (1500 z): When you use the Tree of Life Skill, if you are in Crisis and choose an ally you can see who is in Crisis, you and that ally both benefit from the Hit Point recovery granted by the Skill. Eccentric's Cookbook (1600 z): Once per rest, you may choose a single combination of two tastes whose effect you already discovered; if you do, roll again to determine the effect of the combination, replacing the previous effect."
+    },
+    {
+      "kind": "artifact",
+      "key": "cardinal_kylix",
+      "name": "Cardinal Kylix",
+      "flavor": "A large, shallow metal cup, freezing to the touch.",
+      "text": "Legends tell of the Statue Civilization and their ability to extinguish any opposition or rage from elemental forces, making them docile and predictable — a power that millennia ago let them build immense cities. In this age of unpredictable, destructive phenomena, some regard that power as a source of hope. Preserved in the hands of a colossal statue at the bottom of the Northern Chasm, this artifact whispers promises of control and safety, of a world where humanity masters land and sea. There is only one question it cannot answer: what will humans do when they have nothing to fear anymore, except each other?"
+    },
+    {
+      "kind": "artifact",
+      "key": "egg_of_illuyanka",
+      "name": "Egg of Illuyanka",
+      "flavor": "A heavy and cumbersome egg with an extremely hard, striped shell.",
+      "text": "Over the centuries, the mighty draconic Illuyanka ruled the Cedar Forest, discouraging permanent settlement. But with drought, the plains tribes allied, formed hunter cadres to exterminate the already-scarce Illuyanka, and cut down the forest for pastures. This egg is probably the last of its kind, preserved by the elven ascetics of the Yellowcape Clan in anticipation of a threat that, per their oral tradition, will manifest when the egg hatches."
+    },
+    {
+      "kind": "artifact",
+      "key": "gemshorn_of_tranquility",
+      "name": "Gemshorn of Tranquility",
+      "flavor": "A flute carved from the horn of a cliffgoat.",
+      "text": "When a cliffgoat serenely reaches the end of its life, one of its horns might fall off. Crafted by a skilled artisan, the horn becomes a magical instrument: if the flutist has good intentions, their music soothes the fear and rage of beast, monster and plant creatures (an effect equivalent to a Chimerism or Spiritism Ritual, but requiring neither Mind Points nor a Magic Check; however, during a conflict, it still needs a full Clock to activate)."
+    },
+    {
+      "kind": "artifact",
+      "key": "havenbell",
+      "name": "Havenbell",
+      "flavor": "A brass bell decorated with a red ribbon.",
+      "text": "Per some folk tales, if you help a silkie in danger or show her great respect, she might offer you a small decorated bell. Ringing it causes a rustic but welcoming and secure house to appear nearby, protected by the silkie herself (a tall, stern, sapphire-haired fairy). You can rest here in complete security, but at the end of the rest you roll 1d6: with a 1 or 2, the silkie makes a peculiar (often bizarre) request; if unsatisfied, the artifact vanishes in a puff of leaves and dew."
+    },
+    {
+      "kind": "artifact",
+      "key": "keys_of_the_harmonist",
+      "name": "Keys of the Harmonist",
+      "flavor": "A large silver ring with nine keys of dull metal.",
+      "text": "This artifact dates back to when the Harmonists undertook long journeys across the southern plateau, serving the animal spirit that would reveal their name and give them part of their power. Today the plateau is an icy waste and the heavy keys are blackened and inert. Still, if a group of brave and honest heroes follows the pilgrimage's path, showing loyalty, that dormant power might reawaken and the spirits could fight alongside humans again, as Arcana summonable by any member of the group (but not by two or more at once)."
+    },
+    {
+      "kind": "artifact",
+      "key": "moon_mirror",
+      "name": "Moon Mirror",
+      "flavor": "A circular mirror of oxidized metal.",
+      "text": "Found by one of the village's founders in a very ancient tomb near the ocean, this mirror is made of an unknown metal that reflects moonlight with great intensity. At night, it allows the user to perform a Ritual as if they had acquired the Verdant Sway Skill, without paying the Mind Point cost; the mirror must be oriented to reflect moonlight toward the plant. Sometimes, the reflected light causes vibrations and unpredictable movements in machines and armor. What is its secret?"
+    },
+    {
+      "kind": "artifact",
+      "key": "reidys_journal",
+      "name": "Reidy's Journal",
+      "flavor": "An old journal with thick pages, overflowing with notes.",
+      "text": "Written by a young and brilliant scholar during his final days, this massive journal is a rich anthology of legends, folklore and historical accounts. Once per rest, the group may start a new search among its pages or continue a previous one. The GM assigns a Clock to each piece of research (the more obscure, the bigger — from 4 to 10 sections) and PCs attempt a Group Check with DL 10 to progress. Once a research Clock is full, the GM provides a useful, reliable and precise answer to the original question."
+    },
+    {
+      "kind": "artifact",
+      "key": "resin_tear",
+      "name": "Resin Tear",
+      "flavor": "A curved sword carved from gleaming amber.",
+      "text": "Unable to dent the armor of the ape-people of Iron Mountain, the warriors of Oradh Kingdom felled the Thunder Forest's trees, sparing only the millennia-old yew near the waterfall. From its sorrow-boiling hardened resin, an Oradhan warrior carved a blade that could command lightning (similar to an Elementalism Ritual, but costing no Mind Points). Wielding it, he exterminated the ape-people and conquered their forge; ever since, the spirits and beasts of land and sky are at war with the Oradh. The warrior's name was hidden, since his lineage is cursed."
+    },
+    {
+      "kind": "artifact",
+      "key": "seal_of_the_second_sun",
+      "name": "Seal of the Second Sun",
+      "flavor": "A delicate cylindrical seal made of lapis lazuli.",
+      "text": "The embossed inscription recites, in high-imperial register: \"In the hands of the Winter Queen, a path opens to the new Sun\". Discovered by a young explorer lost in the underground necropolis of Abarsa, it caught the attention of scholars and collectors, some connecting it to female statues lining a stone tower in the southern archipelago, dating to the imperial age and the second ice age. A group of adventurers is organizing an expedition to the tower but, despite their protests, has been forbidden from taking the cylinder with them."
+    },
+    {
+      "kind": "artifact",
+      "key": "skull_of_the_salamander_goddess",
+      "name": "Skull of the Salamander-Goddess",
+      "flavor": "A massive salamander skull with topaz teeth.",
+      "text": "Stolen from the stone circle at the bottom of the valley of Three Volcanoes and brought before the Governor by an ambitious merchant, this massive fossil is under investigation by the Alchemists' Guild, fascinated by its ability to emit heat and fuel flames in close proximity. The scholars ignore the legends: the skull represents the earthly bond of the elemental spirit that protects the Three Volcanoes — if it isn't returned before summer, She-Who-Breaks-the-Earth will rise and, unable to find her head, will roam the world looking for it."
+    },
+    {
+      "kind": "artifact",
+      "key": "sky_oil",
+      "name": "Sky Oil",
+      "flavor": "A dense and viscous green liquid.",
+      "text": "Having studied nature, the Ancients wished to rule it; having ruled it, to create it; having created it, to improve it. This mysterious liquid, raining from reddish clouds over the ocean, is an extraordinary elemental conductor and the prime result of its creators' boundless ambition. It transforms all it touches by inscrutable logic, compressing millennia of evolution into mere hours and subjecting the victim to atrocious pain, as the mutations observed in the aviocetae of the Coral Coast amply demonstrated."
+    },
+    {
+      "kind": "artifact",
+      "key": "three_knot_rope",
+      "name": "Three-Knot Rope",
+      "flavor": "A thick rigging rope with three very tight knots.",
+      "text": "Created in ancient times by the fishermen of the Mist Isle, these magical ropes contained the essence of the wind in their knots. Undoing the first knot casts the Ventus spell (Core Rulebook p.189), ignoring its Mind Point cost; undoing the second enables an Elementalism Ritual to control the wind, ignoring its cost; the third and final knot, rarely undone, grants an audience with the Wind Princess herself. Only one Three-Knot Rope survives, and the art of their creation was lost during the occupation of the Mist Isle, now a domain of the Dogado."
+    },
+    {
+      "kind": "artifact",
+      "key": "tome_of_the_meteor",
+      "name": "Tome of the Meteor",
+      "flavor": "A strange mechanism is encased in the cover of this heavy tome.",
+      "text": "One of the Academy library's most discussed books, this tome details improbable machines alongside formulae and prayers to unknown entities. Even the cover is a mystery: lodged in the wooden panel is an extraordinary clockwork device, with comet-shaped pointers moving at different speeds along a calendar whose dates and seasons have nothing to do with ours. Every self-respecting scholar dismisses it as an elaborate joke, but the most honest admit they are a bit worried at the idea that the mechanism might stop someday."
+    },
+    {
+      "kind": "artifact",
+      "key": "undoven",
+      "name": "Undoven",
+      "flavor": "A heavy metal contraption, similar to a portable oven.",
+      "text": "A relic from a distant time resembling a massive portable oven with a large front door. It can disassemble any complex object into simple materials using heat, and can self-recharge over time. Once per rest, you can put any one piece of equipment (accessory, weapon, armor or shield) in the Undoven to gain two different materials with a combined value equal to that of the destroyed item. What would happen if you put another artifact inside?"
+    },
+    {
+      "kind": "artifact",
+      "key": "white_mask_fragment",
+      "name": "White Mask Fragment",
+      "flavor": "The right half of a horned wooden mask.",
+      "text": "Some stories tell how the sculptor Acaunissa lost her inspiration; in a dream, a bat told her it was stuck at the bottom of Bone Valley and only the Vulture King could grant it back. Forbidden to leave by her father, she went anyway, sculpting a white two-horned mask to trick the souls of the departed. The King told her the mask itself was proof her inspiration had never been lost. On her return, her father punished her by breaking the mask, but the artist's courage still permeates this fragment: no undead, except Villains, may harm the one who wears it."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_ancient_weapon",
+      "name": "Ancient Weapon",
+      "text": "You retrieved an unusual weapon from ancient ruins. Together with your group, create a rare custom weapon (see custom_weapons) worth 1200 zenit or less; it should have an especially unusual and technological appearance (a firearm is a good idea). Once per session (~four hours of play), the GM may give you 1 Fabula Point to have sudden complications arise from the weapon's unique nature (strange machines reacting to it, monsters drawn to its energy). However, the weapon cannot be destroyed, damaged, lost or stolen without your permission as a Player."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_arboreal",
+      "name": "Arboreal",
+      "text": "You are a sentient plant creature with humanoid intelligence. Choose a status effect: dazed, enraged, or shaken — you are immune to it. However, you also become Vulnerable to a damage type of your choice: air, bolt, earth, fire, or ice. You also learn one NPC spell (Core Rulebook p.310-311; not Devastation; if a Magic Check is required, use 【INS + WLP】): customize it as needed. When you cast this spell while in sunlight, its total MP cost is reduced by 5 (to a minimum of 0)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_big_bro",
+      "name": "Big Bro",
+      "text": "If your campaign does not use Camp Activities, your character still gains access to it. Your character gains access to three Camp Activities instead of only two (if you gain this Quirk during a campaign already using Camp Activities, you simply gain one new activity of your choice). When you perform Camp Activities during a Rest, choose one option: you perform two different Camp Activities whose effects cannot be applied to the same creature; or you perform the same Camp Activity twice, applying its effects to two different creatures."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_cursed",
+      "name": "Cursed",
+      "text": "You bear a strange curse; when you acquire this Quirk, describe its nature and tie it to one of the threats in your world (once that threat is resolved, you can break free). When you are about to perform a Check, you may instead describe how your curse gets in the way and automatically roll a fumble (both dice treated as 1): if you do, you receive 2 Fabula Points instead of 1, and generate an opportunity as normal. If you ever break the curse, immediately gain a Heroic Skill of your choice (you may choose one whose requirements you do not satisfy, unless they include a Skill you don't have — including a Class you do not have)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_elemental_soul",
+      "name": "Elemental Soul",
+      "text": "You are deeply infused with a natural element. Choose your elemental damage type: air, bolt, earth, fire, or ice. You gain Resistance to the chosen type; additionally, whenever you deal damage, you may change its type to match your elemental damage type. However, you also become Vulnerable to a different damage type chosen among those five. You also gain the ability to perform Rituals of the Elementalism discipline, but only if those Rituals manipulate your chosen element (air, electricity, earth/rock, fire, or ice/water respectively)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_flight",
+      "name": "Flight",
+      "text": "You belong to a unique heritage of humanoids who can fly or levitate. You are able to fly: your melee attacks can target flying creatures and you cannot be targeted by melee attacks unless the attacker is flying or able to reach flying targets. While in Crisis or unable to fly freely (inside a human-sized vehicle, in a narrow corridor), you lose all benefits of this Quirk. Additionally, when you suffer air, bolt or ice damage during a conflict scene, you lose the benefits of this Quirk until the start of your next turn."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_mysterious_grimoire",
+      "name": "Mysterious Grimoire",
+      "text": "You possess an old magical tome; your grimoire is an indestructible artifact that cannot be lost or stolen unless as a consequence of Surrender. When your group stumbles upon a danger or discovery after a travel roll, you may ask the GM a single question about it (now or later); the GM answers truthfully. Once your grimoire has answered 10 questions, choose one option. Awakened Consciousness: you lose this Quirk and the grimoire becomes an NPC (no profile, no Checks/conflicts) who learns two spells of your choice among Elementalist/Entropist/Spiritist lists and, once per conflict, will cast one at the end of the round, requiring no Mind Points and using 2d10 for the Magic Check. Hidden Magic: you lose this Quirk but acquire a Heroic Skill of your choice among Comet, Extra Spells, Hope, and Volcano (you may choose one whose requirements you do not fulfill). You could instead use this Quirk to introduce a new PC (the character who took it receives Hidden Magic's benefits). Whatever your choice, the grimoire becomes a normal book and the GM chooses: it provides a key clue about an existing threat; or it reveals a new threat and a key clue about it."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_outcast_fairy",
+      "name": "Outcast Fairy",
+      "text": "Once you lived with your kin in the Realm of Fairies. You may verbally communicate with any creature belonging to the beast, elemental, and plant Species. You learn one spell of your choice among Elementalist/Entropist/Spiritist lists; additionally, you gain the ability to perform Rituals within the Ritualism discipline, and you may use these Rituals to transport creatures in and out of the Realm of Fairies. However, you also possess a unique fairy weakness (decide it with your group): once per session (~four hours of play), the GM may give you 1 Fabula Point to have complications arise from this weakness or to automatically fail a Check (before it is performed; its Result and High Roll are treated as 0)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_robot",
+      "name": "Robot",
+      "text": "You are an artificial body in which a mysterious life shines, lone descendant of an age lost to time. You are not considered a living creature and gain Immunity to poison damage and Resistance to earth damage; you are also immune to the poisoned status effect. You do not need to breathe, eat or drink, but still follow the normal rules for resting; you also recover Hit Points and recover from status effects as normal. You gain a +2 bonus to all Checks you perform to examine or interact with machines, technology and constructs (except for Accuracy Checks and Magic Checks)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_stubborn_scion",
+      "name": "Stubborn Scion",
+      "text": "You hail from the wealthiest, most influential family in the region. If you choose this Quirk during character creation, increase your initial savings by 1000 zenit. Additionally, you are accompanied by two fiercely loyal bodyguards (no profile, never in Checks/conflicts) who offer: Be careful! — when you suffer damage, you may halve it; Here is the information you previously requested — during a Rest, you may ask the GM one question, answered truthfully; Stay down, I'll take care of this! — when you create an elemental shard, you may have it deal extra damage equal to 【5 + half your level】. Whenever you use a benefit, your bodyguards suffer 1d6 Fatigue Points (shared, not tracked individually); as long as they have 10+ Fatigue Points you cannot rely on them. At the end of each session (~four hours of play), they recover from 1d6 Fatigue Points (minimum zero)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_survivor",
+      "name": "Survivor",
+      "text": "You are among the few who survived a natural catastrophe or the attack of a dreadful creature. Permanently increase your maximum Hit Points and maximum Mind Points by 5. Choose one option: gain the ability to equip martial melee and ranged weapons, martial armor, and martial shields; or learn any one spell from the Elementalist or Spiritist lists; or permanently increase your maximum Inventory Points by 2."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_the_beast_who_spoke",
+      "name": "The Beast Who Spoke",
+      "text": "You belong to a long line of magical beasts who protected human villages; nowadays humanity has forgotten your role. You may not equip any items except accessories and weapon and armor modules (Pilot Class, Techno Fantasy Atlas p.158). However, as long as your armor slot is empty, you gain +2 Defense and +2 Magic Defense. You also gain two benefits of your choice: you may also equip custom weapons; you learn one NPC spell (Core Rulebook p.310-311; not Devastation; if a Magic Check is required, use 【MIG + WLP】), customized as needed; your attacks with unarmed strikes deal 6 extra damage (10 extra if you are level 30 or higher)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_the_long_dream",
+      "name": "The Long Dream",
+      "text": "Long ago your spirit dwelled in nature; something brought you to human form, but not forever. At the end of each session (~four hours of play), before assigning XP, roll 2d20; if you roll ≤ your current level, the last farewell approaches. When a rule or ability requires you to spend Hit Points, Mind Points, or Fabula Points, you may instead ignore that cost — if you do, the last farewell approaches. At the end of a scene where you ignored a cost this way, if the last farewell has already approached at least 10 times, the moment has come to leave the world of humans: you forever return to your original form as a natural, inanimate object (the same happens if you Sacrifice yourself). Such a character is considered dead and cannot be brought back; from now on all Player Characters in the campaign receive 1 additional Fabula Point at the start of each session."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_traveling_workshop",
+      "name": "Traveling Workshop",
+      "text": "You own a transport that also acts as your shop and laboratory. You may only choose this Quirk if your character has one or more Classes among Gourmet and Tinkerer. You obtain a land vehicle (Core Rulebook p.125) big enough for you, your group, and two or three guests, but unfit for combat. If a Project requires a special ingredient or material, you may spend 1 Fabula Point to suddenly stumble upon something similar in your workshop; if you do, the invention must have a terrible flaw (Core Rulebook p.134)."
+    },
+    {
+      "kind": "quirk",
+      "key": "quirk_underchild",
+      "name": "Underchild",
+      "text": "You awoke in the depths, spontaneously attuned to ancient technology, with a strange power reserve to draw from. When a rule or ability requires you to spend 100 or fewer Hit Points, Mind Points, or Inventory Points during a conflict, you may instead ignore that cost; if you do, you cannot ignore a cost this way again until the end of your next Rest. Additionally, when you encounter a contraption or creature connected to ancient technology or a ruins' past, you may choose one option: ask the GM its purpose; or what can activate it; or what can deactivate it (answered truthfully; you describe a brief flashback). After the sixth answer this way, you remember the real reason you had been left dormant underground, and the GM chooses: you remember a key clue about an existing threat; or you remember a new threat and a key clue about it (you keep all benefits after this revelation)."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_camp_forge",
+      "name": "Camp Forge",
+      "target": "Yourself",
+      "text": "Choose one option: you repair a damaged item owned by the group; or you create a single basic weapon, armor, or shield of your choice (Core Rulebook p.130-133) without paying its cost in zenit; or you destroy a single piece of equipment owned by the group and obtain a material whose value is equal to the cost of the destroyed item."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_cartography",
+      "name": "Cartography",
+      "target": "Yourself",
+      "text": "Once before the next rest, after your group makes a travel roll, you may reroll the die and keep the new result."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_combat_lesson",
+      "name": "Combat Lesson",
+      "target": "One ally (or a group)",
+      "text": "Once before the next rest, after making an Accuracy Check or a Magic Check for an offensive spell (r), the target may add a bonus of +4 to the Result of the Check."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_daydream",
+      "name": "Daydream",
+      "target": "Yourself",
+      "text": "Once before the next rest, when you lose Hit Points for whatever reason, you may choose to halve that HP loss."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_double_portion",
+      "name": "Double Portion",
+      "target": "One ally",
+      "text": "Once before the next rest, if the target is about to recover Hit Points, they may double the amount of Hit Points recovered."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_exploration",
+      "name": "Exploration",
+      "target": "Yourself or one ally",
+      "text": "You spend your time looking for useful items; describe how, then roll 1d6. [1] Ouch! You recover half the normal amount of HP and MP during this rest. [2] Not what I was looking for… The target regains 2 Inventory Points. [3-5] Hoho, this can be useful! The target regains 3 Inventory Points. [6] Jackpot! The target regains 3 Inventory Points, and you also find an amount of zenit equal to 【your character's level × 50】."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_gathering",
+      "name": "Gathering",
+      "target": "A character with the Gourmet Class",
+      "text": "You look for ingredients in the area; describe how, then roll 1d6. [1] H-help! At the end of this rest, the entire group will be caught in an easy conflict against a threat whose level is equal to the group level. [2] Will these be okay… The target receives 2 ingredients with random tastes. [3-5] Looks tasty! The target receives 3 ingredients with random tastes. [6] Ah, these! The target receives 3 ingredients, each with a taste of their choice."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_magic_lesson",
+      "name": "Magic Lesson",
+      "target": "One ally",
+      "text": "Choose a single spell among those you know. Once before the next rest, the target may perform the Spell action to cast the spell you chose (they must still pay its MP cost and perform any Magic Checks as needed)."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_martial_practice",
+      "name": "Martial Practice",
+      "target": "Yourself",
+      "text": "Once before the next rest, when you perform an attack, you may grant that attack multi (2) or increase its multi property by one point."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_massage",
+      "name": "Massage",
+      "target": "One ally",
+      "text": "Once before the next rest, if the target is about to pay a Mind Point cost, they may halve that MP cost. This benefit cannot be applied to a Ritual's MP cost."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_midnight_oil",
+      "name": "Midnight Oil",
+      "target": "Yourself",
+      "text": "You generate 3 points of progress for a single Project of your choice."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_pep_talk",
+      "name": "Pep Talk",
+      "target": "One ally",
+      "text": "Once before the next rest, if the target is about to recover Mind Points, they may double the amount of Mind Points recovered."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_planning",
+      "name": "Planning",
+      "target": "One ally",
+      "text": "Once before the next rest, after the target performs a Group Check as leader or performs a Check to examine someone or something, they may add a bonus of +4 to the Result of that Check."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_sleep_soundly",
+      "name": "Sleep Soundly",
+      "target": "Yourself",
+      "text": "Once before the next rest, you may perform an additional action on your turn during a conflict scene. This action must be used to perform the Equipment, Hinder, or Inventory action."
+    },
+    {
+      "kind": "camp_activity",
+      "key": "camp_training",
+      "name": "Training",
+      "target": "Yourself",
+      "text": "Once before the next rest, if you are about to suffer one or more status effects from the same source, you may instead choose not to suffer any of those status effects."
+    },
+    {
+      "kind": "villain",
+      "key": "villain_tonitranea_rex",
+      "name": "Tonitranea Rex",
+      "level": 5,
+      "species": "monster",
+      "rank": "Minor Villain (5 Ultima Points); champion 2 (worth 2 soldiers)",
+      "parts": [
+        {
+          "name": "Abdomen",
+          "level": 5,
+          "species": "monster",
+          "attributes": { "DEX": 8, "INS": 6, "MIG": 10, "WLP": 8 },
+          "hp": 60,
+          "mp": 30,
+          "crisis": 30,
+          "initiative": 7,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["bulky", "electrostatic", "spiky", "tough"],
+          "affinities": { "poison": "resistant", "bolt": "immune", "earth": "vulnerable", "ice": "vulnerable", "dark": "resistant" }
+        },
+        {
+          "name": "Head",
+          "level": 5,
+          "species": "monster",
+          "attributes": { "DEX": 8, "INS": 10, "MIG": 6, "WLP": 8 },
+          "hp": 40,
+          "mp": 20,
+          "crisis": 20,
+          "initiative": 9,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["frail", "lucifuge", "poisonous", "protected"],
+          "affinities": { "poison": "immune", "light": "vulnerable", "dark": "resistant" }
+        },
+        {
+          "name": "Thorax",
+          "level": 5,
+          "species": "monster",
+          "rank": "champion 2",
+          "attributes": { "DEX": 8, "INS": 8, "MIG": 8, "WLP": 8 },
+          "hp": 100,
+          "mp": 50,
+          "crisis": 50,
+          "initiative": 10,
+          "defense": 2,
+          "magic_defense": 1,
+          "traits": ["armored", "coordinated", "electrostatic", "ravenous"],
+          "affinities": { "poison": "resistant", "bolt": "immune", "earth": "vulnerable", "ice": "vulnerable", "dark": "resistant" }
+        }
+      ],
+      "text": "The Lord of Thunder — a truly gigantic, ravenous Thunder Spider forced from the electrore biome of the Mountains of Edessa by a mysterious cooling turbulence. Its constant, painful, accelerated growth makes it ever more aggressive; its hunting ground grows by the day, threatening the region's entire ecosystem. This is a MULTI-PART boss made of three parts (Head, Thorax with long legs, electrostatic-spined Abdomen); all three must be reduced to 0 HP to defeat it. Key mechanics: the Abdomen becomes electrified (via the Thorax's Electrostatic Charge) to empower Trampling Slam and Electrostatic Spines, and is grounded by earth damage; the Thorax can go dangling (Predator Ascent) to make the whole creature untargetable by melee, and has Survival Instinct (within its lair, spends 1 Ultima Point to revive the Abdomen/Head at Crisis HP). Parts share one Ultima Point pool: recovery and Escape apply to all parts together. On the hunt it Invokes a Trait when missing Crisis targets but keeps 1 Ultima Point to Escape to its lair; in its lair it spends more liberally. Narratively the parts are a single entity — a defeated part is grievously wounded/exhausted, not dead."
+    },
+    {
+      "kind": "villain",
+      "key": "villain_node_and_dylon",
+      "name": "Node and Dylon",
+      "level": 10,
+      "species": "humanoid / beast (pair)",
+      "rank": "Minor Villain (5 Ultima Points); both Elite",
+      "parts": [
+        {
+          "name": "Node",
+          "level": 10,
+          "species": "humanoid",
+          "rank": "elite",
+          "attributes": { "DEX": 10, "INS": 6, "MIG": 8, "WLP": 8 },
+          "hp": 120,
+          "mp": 60,
+          "crisis": 60,
+          "initiative": 10,
+          "defense": 1,
+          "magic_defense": 1,
+          "traits": ["determined", "loyal", "pragmatic", "seaborn"],
+          "equipment": ["short bow", "travel garb"],
+          "affinities": { "poison": "resistant", "fire": "vulnerable", "ice": "resistant", "bolt": "vulnerable" }
+        },
+        {
+          "name": "Dylon",
+          "level": 10,
+          "species": "beast",
+          "rank": "elite",
+          "attributes": { "DEX": 6, "INS": 8, "MIG": 10, "WLP": 8 },
+          "hp": 140,
+          "mp": 60,
+          "crisis": 70,
+          "initiative": 9,
+          "defense": 2,
+          "magic_defense": 1,
+          "traits": ["imposing", "protective", "seaborn", "staunch"],
+          "affinities": { "poison": "vulnerable", "fire": "resistant", "ice": "vulnerable", "bolt": "resistant" }
+        }
+      ],
+      "text": "A human hunter and his sea-tiger companion, inseparable since birth in the lake village of Turva. After avenging themselves on an eelfang against their mentor Stelarcte's warning, they returned to find Turva reduced to ashes by a migrating lava beast — and concluded that a world of such monsters could only be made safe by preemptively hunting them all. They add the environmental effect tide to every conflict: it starts high and stays high while neither is in Crisis; as soon as either enters Crisis it becomes low. Node uses high-tide bow tactics (High Tide Style ignores Defense; Low Tide Speed reduces damage from slow creatures) and Dylon shifts between high-tide Resistance-piercing and low-tide physical Resistance. They share one Ultima Point pool (either may Invoke a Trait or Recover; if one Escapes, both leave). Each has I'll Avenge You! — when its partner reaches 0 HP, it recovers from all status effects, loses all Vulnerabilities, and the tide becomes high again. In the first conflict they underestimate the PCs (Recover only at 3+ status effects, keep 1 Ultima Point to Escape when one hits 0 HP, ignore I'll Avenge You!); afterward they treat the PCs as a grave danger and Invoke a Trait every time they fail a Check."
+    },
+    {
+      "kind": "villain",
+      "key": "villain_brightvale",
+      "name": "Brightvale",
+      "level": 20,
+      "species": "construct / undead (multi-part, two phases)",
+      "rank": "Major Villain (10 Ultima Points); Champion 3 (worth 3 soldiers)",
+      "parts": [
+        {
+          "name": "Back of Brightvale (Phase 1)",
+          "level": 20,
+          "species": "construct",
+          "rank": "champion 3",
+          "attributes": { "DEX": 8, "INS": 8, "MIG": 12, "WLP": 6 },
+          "hp": 300,
+          "mp": 100,
+          "crisis": 150,
+          "initiative": 11,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["floating", "infested", "lengthy", "rocky"],
+          "affinities": { "physical": "vulnerable", "poison": "immune", "air": "resistant", "bolt": "immune", "fire": "resistant", "ice": "vulnerable", "dark": "immune" }
+        },
+        {
+          "name": "Will-o-Wisp (Phase 1)",
+          "level": 20,
+          "species": "undead",
+          "attributes": { "DEX": 12, "INS": 8, "MIG": 6, "WLP": 8 },
+          "hp": 70,
+          "mp": 70,
+          "crisis": 35,
+          "initiative": 9,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["empty", "faint", "incomplete", "whispering"],
+          "affinities": { "physical": "resistant", "poison": "resistant", "air": "immune", "bolt": "resistant", "fire": "resistant", "ice": "vulnerable", "light": "vulnerable", "dark": "immune" }
+        },
+        {
+          "name": "Funerary Lantern (Phase 2)",
+          "level": 20,
+          "species": "construct",
+          "attributes": { "DEX": 8, "INS": 8, "MIG": 6, "WLP": 12 },
+          "hp": 70,
+          "mp": 90,
+          "crisis": 35,
+          "initiative": 8,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["ancient", "faint", "fragile", "hypnotic"],
+          "affinities": { "poison": "immune", "earth": "vulnerable", "fire": "resistant", "light": "vulnerable", "dark": "absorb" }
+        },
+        {
+          "name": "Head of Brightvale (Phase 2)",
+          "level": 20,
+          "species": "undead",
+          "rank": "champion 3",
+          "attributes": { "DEX": 8, "INS": 6, "MIG": 8, "WLP": 12 },
+          "hp": 240,
+          "mp": 180,
+          "crisis": 120,
+          "initiative": 10,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["apathetic", "empty", "hypnotized", "quiet"],
+          "affinities": { "physical": "vulnerable", "poison": "immune", "air": "immune", "bolt": "immune", "ice": "vulnerable", "light": "vulnerable", "dark": "immune" }
+        }
+      ],
+      "text": "Once a verdant Northlands village of kind, long-lived people; their excruciating bereavements drove them to let the Funerary Lantern guide dead souls back to the living — but those souls consumed their loved ones' lives, forgot themselves, and became pale flames. Brightvale itself became a serpentine monstrosity that withers all it touches, forever chasing the Lantern. TWO-PHASE fight. Phase 1: the heroes climb the Back of Brightvale (a desert-diving construct with Compact Terrain, Silent Recall, Sandy Dive, Stolen Strength; Sand and Dust erodes it in Crisis) while Will-o-Wisps (Grave Whisper, Pale Flame; Parasitic Flame steals healing; Feeble Flame collapse on Vulnerable damage) are drawn to the PCs' life energy — a new Wisp joins if fewer than two remain; the Back uses no Ultima Points here. When the Back reaches 0 HP, grant a round of free actions and move to Phase 2 against the Head of Brightvale and the Funerary Lantern hanging before it. The Lantern (Dim Light, Follow Me…) has Quiet in the Dark (at 0 HP it becomes extinguished at 1 HP, unable to act). The Head (Gravesand Jaws, Dust to Dust, Ancient Desires) is protected while the Lantern is lit: Symbol of Attachment keeps its HP ≥ 1, Life Craving makes invoking Traits feeble PCs, Unnatural Presence shakens all PCs — the Head spends no Ultima Points until the Lantern is extinguished. It embodies the villagers' refusal to accept the natural order rather than any evil plan."
+    },
+    {
+      "kind": "villain",
+      "key": "villain_titania_queen_of_fairies",
+      "name": "Titania, Queen of Fairies",
+      "level": 30,
+      "species": "elemental (two symmetrical forms)",
+      "rank": "Major Villain (10 Ultima Points); Variable rank (Champion 3)",
+      "parts": [
+        {
+          "name": "Queen of Midday",
+          "level": 30,
+          "species": "elemental",
+          "rank": "champion 3",
+          "attributes": { "DEX": 8, "INS": 10, "MIG": 8, "WLP": 8 },
+          "hp": 300,
+          "mp": 160,
+          "crisis": 150,
+          "initiative": 12,
+          "defense": 1,
+          "magic_defense": 2,
+          "traits": ["ethereal", "fickle", "gracious", "shimmering"],
+          "affinities": { "physical": "resistant", "poison": "immune", "air": "vulnerable", "fire": "immune", "ice": "vulnerable", "light": "absorb", "dark": "immune" }
+        },
+        {
+          "name": "Sun Poppy",
+          "level": 30,
+          "species": "elemental",
+          "attributes": { "DEX": 8, "INS": 10, "MIG": 8, "WLP": 8 },
+          "hp": 100,
+          "mp": 70,
+          "crisis": 50,
+          "initiative": 9,
+          "defense": 1,
+          "magic_defense": 2,
+          "traits": ["ephemeral", "lazy", "multicolored", "shining"],
+          "affinities": { "physical": "resistant", "poison": "immune", "air": "vulnerable", "ice": "vulnerable", "light": "immune", "dark": "immune" }
+        },
+        {
+          "name": "Queen of Midnight",
+          "level": 30,
+          "species": "elemental",
+          "rank": "champion 3",
+          "attributes": { "DEX": 10, "INS": 8, "MIG": 8, "WLP": 8 },
+          "hp": 300,
+          "mp": 160,
+          "crisis": 150,
+          "initiative": 12,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["brutal", "merciless", "mercurial", "regal"],
+          "affinities": { "physical": "resistant", "poison": "vulnerable", "air": "absorb", "fire": "vulnerable", "ice": "immune", "light": "vulnerable", "dark": "immune" }
+        },
+        {
+          "name": "Moon Orchid",
+          "level": 30,
+          "species": "elemental",
+          "attributes": { "DEX": 10, "INS": 8, "MIG": 8, "WLP": 8 },
+          "hp": 100,
+          "mp": 70,
+          "crisis": 50,
+          "initiative": 9,
+          "defense": 2,
+          "magic_defense": 1,
+          "traits": ["ephemeral", "frantic", "lethal", "pure"],
+          "affinities": { "physical": "vulnerable", "poison": "immune", "air": "resistant", "ice": "resistant", "light": "vulnerable", "dark": "immune" }
+        }
+      ],
+      "text": "The ancient Queen of Fairies, whose most terrible weapon is time itself. The villagers of Frosthill struck a deal — plentiful crops for three peach-tree seeds a year — but eventually forgot it, so Titania's fury grew their fields into a gigantic plant maze holding the inhabitants hostage for the fairy court's amusement, a magical domain where day, night and climate answer her whim. She is an atypical antagonist with two symmetrical forms: the Queen of Midday (with two Sun Poppies; imposes Fairy Decree rules — Season of the Opposites, Mirror Mirror, Law of the Fairies) and the Queen of Midnight (with two Moon Orchids; declares Wild Hunts — Hound the Prey, Gathering Horn, Thrill of the Hunt). When reduced to 0 HP in either form she uses Dusk/Dawn (spend 1 Ultima Point) to become the opposite form as a NEW creature at full HP/MP with no lingering effects; with no Ultima Points left she Surrenders. From the court's view the heroes are entertainment: no Sacrifice is available, but the PCs may perform secret deeds to gain the court's favor (e.g. Combo Breaker, Fourth Wall, Inconceivable!, Planned Defeat, Spirit of the Underdog). If the PCs accumulate 6 or more favor, Titania loses all Ultima Points and the conflict ends — she becomes willing to negotiate."
+    },
+    {
+      "kind": "villain",
+      "key": "villain_eldgren",
+      "name": "Eldgren",
+      "level": 40,
+      "species": "plant (three phases)",
+      "rank": "Major Villain (10 Ultima Points); Variable rank",
+      "parts": [
+        {
+          "name": "Ashen Rådande (Phase 1)",
+          "level": 40,
+          "species": "plant",
+          "attributes": { "DEX": 10, "INS": 12, "MIG": 8, "WLP": 6 },
+          "hp": 120,
+          "mp": 80,
+          "crisis": 60,
+          "initiative": 11,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["merciless", "poisoned", "scorched", "terrifying"],
+          "affinities": { "physical": "vulnerable", "poison": "immune", "fire": "resistant", "ice": "vulnerable", "dark": "resistant" }
+        },
+        {
+          "name": "Eldgren, the Ancient (Phase 2)",
+          "level": 40,
+          "species": "plant",
+          "rank": "champion 5",
+          "attributes": { "DEX": 6, "INS": 8, "MIG": 12, "WLP": 10 },
+          "hp": 700,
+          "mp": 180,
+          "crisis": 350,
+          "initiative": 12,
+          "defense": 0,
+          "magic_defense": 0,
+          "traits": ["ashen", "immense", "resentful", "tortured"],
+          "affinities": { "physical": "vulnerable", "poison": "immune", "air": "vulnerable", "fire": "immune", "ice": "resistant", "dark": "absorb" }
+        },
+        {
+          "name": "The Heart (Phase 3)",
+          "level": 40,
+          "species": "plant",
+          "rank": "champion 4",
+          "attributes": { "DEX": 8, "INS": 10, "MIG": 8, "WLP": 10 },
+          "hp": 480,
+          "mp": 200,
+          "crisis": 240,
+          "initiative": 13,
+          "defense": 0,
+          "magic_defense": 0,
+          "affinities": { "physical": "absorb", "poison": "absorb", "air": "absorb", "bolt": "absorb", "earth": "absorb", "fire": "absorb", "ice": "absorb", "light": "absorb", "dark": "absorb" },
+          "traits": ["burning", "desperate", "millennia-old", "resentful"]
+        }
+      ],
+      "text": "The great forest of Eldgren once welcomed worthy mortals with the guardian spirits' blessings, until an ancient fearful civilization warred to grasp and control that power, reducing the forest to ash — and themselves to nothing. The spirits healed the earth, but their buried rage let an invisible parasite nest in the forest's heart; when new humans felled the first trees, the spirits judged them the same as their ancestors and blazed with vengeful fire. A minuscule uncorrupted shard of the heart escaped, seeking heroes. THREE-PHASE fight. Phase 1 — The Forest's Trial: the forest is an environmental element (no Ultima Points); the main threat is the Ashen Rådande (Fan the Flames, Shared Torment; Harrowing Rage ignores Immunities/Resistances while poisoned; Trial by Fire grants a Trial Point on defeat). At the end of each round the PCs undertake the Trial of Strength, Trial of Remembrance, and Trial of Unity; needing 【PCs × 3】 Trial Points by round four to be brought before the Ancient. Phase 2 — The Ancient: a towering blazing-antlered wooden moose (Ashen Antlers, Toxic Despair, Rekindle the Embers, Scorching Gaze, Thousand-year Fury). Ancestral Grudge focuses one foe; Tough Grudge makes her Immune to all damage except air and earth while she bears a grudge; Misery/Suffering Exhale spread poison. Phase 3 — The Heart of the Forest: healing, not damage, wins. The Heart enters at 1 current HP and cannot drop below 1; if its current HP reaches ≥ 480 it loses all Ultima Points and Surrenders. A 4-section \"Slumbering Hope\" Clock is filled by spending Fabula Points to invoke Belonging, Hope, Justice or Mercy Themes; when full at the start of the fourth enemy turn it empties to restore 40 HP/40 MP and skip the Heart's action. Parasitic Despair makes the Heart neutral to all damage while not in Crisis; Parasite Grasp is a dangerous drain (a PC who Spell-Mimics it loses all Fabula Points and suffers enraged, and may even evolve into a parasite-infected Villain)."
+    }
+  ]
+}

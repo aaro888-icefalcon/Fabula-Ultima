@@ -1,0 +1,444 @@
+{
+  "id": "fu.bestiary.beast",
+  "source": "core",
+  "species": "beast",
+  "entries": [
+    {
+      "key": "cutterpillar",
+      "name": "Cutterpillar",
+      "level": 5,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 45,
+      "crisis": 30,
+      "initiative": 7,
+      "defense": 10,
+      "magic_defense": 7,
+      "affinities": {
+        "dark": "resistant",
+        "earth": "resistant",
+        "fire": "vulnerable",
+        "ice": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Mandible Slash",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 poison",
+          "range": "melee",
+          "text": "The target suffers weak."
+        },
+        {
+          "name": "Cutter Ball",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "If the cutterpillar performed the Guard action during its previous turn, this attack deals 5 extra damage."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Roll Up",
+          "text": "When the cutterpillar performs the Guard action, it gains Immunity to physical damage until the start of its next turn."
+        }
+      ],
+      "traits": [
+        "heavy",
+        "resilient",
+        "slow",
+        "territorial"
+      ],
+      "text": "A large centipede that can roll itself into a ball to fend off attacks, only to spring up and bite afterward.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    },
+    {
+      "key": "giant-rat",
+      "name": "Giant Rat",
+      "level": 5,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 12,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 6
+      },
+      "hp": 40,
+      "mp": 35,
+      "crisis": 20,
+      "initiative": 14,
+      "defense": 12,
+      "magic_defense": 8,
+      "affinities": {
+        "earth": "resistant",
+        "fire": "vulnerable",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Bad Bite",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "The target suffers poisoned."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cornered Rat",
+          "text": "As long as it is in Crisis, the rat gains a +3 bonus to all Checks."
+        },
+        {
+          "name": "Quick",
+          "text": "When the giant rat fills or erases sections of a Clock related to escaping or pursuing, it may fill or erase an additional section."
+        }
+      ],
+      "traits": [
+        "afraid of fire",
+        "fast",
+        "hungry",
+        "vicious"
+      ],
+      "text": "Large rats dwelling in sewers and tunnels. Their bite can cause violent fevers, but they are easily scared away by fire.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "grey-howler",
+      "name": "Grey Howler",
+      "level": 5,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 50,
+      "mp": 35,
+      "crisis": 25,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "resistant",
+        "ice": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Vicious Bite",
+          "accuracy": "【DEX + MIG】+3",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Protect",
+          "text": "When another character is in danger, the grey howler may choose to take their place (see the Protect Skill on page 197)."
+        }
+      ],
+      "traits": [
+        "loyal",
+        "perceptive",
+        "smart",
+        "vigilant"
+      ],
+      "text": "Often trained as guardians, these large canines can prove extremely loyal to their owners and companions.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "vampire-bat",
+      "name": "Vampire Bat",
+      "level": 5,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 50,
+      "mp": 45,
+      "crisis": 25,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "earth": "resistant",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Blood Drinker",
+          "accuracy": "【DEX + DEX】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "Then, the vampire bat recovers an amount of HP equal to half the HP loss suffered by the target."
+        },
+        {
+          "name": "Screech",
+          "accuracy": "【DEX + WLP】",
+          "damage": "【HR + 5】 air",
+          "range": "ranged",
+          "text": "The target suffers dazed."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "afraid of light",
+        "aggressive",
+        "loud",
+        "smart"
+      ],
+      "text": "Unlike normal bats, these oversized predators often attack people and animals. They are surprisingly intelligent.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "bombard-ant",
+      "name": "Bombard Ant",
+      "level": 10,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 40,
+      "crisis": 35,
+      "initiative": 12,
+      "defense": 10,
+      "magic_defense": 6,
+      "affinities": {
+        "bolt": "resistant",
+        "fire": "vulnerable",
+        "light": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Ant Slam",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Ant Cannon",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "ranged",
+          "text": "The target suffers dazed."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Burrow",
+          "text": "When the bombard ant takes the Guard action, if it is standing on dirt, sand, or rock, it gains a +2 bonus to Defense and becomes Vulnerable to earth damage until the start of its next turn."
+        },
+        {
+          "name": "Empty Mind",
+          "text": "The bombard ant is immune to dazed and enraged."
+        }
+      ],
+      "traits": [
+        "explosive",
+        "flammable",
+        "mindless",
+        "territorial"
+      ],
+      "text": "These human-sized ants are an extension of their Queen's will — a mysterious creature dwelling in the depths of the earth.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "thornfish",
+      "name": "Thornfish",
+      "level": 10,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 10,
+        "MIG": 6,
+        "WLP": 6
+      },
+      "hp": 50,
+      "mp": 40,
+      "crisis": 25,
+      "initiative": 14,
+      "defense": 10,
+      "magic_defense": 10,
+      "affinities": {
+        "bolt": "vulnerable",
+        "dark": "resistant",
+        "fire": "resistant",
+        "ice": "resistant",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Thorn Dive",
+          "accuracy": "【DEX + DEX】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Ocean Jet",
+          "accuracy": "【DEX + INS】+1",
+          "damage": "【HR + 5】 ice",
+          "range": "ranged",
+          "text": "The target suffers slow."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Flying",
+          "text": "See page 307 for the detailed effects of this Skill."
+        }
+      ],
+      "traits": [
+        "aggressive",
+        "quick",
+        "small",
+        "thick-skinned"
+      ],
+      "text": "Barely longer than an outstretched arm, these fishes use their fins to fly across brief distances and carry a vicious bite.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "sun-bear",
+      "name": "Sun Bear",
+      "level": 15,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 80,
+      "mp": 45,
+      "crisis": 40,
+      "initiative": 8,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "bolt": "resistant",
+        "dark": "vulnerable",
+        "earth": "vulnerable",
+        "fire": "resistant",
+        "ice": "resistant",
+        "light": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Bear Hug",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "The target suffers weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Powerful",
+          "text": "The sun bear is immune to slow and weak."
+        },
+        {
+          "name": "Suntouched",
+          "text": "As long as it is in Crisis, the Bear Hug attack deals 5 extra damage and all damage dealt by that attack becomes fire."
+        }
+      ],
+      "traits": [
+        "hairy",
+        "huge",
+        "peaceful",
+        "smart"
+      ],
+      "text": "One of the largest and most intelligent beasts in the world. Rumor has it some sun bears can communicate telepathically.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "white-howler",
+      "name": "White Howler",
+      "level": 20,
+      "species": "beast",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 90,
+      "mp": 60,
+      "crisis": 45,
+      "initiative": 8,
+      "defense": 10,
+      "magic_defense": 9,
+      "affinities": {
+        "air": "resistant",
+        "fire": "vulnerable",
+        "ice": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "White Maw",
+          "accuracy": "【DEX + MIG】+5",
+          "damage": "【HR + 15】 physical",
+          "range": "melee",
+          "text": "The target suffers weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Iceberg",
+          "text": "【MIG + WLP】+2 · 20 MP · One creature · Instantaneous. The target suffers 【HR + 30】 ice damage. This damage ignores Resistances. (Offensive spell.)"
+        },
+        {
+          "name": "Lick Wounds",
+          "text": "5 MP · Self · Instantaneous. The white howler recovers 30 Hit Points (40 if level 40+, 50 if level 60+)."
+        },
+        {
+          "name": "Regal Aura",
+          "text": "Allies of the white howler are immune to shaken."
+        }
+      ],
+      "traits": [
+        "brave",
+        "cunning",
+        "regal",
+        "vigilant"
+      ],
+      "text": "White howlers are rarely seen near urban areas since they prefer mountains and forests. They are breathtakingly beautiful.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    }
+  ]
+}

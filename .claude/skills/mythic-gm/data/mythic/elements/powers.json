@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.powers",
+ "title": "Elements — Powers",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Absorb"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Adversity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Alter"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Animate"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Assist"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Attach"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Attack"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Block"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Body"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Change"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Chemical"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Cold"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Colorful"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Combat"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Combine"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Communicate"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Control"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Cosmetic"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Create"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Creature"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Damage"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dark"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Death"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Deceive"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Defense"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Delay"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Destroy"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Detect"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Dimensions"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Diminish"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Disrupt"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Distance"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Dominate"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Duplicate"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Electricity"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Elements"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Emission"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Emotion"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Enemies"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Energy"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Enhance"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Environment"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Explosion"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Extra"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Fire"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Flight"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Free"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Friend"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Harm"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Heal"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Heat"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Help"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Hide"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Illusion"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Imbue"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Immunity"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Increase"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Information"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Life"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Light"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Limb"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Limited"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Location"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Magic"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Major"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Manipulate"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Matter"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Mental"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Minor"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Natural"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Nature"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Object"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Others"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Physical"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Plants"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Poison"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Power"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Protect"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Radius"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Ranged"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Reflect"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Repel"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Resistance"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Reveal"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Self"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Sense"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Skill"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Spirit"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Stealth"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Strange"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Summon"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Switch"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Take"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Technology"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Time"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Transform"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Trap"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Travel"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weapon"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weather"
+  }
+ ],
+ "checksum": "sha256:833123eca98cfafc"
+}

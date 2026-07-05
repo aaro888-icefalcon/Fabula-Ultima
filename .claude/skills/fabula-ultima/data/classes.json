@@ -1,0 +1,1257 @@
+{
+  "id": "fu.classes",
+  "source": "core",
+  "entries": [
+    {
+      "key": "arcanist",
+      "name": "Arcanist",
+      "also": [
+        "Avatar",
+        "Chosen",
+        "Summoner"
+      ],
+      "source": "core",
+      "flavor": "Arcanists can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "arcane_circle",
+          "name": "Arcane Circle",
+          "sl_max": 4,
+          "text": "After you willingly dismiss an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been summoned during this same turn and you have an arcane weapon equipped, you may immediately perform the Spell action for free. The spell you cast this way must have a total Mind Point cost of 【 SL × 5 】 or lower (you must still pay the spell's MP cost)."
+        },
+        {
+          "key": "arcane_regeneration",
+          "name": "Arcane Regeneration",
+          "sl_max": 2,
+          "text": "When you summon an Arcanum, you immediately recover 【 SL × 5 】 Hit Points."
+        },
+        {
+          "key": "bind_and_summon",
+          "name": "Bind and Summon",
+          "sl_max": 1,
+          "text": "You may bind Arcana to your soul and summon them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 Mind Points to summon an Arcanum you have bound: the details of this process are explained on the next page. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression."
+        },
+        {
+          "key": "emergency_arcanum",
+          "name": "Emergency Arcanum",
+          "sl_max": 6,
+          "text": "As long as you are in Crisis, the cost for summoning your Arcana is reduced by 【 SL × 5 】 Mind Points."
+        },
+        {
+          "key": "ritual_arcanism",
+          "name": "Ritual Arcanism",
+          "sl_max": 1,
+          "text": "You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound (see next pages). Arcanism Rituals use 【 WLP + WLP 】 for the Magic Check."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Arcanism",
+        "magic_check": "WLP + WLP",
+        "text": "Arcanists do not learn spells in the usual sense; instead they bind and summon Arcana, gaining merge benefits while merged and powerful dismiss effects when willingly dismissed. Arcanism Rituals use 【 WLP + WLP 】 for the Magic Check (via the Ritual Arcanism Skill). The list of Arcana (Forge, Frost, Gate, Grimoire, Oak, Sky, Sword, Tower, Wheel) with their domains, merge and dismiss effects is provided below."
+      },
+      "text": "MERGING WITH AN ARCANUM: When you summon an Arcanum, you gain its merge benefits; those benefits last until the Arcanum is dismissed. You cannot summon an Arcanum while already merged with one; you must first dismiss the current Arcanum. DISMISSING AN ARCANUM: An Arcanum can be dismissed in several ways — Once the current scene ends, all Arcana are automatically dismissed; If you die or fall unconscious while merged with an Arcanum, they are dismissed; If you leave the scene while merged with an Arcanum, they are dismissed; You may willingly dismiss your Arcanum: this doesn't require an action, but during a conflict it can only be done on your turn, before or after an action. DISMISS EFFECTS: Most Arcana have a powerful dismiss effect, which may only be activated when you willingly dismiss the Arcanum — if the Arcanum is dismissed for any other reason, the dismiss effect cannot be triggered. If the dismiss effect of an Arcanum deals damage, it will deal 10 extra damage if you are level 20 or higher, or 20 extra damage if you are level 40 or higher. You are also free to ignore the dismiss effect if you don't want to use it. DOMAINS: Each Arcanum is associated with a few key concepts or domains. The Game Master should use these to establish the trials needed to bind the Arcanum, and to adjudicate Rituals performed through the Ritual Arcanism Skill.\n\nARCANUM OF THE FORGE — Domains: fire, heat, metal. Merge: You have Resistance to fire damage. Any fire damage you deal ignores Resistances. Dismiss: When you dismiss this Arcanum, choose Forge or Inferno. Forge — You create a basic armor, shield or weapon of your choice. If you select this option again, the previously created item vanishes. If you create a weapon this way, it deals fire damage instead of physical. Inferno — Choose any number of creatures you can see: each of them suffers 30 fire damage. This damage ignores Resistances.\n\nARCANUM OF THE FROST — Domains: cold, ice, silence. Merge: You have Resistance to ice damage and are immune to enraged. Any ice damage you deal ignores Resistances. Dismiss: Ice Age — Choose any number of creatures you can see: each of them suffers 30 ice damage. This damage ignores Resistances.\n\nARCANUM OF THE GATE — Domains: space, travel, void. Merge: You have Resistance to dark damage. You gain a +1 bonus to your Magic Defense. Dismiss: When you dismiss this Arcanum, choose Oblivion or Warp. Oblivion — Choose any number of creatures you can see: each of them suffers 30 dark damage. This damage ignores Resistances. Warp — You teleport yourself and up to five other nearby willing creatures to a location you previously visited, if that location is within 1 travel day.\n\nARCANUM OF THE GRIMOIRE — Domains: knowledge, revelations, understanding. Merge: You are able to read, write, speak and understand all languages. You treat your Insight as if it were one die size higher (up to a maximum of d12). Dismiss: Oracle — You ask the Game Master a single question. The Game Master must answer truthfully, describing the vision shown to you by the Grimoire. Once used, this dismiss effect will not be available until the next dawn. Furthermore, the same question may never be asked more than once. The Game Master has final say on which questions are too similar to be asked again.\n\nARCANUM OF THE OAK — Domains: earth, plants, poison. Merge: You have Resistance to earth and poison damage and are immune to poisoned. Whenever you recover Hit Points, you recover 5 extra Hit Points. Dismiss: Blossom — Choose any number of creatures you can see (you may also choose yourself): each of them recovers from the poisoned status effect and recovers 40 Hit Points. This amount increases to 50 Hit Points if you are level 20 or higher, or to 60 Hit Points if you are level 40 or higher.\n\nARCANUM OF THE SKY — Domains: fog, rain, storms. Merge: You have Resistance to air and bolt damage. You may use an action to accurately predict weather conditions for the next day within a range of two travel days — the Game Master will tell you what the weather conditions will be. Dismiss: Thunderstorm — Choose any number of creatures you can see: each of them suffers 30 bolt damage. This damage ignores Resistances.\n\nARCANUM OF THE SWORD — Domains: conquest, heroism, leadership. Merge: Your attacks deal 5 extra damage, and all damage dealt by your attacks is treated as having no type (thus being unaffected by damage Affinities). Damage dealt by your attacks cannot gain a type as long as you are merged with this Arcanum. When you perform an attack, you may have that attack gain the multi (any number of targets) property. If you do, this Arcanum will be automatically dismissed after the attack is resolved (this is not considered a willing dismiss).\n\nARCANUM OF THE TOWER — Domains: judgment, protection, sacrifice. Merge: When you summon this Arcanum, choose a damage type: air, bolt, dark, earth, fire, or ice. Until this Arcanum is dismissed, each of your allies present on the scene has Resistance to the chosen damage type (you do not gain this Resistance). Dismiss: Judgment — Choose any number of creatures you can see: each of them suffers 30 light damage. This damage ignores Resistances.\n\nARCANUM OF THE WHEEL — Domains: destiny, speed, time. Merge: You are immune to slow. You gain a +1 bonus to your Defense. Dismiss: Time Freeze — Choose any number of creatures you can see: each of them suffers slow. If a creature chosen this way is already slow, that creature will instead perform one fewer action during their next turn (to a minimum of 0 actions)."
+    },
+    {
+      "key": "chimerist",
+      "name": "Chimerist",
+      "also": [
+        "Druid",
+        "Shapeshifter",
+        "Wild Mage"
+      ],
+      "source": "core",
+      "flavor": "Chimerists gather their power from the souls of the monsters and beasts they encounter. By manipulating their inner wild energy, these mages may mimic the magical abilities of monsters and have reached a supernatural understanding of feral creatures.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5.",
+        "You may perform Rituals whose effects fall within the Ritualism discipline."
+      ],
+      "skills": [
+        {
+          "key": "consume",
+          "name": "Consume",
+          "sl_max": 5,
+          "text": "After you deal damage to one or more creatures with a spell, if you have an arcane, dagger or flail weapon equipped, you recover 【 SL × 2 】 Mind Points."
+        },
+        {
+          "key": "feral_speech",
+          "name": "Feral Speech",
+          "sl_max": 1,
+          "text": "You can communicate with creatures of the beast, monster and plant Species."
+        },
+        {
+          "key": "pathogenesis",
+          "name": "Pathogenesis",
+          "sl_max": 1,
+          "text": "When you deal damage to one or more creatures with one of your Chimerist spells, each of those creatures that share their Species with the creature you originally learned that spell from suffers poisoned."
+        },
+        {
+          "key": "ritual_chimerism",
+          "name": "Ritual Chimerism",
+          "sl_max": 1,
+          "text": "You may perform Rituals whose effects fall within the Chimerism discipline. When you acquire this Skill, choose 【 INS + WLP 】 or 【 MIG + WLP 】. From now on, your Chimerism Rituals will use the chosen Attributes for the Magic Check."
+        },
+        {
+          "key": "spell_mimic",
+          "name": "Spell Mimic",
+          "sl_max": 10,
+          "text": "When you see a creature belonging to the beast, monster or plant Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record the Species of the creature you learned it from. When you first acquire this Skill, choose 【 INS + WLP 】 or 【 MIG + WLP 】. From now on, your offensive (r) Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from. You may have up to 【 SL + 2 】 different Chimerist spells memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Chimerism",
+        "magic_check": "INS + WLP or MIG + WLP (chosen when Spell Mimic or Ritual Chimerism is acquired)",
+        "text": "Chimerists do not have a fixed spell list; they learn spells by mimicking the spells cast by creatures of the beast, monster and plant Species (and additional Species via the Chimeric Mastery Heroic Skill), using the Spell Mimic Skill. Offensive (r) Chimerist spells use the Attributes chosen when Spell Mimic was first acquired (【 INS + WLP 】 or 【 MIG + WLP 】)."
+      }
+    },
+    {
+      "key": "darkblade",
+      "name": "Darkblade",
+      "also": [
+        "Avenger",
+        "Black Knight",
+        "Death Knight"
+      ],
+      "source": "core",
+      "flavor": "Darkblades are somber and powerful warriors who hide a sorrowful past. Due to tragic experiences on the battlefield or in personal life, their souls have developed an affinity for pain and shadow energy; a Darkblade may sacrifice their lifeforce to unleash mighty attacks and draw resolve, power and even knowledge from the suffering they experience.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial melee weapons and martial armor."
+      ],
+      "skills": [
+        {
+          "key": "agony",
+          "name": "Agony",
+          "sl_max": 5,
+          "text": "After you deal damage to one or more creatures, if you have a Bond towards at least one of those creatures, you may recover 【 SL × 2 】 Hit Points and 【 SL × 2 】 Mind Points."
+        },
+        {
+          "key": "dark_blood",
+          "name": "Dark Blood",
+          "sl_max": 1,
+          "text": "As long as you are in Crisis, you have Resistance to dark damage and poison damage."
+        },
+        {
+          "key": "heart_of_darkness",
+          "name": "Heart of Darkness",
+          "sl_max": 1,
+          "text": "Once per scene upon entering Crisis, you may choose a specific creature you can see that you don't have a Bond towards. If you do, create a Bond of hatred towards that creature."
+        },
+        {
+          "key": "painful_lesson",
+          "name": "Painful Lesson",
+          "sl_max": 3,
+          "text": "After another creature causes you to lose Hit Points (with an attack, a spell or any other method), you may immediately perform the Study action on that creature (see page 74) for free. If you do, gain a bonus equal to 【 SL 】 to your Check. Remember, you can study the same aspect of a creature only once."
+        },
+        {
+          "key": "shadow_strike",
+          "name": "Shadow Strike",
+          "sl_max": 5,
+          "text": "You have learned to channel your vital force into your attacks. You may use an action to perform a Shadow Strike: roll your current Might die and lose an amount of Hit Points equal to 【 the number rolled on your Might die 】. If this didn't reduce your Hit Points to 0, you may perform a free attack with a weapon you have equipped: if this attack hits one or more targets, it deals extra damage equal to 【 SL + the number rolled on your Might die 】. However, all damage dealt by this attack becomes dark and its damage type cannot be changed."
+        }
+      ]
+    },
+    {
+      "key": "elementalist",
+      "name": "Elementalist",
+      "also": [
+        "Battle Mage",
+        "Geomancer",
+        "Sorcerer"
+      ],
+      "source": "core",
+      "flavor": "An Elementalist has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5.",
+        "You may perform Rituals whose effects fall within the Ritualism discipline."
+      ],
+      "skills": [
+        {
+          "key": "cataclysm",
+          "name": "Cataclysm",
+          "sl_max": 3,
+          "text": "When you cast an instantaneous spell, if you have an arcane weapon equipped, you may increase the spell's total MP cost by up to 【 SL × 10 】 Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost."
+        },
+        {
+          "key": "elemental_magic",
+          "name": "Elemental Magic",
+          "sl_max": 10,
+          "text": "Each time you acquire this Skill, learn one Elementalist spell (see next two pages). Offensive (r) Elementalist spells use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "magical_artillery",
+          "name": "Magical Artillery",
+          "sl_max": 3,
+          "text": "When you cast an offensive (r) spell, if you have an arcane weapon equipped, you gain a bonus to your Magic Check equal to 【 SL × 2 】."
+        },
+        {
+          "key": "ritual_elementalism",
+          "name": "Ritual Elementalism",
+          "sl_max": 1,
+          "text": "You may perform Rituals whose effects fall within the Elementalism discipline. Elementalism Rituals use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "spellblade",
+          "name": "Spellblade",
+          "sl_max": 4,
+          "text": "When you cast an offensive (r) spell targeting a single creature, if the spell has a total Mind Point cost of 【 SL × 10 】 or lower and you have one or more bow, brawling, dagger, flail, spear or sword weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon's Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a bronze sword (page 131) will be 【 DEX + MIG 】 +1 instead of 【 INS + WLP 】."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Elementalism",
+        "magic_check": "INS + WLP",
+        "text": "Elementalists learn spells via the Elemental Magic Skill (one spell per acquisition). Offensive (r) Elementalist spells use 【 INS + WLP 】 for the Magic Check. Elementalism Rituals also use 【 INS + WLP 】. The Elementalist spell list lives in spells.json."
+      }
+    },
+    {
+      "key": "entropist",
+      "name": "Entropist",
+      "also": [
+        "Astromancer",
+        "Chaos Mage",
+        "Gambler"
+      ],
+      "source": "core",
+      "flavor": "High above the stars lies a bottomless void where life and souls wither and transform in unfathomable ways. Entropists refer to this realm as the Cosmos, the Heavens, or Lady Luck: they are among the few gifted with the ability to channel its reality-bending energies.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5.",
+        "You may perform Rituals whose effects fall within the Ritualism discipline."
+      ],
+      "skills": [
+        {
+          "key": "absorb_mp",
+          "name": "Absorb MP",
+          "sl_max": 5,
+          "text": "After you suffer damage, you may immediately recover 【 SL × 2 】 Mind Points."
+        },
+        {
+          "key": "entropic_magic",
+          "name": "Entropic Magic",
+          "sl_max": 10,
+          "text": "Each time you acquire this Skill, learn one Entropist spell (see next two pages). Offensive (r) Entropist spells use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "lucky_seven",
+          "name": "Lucky Seven",
+          "sl_max": 1,
+          "text": "You have a lucky number; at the beginning of each session, that number is 7. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your new lucky number."
+        },
+        {
+          "key": "ritual_entropism",
+          "name": "Ritual Entropism",
+          "sl_max": 1,
+          "text": "You may perform Rituals whose effects fall within the Entropism discipline. Entropism Rituals use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "stolen_time",
+          "name": "Stolen Time",
+          "sl_max": 4,
+          "text": "During a conflict, you may use an action to interfere with the flow of time by spending up to 【 SL × 5 】 Mind Points. For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers slow; or one creature you can see recovers from slow; or one creature you can see may immediately perform the Equipment action for free; or choose one ally you can see who has yet to take a turn during this round: that ally may take their turn immediately after yours during this round. Each option can only be chosen once per use of this Skill."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Entropism",
+        "magic_check": "INS + WLP",
+        "text": "Entropists learn spells via the Entropic Magic Skill (one spell per acquisition). Offensive (r) Entropist spells use 【 INS + WLP 】 for the Magic Check. Entropism Rituals also use 【 INS + WLP 】. The Entropist spell list lives in spells.json."
+      }
+    },
+    {
+      "key": "fury",
+      "name": "Fury",
+      "also": [
+        "Berserker",
+        "Brawler",
+        "Viking"
+      ],
+      "source": "core",
+      "flavor": "Furies never know when to quit. In battle and life they are energetic, determined and often restless. Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial melee weapons and martial armor."
+      ],
+      "skills": [
+        {
+          "key": "adrenaline",
+          "name": "Adrenaline",
+          "sl_max": 5,
+          "text": "As long as you are in Crisis, you deal 【 SL × 2 】 extra damage (be it with attacks, spells, Arcana, items or any other method)."
+        },
+        {
+          "key": "frenzy",
+          "name": "Frenzy",
+          "sl_max": 1,
+          "text": "Your Accuracy Checks with brawling, dagger, flail and thrown weapons trigger a critical success if both dice show the same number (and the Check is not a fumble)."
+        },
+        {
+          "key": "indomitable_spirit",
+          "name": "Indomitable Spirit",
+          "sl_max": 4,
+          "text": "When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover 【 SL × 5 】 Hit Points; or you recover 【 SL × 5 】 Mind Points; or you recover from a single status effect of your choice."
+        },
+        {
+          "key": "provoke",
+          "name": "Provoke",
+          "sl_max": 5,
+          "text": "You may use an action and spend 5 Mind Points to perform an Opposed 【 MIG + WLP 】 Check against a creature you can see — describe how you taunt them! If you succeed, the target suffers enraged and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer enraged, or if they are successfully provoked by someone else. You gain a bonus equal to 【 SL 】 to your 【 MIG + WLP 】 Checks for this Skill."
+        },
+        {
+          "key": "withstand",
+          "name": "Withstand",
+          "sl_max": 5,
+          "text": "When you perform the Guard action, if you choose not to provide cover to another creature, you recover Hit Points equal to 【 SL, multiplied by the highest strength among your Bonds 】 and choose Might or Willpower: you treat the chosen Attribute as being one die size higher (up to a maximum of d12) until the end of your next turn."
+        }
+      ]
+    },
+    {
+      "key": "guardian",
+      "name": "Guardian",
+      "also": [
+        "Paladin",
+        "Soldier",
+        "Yōjinbō"
+      ],
+      "source": "core",
+      "flavor": "Proud and selfless, Guardians are individuals who know the value of life and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. While some may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial armor and martial shields."
+      ],
+      "skills": [
+        {
+          "key": "bodyguard",
+          "name": "Bodyguard",
+          "sl_max": 1,
+          "text": "If you perform the Guard action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn."
+        },
+        {
+          "key": "defensive_mastery",
+          "name": "Defensive Mastery",
+          "sl_max": 5,
+          "text": "As long as you have a shield or a martial armor equipped, all damage you suffer is reduced by 【 SL 】 (applied before damage Affinities)."
+        },
+        {
+          "key": "dual_shieldbearer",
+          "name": "Dual Shieldbearer",
+          "sl_max": 1,
+          "text": "You may now equip a shield in your main hand slot. As long as you have two shields equipped, you gain the benefits of both items and may treat them as the following combined two-handed melee brawling weapon: Twin Shields, Accuracy 【 MIG + MIG 】, Damage 【 HR + 5 】 physical. Deals extra damage equal to your 【 SL 】 in Defensive Mastery (above)."
+        },
+        {
+          "key": "fortress",
+          "name": "Fortress",
+          "sl_max": 5,
+          "text": "Permanently increase your maximum Hit Points by 【 SL × 3 】."
+        },
+        {
+          "key": "protect",
+          "name": "Protect",
+          "sl_max": 1,
+          "text": "When another creature is threatened by an attack, spell or other danger, you may take their place (any Checks that are part of the danger will be performed against you; you may declare the use of this Skill before or after the Checks have been made). If the danger already affected you, it affects you twice (resolve both instances separately); you also cannot protect multiple creatures from the same danger. If you use this Skill during a conflict, you cannot use it again until the start of your next turn."
+        }
+      ]
+    },
+    {
+      "key": "loremaster",
+      "name": "Loremaster",
+      "also": [
+        "Archivist",
+        "Sage",
+        "Scholar"
+      ],
+      "source": "core",
+      "flavor": "Loremasters are known for their insatiable curiosity and appetite for discovery. They firmly believe that knowledge equates to power, and would often trade all gold in the world for a chance at solving a good mystery. A majority tend to be aloof and easily distracted, sometimes failing to realize the darker implications of their discoveries.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "flash_of_insight",
+          "name": "Flash of Insight",
+          "sl_max": 3,
+          "text": "When you roll a 13 or higher on a Check performed to investigate a creature, item or location — this includes using the Study action during a conflict — you may ask the Game Master up to 【 SL 】 questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process. This Skill may only be used once on the same creature, item or location."
+        },
+        {
+          "key": "focused",
+          "name": "Focused",
+          "sl_max": 5,
+          "text": "Permanently increase your maximum Mind Points by 【 SL × 3 】. When you perform an Open Check using 【 INS + INS 】, you gain a bonus equal to 【 SL 】 on that Check (this only applies to Open Checks)."
+        },
+        {
+          "key": "knowledge_is_power",
+          "name": "Knowledge Is Power",
+          "sl_max": 1,
+          "text": "When you perform an Accuracy Check, you may replace one of the Attribute dice with Insight (such as 【 INS + INS 】 for a pistol or 【 INS + MIG 】 for a waraxe)."
+        },
+        {
+          "key": "quick_assessment",
+          "name": "Quick Assessment",
+          "sl_max": 6,
+          "text": "At the start of a conflict, you may spend up to 【 SL × 5 】 Mind Points. For every 5 Mind Points you spend this way, choose one option: choose a creature you can see and the GM reveals one of their Traits; or name a damage type and choose a creature you can see, and the GM reveals that creature's Affinity towards that damage type."
+        },
+        {
+          "key": "trained_memory",
+          "name": "Trained Memory",
+          "sl_max": 1,
+          "text": "You may perfectly recall the details of any scene you have visited within the past week. You can \"go back in time\" within your mind in order to examine and investigate such scenes again — your Flash of Insight Skill will apply to these memories as well."
+        }
+      ]
+    },
+    {
+      "key": "orator",
+      "name": "Orator",
+      "also": [
+        "Ambassador",
+        "Diplomat",
+        "Entertainer"
+      ],
+      "source": "core",
+      "flavor": "Some are graceful and eversmiling, others are subtle and witty: Orators are as good at reading someone's heart as they are at rounding up allies for their cause. The words of an Orator may rekindle spirits or plunge their opponents into despair.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "condemn",
+          "name": "Condemn",
+          "sl_max": 4,
+          "text": "You may use an action and spend 5 Mind Points to perform an Opposed 【 INS + WLP 】 Check against a creature that can hear and understand you — describe your accusations! If you succeed, the target loses 【 SL × 10 】 Mind Points and suffers dazed or shaken (your choice). You gain a bonus equal to 【 SL 】 to your 【 INS + WLP 】 Checks for this Skill."
+        },
+        {
+          "key": "encourage",
+          "name": "Encourage",
+          "sl_max": 6,
+          "text": "During a conflict, you may use an action and spend 5 Mind Points to choose another creature that can hear and understand you. That creature recovers 【 SL × 5 】 Hit Points and chooses Dexterity, Insight, Might, or Willpower: they treat the chosen Attribute as being one die size higher (up to a maximum of d12) until the start of your next turn."
+        },
+        {
+          "key": "my_trust_in_you",
+          "name": "My Trust in You",
+          "sl_max": 2,
+          "text": "After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their Traits or Bonds in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a Bond towards that character, they recover 【 SL × 10 】 Mind Points."
+        },
+        {
+          "key": "persuasive",
+          "name": "Persuasive",
+          "sl_max": 2,
+          "text": "When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on charm, diplomacy, deception or intimidation, you may spend up to 【 SL × 20 】 Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way."
+        },
+        {
+          "key": "unexpected_ally",
+          "name": "Unexpected Ally",
+          "sl_max": 1,
+          "text": "You may use an action and spend 1 Fabula Point to choose a non-hostile creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable."
+        }
+      ]
+    },
+    {
+      "key": "rogue",
+      "name": "Rogue",
+      "also": [
+        "Bandit",
+        "Ninja",
+        "Thief"
+      ],
+      "source": "core",
+      "flavor": "Be they criminals, rebels or spies, Rogues are more than willing to play dirty in order to get what they want. Rogues are generally quick, witty and elusive: while a few are concerned mostly with personal wealth, many see themselves as fighting against injustice, tyranny, or social exclusion.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2."
+      ],
+      "skills": [
+        {
+          "key": "cheap_shot",
+          "name": "Cheap Shot",
+          "sl_max": 5,
+          "text": "When you hit a creature with an attack, if the attack only targeted that creature and they are suffering from one or more status effects, you may have it deal extra damage equal to 【 SL + the number of status effects on the creature 】."
+        },
+        {
+          "key": "dodge",
+          "name": "Dodge",
+          "sl_max": 3,
+          "text": "As long as you have no shields and no martial armor equipped, your Defense score is increased by 【 SL 】."
+        },
+        {
+          "key": "high_speed",
+          "name": "High Speed",
+          "sl_max": 3,
+          "text": "At the start of a conflict, you may spend 10 Mind Points. If you do, choose one option and apply it before the start of the first round: perform a free attack with a weapon you have equipped; or perform a Hinder or Objective action. You also gain a bonus equal to 【 SL 】 to all Checks you perform as part of the chosen option."
+        },
+        {
+          "key": "see_you_later",
+          "name": "See You Later",
+          "sl_max": 1,
+          "text": "You may use an action and spend 1 Fabula Point to vanish from the current scene, reappearing whenever you want during a different scene in which another Player Character is present. Describe how you escaped and miraculously got here!"
+        },
+        {
+          "key": "soul_steal",
+          "name": "Soul Steal",
+          "sl_max": 5,
+          "text": "You may use an action to perform a 【 DEX + WLP 】 Check against the Magic Defense of a creature you can see. If you succeed and the target is a soldier, you recover 【 SL 】 Inventory Points; if they are an elite or champion, the GM gives you the target's soul treasure, an item worth an amount of zenit equal to or lower than 【 the target's level multiplied by 30, or by 50 if they are a Villain 】. This soul treasure will appear inside your backpack; a creature can be successfully stolen from with this Skill only once. You gain a bonus equal to 【 SL 】 to your 【 DEX + WLP 】 Checks for this Skill."
+        }
+      ]
+    },
+    {
+      "key": "sharpshooter",
+      "name": "Sharpshooter",
+      "also": [
+        "Archer",
+        "Gunslinger",
+        "Sniper"
+      ],
+      "source": "core",
+      "flavor": "A majority of Sharpshooters are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank. Many are battle-hardened soldiers, while some have turned to piracy, bounty hunting or banditry.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial ranged weapons and martial shields."
+      ],
+      "skills": [
+        {
+          "key": "barrage",
+          "name": "Barrage",
+          "sl_max": 1,
+          "text": "When you perform a ranged attack, you may spend 10 Mind Points to choose one option: the attack gains multi (2); or you increase the attack's multi property by one, up to a maximum of multi (3)."
+        },
+        {
+          "key": "crossfire",
+          "name": "Crossfire",
+          "sl_max": 1,
+          "text": "After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success."
+        },
+        {
+          "key": "hawkeye",
+          "name": "Hawkeye",
+          "sl_max": 5,
+          "text": "When you perform the Guard action, if you choose not to provide cover to another creature, you may choose one option: the next ranged attack you perform before the end of the current scene will deal 【 SL × 2 】 extra damage; or you may immediately perform a free attack with a bow or firearm you have equipped, treating your High Roll (HR) as 0 when calculating damage dealt by this attack."
+        },
+        {
+          "key": "ranged_weapon_mastery",
+          "name": "Ranged Weapon Mastery",
+          "sl_max": 4,
+          "text": "You gain a bonus equal to 【 SL 】 to all Accuracy Checks with ranged weapons."
+        },
+        {
+          "key": "warning_shot",
+          "name": "Warning Shot",
+          "sl_max": 4,
+          "text": "When you hit one or more targets with a ranged attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict shaken on each target hit by the attack; or inflict slow on each target hit by the attack; or each target hit by the attack loses 【 SL × 10 】 Mind Points. Describe your maneuver!"
+        }
+      ]
+    },
+    {
+      "key": "spiritist",
+      "name": "Spiritist",
+      "also": [
+        "Healer",
+        "Priest",
+        "Witch"
+      ],
+      "source": "core",
+      "flavor": "Spiritists have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5.",
+        "You may perform Rituals whose effects fall within the Ritualism discipline."
+      ],
+      "skills": [
+        {
+          "key": "healing_power",
+          "name": "Healing Power",
+          "sl_max": 2,
+          "text": "When you cast a spell that targets one or more allies, if you have an arcane weapon equipped, you may have each of those allies recover an amount of Hit Points equal to 【 SL, multiplied by the number of Bonds you have 】. This healing is separate from any healing caused by the effects of the spell."
+        },
+        {
+          "key": "ritual_spiritism",
+          "name": "Ritual Spiritism",
+          "sl_max": 1,
+          "text": "You may perform Rituals whose effects fall within the Spiritism discipline. Spiritism Rituals use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "spiritual_magic",
+          "name": "Spiritual Magic",
+          "sl_max": 10,
+          "text": "Each time you acquire this Skill, learn one Spiritist spell (see next two pages). Offensive (r) Spiritist spells use 【 INS + WLP 】 for the Magic Check."
+        },
+        {
+          "key": "support_magic",
+          "name": "Support Magic",
+          "sl_max": 1,
+          "text": "When you cast a spell that targets one or more allies, if you have an arcane weapon equipped, you may choose one of those allies you have a Bond towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the strength of your Bond towards them."
+        },
+        {
+          "key": "vismagus",
+          "name": "Vismagus",
+          "sl_max": 1,
+          "text": "When you cast a spell, if you don't have enough Mind Points to pay for its total cost, you may choose to spend twice as many Hit Points instead. You cannot use this Skill if doing so would reduce you to 0 Hit Points. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target)."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Spiritism",
+        "magic_check": "INS + WLP",
+        "text": "Spiritists learn spells via the Spiritual Magic Skill (one spell per acquisition). Offensive (r) Spiritist spells use 【 INS + WLP 】 for the Magic Check. Spiritism Rituals also use 【 INS + WLP 】. The Spiritist spell list lives in spells.json."
+      }
+    },
+    {
+      "key": "tinkerer",
+      "name": "Tinkerer",
+      "also": [
+        "Alchemist",
+        "Magitech Engineer",
+        "Mechanic"
+      ],
+      "source": "core",
+      "flavor": "Tinkerers possess exceptional ingenuity and are known for their eccentric and marvelous inventions. They travel the world in an endless search for lost theories and ancient machinery, challenging the very rules of nature and society in their pursuit of a better future.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2.",
+        "You may initiate Projects."
+      ],
+      "skills": [
+        {
+          "key": "emergency_item",
+          "name": "Emergency Item",
+          "sl_max": 1,
+          "text": "Once per conflict scene, if you are in Crisis, you may perform an additional action on your turn. This action must be the Inventory action."
+        },
+        {
+          "key": "gadgets",
+          "name": "Gadgets",
+          "sl_max": 5,
+          "text": "When you first acquire this Skill, choose a gadget type: alchemy, infusions or magitech (see next four pages). You gain its basic benefits. Whenever you take this Skill again, choose one option: you gain the basic benefits of a new gadget type; or you gain the advanced benefits of a gadget type whose basic benefits you already obtained; or you gain the superior benefits of a gadget type whose advanced benefits you already obtained."
+        },
+        {
+          "key": "potion_rain",
+          "name": "Potion Rain",
+          "sl_max": 2,
+          "text": "When you create a potion that restores a single creature's HP and/or MP, you may have it affect up to 【 SL 】 additional creatures. If you do, the potion only restores half the normal amount of HP and MP to each creature."
+        },
+        {
+          "key": "secret_formula",
+          "name": "Secret Formula",
+          "sl_max": 5,
+          "text": "When you create a potion or magisphere whose effects restore HP and/or MP, each restored amount is increased by 【 SL × 5 】. When you create an elemental shard, potion or magisphere that deals damage, that item deals 【 SL 】 extra damage."
+        },
+        {
+          "key": "visionary",
+          "name": "Visionary",
+          "sl_max": 5,
+          "text": "When you work on a Project, up to 【 SL × 100 】 zenit of material costs are automatically paid; additionally, you generate an additional 【 SL 】 progress every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative."
+        }
+      ]
+    },
+    {
+      "key": "wayfarer",
+      "name": "Wayfarer",
+      "also": [
+        "Adventurer",
+        "Explorer",
+        "Treasure Hunter"
+      ],
+      "source": "core",
+      "flavor": "Nomads searching for a fabled continent, explorers braving the wilds, grizzled hunters and travelers have one thing in common: they are Wayfarers. While a majority of heroes travel the world during their adventures, Wayfarers live for the journey.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2."
+      ],
+      "skills": [
+        {
+          "key": "faithful_companion",
+          "name": "Faithful Companion",
+          "sl_max": 5,
+          "text": "Together with the rest of your group, design a level 5 beast, construct, elemental or plant creature (see page 302) that becomes your companion. This creature has no Initiative score and does not level up, can have up to two basic attacks, gains a bonus equal to 【 SL 】 to Accuracy Checks and Magic Checks, and their maximum Hit Points are equal to 【 (SL multiplied by the companion's base Might die size) + half your level 】. Your companion doesn't get a turn during conflicts, but on your turn you can use an action to have the companion perform an action (only once per turn). If you leave a scene, your companion leaves with you. If your companion falls to 0 Hit Points, they flee and rejoin you at the start of the next scene in which you are present, with HP equal to their Crisis score. When you rest, your companion also gains the full benefits of resting."
+        },
+        {
+          "key": "resourceful",
+          "name": "Resourceful",
+          "sl_max": 4,
+          "text": "You recover 【 SL 】 Inventory Points after each travel roll (see page 106)."
+        },
+        {
+          "key": "tavern_talk",
+          "name": "Tavern Talk",
+          "sl_max": 3,
+          "text": "When you rest inside an inn or tavern, you may ask the Game Master up to 【 SL 】 questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information."
+        },
+        {
+          "key": "treasure_hunter",
+          "name": "Treasure Hunter",
+          "sl_max": 2,
+          "text": "When your group journeys on the world map, you will make a discovery on a roll of 【 SL + 1 】 or lower on the travel roll (instead of only on a 1)."
+        },
+        {
+          "key": "well_traveled",
+          "name": "Well-Traveled",
+          "sl_max": 1,
+          "text": "You reduce the die rolled for your travel rolls by one size (to a minimum of d6). If multiple characters have this Skill, the effects are not cumulative."
+        }
+      ]
+    },
+    {
+      "key": "weaponmaster",
+      "name": "Weaponmaster",
+      "also": [
+        "Fighter",
+        "Rōnin",
+        "Warrior"
+      ],
+      "source": "core",
+      "flavor": "Weaponmasters spend years upon years honing their close combat arts. Most display remarkable skill with a variety of weapons; others have trained to become one with a specific armament.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial melee weapons and martial shields."
+      ],
+      "skills": [
+        {
+          "key": "bladestorm",
+          "name": "Bladestorm",
+          "sl_max": 1,
+          "text": "When you perform a melee attack, you may spend 10 Mind Points to choose one option: the attack gains multi (2); or you increase the attack's multi property by one, up to a maximum of multi (3)."
+        },
+        {
+          "key": "bone_crusher",
+          "name": "Bone Crusher",
+          "sl_max": 4,
+          "text": "When you hit one or more targets with a melee attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict dazed on each target hit by the attack; or inflict weak on each target hit by the attack; or each target hit by the attack loses 【 SL × 10 】 Mind Points. Describe your maneuver!"
+        },
+        {
+          "key": "breach",
+          "name": "Breach",
+          "sl_max": 3,
+          "text": "You may use an action and spend 5 Mind Points to perform a free attack with a melee weapon you have equipped. This attack must target a single creature. If the attack is successful, it deals no damage and you choose one option: you destroy one shield equipped by the target; or you destroy the target's equipped armor; or whenever the target suffers damage from a source before the start of your next turn, that source deals 【 SL × 2 】 extra damage to them."
+        },
+        {
+          "key": "counterattack",
+          "name": "Counterattack",
+          "sl_max": 1,
+          "text": "After an enemy hits or misses you with a melee attack, if the Result of their Accuracy Check was an even number, you may perform a free attack against that enemy (after their attack has been fully resolved). This attack must be a melee attack and must have that enemy as its only target; treat your High Roll (HR) as 0 when calculating damage dealt by this attack."
+        },
+        {
+          "key": "melee_weapon_mastery",
+          "name": "Melee Weapon Mastery",
+          "sl_max": 4,
+          "text": "You gain a bonus equal to 【 SL 】 to all Accuracy Checks with melee weapons."
+        }
+      ]
+    },
+    {
+      "key": "chanter",
+      "name": "Chanter",
+      "also": [
+        "Bard",
+        "Idol",
+        "Troubadour"
+      ],
+      "source": "high",
+      "flavor": "Whether tracing their fingers on a delicate harp, dazing an unprepared audience with the sheer power of their vocals, or happily diving into a crowd of delirious fans, Chanters could be described as magical one-person orchestras! A Chanter's abilities reach way beyond the normal limits of music and singing: they rely on the strength of their souls and weave magical energy into songs, supporting their allies during tense situations.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "magichant",
+          "name": "Magichant",
+          "sl_max": 10,
+          "text": "On your turn during a conflict scene, you may use an action and spend a variable amount of MP to weave voice and music into a magical effect known as a verse. You may only sing one verse per turn, even if you have access to multiple actions; the full rules for verses can be found starting on the next page. When you first acquire this Skill, you learn all three volumes, plus one key and one tone (see next page). Whenever you acquire this Skill again, you may learn one key or one tone (your choice)."
+        },
+        {
+          "key": "resonance",
+          "name": "Resonance",
+          "sl_max": 3,
+          "text": "After you affect one or more enemies with a verse, if you have an arcane weapon equipped, you may choose one option: until the start of your next turn, your allies deal [SL] extra damage to those enemies; or until the start of your next turn, you recover [SL] Mind Points every time one of those enemies suffers damage (if the same source deals damage to two or more of those enemies at the same time, you recover [SL] MP for each damaged enemy)."
+        },
+        {
+          "key": "sirens_song",
+          "name": "Siren's Song",
+          "sl_max": 1,
+          "text": "You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to create hearing-based illusions."
+        },
+        {
+          "key": "sound_barrier",
+          "name": "Sound Barrier",
+          "sl_max": 5,
+          "text": "After you sing a verse with medium or high volume, all physical damage you suffer until the start of your next turn is reduced by [SL] (applied before Affinities)."
+        },
+        {
+          "key": "vibrato",
+          "name": "Vibrato",
+          "sl_max": 1,
+          "text": "After you sing a verse with low or medium volume, you may perform a free attack with a weapon you have equipped; treat your High Roll (HR) as 0 when calculating damage dealt by this attack."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "Magichant (verses)",
+        "magic_check": "n/a",
+        "text": "The Chanter does not cast standard spells. Instead, Magichant lets them sing verses by combining a volume, a key and a tone they have learned. VOLUME (MP / TARGETS): Low 10 MP — Yourself or another creature you can see who can hear you; Medium 20 MP — Every ally who can hear you; High 30 MP — Every enemy who can hear you. KEYS (type / status / attribute / recovery): Flame (fire, shaken, Might, Hit Points); Frost (ice, weak, Willpower, Mind Points); Iron (physical, slow, Willpower, Mind Points); Radiance (bolt, shaken, Dexterity, Hit Points); Shadow (light, dazed, Insight, Hit Points); Stone (dark, weak, Dexterity, Mind Points); Thunder (earth, dazed, Might, Hit Points); Wind (air, slow, Insight, Mind Points). TONES: Calm — each target recovers [key recovery] equal to [10 + twice your current Willpower die size] (+10 at level 20+, +20 at level 40+; MP recovery has no effect on the singer). Energetic — until the start of your next turn, when a target succeeds on a Check including [key Attribute] that lets them advance or turn back a Clock, they may fill or erase an additional section. Frantic — each target suffers [key type] damage equal to twice your current Willpower die size (+10 at level 20+, +20 at level 40+). Haunting — each target suffers [key status effect] and loses Resistance to [key type] damage (if any) until the start of your next turn. Lively — each target treats their [key Attribute] as one die size higher (max d12) until the start of your next turn. Menacing — the first time each target suffers damage before the start of your next turn, that damage becomes [key type] (triggers once per target separately). Solemn — each target recovers from [key status effect] and gains Resistance to [key type] damage until the start of your next turn."
+      }
+    },
+    {
+      "key": "commander",
+      "name": "Commander",
+      "also": [
+        "Prince",
+        "Queen",
+        "Shogun"
+      ],
+      "source": "high",
+      "flavor": "Commanders are leaders and inspiring figures. Some are of noble blood, but a majority have earned the loyalty of their comrades on the battlefield, where their iron resolve and tactical prowess were tested time and time again. When thinking about what a Commander might look like, don't feel bound to the idea of a knight in shining armor: bandit captains, fallen nobles and students of warfare are all perfect examples of what this Class may represent.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial melee weapons and martial ranged weapons."
+      ],
+      "skills": [
+        {
+          "key": "bishops_edict",
+          "name": "Bishop's Edict",
+          "sl_max": 5,
+          "text": "During a conflict, you may use an action and spend 10 Mind Points to choose one option: all MP costs are doubled; or all sources of damage deal [SL x 3] extra damage. The chosen effect lasts until the start of your next turn."
+        },
+        {
+          "key": "charging_cavalry",
+          "name": "Charging Cavalry",
+          "sl_max": 5,
+          "text": "During a conflict, you may use an action and spend 10 MP to choose one ally that can hear you. That ally may immediately perform a free attack with a weapon they have equipped (or with a basic attack if they are an NPC). They gain a bonus equal to [SL 3] to the Accuracy Check, but treat their High Roll (HR) as 0 when calculating damage."
+        },
+        {
+          "key": "crushing_chariot",
+          "name": "Crushing Chariot",
+          "sl_max": 1,
+          "text": "After you use Bishop's Edict, Charging Cavalry or King's Castle, you may choose another Player Character that can hear you who has yet to take a turn during this round. That character may take their turn immediately after yours during this round."
+        },
+        {
+          "key": "kings_castle",
+          "name": "King's Castle",
+          "sl_max": 4,
+          "text": "During a conflict, you may use an action and spend 10 Mind Points to choose one option: no creature can recover Hit Points or Mind Points; or all effects that restore Mind Points restore [SL x 5] additional Mind Points. The chosen effect lasts until the start of your next turn."
+        },
+        {
+          "key": "queens_gambit",
+          "name": "Queen's Gambit",
+          "sl_max": 6,
+          "text": "During a conflict, you may use an action to perform a free attack with a weapon you have equipped, treating your High Roll (HR) as 0 when calculating damage. After the attack is resolved, choose one option: one ally who is able to hear you recovers [5 + (SL x 5)] Hit Points; or you may immediately use a Skill you acquired among Bishop's Edict, Charging Cavalry or King's Castle for free (spending the appropriate MP)."
+        }
+      ]
+    },
+    {
+      "key": "dancer",
+      "name": "Dancer",
+      "also": [
+        "Acrobat",
+        "Jester",
+        "Swashbuckler"
+      ],
+      "source": "high",
+      "flavor": "Dancers are those who have trained their bodies to achieve exceptional coordination and flexibility, be it to impress a crowd with their gymnastics or to perform ancient steps meant to keep evil at bay. The more gifted Dancers may direct the flow of spiritual force through repeated and precise motions, enhancing their physical abilities and manifesting magical effects. They are surprisingly capable combatants, if sometimes a little... overdramatic.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points or Mind Points by 5 (your choice)."
+      ],
+      "skills": [
+        {
+          "key": "dance",
+          "name": "Dance",
+          "sl_max": 10,
+          "text": "Each time you take this Skill, you learn a dance (see next page). On your turn during a conflict scene, if you have no martial armor equipped, you may spend 10 Mind Points to perform a dance you have learned. This doesn't require an action, but it can only be done before or after an action, and only once per turn. If you already performed a different dance during your previous turn in this scene, the cost of the new dance is reduced to 5 Mind Points. Some dances are instantaneous and resolve immediately, while others have effects that last until the start of your next turn. DANCES (duration): Angel Dance (Until the start of your next turn) — choose one: you gain Resistance to light damage; or all damage dealt by your attacks and spells becomes light. Banshee Dance (Instantaneous) — choose another creature that can see you; if already slow, they immediately suffer shaken. Bat Dance (Until the start of your next turn) — Resistance to dark, or your damage becomes dark. Golem Dance (Until the start of your next turn) — Resistance to bolt, or your damage becomes bolt. Griffin Dance (Until the start of your next turn) — Resistance to air, or your damage becomes air. Hydra Dance (Until the start of your next turn) — after you suffer damage, recover 5 HP or 5 MP. Kraken Dance (Instantaneous) — choose another creature that can see you; if already dazed, they immediately suffer slow. Lion Dance (Instantaneous) — recover from a single status effect of your choice. Maenad Dance (Instantaneous) — choose another creature that can see you; that creature loses MP equal to your current Dexterity die size. Myrmidon Dance (Until the start of your next turn) — Resistance to earth, or your damage becomes earth. Nightmare Dance (Instantaneous) — choose another creature that can see you; if already shaken, they immediately suffer weak. Ouroboros Dance (Instantaneous) — choose an ally you can see who has yet to take a turn this round; they may take their turn immediately after yours. Peacock Dance (Instantaneous) — choose another creature that can see you; the next time it attacks or casts an offensive spell this scene, it must include you among its targets if possible. Phoenix Dance (Until the start of your next turn) — Resistance to fire, or your damage becomes fire. Satyr Dance (Instantaneous) — choose another creature that can see you; if already weak, they immediately suffer dazed. Unicorn Dance (Instantaneous) — choose an ally that can see you and has a Bond towards you; you both recover HP equal to your current Dexterity die size (+5 at level 20+, +10 at level 40+). Yeti Dance (Until the start of your next turn) — Resistance to ice, or your damage becomes ice."
+        },
+        {
+          "key": "follow_my_lead",
+          "name": "Follow My Lead",
+          "sl_max": 1,
+          "text": "When you perform a dance with a duration of \"Until the start of your next turn\", you may spend 10 additional Mind Points. If you do, choose one ally you can see towards whom you have a Bond of affection: apply the benefits of the dance to that ally as well as yourself (the benefits still last until the start of your next turn)."
+        },
+        {
+          "key": "frenetic_footwork",
+          "name": "Frenetic Footwork",
+          "sl_max": 2,
+          "text": "After you perform a dance with a duration of \"Until the start of your next turn\", you gain a bonus equal to [SL x 2] to all Opposed Checks that rely on acrobatics, coordination or speed until the start of your next turn."
+        },
+        {
+          "key": "quick_change",
+          "name": "Quick-Change",
+          "sl_max": 1,
+          "text": "After you perform a dance, you may perform the Equipment action for free."
+        },
+        {
+          "key": "wardancer",
+          "name": "Wardancer",
+          "sl_max": 5,
+          "text": "After you perform a dance, your attacks with brawling, dagger, flail and thrown weapons deal [SL] extra damage until the start of your next turn. If you have an arcane weapon equipped, offensive spells you cast also deal [SL] extra damage until the start of your next turn."
+        }
+      ]
+    },
+    {
+      "key": "symbolist",
+      "name": "Symbolist",
+      "also": [
+        "Calligrapher",
+        "Painter",
+        "Runemaker"
+      ],
+      "source": "high",
+      "flavor": "There is great power within symbols and images, and no one knows this better than a Symbolist. Rather than a magical discipline, symbolism could be described as a study of how to weave supernatural energies into signs and icons: these may be paintings, runes, talismans and more. Most Symbolists develop their skills through intense practice and meticulous study, but there are many who view this magical discipline as a way to freely express their artistic vision.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2."
+      ],
+      "skills": [
+        {
+          "key": "magic_symbols",
+          "name": "Magic Symbols",
+          "sl_max": 3,
+          "text": "If an ally bears one of your symbols, that ally may perform the Spell action and destroy that symbol to cast a single spell among those you know, as long as it has a total Mind Point cost equal to or lower than [SL x 10] (that ally must still pay the MP cost)."
+        },
+        {
+          "key": "mirage",
+          "name": "Mirage",
+          "sl_max": 1,
+          "text": "You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to create sight-based illusions."
+        },
+        {
+          "key": "personal_touch",
+          "name": "Personal Touch",
+          "sl_max": 5,
+          "text": "When a creature you can see that is bearing one of your symbols suffers damage or recovers Hit Points and/or Mind Points, you may have that creature suffer [SL] extra damage or recover [SL] additional Hit Points and/or Mind Points, respectively."
+        },
+        {
+          "key": "symbolic_connection",
+          "name": "Symbolic Connection",
+          "sl_max": 1,
+          "text": "You always know the exact direction in which to find any creature bearing one of your symbols, as long as that creature is within 2 travel days of your position."
+        },
+        {
+          "key": "symbolism",
+          "name": "Symbolism",
+          "sl_max": 5,
+          "text": "Each time you acquire this Skill, you learn two symbols (see next page). You may have up to [SL + 1] symbols active at the same time; if you create more while at your limit, you must first choose and destroy some of your previous symbols. You may perform the Inventory action and spend 2 Inventory Points to create a symbol you have learned and choose one option: apply that symbol to yourself; or apply that symbol to an ally you can see; or perform a free attack with a weapon you have equipped. This attack deals no damage, but you apply a copy of the chosen symbol to each enemy hit by the attack (each copy counts as a separate symbol towards your limit of [SL + 1] active symbols). SYMBOL RULES: A creature may only bear one symbol at a time; a new symbol destroys the previous one. Symbols have unlimited duration until destroyed. If the Symbolist dies, all their symbols are destroyed. If a creature bearing a symbol dies, that symbol is destroyed (unless an NPC merely changes form at 0 HP). A Villain may spend 1 Ultima Point during a GM scene to destroy any number of symbols on themselves and present allies. A Symbolist may destroy any number of their own symbols at any time, no action required. SYMBOLS: Binding — current Attribute die sizes can never exceed base sizes. Creation — the bearer may destroy this symbol to spend no Inventory Points during a conflict. Despair — the bearer recovers only half HP/MP during conflicts. Destiny — after the bearer makes a Check, spend 1 Fabula Point to force a reroll of both dice (once per Check, not on crit/fumble). Elements — choose a damage type; spend MP equal to one third of total damage the bearer inflicts to change that damage to the chosen type. Enmity — while the bearer is in Crisis, enemies who can see them must target them if possible. Flux — choose a status effect; grant immunity to it, or remove immunity and prevent gaining it. Forbiddance — choose an action type; when the bearer performs it, they lose 5 HP and 5 MP before acting (10 at level 20+, 20 at level 40+). Growth — the bearer's \"Up to three creatures\" spells become \"Up to four creatures\" (extra MP still required). Metamorphosis — choose a Species; the bearer counts as that Species for Skills/effects (cannot be applied to PCs). Prosperity — when the bearer spends 1 Fabula Point to invoke a Trait or Bond, they also receive 100 zenit. Protection — choose a damage type; the bearer gains Resistance to it. Rebellion — if a Villain is present, the bearer's Opposed Checks crit when both dice match (not on a fumble). Rebirth — if the bearer would be reduced to 0 HP, destroy this symbol to leave them at 1 HP instead. Revenge — when a creature in Crisis hits the bearer, that creature recovers 5 HP and 5 MP. Sacrifice — when the bearer suffers damage, destroy this symbol to take the damage yourself instead. Sorcery — spells targeting the bearer cost 5 MP less (min 5; cumulative across multiple bearers). Truth — Checks to examine/locate the bearer, and Accuracy/Magic Checks targeting them, gain +2 (cumulative). Weakness — choose a damage type; the bearer suffers 5 extra damage from that type."
+        }
+      ]
+    },
+    {
+      "key": "floralist",
+      "name": "Floralist",
+      "also": [
+        "Bloomblade",
+        "Gardener",
+        "Herbalist"
+      ],
+      "source": "natural",
+      "flavor": "There is no rose without thorns. Spiritual energy flows strongly within plants, thanks to their direct connection to our earth. Growing from this encounter are magiseeds, gifted with the unique ability to thrive on spiritual energy and blossom into a majestic yet ephemeral triumph of magic. Floralists can identify and cultivate these strange seeds, which grant a large variety of benefits and can be combined with all sorts of disciplines, martial and magical.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points or Mind Points by 5 (your choice)."
+      ],
+      "skills": [
+        {
+          "key": "battle_gardening",
+          "name": "Battle Gardening",
+          "sl_max": 3,
+          "text": "After you plant a magiseed through the Chloromancy Skill (not when using Graft), you may choose one option: perform a free attack with an equipped weapon; or perform the Spell action for free, casting a spell with a total Mind Point cost equal to or lower than 【5 + (SL × 5)】 (you must still pay its MP cost). Treat the High Roll (HR) of your Accuracy Check or Magic Check as being equal to 0 when determining damage dealt by this attack or spell."
+        },
+        {
+          "key": "chloromancy",
+          "name": "Chloromancy",
+          "sl_max": 10,
+          "text": "Each time you acquire this Skill, you discover a new type of magiseed from the list found in the next pages. During a conflict, if there are no magiseeds in your garden, you may use an action and spend 20 Mind Points to plant a magiseed of a type you have discovered. The rules for the garden and for magiseed growth can be found in the next pages."
+        },
+        {
+          "key": "graft",
+          "name": "Graft",
+          "sl_max": 1,
+          "text": "As long as there is a magiseed in your garden and 1 or more sections of your Growth Clock are filled, you may use an action to remove that magiseed from your garden: if you do, plant a different magiseed among those you have discovered (keep the current filled sections of your Growth Clock unchanged)."
+        },
+        {
+          "key": "tree_of_life",
+          "name": "Tree of Life",
+          "sl_max": 5,
+          "text": "When you remove a magiseed from your garden, you may choose one creature you can see: if that creature is in Crisis, they recover 【5 + (SL × 5)】 Hit Points."
+        },
+        {
+          "key": "verdant_sway",
+          "name": "Verdant Sway",
+          "sl_max": 1,
+          "text": "You gain the ability to perform Rituals of the Ritualism discipline; additionally, you may use Ritualism to create, animate, and/or control vegetation, pollen, spores, and toxins (but you cannot create nor control plant-Species NPCs this way)."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "chloromancy (magiseeds)",
+        "text": "Floralists do not cast a normal spell list; instead, the Chloromancy Skill lets them discover and plant magiseeds that grow via a Growth Clock. The discrete magiseeds are catalogued as Floralist spells in the spells file. Verdant Sway additionally grants Ritualism Rituals."
+      }
+    },
+    {
+      "key": "gourmet",
+      "name": "Gourmet",
+      "also": [
+        "Brewer",
+        "Chef",
+        "Patissier"
+      ],
+      "source": "natural",
+      "flavor": "A true chef respects the nature of that which they transform. Cooking may be considered a common skill, but Gourmets refine their knowledge of foodstuffs to a level that is nothing short of supernatural: they refine the art of extracting spiritual energies from every ingredient, infusing meals with powerful magical effects! While most Gourmets are content with simply settling down in a town or village and making a living off their skills, some wander the world in a lifelong search for new ingredients.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2.",
+        "You may start Projects to create unique foods and drinks; they are always consumable and their area is based on the number and type of creatures you need to nourish."
+      ],
+      "skills": [
+        {
+          "key": "cooking",
+          "name": "Cooking",
+          "sl_max": 5,
+          "text": "When you rest inside a settlement, you gain 【SL】 ingredients (see next page). You may use an action and combine 2 or 3 ingredients to prepare a delicacy (see next page) and choose one option: you apply its effects to yourself or an ally you can see; or you perform a free attack with a weapon you have equipped. This attack deals no damage, but you apply the delicacy's effects to each enemy hit by the attack. You may carry up to 10 + 【SL × 5】 ingredients, and they will never spoil until you use them; if you take this Skill during character creation, you begin play with ten ingredients with random tastes."
+        },
+        {
+          "key": "knife_and_fork",
+          "name": "Knife and Fork",
+          "sl_max": 1,
+          "text": "When you perform the free attack granted by the Cooking Skill, if you combined no more than 2 ingredients, you may have the attack deal damage as normal. If you do, you treat your High Roll (HR) as 0 when calculating damage dealt by this attack."
+        },
+        {
+          "key": "made_with_love",
+          "name": "Made with Love",
+          "sl_max": 3,
+          "text": "When you use the Cooking Skill and choose to apply the effects of the delicacy to yourself or an ally you can see, you may spend up to 【SL × 10】 MP. For every 10 MP you spend this way, apply the delicacy's effects to an additional ally you can see."
+        },
+        {
+          "key": "salt_and_pepper",
+          "name": "Salt and Pepper",
+          "sl_max": 1,
+          "text": "When you prepare a delicacy, you may spend 2 Inventory Points: if you do, change the taste of one ingredient to a different taste of your choice."
+        },
+        {
+          "key": "traveling_cook",
+          "name": "Traveling Cook",
+          "sl_max": 3,
+          "text": "After each travel roll, if you acquired the Cooking Skill, you gain 【SL × 2】 ingredients."
+        }
+      ]
+    },
+    {
+      "key": "invoker",
+      "name": "Invoker",
+      "also": [
+        "Ascetic",
+        "Channeler",
+        "Five-Soul Master"
+      ],
+      "source": "natural",
+      "flavor": "Wish not for control, but understanding. Invokers research the innate energy of souls and the way it spontaneously flows and manifests throughout their surroundings. Even if their art relies on calling upon the power of the elements, they adapt to the existing power sources rather than force an unnatural outcome and upset the flow of spirits. That said, Invokers remain formidable adventurers: they boast great flexibility and a unique affinity for elemental creatures.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points or Mind Points by 5 (your choice)."
+      ],
+      "skills": [
+        {
+          "key": "elemental_harmony",
+          "name": "Elemental Harmony",
+          "sl_max": 2,
+          "text": "You may verbally communicate with creatures of the elemental Species. When you restore a creature's Hit Points with an invocation or spell, if an elemental is present on the scene, the restored amount is increased by 【SL × 5】."
+        },
+        {
+          "key": "invocation",
+          "name": "Invocation",
+          "sl_max": 3,
+          "text": "You may use an action and spend 5 Mind Points to perform an invocation, drawing energy from one of the wellsprings present on the scene (see next page). Your 【SL】 in this Skill determines which invocations you have access to."
+        },
+        {
+          "key": "linked_invocation",
+          "name": "Linked Invocation",
+          "sl_max": 3,
+          "text": "When you perform an invocation, you may spend up to 【SL × 10】 additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see."
+        },
+        {
+          "key": "ripples",
+          "name": "Ripples",
+          "sl_max": 5,
+          "text": "After an enemy you can see loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your \"hex\" invocations, you may perform a free attack with a weapon you have equipped. This attack may only target that enemy, and receives a bonus equal to 【SL】 to its Accuracy Check; if it is successful, all its damage becomes of the same type dealt by your ally, and all \"hex\" invocations present on its target end immediately after the attack has been resolved. If two or more enemies trigger this Skill at the same time, you can perform a free attack against each of them, in whatever order you prefer."
+        },
+        {
+          "key": "wellspring_expansion",
+          "name": "Wellspring Expansion",
+          "sl_max": 5,
+          "text": "As long as you have a weapon belonging to the arcane, bow, brawling, flail, sword, or thrown Category equipped, your \"blast\" invocations deal 【SL】 extra damage, and the extra damage granted by your \"hex\" invocations is increased by 【SL】."
+        }
+      ],
+      "spellcasting": {
+        "discipline": "invocation (elemental wellsprings)",
+        "text": "Invokers do not use a fixed spell list; the Invocation Skill draws on the two elemental wellsprings available in each scene. Skill Level in Invocation gates access: SL 1 enables \"blast\" invocations, SL 2 enables \"blast\" and \"hex\" invocations, SL 3 gives access to all invocations. The discrete invocations (air, earth, fire, lightning, water wellsprings) are catalogued as Invoker spells in the spells file."
+      }
+    },
+    {
+      "key": "merchant",
+      "name": "Merchant",
+      "also": [
+        "Antiquarian",
+        "Collector",
+        "Pharmacist"
+      ],
+      "source": "natural",
+      "flavor": "First of all, think: how will this help people in need? Even in worlds rife with great magic, wealth and money are very influential. Trade and commerce are one key aspect to the development of nations and kingdoms, and Merchants are quite aware of this power. It might seem strange for a Merchant to be treated on par with a hero: and yet, those who resist the temptation of greed and rely on commerce to foster exchanges of ideas and dialogue between distant people truly are fighting their very own revolution.",
+      "free_benefits": [
+        "Permanently increase your maximum Inventory Points by 2."
+      ],
+      "skills": [
+        {
+          "key": "expiration_date",
+          "name": "Expiration Date",
+          "sl_max": 3,
+          "text": "When a potion or delicacy (see page 151) you created that does not deal damage causes one or more creatures to recover Hit Points, you may instead have it deal poison damage equal to 【half your level + (SL × 10)】 to each of those creatures. This damage's type cannot change, and it is halved if you are dealing damage to two or more creatures."
+        },
+        {
+          "key": "ive_heard_of_it",
+          "name": "I've Heard of It!",
+          "sl_max": 3,
+          "text": "When you or an ally who is able to hear and understand you perform a Check to examine a creature, item, or location, you may spend 1 Trade Point to grant a bonus equal to 【SL × 2】 to the Result of that Check."
+        },
+        {
+          "key": "private_stock",
+          "name": "Private Stock",
+          "sl_max": 3,
+          "text": "When you or another Player Character spend 【SL + 2】 or fewer Inventory Points, you may spend 1 Trade Point to ignore that cost."
+        },
+        {
+          "key": "real_treasure",
+          "name": "Real Treasure",
+          "sl_max": 3,
+          "text": "Once per session, when you help an NPC or community defeat greed and corruption, improve their quality of life, or coexist with other creatures, if you have acquired the Winds of Trade Skill, you gain 【SL + 1】 Trade Points."
+        },
+        {
+          "key": "winds_of_trade",
+          "name": "Winds of Trade",
+          "sl_max": 3,
+          "text": "After you rest in an area where commerce is possible, you gain 【SL + 1】 Trade Points. You may never have more than 【SL + 3】 Trade Points; if you acquire this Skill during character creation, you begin play with 2 Trade Points. During a non-conflict scene, you may spend 2 Trade Points to choose one option: you create a material or rare item approved by the Game Master whose value in zenit is equal to or lower than 【your level, multiplied by 30】; or you create an NPC that lives nearby and explain their occupation as well as how you met them, then the Game Master tells you what they require in exchange for their services."
+        }
+      ]
+    },
+    {
+      "key": "esper",
+      "name": "Esper",
+      "also": [
+        "Empath",
+        "Psion",
+        "Soul Hacker"
+      ],
+      "source": "techno",
+      "flavor": "Thought, desire and emotion are powerful forces, whose echoes influence the stream of souls that flows throughout the world. Espers have developed the ability to connect with this spiritual web of sensations, which scientists have dubbed \"the soul network\", and rely on it to transmit information and improve their physical and mental abilities. Because of this, each Esper applies their powers in remarkably different ways.",
+      "free_benefits": [
+        "Permanently increase your maximum Mind Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "cognitive_focus",
+          "name": "Cognitive Focus",
+          "sl_max": 5,
+          "text": "At the start of your turn during a conflict, you may choose one ally who is able to hear you or one enemy you can see that is suffering from dazed, enraged, and/or shaken. Until the start of your next turn, the chosen creature becomes your focus. You gain a bonus equal to [SL] to Checks you perform to examine your focus, as well as to your Accuracy Checks and Magic Checks for attacks and offensive spells (r) that include your focus among the targets. When you cause your focus to recover Hit Points and/or Mind Points, they recover [SL x 2] additional HP and/or MP, respectively."
+        },
+        {
+          "key": "hypercognition",
+          "name": "Hypercognition",
+          "sl_max": 5,
+          "text": "The total MP cost of your spells and verses (see High Fantasy Atlas, page 138) that include your focus among their targets is reduced by [SL], or by [SL x 2] if your focus is the only target (to a minimum cost of 0 Mind Points)."
+        },
+        {
+          "key": "navigator",
+          "name": "Navigator",
+          "sl_max": 1,
+          "text": "You can communicate telepathically with any conscious ally within 1 travel day of you; you are able to hear each other for the sake of Skills and effects. You gain the ability to perform Rituals of the Ritualism discipline. Additionally, you may use Ritualism to transport creatures in and out of the soul network, and to gain information and track entities while inside the soul network."
+        },
+        {
+          "key": "psychic_gifts",
+          "name": "Psychic Gifts",
+          "sl_max": 5,
+          "text": "Each time you take this Skill, you gain a gift. Gifts can only be used when specific events take place; when this happens, you may spend an amount of Mind Points equal to [the number of filled sections in your Brainwave Clock, multiplied by 5] (minimum 5 Mind Points) in order to apply the effects of that gift to the event. You may only use a single gift per event. If a gift causes HP or MP recovery, or MP loss, the amounts increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher. When you first acquire this Skill you also receive a Brainwave Clock: it has 4 sections, begins each scene empty, and after you resolve one of your gifts you fill 1 section (after the gift's effects are applied). The Clock determines your gifts' MP cost and their effectiveness; you can still use gifts when the Clock is full. Sections may not be filled in any other way, and may only be erased through the Brainwave Discharge Heroic Skill (page 171) or effects that expressly influence Brainwave Clocks. Gifts (event -> effect): Atmokinesis (When you deal damage): that damage becomes air or bolt, and its source deals extra damage equal to [2 + the number of filled sections in your Brainwave Clock]. Clairvoyance (When an NPC becomes your focus or when you create a Bond towards an NPC): ask the GM a single question about that NPC, which they must answer truthfully; then describe what sensation revealed this; use only once per NPC. Gravitokinesis (When you deal damage): that damage becomes earth or physical, and its source deals extra damage equal to [2 + the number of filled sections in your Brainwave Clock]; if the source deals damage to one or more flying creatures, they are forced to land immediately. Life Transference (When you cause one or more enemies to lose HP): choose yourself or an ally who is your focus; if the chosen creature is in Crisis, they recover Hit Points equal to [5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)]. Photokinesis (When you deal damage): that damage becomes dark or light, and its source deals extra damage equal to [2 + the number of filled sections in your Brainwave Clock]. Psychic Backlash (After an enemy succeeds on an Opposed Check against you or causes you to lose Hit Points): that enemy loses Mind Points equal to [5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)]; then choose: that enemy suffers dazed, or shaken. Psychic Shield (After an enemy you can see performs an Accuracy Check or a Magic Check): for that Check, you may treat your Defense and Magic Defense scores as being equal to [your current Willpower die size + (the number of filled sections in your Brainwave Clock, multiplied by 2)] (use your normal scores if better). Reassuring Presence (After you cover an ally with the Guard action): that ally recovers Mind Points equal to [10 + (the number of filled sections in your Brainwave Clock, multiplied by 5)]; if that ally is your focus, they heal from a single status effect of their choice out of dazed, enraged, and shaken. Thermokinesis (When you deal damage): that damage becomes fire or ice, and its source deals extra damage equal to [2 + the number of filled sections in your Brainwave Clock]."
+        },
+        {
+          "key": "psychokinesis",
+          "name": "Psychokinesis",
+          "sl_max": 1,
+          "text": "When you perform an Accuracy Check, you may replace one of the Attribute dice with Willpower (such as [DEX + WLP] for a shortbow). Additionally, your melee attacks with weapons belonging to the arcane or sword Categories may target flying creatures."
+        }
+      ],
+      "text": "Suggested character-creation questions: How did you develop your psychic abilities? Did someone train you? Are your abilities relatively common, or are you the exception? Which of your attributes or skills can you strengthen with your psychic arts? Which unsettling or unusual quality do your powers possess? The Esper is not a spellcaster; its psychic power is expressed through gifts and the Brainwave Clock, not a discrete spell list."
+    },
+    {
+      "key": "mutant",
+      "name": "Mutant",
+      "also": [
+        "Abomination",
+        "Experiment",
+        "Lycanthrope"
+      ],
+      "source": "techno",
+      "flavor": "Mutants are living testaments to ruthless arrogance: people whose souls and bodies bear the signs of technological or magical pollution. Each Mutant is a unique being capable of altering their body in strange and unprecedented ways, but their powers come at a painful price and can be a dreadful sight to behold.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5."
+      ],
+      "skills": [
+        {
+          "key": "akromorphosis",
+          "name": "Akromorphosis",
+          "sl_max": 3,
+          "text": "Your unarmed strikes deal [6 + (SL x 2)] extra damage, and you gain a bonus equal to [SL] to your Accuracy Checks with them. At the start of your turn during a conflict, you may choose a weapon Category other than brawling. If you do, your unarmed strikes now belong to the chosen Category. If you choose bow, firearm or thrown, they become ranged weapons instead of melee. If you choose dagger or sword, they cannot be used with Triple Slash (see High Fantasy Atlas, page 161). These changes last until the start of your next turn."
+        },
+        {
+          "key": "biophagy",
+          "name": "Biophagy",
+          "sl_max": 4,
+          "text": "After one of your attacks or offensive spells (r) causes one or more enemies to lose Hit Points, if you are in Crisis, you may recover [SL x 5] Hit Points."
+        },
+        {
+          "key": "ecdysis",
+          "name": "Ecdysis",
+          "sl_max": 1,
+          "text": "After you lose Hit Points due to damage, if that damage had a type other than physical, you may spend 10 Hit Points to gain Resistance to that damage type until you use this Skill again. You cannot use this Skill if doing so would reduce you to 0 HP."
+        },
+        {
+          "key": "genoclepsis",
+          "name": "Genoclepsis",
+          "sl_max": 2,
+          "text": "When you deal damage to one or more NPCs, you learn their Species and the GM chooses [SL] therioforms appropriate to those NPCs (see below): if you have acquired the Theriomorphosis Skill, you may immediately pay its HP cost and use it to manifest those therioforms (even if they are not among those you have learned)."
+        },
+        {
+          "key": "theriomorphosis",
+          "name": "Theriomorphosis",
+          "sl_max": 6,
+          "text": "Each time you acquire this Skill, you learn a therioform (see below). You may use an action and spend one third of your current Hit Points (rounded down) to manifest the effects of up to two therioforms from those you have learned. Once used, the chosen therioforms last until the end of the scene; they also end if you die or fall unconscious, perform the Guard action, or use Theriomorphosis again (including through Genoclepsis). You may end the effects at any time, but during a conflict only on your turn, before or after an action. When a scene ends, if you are under the effects of Theriomorphosis, you may spend 10 Mind Points to extend your current therioforms to the next scene you will be in. THERIOFORMS: Amphibia (frogs, salamanders, regenerating/aquatic): you may breathe underwater and see perfectly in dim light; when you recover Hit Points, you recover 5 additional HP and may immediately recover from a single status effect of your choice. Arpaktida (wolves, birds of prey): treat your Insight as one die size higher (max d12); when you first deal damage to one or more creatures during your turn, if at least one is in Crisis, deal 5 extra damage to each of those creatures. Dynamotheria (bears, dinosaurs): treat your Might as one die size higher (max d12); when you succeed on a Check to advance or turn back a Clock that includes Might, you may fill or erase 1 additional section. Electrophora (electric creatures, robots): when you deal damage with an attack or spell, you may have all that damage become bolt; while your unarmed strikes deal bolt damage, any enemy who loses 20 or more Hit Points from one of your unarmed strikes also suffers slow. Neurophagoida (parasites, undead, soul-feeders): when you use the Biophagy Skill, you also recover Mind Points equal to [4 + (your Skill Level in Theriomorphosis)]. Placophora (crustaceans, turtles, armored creatures/vehicles): you may treat your Defense score as being equal to [13 + (half your Skill Level in Theriomorphosis)] (use your normal scores if better). Pneumophora (jet mollusks, winged beasts, rockets): when you deal damage with an attack or spell, you may have all that damage become air; while your unarmed strikes deal air damage, any enemy who loses 20 or more Hit Points from one of your unarmed strikes also suffers weak. Polypoda (squids, octopi, tendriled creatures): your attacks with unarmed strikes gain multi (3). Pterotheria (bats, birds, flying creatures): you are able to fly; your melee attacks can target flying creatures and you cannot be targeted by melee attacks unless the attacker is flying or can reach flying targets (these do not apply if you cannot fly freely, e.g. inside a human-sized vehicle or a narrow corridor); additionally, when you suffer air, bolt or ice damage during a conflict scene, you lose these benefits until the start of your next turn. Pyrophora (bombardier beetles, fire elementals): when you deal damage with an attack or spell, you may have all that damage become fire; while your unarmed strikes deal fire damage, any enemy who loses 20 or more Hit Points from one of your unarmed strikes also suffers dazed. Tachytheria (cats, gazelles, hares): treat your Dexterity as one die size higher (max d12); when you succeed on a Check to advance or turn back a Clock that includes Dexterity, you may fill or erase 1 additional section. Toxicophora (spiders, snakes, venomous creatures): when you deal damage with an attack or spell, you may have all that damage become poison; while your unarmed strikes deal poison damage, any enemy who loses 20 or more Hit Points from one of your unarmed strikes also suffers poisoned."
+        }
+      ],
+      "text": "Suggested character-creation questions: Were your mutations caused by a scientific experiment or by some kind of magic? Who is responsible for your mutations? What are your feelings towards them? How do your mutations manifest? What makes them eerily beautiful?"
+    },
+    {
+      "key": "pilot",
+      "name": "Pilot",
+      "also": [
+        "Biker",
+        "Mecha Pilot",
+        "Sky Pirate"
+      ],
+      "source": "techno",
+      "flavor": "Be they boastful racers, trained soldiers or elegant chauffeurs, Pilots develop a special bond with their vehicle - in a way, it becomes an extension of their body, which they can rely on for battle and travel. A Pilot's vehicle is something unique and irreplaceable.",
+      "free_benefits": [
+        "Permanently increase your maximum Hit Points by 5.",
+        "Gain the ability to equip martial melee weapons and martial ranged weapons."
+      ],
+      "skills": [
+        {
+          "key": "compression_tech",
+          "name": "Compression Tech",
+          "sl_max": 1,
+          "text": "As long as there is no one aboard your personal vehicle, you may have it safely disappear from the game world at any time. If your personal vehicle is not present in the game world and you are in a space big enough to contain it, you may perform the Inventory action and spend 2 Inventory Points to have the vehicle appear near you, and enter it for free."
+        },
+        {
+          "key": "flexible_configuration",
+          "name": "Flexible Configuration",
+          "sl_max": 4,
+          "text": "When you perform the Equipment or Guard action while driving your personal vehicle, you may choose up to [SL] of its enabled modules and disable them. If you do, choose up to an equal amount of its disabled modules and enable them."
+        },
+        {
+          "key": "heart_in_the_engine",
+          "name": "Heart in the Engine",
+          "sl_max": 3,
+          "text": "At the start of your turn during a conflict, if you are driving your personal vehicle, you may spend 10 Mind Points. If you do, choose one option: the next time you deal damage during this turn, deal [SL x 2] extra damage; or, the next time you suffer damage before the start of your next turn, that damage is reduced by [SL x 2] (applied before damage Affinities); or, you recover from either the slow or weak status effect (your choice)."
+        },
+        {
+          "key": "personal_vehicle",
+          "name": "Personal Vehicle",
+          "sl_max": 5,
+          "text": "When you acquire this Skill, you gain a personal vehicle with a frame of your choice and three different modules of your choice (see below). Whenever you acquire this Skill again, you acquire two additional modules of your choice. A personal vehicle follows special rules: Entering it during a conflict requires the Objective action (no Check normally, GM may add a Clock; if accessible when the conflict begins, characters may enter it immediately before the Initiative Check). Leaving it doesn't require an action but during a conflict can only be done on your turn, before or after an action. It can contain a variable number of human-sized creatures depending on frame and modules, but only its Pilot may drive it; other passengers cannot cover creatures with the Guard action. The maximum number of modules enabled at the same time is [3 + its Pilot's SL in Personal Vehicle]. The vehicle has no separate stats (an extension of the Pilot); it can be narratively damaged/rendered unusable as a Surrender consequence but cannot be destroyed unless the Player agrees. Repairing a narratively damaged vehicle costs [its Pilot's SL in Personal Vehicle, multiplied by 100] zenit. Frames: Exoskeleton (passengers: none; no distance modifier; up to 2 weapon modules, 1 armor module, any number of support modules; if you use Compression Tech with it, ignore the IP cost). Mecha (passengers: none, x2 distance; up to 2 weapon modules, 1 armor module, any number of support modules; if you use Heart in the Engine with it, ignore the MP cost). Steed (passengers: up to one, x2 distance; up to 1 weapon module, 1 armor module, any number of support modules; if you use Heart in the Engine with it, ignore the MP cost). Armor modules (Defense / Magic Defense): Flexible Plating (DEX die size +2 / INS die size +1), Heavy Plating E (12 / 8), Runic Plating E (10 / 11), Standard Plating E (11 / 10); modules marked E are martial armor and set fixed scores (a Pilot may equip them even without martial armor training). Weapon modules count as one-handed non-martial weapons (except Shield, treated as a shield); each has base cost 500 zenit. Weapon modules (Accuracy / Damage): Arcane [DEX+WLP] / [HR+8] physical (Arcane, melee); Axe [DEX+INS] / [HR+12] physical (Heavy, melee); Blade [DEX+INS]+1 / [HR+6] physical (Dagger, melee); Bow [DEX+INS]+1 / [HR+12] physical (Bow, ranged; no other weapon modules); Cannon [DEX+INS] / [HR+14] physical (Firearm, ranged; no other weapon modules); Claw [DEX+INS] / [HR+8] physical (Brawling, melee; can interact with the scene as a free hand); Claymore [DEX+INS]+1 / [HR+14] physical (Sword, melee; no other weapon modules); Esoteric [DEX+WLP] / [HR+12] physical (Arcane, melee; no other weapon modules); Flail [DEX+INS] / [HR+10] physical (Flail, melee); Flamer [DEX+INS] / [HR+8] fire (Firearm, melee); Machine Gun [DEX+INS] / [HR+10] physical (Firearm, ranged; no other weapon modules; may perform two separate attacks following two-weapon fighting rules); Rifle [DEX+INS] / [HR+10] physical (Firearm, ranged); Scythe [DEX+INS] / [HR+16] physical (Heavy, melee; no other weapon modules); Shield (Exoskeleton and Mecha frames only): +2 Defense and +2 Magic Defense, counts as an equipped shield not a weapon, cannot occupy main hand unless you have Dual Shieldbearer; Spear [DEX+INS] / [HR+10] physical (Spear, melee); Sword [DEX+INS]+1 / [HR+8] physical (Sword, melee); Trident [DEX+INS]+1 / [HR+14] physical (Spear, melee; no other weapon modules). Support modules: Aerial (counts as two enabled modules) - vehicle can fly, distance x3, melee can target flying and passengers cannot be targeted by melee (with the usual air/bolt/ice cutoff); Anti-Element - choose a damage type each time enabled, creatures aboard treated as Resistant to it; Advanced Targeting - +2 to Accuracy Checks and to Magic Checks for offensive spells (r); Counterstrike - after a creature aboard is hit by a ranged attack, spend 1 IP to deal 10 physical damage to the attacker (+5 at level 20+, +10 at level 40+); Excavation - can burrow, has bright lights; Expanded Plating (Mecha and Steed only) - passengers may use the plating module's Defense/Magic Defense scores; Magistatic - after paying the MP cost of an Arcanum, spell or verse while driving with an arcane weapon equipped, recover 5 MP (10 if cost was 30 MP or higher); Power (Exoskeleton and Mecha only) - +2 to Opposed Checks relying on brute force or physical resistance; Rapid Interface - when you enter this vehicle on your turn during a conflict, immediately perform an additional action; Seafarer - can travel on water and underwater; Seat (Mecha and Steed only) - transports an additional human-sized passenger; Secondary Offensive (Exoskeleton and Mecha only) - choose one of its disabled weapon modules; while it stays disabled and this is enabled, use an action to perform a free attack with that module; Sensor - +2 to Open Checks to examine nearby creatures, items and locations; Turbo - +2 to Opposed Checks relying on speed and rapid maneuvers."
+        },
+        {
+          "key": "strong_grip",
+          "name": "Strong Grip",
+          "sl_max": 1,
+          "text": "When you perform an Accuracy Check with a weapon module, you may replace one of the Attributes with Might (such as [MIG + WLP] for an arcane module)."
+        }
+      ],
+      "text": "Suggested character-creation questions: Where did you learn to pilot? Is your teacher still alive? How did you obtain your vehicle? What personal touch makes your vehicle stand out from the rest? Who or what would you never allow aboard your vehicle? Rare modules: each weapon/armor module base cost 500 zenit (rare versions via Core Rulebook rare-item rules; a weapon module's damage can be raised by 4 points for +200 zenit, can never become two-handed or martial); support modules cost roughly 1000 zenit and are rare items."
+    }
+  ]
+}

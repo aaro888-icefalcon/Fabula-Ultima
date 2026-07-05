@@ -1,0 +1,285 @@
+{
+ "id": "ac.plot_points.social",
+ "title": "Plot Point Table — Social",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion (ends the Thread if an Advancement)"
+  },
+  {
+   "min": 9,
+   "max": 24,
+   "value": "None"
+  },
+  {
+   "min": 25,
+   "max": 26,
+   "value": "Outcast",
+   "char": true
+  },
+  {
+   "min": 27,
+   "max": 28,
+   "value": "Sold!"
+  },
+  {
+   "min": 29,
+   "max": 30,
+   "value": "Retaliation"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "A High Energy Gathering"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "A Rare Or Unique Social Gathering"
+  },
+  {
+   "min": 33,
+   "max": 34,
+   "value": "An Organization",
+   "char": true
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "People Behaving Badly",
+   "char": true
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fame"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Scapegoat",
+   "char": true
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "The Observer",
+   "char": true
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Liar!",
+   "char": true
+  },
+  {
+   "min": 40,
+   "max": 41,
+   "value": "Headquarters"
+  },
+  {
+   "min": 42,
+   "max": 43,
+   "value": "A Common Social Gathering"
+  },
+  {
+   "min": 44,
+   "max": 45,
+   "value": "Light Urban Setting"
+  },
+  {
+   "min": 46,
+   "max": 47,
+   "value": "A Work Related Gathering"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Suspicion",
+   "char": true
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Enemies",
+   "char": true
+  },
+  {
+   "min": 50,
+   "max": 51,
+   "value": "Dense Urban Setting"
+  },
+  {
+   "min": 52,
+   "max": 53,
+   "value": "A Group Is In Trouble"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Token Response"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Not Their Master",
+   "char": true
+  },
+  {
+   "min": 56,
+   "max": 57,
+   "value": "Public Location"
+  },
+  {
+   "min": 58,
+   "max": 59,
+   "value": "The Leader",
+   "char": true
+  },
+  {
+   "min": 60,
+   "max": 61,
+   "value": "Savior",
+   "char": true
+  },
+  {
+   "min": 62,
+   "max": 63,
+   "value": "Reinforcements",
+   "char": true
+  },
+  {
+   "min": 64,
+   "max": 65,
+   "value": "Government",
+   "char": true
+  },
+  {
+   "min": 66,
+   "max": 67,
+   "value": "Injustice"
+  },
+  {
+   "min": 68,
+   "max": 69,
+   "value": "A Celebration"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Standoff"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Religion"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Innocent",
+   "char": true
+  },
+  {
+   "min": 73,
+   "max": 74,
+   "value": "Preparation"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "A Meeting Of Minds"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Organizations In Conflict",
+   "char": true
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Powerful Person",
+   "char": true
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Travel Setting"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Escort Duty",
+   "char": true
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "An Old Deal"
+  },
+  {
+   "min": 81,
+   "max": 82,
+   "value": "Alliance",
+   "char": true
+  },
+  {
+   "min": 83,
+   "max": 84,
+   "value": "Power Over Others"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Rural Setting"
+  },
+  {
+   "min": 86,
+   "max": 87,
+   "value": "Corruption"
+  },
+  {
+   "min": 88,
+   "max": 89,
+   "value": "It's Business"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Just Cause Gone Awry"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Confrontation"
+  },
+  {
+   "min": 92,
+   "max": 93,
+   "value": "Argument"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Social Tension Set To Boiling"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Servant",
+   "char": true
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "Roll on the Meta Plot Points Table"
+  }
+ ],
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:b038c86da4ead1df"
+}

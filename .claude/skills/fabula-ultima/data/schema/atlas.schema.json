@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/atlas.schema.json",
+  "title": "Fabula Ultima — Atlas rules options & setting toolkit (one file per atlas)",
+  "type": "object",
+  "required": ["id", "atlas", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "atlas": { "type": "string", "enum": ["high", "natural", "techno"] },
+    "summary": { "type": "string" },
+    "rules_options": {
+      "type": "array",
+      "description": "optional rules modules this Atlas adds (e.g. new subsystems)",
+      "items": { "type": "object", "required": ["name", "text"], "additionalProperties": true, "properties": { "key": { "type": "string" }, "name": { "type": "string" }, "text": { "type": "string" } } }
+    },
+    "tech_magic_levels": { "type": "object", "additionalProperties": true },
+    "conflicts": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "locations": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "artifacts": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "entries": {
+      "type": "array",
+      "description": "generic catch-all of Atlas toolkit content, each tagged with a kind",
+      "items": { "type": "object", "required": ["kind", "name", "text"], "additionalProperties": true, "properties": { "kind": { "type": "string" }, "key": { "type": "string" }, "name": { "type": "string" }, "text": { "type": "string" } } }
+    }
+  }
+}

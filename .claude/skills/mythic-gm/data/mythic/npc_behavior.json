@@ -1,0 +1,13 @@
+{
+ "id": "mythic.npc_behavior",
+ "title": "NPC Behavior Table",
+ "type": "answer_keyed",
+ "source": "references/canon/Mythic-GME.md",
+ "answers": {
+  "yes": "The NPC does what you expect, or continues their ongoing action.",
+  "no": "The NPC does the next most expected behavior. If unsure, roll a Meaning Table.",
+  "exc_yes": "The expected/ongoing action with greater intensity.",
+  "exc_no": "The opposite of what you expected, or the next-expected behavior intensified. If unsure, roll a Meaning Table and intensify.",
+  "random_event": "Roll a Meaning Table for an additional action from the NPC."
+ }
+}

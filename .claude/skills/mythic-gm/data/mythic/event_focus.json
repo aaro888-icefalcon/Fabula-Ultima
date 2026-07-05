@@ -1,0 +1,70 @@
+{
+ "id": "mythic.event_focus",
+ "title": "Random Event Focus Table",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#random-event-focus-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 5,
+   "value": "Remote Event"
+  },
+  {
+   "min": 6,
+   "max": 10,
+   "value": "Ambiguous Event"
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "value": "New NPC"
+  },
+  {
+   "min": 21,
+   "max": 40,
+   "value": "NPC Action"
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "value": "NPC Negative"
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "value": "NPC Positive"
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "value": "Move Toward A Thread"
+  },
+  {
+   "min": 56,
+   "max": 65,
+   "value": "Move Away From A Thread"
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "value": "Close A Thread"
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "value": "PC Negative"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "value": "PC Positive"
+  },
+  {
+   "min": 86,
+   "max": 100,
+   "value": "Current Context"
+  }
+ ],
+ "checksum": "sha256:a840328a8a7b5d6b"
+}

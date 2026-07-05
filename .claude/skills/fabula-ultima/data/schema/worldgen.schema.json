@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/worldgen.schema.json",
+  "title": "Fabula Ultima — session-zero world / group / character creation procedure",
+  "type": "object",
+  "required": ["id", "source", "world_creation", "group_creation", "character_creation"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "world_creation": {
+      "type": "object",
+      "required": ["steps"],
+      "properties": {
+        "text": { "type": "string" },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "prompt"],
+            "additionalProperties": true,
+            "properties": {
+              "key": { "type": "string" },
+              "prompt": { "type": "string" },
+              "choices": { "type": "array", "items": { "type": "string" } },
+              "text": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "group_creation": {
+      "type": "object",
+      "required": ["steps"],
+      "properties": {
+        "text": { "type": "string" },
+        "steps": { "type": "array", "items": { "type": "object", "required": ["key", "prompt"], "additionalProperties": true, "properties": { "key": { "type": "string" }, "prompt": { "type": "string" }, "choices": { "type": "array", "items": { "type": "string" } }, "text": { "type": "string" } } } }
+      }
+    },
+    "character_creation": {
+      "type": "object",
+      "required": ["steps"],
+      "properties": {
+        "text": { "type": "string" },
+        "attribute_arrays": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "dice": { "type": "array", "items": { "type": "integer" } } } } },
+        "starting_zenit": { "type": "integer" },
+        "starting_classes": { "type": "integer", "description": "number of classes a starting PC picks" },
+        "steps": { "type": "array", "items": { "type": "object", "required": ["key", "prompt"], "additionalProperties": true, "properties": { "key": { "type": "string" }, "prompt": { "type": "string" }, "choices": { "type": "array", "items": { "type": "string" } }, "text": { "type": "string" } } } }
+      }
+    }
+  }
+}

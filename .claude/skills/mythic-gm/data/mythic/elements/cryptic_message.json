@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.cryptic_message",
+ "title": "Elements — Cryptic_Message",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandoned"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Activity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Adventure"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Adversity"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Advice"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Allies"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Anger"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bestow"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Betray"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bleak"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Business"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Care"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Colorful"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Communicate"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Conflict"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Creepy"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Damaged"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Danger"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Death"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Deceive"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Defiant"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Dispute"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Divide"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Emotions"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Enemies"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Environment"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Evil"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Expose"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Failure"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fame"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fear"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fight"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Frantic"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Free"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Friendship"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Goals"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Good"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Guide"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Harm"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Help"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Helpful"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Hidden"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Hope"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Horrible"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Important"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Information"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Innocent"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Instruction"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Intrigues"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Language"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Leadership"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Legal"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Legend"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Liberty"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Lies"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Lost"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Love"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Malice"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Messy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Misfortune"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mistrust"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Move"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Mundane"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mysterious"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Neglect"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Normal"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Obscured"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Official"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Old"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Oppose"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Partial"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Passion"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Plans"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Possessions"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Power"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Propose"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Punish"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Pursue"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rare"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Reassuring"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Recipient"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Reveal"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Riches"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Riddle"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Rumor"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Secret"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Start"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Stop"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Strange"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Struggle"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Success"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Tension"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Threaten"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Truce"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Trust"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Unknown"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Vengeance"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Violence"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Warning"
+  }
+ ],
+ "checksum": "sha256:1ddf70f110b27f45"
+}

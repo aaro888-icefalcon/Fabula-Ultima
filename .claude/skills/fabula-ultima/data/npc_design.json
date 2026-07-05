@@ -1,0 +1,329 @@
+{
+  "id": "npc_design",
+  "source": "core",
+  "level_range": {
+    "min": 5,
+    "max": 60,
+    "text": "Choose the NPC's level, from a minimum of 5 to a maximum of 60."
+  },
+  "attribute_arrays": [
+    { "name": "Jack of All Trades", "dice": [8, 8, 8, 8] },
+    { "name": "Standard", "dice": [10, 8, 8, 6] },
+    { "name": "Specialized", "dice": [10, 10, 6, 6] },
+    { "name": "Super Specialized", "dice": [12, 8, 6, 6] }
+  ],
+  "attribute_upgrades": {
+    "levels": [20, 40, 60],
+    "die_step": 1,
+    "max_die": 12,
+    "text": "Upon reaching levels 20, 40, and 60, the NPC chooses one of its Attributes and increases it by one die size (to a maximum of d12)."
+  },
+  "basic_attacks": {
+    "profile": "【Attribute + Attribute】 · 【HR + 5】 (type) damage",
+    "text": "The NPC may have any number of basic attacks — these can be melee ($) or ranged (a). Basic attacks start with the following profile: (Attack Name) · 【Attribute + Attribute】 · 【HR + 5】 (type) damage. The Accuracy Checks for these attacks may rely on any Attributes you choose, such as 【INS + WLP】 or 【MIG + MIG】, and you are free to choose whatever damage type seems more appropriate. Basic attacks may also be modified by Skills; if an NPC can equip weapons, these too will count among the creature's basic attacks."
+  },
+  "species": [
+    {
+      "key": "beast",
+      "name": "Beast",
+      "starting_skills": 4,
+      "examples": ["Giant rat", "sun bear", "warrior ant"],
+      "rules_text": "Beasts are feral creatures with animal intelligence. While their shape is sometimes twisted by magic, they generally do not use spells. Rules: Beasts cannot acquire the Use Equipment Skill."
+    },
+    {
+      "key": "construct",
+      "name": "Construct",
+      "starting_skills": 2,
+      "examples": ["Gargoyle", "golem", "magitech soldier"],
+      "rules_text": "Constructs are artificial beings animated by the power of souls, often crafted by alchemists, mages, or scientists. Rules: Constructs are Immune to poison damage, Resistant to earth damage, and immune to poisoned."
+    },
+    {
+      "key": "demon",
+      "name": "Demon",
+      "starting_skills": 3,
+      "examples": ["Boogeyman", "devil", "imp"],
+      "rules_text": "Demons are incarnations of legends and beliefs. Despite possessing a body, they are not truly alive. Some may even reincarnate when slain. Rules: Demons are Resistant to two damage types of your choice."
+    },
+    {
+      "key": "elemental",
+      "name": "Elemental",
+      "starting_skills": 2,
+      "examples": ["Nymph", "phoenix", "titan"],
+      "rules_text": "Elementals are tangible manifestations of the great forces of nature. Some of them are sentient, but many are devoid of thought. Rules: Elementals are Immune to poison damage, Immune to a second damage type of your choice, and immune to poisoned."
+    },
+    {
+      "key": "humanoid",
+      "name": "Humanoid",
+      "starting_skills": 3,
+      "examples": ["Bandit", "kobold", "ogre"],
+      "rules_text": "This is a broad category, a catch-all term for intelligent creatures who tend to live in communities and rely on tools and equipment. Rules: Humanoids always gain the Use Equipment Skill for free."
+    },
+    {
+      "key": "monster",
+      "name": "Monster",
+      "starting_skills": 4,
+      "examples": ["Basilisk", "dragon", "mimic"],
+      "rules_text": "Monsters are magical beasts, generally quite intelligent and gifted with supernatural powers. Their features are often bizarre. Rules: Monsters have no special rules."
+    },
+    {
+      "key": "plant",
+      "name": "Plant",
+      "starting_skills": 3,
+      "examples": ["Alraune", "dragontrap", "treant"],
+      "rules_text": "Far from being typical vegetation, these plants have evolved into dangerous predators due to mutation or magical influence. Rules: Plants are immune to dazed, shaken and enraged, and Vulnerable to (choose one: air, bolt, fire, ice) damage."
+    },
+    {
+      "key": "undead",
+      "name": "Undead",
+      "starting_skills": 2,
+      "examples": ["Mummy", "skeleton", "zombie"],
+      "rules_text": "Undead may be corpses reanimated through magic or restless spirits unable to peacefully return to the stream of souls that forms creation. Rules: Undead are Immune to dark and poison damage, immune to poisoned, and Vulnerable to light damage. Additionally, when an effect (such as an Arcanum, a potion or a spell) would cause an undead creature to recover Hit Points, whoever controls that effect may instead have the undead lose half as many Hit Points."
+    }
+  ],
+  "skills_budget": {
+    "text": "Each NPC receives a basic number of free Skills based on their Species. They gain an additional Skill every ten levels. They may gain any number of extra Skills by taking an equal number of Vulnerabilities; Vulnerability to physical damage grants two Skills. Skills may be NPC Skills or come from character Classes. (Elites gain 1 extra Skill; champions gain a number of extra Skills equal to the number of soldiers they replace.)"
+  },
+  "secondary_scores": {
+    "max_hp": "2*level + 5*baseMIG_die_size",
+    "max_mp": "level + 5*baseWLP_die_size",
+    "crisis": "floor(max_hp / 2)",
+    "initiative": "(baseDEX_die_size + baseINS_die_size) / 2 - armor_initiative_penalty",
+    "defense": "current_DEX_die_size",
+    "magic_defense": "current_INS_die_size",
+    "check_bonus": "max(0, floor(level / 10))"
+  },
+  "damage_bonus_bands": [
+    { "level_min": 20, "bonus": 5 },
+    { "level_min": 40, "bonus": 10 },
+    { "level_min": 60, "bonus": 15 }
+  ],
+  "danger_ranks": [
+    {
+      "key": "soldier",
+      "counts_as": 1,
+      "text": "A soldier-rank foe is roughly on par with a Player Character of its level. All creatures in the Bestiary, and all NPCs created with the Designing NPCs rules, are soldiers. Battles involve soldiers equal to: number of PCs minus one (easy), number of PCs (normal), or number of PCs plus one (hard)."
+    },
+    {
+      "key": "elite",
+      "counts_as": 2,
+      "text": "Elite creatures count as two soldiers of the same level. To make a soldier an elite: double maximum Hit Points; gain one Skill of your choice (an NPC Skill or a Class Skill); perform two turns per round during conflict scenes; increase Initiative score by 2 points."
+    },
+    {
+      "key": "champion",
+      "text": "Champion creatures can replace any number of soldiers of the same level. To make a soldier a champion replacing N soldiers: multiply maximum Hit Points by N; double maximum Mind Points; gain a number of additional Skills equal to N (NPC Skills or Class Skills); perform N turns per round during conflict scenes; increase Initiative score by 1 point for every soldier replaced. Written as champion(N)."
+    }
+  ],
+  "villain_ranks": [
+    {
+      "key": "minor",
+      "ultima_points": 5,
+      "extra_turns": 0,
+      "goal_clock_sections": "4 to 6",
+      "text": "Minor Villain: 5 Ultima Points. Examples: enemy commanders, unique and infamous monsters, and antagonists causing trouble in small settlements. Goals are simple or very personal. A minor Villain can escalate into a major Villain. To perform multiple actions in a boss fight a Villain should be an elite or champion or be accompanied by allies (Ultima Points do not grant extra turns on their own)."
+    },
+    {
+      "key": "major",
+      "ultima_points": 10,
+      "extra_turns": 0,
+      "goal_clock_sections": "8 to 10",
+      "text": "Major Villain: 10 Ultima Points. Examples: tyrants, powerful mages, legendary creatures, and entities that threaten entire countries. Complex goals affecting a large number of people. A major Villain can escalate into a supreme Villain."
+    },
+    {
+      "key": "supreme",
+      "ultima_points": 15,
+      "extra_turns": 0,
+      "goal_clock_sections": "10 to 12",
+      "text": "Supreme Villain: 15 Ultima Points. Examples: archdemons, immortal entities, and alien deities bent on destruction or domination. Goals that can affect the entire world and change the laws of reality. A supreme Villain cannot grow any more powerful (cannot escalate)."
+    }
+  ],
+  "ultima_points": {
+    "text": "Ultima Points are the dark mirror to Fabula Points. A Villain receives Ultima Points based on narrative importance (minor 5 / major 10 / supreme 15) and cannot recharge them. A Villain with no remaining Ultima Points is no longer a Villain and becomes equivalent to any other NPC (or may escalate).",
+    "spending": [
+      { "key": "escape", "cost": 1, "text": "A Villain may spend 1 Ultima Point to safely leave the scene." },
+      { "key": "invoke_trait", "cost": 1, "text": "After performing a Check, a Villain may spend 1 Ultima Point to invoke one of their Traits and reroll one or both dice." },
+      { "key": "recovery", "cost": 1, "text": "A Villain may use an action and spend 1 Ultima Point to recover from all status effects and also recover 50 Mind Points." }
+    ]
+  },
+  "study_thresholds": [
+    { "result": "10+", "text": "The NPC's Rank, Species, maximum HP, and maximum MP." },
+    { "result": "13+", "text": "All the above, plus Traits, Attributes, Defense, Magic Defense, Affinities." },
+    { "result": "16+", "text": "All the above, plus basic attacks and spells." }
+  ],
+  "npc_skills": [
+    {
+      "key": "crisis_effect",
+      "name": "Crisis Effect",
+      "limited": false,
+      "text": "As long as they are in Crisis, your creature gains a special benefit or ability. Examples are: Your NPC's damage Affinities change. Damage dealt by your NPC ignores Resistances (or maybe even Immunities). One or more of your NPC's attacks gain multi (2). Since this Skill will only activate when the creature is already severely damaged, it's okay for the effects to be quite strong."
+    },
+    {
+      "key": "damage_absorption",
+      "name": "Damage Absorption",
+      "limited": false,
+      "text": "Choose any one damage type your NPC is already Resistant or Immune to: they gain Absorption towards the chosen damage type. This Skill is perfect for elemental creatures that may grow stronger when struck by attacks matching their element and should generally be accompanied by one or two Vulnerabilities that can be exploited by clever Player Characters."
+    },
+    {
+      "key": "damage_immunity",
+      "name": "Damage Immunity",
+      "limited": false,
+      "text": "Your NPC gains Immunity to one damage type of your choice they were not Vulnerable to. Be careful when making a creature Immune to physical damage since it's the most common damage type during the early levels."
+    },
+    {
+      "key": "damage_resistance",
+      "name": "Damage Resistance",
+      "limited": false,
+      "text": "Your NPC gains Resistance to two damage types of your choice. If you choose a type the NPC was Vulnerable to, they don't become Resistant to it: instead, they simply lose the corresponding Vulnerability (only Vulnerabilities caused by the NPC's Species can be removed this way)."
+    },
+    {
+      "key": "final_act",
+      "name": "Final Act",
+      "limited": true,
+      "text": "When reduced to 0 HP, your NPC can immediately perform some sort of special action or attack. Self-destructing robots and exploding fire elementals are great classics. Take some liberty with this Skill, making it powerful but also a hindrance for the NPC's allies. If this Skill deals damage, it should be minor."
+    },
+    {
+      "key": "flying",
+      "name": "Flying",
+      "limited": true,
+      "text": "Your NPC has the ability to fly or levitate. In addition to the obvious narrative benefits, creatures on the ground cannot reach your NPC with melee attacks as long as your NPC is in mid-air (but your NPC can perform melee attacks against targets who are on the ground). If the NPC suffers damage of a type they are Vulnerable to, they are immediately forced to land and lose the benefits of this Skill until the end of the round, when they will automatically resume flight. Your NPC may also be forced to land by spending an opportunity. As long as it is in Crisis, the NPC loses all benefits granted by this Skill."
+    },
+    {
+      "key": "improved_damage",
+      "name": "Improved Damage",
+      "limited": false,
+      "text": "Choose one of your NPC's attacks or spells: it now deals 5 extra damage. If you acquire this Skill multiple times, you must always apply it to a different source of damage. Be careful when using this Skill to increase damage dealt by attacks with multi."
+    },
+    {
+      "key": "improved_defenses",
+      "name": "Improved Defenses",
+      "limited": true,
+      "text": "Choose one option: Your NPC gains a +2 bonus to Defense and a +1 bonus to Magic Defense. Your NPC gains a +1 bonus to Defense and a +2 bonus to Magic Defense. This Skill can be taken only twice, and its effects are cumulative with those granted by equipment and other Skills."
+    },
+    {
+      "key": "improved_hit_points",
+      "name": "Improved Hit Points",
+      "limited": false,
+      "text": "Your NPC's maximum Hit Points are increased by 10. This Skill is excellent for creatures that need to compensate for low defenses or damage Vulnerabilities."
+    },
+    {
+      "key": "improved_initiative",
+      "name": "Improved Initiative",
+      "limited": true,
+      "text": "Your NPC gains a +4 bonus to their Initiative score."
+    },
+    {
+      "key": "reaction",
+      "name": "Reaction",
+      "limited": false,
+      "text": "Your NPC reacts to a specific trigger (such as being missed by an attack, or hit by an offensive spell). Examples are: Performs an attack after being missed by a melee attack. Deals minor damage when hit by an offensive spell. Recovers some Mind Points when damaged."
+    },
+    {
+      "key": "special_attack",
+      "name": "Special Attack",
+      "limited": false,
+      "text": "Choose one of your NPC's attacks and add a special effect. Examples are: The attack gains multi (2). The attack targets Magic Defense instead of Defense. The target suffers a status effect. The target is trapped, swallowed or captured (breaking free will likely require filling a Clock of variable size, generally four to six sections). The attack deals more damage to targets suffering from status effects. The attack allows your NPC to recover HP equal to half the HP loss it causes. If the target was dazed or shaken, your NPC controls the target's next action. If the target was slow or weak, the attack petrifies them. The attack prevents the target from performing a specific action on their next turn. The attack grants your creature some kind of bonus that lasts until their next turn. Some effects are much more powerful than others; compare with other creatures of a similar level in the Bestiary."
+    },
+    {
+      "key": "specialized",
+      "name": "Specialized",
+      "limited": true,
+      "text": "Choose one option: Your NPC gains a +3 bonus to all Accuracy Checks. Your NPC gains a +3 bonus to all Magic Checks. Your NPC gains a +3 bonus to Opposed Checks in a specific context. This Skill can be taken up to three times, but never for the same type of Check."
+    },
+    {
+      "key": "spellcaster",
+      "name": "Spellcaster",
+      "limited": false,
+      "text": "Choose one option: Your NPC learns one spell and increases their maximum Mind Points by 10. Your NPC learns two spells. NPCs may learn spells from Classes or from the list of NPC Spells. Offensive (r) spells cast by NPCs may use 【MIG + WLP】 or 【INS + WLP】 for the Magic Check."
+    },
+    {
+      "key": "status_effect_immunity",
+      "name": "Status Effect Immunity",
+      "limited": false,
+      "text": "Your NPC becomes immune to any two status effects of your choice."
+    },
+    {
+      "key": "unique_action",
+      "name": "Unique Action",
+      "limited": false,
+      "text": "Your NPC may perform the Skill action to generate a unique effect. Examples are: Your NPC's next attack or spell will deal 10 extra damage. Your NPC changes \"stance\", swapping or altering their damage Affinities. Your NPC calls for reinforcements (these adversaries should be very weak)."
+    },
+    {
+      "key": "use_equipment",
+      "name": "Use Equipment",
+      "limited": true,
+      "text": "Your NPC gains one accessory slot, one armor slot, one main hand slot, and one off-hand slot. Soldier enemies should only be equipped with Basic Items; elite and champion adversaries, on the other hand, should often use Rare Items. If an NPC loses a weapon they have equipped, any Skills assigned to the corresponding basic attack should be transferred to their unarmed strikes."
+    }
+  ],
+  "sample_bosses": [
+    {
+      "name": "Angela",
+      "level": 20,
+      "species": "humanoid",
+      "rank": "elite",
+      "villain_rank": "minor",
+      "ultima_points": 5,
+      "traits": ["ambitious", "arrogant", "knowledgeable", "ruthless"],
+      "attributes": { "DEX": 8, "INS": 8, "MIG": 8, "WLP": 10 },
+      "hp": 160,
+      "crisis": 80,
+      "mp": 80,
+      "initiative": 8,
+      "defense": { "bonus": 1, "total": 9 },
+      "magic_defense": { "bonus": 2, "total": 10 },
+      "check_bonus": 2,
+      "equipment": ["ferula", "sage robe"],
+      "basic_attacks": [
+        { "name": "Ferula", "type": "melee", "accuracy": "【INS + WLP】 +2", "damage": "【HR + 7】 physical" },
+        { "name": "Flame Dart", "type": "ranged", "accuracy": "【INS + WLP】 +2", "damage": "【HR + 10】 fire", "notes": "target suffers weak; targets Magic Defense" }
+      ],
+      "spells": [
+        { "name": "Drain Vigor", "accuracy": "【INS + WLP】 +3", "mp": 10, "damage": "【HR + 15】 dark", "notes": "recovers HP equal to half the HP loss caused" },
+        { "name": "Flare", "accuracy": "【INS + WLP】 +3", "mp": 20, "damage": "【HR + 30】 fire", "notes": "ignores Resistances" },
+        { "name": "Ignis", "accuracy": "【INS + WLP】 +3", "mp": "10 × T", "damage": "【HR + 20】 fire", "notes": "up to three creatures; opportunity: each target suffers shaken" }
+      ],
+      "notable_skills": ["Spellcaster (x2)", "Damage Resistance (dark, fire)", "Special Attack (x2)", "Crisis Effect (elite bonus Skill: 'ashes to ashes' Clock)"],
+      "notes": "Built as a soldier at HP 80, then doubled to HP 160 as an elite. Level-20 die-size upgrade put WLP to d10. Accompanied by two Arcane Lanterns."
+    },
+    {
+      "name": "Angela's Arcane Lantern",
+      "level": 5,
+      "species": "construct",
+      "rank": "soldier",
+      "traits": ["glowing", "helpful", "magical", "tiny"],
+      "attributes": { "DEX": 8, "INS": 8, "MIG": 6, "WLP": 10 },
+      "hp": 40,
+      "crisis": 20,
+      "mp": 55,
+      "initiative": 8,
+      "defense": { "bonus": 1 },
+      "magic_defense": { "bonus": 2 },
+      "affinities": { "physical": "VU", "poison": "IM" },
+      "basic_attacks": [
+        { "name": "Elemental Discharge", "type": "ranged", "accuracy": "【DEX + INS】", "damage": "【HR + 5】", "notes": "roll d6 for damage type: 1-2 bolt, 3-4 fire, 5-6 ice" }
+      ],
+      "notable_skills": ["Mana Burst (on 0 HP, restores 10 MP to every other creature on the scene)"],
+      "notes": "Reskinned bestiary arcane lantern (page 328). MP of 55 is above the base formula (level 5 + 5*WLP d10 = 55), matches printed value."
+    },
+    {
+      "name": "Thornshark",
+      "level": 10,
+      "species": "beast",
+      "rank": "champion",
+      "counts_as": 3,
+      "traits": [],
+      "attributes": { "DEX": 10, "INS": 10, "MIG": 6, "WLP": 6 },
+      "hp": 150,
+      "crisis": 75,
+      "mp": 80,
+      "initiative": 17,
+      "defense": { "bonus": 0 },
+      "magic_defense": { "bonus": 0 },
+      "affinities": { "air": "VU", "ice": "IM" },
+      "basic_attacks": [
+        { "name": "Thorn Dive", "type": "melee", "accuracy": "【DEX + DEX】 +1", "damage": "【HR + 10】 physical" },
+        { "name": "Ocean Jet", "type": "ranged", "accuracy": "【DEX + INS】 +1", "damage": "【HR + 5】 ice", "notes": "target suffers slow" }
+      ],
+      "notable_skills": ["Deep Dive (Unique Action)", "Crisis Effect (ocean jet gains multi (2) in Crisis)", "Flying", "Damage Immunity (ice)"],
+      "notes": "Reskinned bestiary thornfish (page 326), made a champion replacing 3 soldiers: HP tripled to 150, MP doubled to 80, Initiative +3. Base soldier HP would be 50 (2*10 + 5*MIG d6 = 20 + 30)."
+    }
+  ]
+}

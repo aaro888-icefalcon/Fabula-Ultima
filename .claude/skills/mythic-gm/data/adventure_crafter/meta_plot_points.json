@@ -1,0 +1,61 @@
+{
+ "id": "ac.meta_plot_points",
+ "title": "Meta Plot Points Table",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#meta-plot-points-table",
+ "note": "Rolled when a Plot Point lands 96-100. Alters the Characters List or combines Threads.",
+ "entries": [
+  {
+   "min": 1,
+   "max": 18,
+   "value": "Character Exits The Adventure",
+   "effect": "A Character active in the adventure leaves it. Roll the Characters List to pick who (New→Choose Most Logical); remove ALL their lines.",
+   "char": true
+  },
+  {
+   "min": 19,
+   "max": 27,
+   "value": "Character Returns",
+   "effect": "A Character who previously exited the adventure comes back. Re-add them to the Characters List (weight 1).",
+   "char": true
+  },
+  {
+   "min": 28,
+   "max": 36,
+   "value": "Character Steps Up",
+   "effect": "A Character becomes more important/active. Add one extra line (raise weight, max 3). Roll the Characters List for who.",
+   "char": true
+  },
+  {
+   "min": 37,
+   "max": 55,
+   "value": "Character Steps Down",
+   "effect": "A Character becomes less important/active. Remove one line (lower weight; if it hits 0, they exit). Roll the Characters List for who.",
+   "char": true
+  },
+  {
+   "min": 56,
+   "max": 73,
+   "value": "Character Downgrade",
+   "effect": "A Character is weakened in power, status, or capability (but stays in the adventure). Roll the Characters List for who.",
+   "char": true
+  },
+  {
+   "min": 74,
+   "max": 82,
+   "value": "Character Upgrade",
+   "effect": "A Character is strengthened in power, status, or capability. Roll the Characters List for who.",
+   "char": true
+  },
+  {
+   "min": 83,
+   "max": 100,
+   "value": "Thread Combo",
+   "effect": "Two Threads merge or are revealed connected. Roll the Threads List twice (New→Choose Most Logical) and combine those Threads into one.",
+   "char": false,
+   "thread2": true
+  }
+ ],
+ "checksum": "sha256:a661885abd68d1f3"
+}

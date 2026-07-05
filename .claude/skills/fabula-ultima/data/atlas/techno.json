@@ -1,0 +1,652 @@
+{
+  "id": "fu.atlas.techno",
+  "atlas": "techno",
+  "summary": "The Techno Fantasy Atlas for Fabula Ultima: a JRPG-flavored sci-fi / cyberpunk toolkit. Adds the soul network (stream of souls as an information-and-energy net), vehicle-scale and group-vehicle combat, cybernetics and space travel, three new Classes (Esper, Mutant, Pilot), eighteen new Heroic Skills, custom weapons, Techno Fantasy Quirks, and the Technospheres subsystem, plus sample locations, rare items, artifacts, and five signature boss Villains (levels 10-50). Its pillars center on oppression and power dynamics, law vs justice, transhumanism, and rebellious 'angry, not evil' heroes who fight the system.",
+  "rules_options": [
+    {
+      "key": "vehicle_scale_battles",
+      "name": "Vehicle-Scale Battles",
+      "text": "Optional rules giving greater depth to battles involving transports and vehicle-sized creatures. Three sizes: Small (individual characters, most creatures, Pilots in Exoskeleton frames); Medium (most land vehicles, boats, tanks, jets, starfighters, Pilots driving Steeds or Mecha with passengers still Small, plus imposing creatures like dragons and giants); Large (galleons, aircraft carriers, airships, spaceships, walking fortresses, colossal beings). Entities above Large (e.g. a planet-sized starship) are treated as environments and do not participate in conflicts. Interactions: Small interacts normally with Small and Medium and can affect Large only through dedicated Clocks, Projects, or Rituals; Medium interacts normally with any size; Large interacts normally with Medium and Large, but if a Large entity causes a Small entity to lose any Hit Points, that Small entity is automatically reduced to 0 HP. Enemy vehicles are built as construct-Species NPCs; if operated by a Villain the vehicle is a form of that Villain with access to their Ultima Points. Human-sized troops in a vehicle battle can be described as swarms."
+    },
+    {
+      "key": "group_vehicle",
+      "name": "The Group Vehicle",
+      "text": "Optional rule for a PC group that owns a Medium- or Large-size combat transport, letting the whole party fight enemy vehicles and similar-size foes aboard their own vehicle. Recommended only if at least one third of the campaign's battles take place aboard it (fits the Stolen Transport Quirk). The group vehicle is created collaboratively as a soldier-rank construct whose level equals the highest-level PC present when obtained (re-leveled and freely rewritten whenever the group rests in a port/shipyard). It may have up to 3 basic attacks, has 3 more Skills than a normal construct of its level, cannot gain Class Skills, and cannot take Extra Initiative or Use Equipment; it deals 5 extra damage with attacks and spells, gains all level-based Attribute/Check/damage bonuses, should have access to at least 3 damage types, and has no Initiative score. During a qualifying conflict each PC declares whether to join as a crewmember or as an individual PC outside the vehicle (for Pilots in an appropriately sized personal vehicle). The vehicle cannot make the Initiative Check but crewmembers can; when a crewmember would take their turn, the group vehicle takes a turn instead, controlled by that Player. It begins each conflict with maximum HP equal to [its profile maximum HP x the number of crewmembers], Crisis = half its max HP, current HP/MP = max, no status effects. At 0 HP it automatically Surrenders and becomes inactive. Crewmembers are not 'present on the scene' but any crewmember can spend Fabula Points to invoke Bonds/Traits on the vehicle's Checks; the vehicle has access to crewmembers' Rituals and (when it casts a spell) the current controller's spells; it may spend the controller's MP and IP; its Inventory action can only use remedy, elixir, tonic, and elemental shard. Example group vehicle: the Gladsheimr, Lv 5 CONSTRUCT (DEX d10 INS d8 MIG d8 WLP d6, HP 60, MP 45), with Lasgun Batteries, Spirit Energy Rocket, Pulse Ordnance, Flying, and Quick-aim Batteries."
+    },
+    {
+      "key": "magic_version_2",
+      "name": "Magic, version 2.0",
+      "text": "Reskinning guidance so existing spellcasting Classes fit a futuristic context without any rules changes: Arcanist Arcana as psychic images broadcast through the soul network or dying remnants of protector entities; Chimerist Spell Mimic as the scientific study of genomes/DNA or a character's own mutations; Elementalist, Entropist and Spiritist spells as the study of the stream of souls or as super powers; Chanter (High Fantasy Atlas) as celebrities/idols who fight the system with music, amplified by drones; Symbolist (High Fantasy Atlas) as a magical street artist or hacker whose symbols rely on cartridges. None of these changes should affect the rules for spells and Skills or make them easier or harder to use; casters still cannot cast remotely against targets they cannot see."
+    },
+    {
+      "key": "soul_network",
+      "name": "The Soul Network",
+      "text": "Optional tweak that recasts the stream of souls as a soul network transferring information and energy (introduced almost by default when a Player takes the Esper Class). If the network is an actual self-contained space (cyberspace / parallel universe) it has public and private terminals, its own regions, mysteries, threats, and often a demon-Species population, and can have distorted geography where two real-world locations far apart are close within the network. Common roles: telecommunications network; hyperspace travel (ships 'jump' via portals through the network); manipulation of memory, behavior, and perception; home of the Arcana; and the origin of technospheres (mnemospheres/hoplospheres as condensed instincts and emotions)."
+    },
+    {
+      "key": "space_travel",
+      "name": "Space Travel",
+      "text": "Optional rules for interplanetary (same solar system) and interstellar (between systems) travel. Base map sheets represent a planet's surface; new interstellar and interplanetary sheets are available from www.fabulaultima.com. On system sheets planetary positions shift: traveling between planets takes 1d6+1 days, and moving between a planet and its satellites takes 1 day. Threat level is higher nearest or farthest from the system's star or the galaxy's center, lower in intermediate areas. Space travel services and transports (with planetary / interplanetary / interstellar distance multipliers): Interplanetary travel service 60z (one person, one day); Interstellar travel service 100z (one person, one day); Interplanetary mount 3000z (~six passengers, x3/x1/-); Interstellar mount 6000z (~ten passengers, x3/x2/x1); Interplanetary vehicle 15000z (~twenty, x3/x1/-); Planetary vehicle 20000z (~fifty, x4/x2/x1)."
+    },
+    {
+      "key": "technospheres",
+      "name": "Technospheres (subsystem)",
+      "text": "The most radical optional subsystem: crystals of coalesced soul-stream energy that, slotted into equipment, turn Classes, Skills and Qualities into modular options. If used, all PCs in the group must follow the rules. Two types. Mnemospheres are each tied to a Class and grant access to some of its Skills (recommended Classes: Chanter, Chimerist, Commander, Dancer, Elementalist, Entropist, Esper, Fury, Guardian, Loremaster, Orator, Rogue, Sharpshooter, Spiritist, Weaponmaster); a mnemosphere holds at most 5 levels, and at level 5 is mastered and develops a Heroic Skill whose requirements it must fully meet by itself. Mnemospheres do NOT grant Class free benefits, Projects, or Rituals. An item cannot hold two mnemospheres sharing a Skill, and a character may never equip an item whose mnemosphere grants a Skill they already have. Hoplospheres are element/concept clots that replace the normal system of granting Qualities to items; identical hoplospheres in the same item may trigger coagulation (Coag.) effects. Equipment-rule changes: only custom weapons, armor, accessories, and Pilot weapon/armor modules exist; ignore Dual Shieldbearer, and turn Tinkerer magispheres into an advanced magitech benefit removing the magicannon; custom weapons and armor gain slot Qualities (Slot-alpha: 1 slot, free on any weapon/armor with no other Qualities; Slot-beta +600z: 2 slots, max 1 mnemosphere; Slot-gamma +1500z: 3 slots, max 2 mnemospheres; Slot-delta +1800z: 4 slots, max 2 mnemospheres, weapons only); NPCs cannot use technospheres or the Use Equipment Skill, and humanoid NPCs get one extra Skill to compensate; technospheres and their items cannot be destroyed, lost, or stolen without the owner's permission. Character creation: each PC is level 5 distributed across exactly three Innate Classes, gains +5 max HP and +5 max MP and the ability to equip martial melee and ranged weapons, and receives one level-1 mnemosphere. On advancement, each level invests 1 level into an Innate Class or an available mnemosphere; PCs cannot acquire new Classes even after mastering all three Innate Classes; HP/MP and level-based effects use character level, separate from Innate-Class and mnemosphere levels; past level 50 the character level is capped but XP can still be invested into Innate Classes and mnemospheres. Each technosphere is worth ~500 zenit as a reward/sale value; each existing level in a mnemosphere adds 300 zenit. Alternative variants: Integrated technospheres (place mnemospheres up to [1 + (level / 15)] in a device, no delta-Slot, item slots hold only hoplospheres), Mnemospheres only (no hoplospheres, normal equipment, [1 + (level / 15)] active mnemospheres), and Hoplospheres only (no mnemospheres, no delta-Slot, no +5 HP/MP at creation)."
+    }
+  ],
+  "entries": [
+    {
+      "kind": "location",
+      "key": "agathyon",
+      "name": "Agathyon - The Hidden Planet",
+      "text": "A forgotten, jungle-shrouded planet concealed from the rest of the universe, an ideal turning point or final destination where the group might recover an artifact to stop the Villains; returning is near impossible. A typical Hidden Planet has at least one of: a lab hiding the secrets of life's origins; an ancient civilization that withdrew guarding a terrible secret; the mysterious techno-organic being that originated it all; a space-time anomaly hiding the planet. Story hooks: The Lost City (observatory, thoroughfare patrolled by sentient Hexabot constructs, place of knowledge accessed via neural plugins, plaza of heroes with a shapeshifting alien gauntlet that speaks); Lost Knowledge (a living cemetery of stasis capsules and Prime, an elite-rank ghostly husk who summons soldier-rank Effigies each round up to half the number of PCs, inflicts dazed, prefers to drain Mind Points, Absorbs bolt, Resists earth, Vulnerable to light and dark); Abandoned (twin Proto Corp buildings and Helyzia, an artificial Arcanum, whose twin Zheliya is missing)."
+    },
+    {
+      "kind": "location",
+      "key": "axis",
+      "name": "Axis - Dwelling of the Gods",
+      "text": "A flying megalopolis of gilded steel whose passage blots out the sun; entry is by birthright only. Keywords: austerity, elitism, mystery, technocracy. Themes: discrimination, classism, bioessentialism, amoral and genocidal science. A likely mid-to-late campaign infiltration. A typical Dwelling of the Gods has a city/nation symbol flaunted everywhere, harsh paternalistic laws, a shameless cold governor, and functional minimalist futuristic architecture. Story hooks: The Central Academy (cruel experiments, research-team uniforms, holographic manifesto of the founder 'the Father'); Project Erebus (a slow poison of the stream of souls to eliminate rebellion and enslave the 'people below', and a rebel group trying to stop it); SOS (an antiquated Morse-code distress call from Dr. Kayla, whose team plans to escape with a Quantum Teleporter once the PCs power a generator)."
+    },
+    {
+      "kind": "location",
+      "key": "bentham_complex",
+      "name": "Bentham Complex - The Penitentiary Fortress",
+      "text": "A vast anti-magic-field penitentiary of over seventeen subterranean levels above a lava lake, where the Supervisor works inmates to death. Keywords: labyrinth, oppression, imprisonment, terror. A typical Penitentiary Fortress has suspicion and paranoia among inmates, a despotic director with a privileged area, a speaker system blaring patriotic sermons, and the constant threat of an awful death. Story hooks: The Sixth Floor (where Espers and magic users are held; six probes keep the anti-magic field active so anyone under them suffers weak, cannot perform Rituals, and each spell costs 5 extra MP per active probe); The Slither (an invertebrate monster that Absorbs fire and dark, is covered in scan-distorting magnetic debris, Vulnerable to ice, flees when in Crisis emitting incandescent flashes); For a Friend (freeing Gerard past the sadistic jailor the Hyena, aided by the lawyer Karl Missach and the smuggler faction the Otters)."
+    },
+    {
+      "kind": "location",
+      "key": "donum_coeli",
+      "name": "Donum Coeli - The Celestial Ark",
+      "text": "An ancient alien spacecraft crashed in a land of rivers and waterfalls, now in symbiosis with the landscape and guarded by an armed Cult. Keywords: antiquity, sublimity, alien technology. A typical Celestial Ark has magic-seeming alien tech, unexplored/sealed trapped rooms, a knowledge-greedy Cult, and a profound hidden secret with existential implications. Story hooks: Symbiosis (regenerative crystal waterfalls, mutated soul-corrupting celandines, the Cult of the Gift led by Azalya, a minor Villain wielding an alien weapon); The Gift of the Heavens (a damaged terraforming DNA nucleus, a black-box revelation of fleeing aliens, and Leander, a major Villain and the sole survivor whose four soldier-rank tentacles are each Vulnerable to one of air/earth/fire/ice and Absorb the opposite, steal HP/MP, and shield his physical-Vulnerable but otherwise Resistant body); Heresy (rescuing Professor Emmet, guarded by the alien construct ANATHEMA 002, which is Resistant to all damage while powered by the Ark's central computer)."
+    },
+    {
+      "kind": "location",
+      "key": "extractor_7",
+      "name": "Extractor 7 - The Roaming City",
+      "text": "A colossal mobile excavator that houses an entire city as it plunders the planet's resources. Keywords: anthropization, environmentalism, land exploitation. A typical mid-adventure location exploring environmental destruction and worker exploitation. A typical Roaming City has a dominated working-class population, a bright ambitious individual who lost their noble intentions, a resource-extraction system with no environmental concern, and politics that cover up labor exploitation. Story hooks: The World of Doctor Ryan (the Board of Directors under Dr. Albert Ryan, a minor Villain and Zelnach Company employee; the subterranean market; the Sectorless of the undercity; the Union); Below the Surface (a phantom Tau Sector, missing Sector Sigma workers, and the whistleblowing technician Erik); For a Fistful of Zenit (Sector chief Marisol seeks to save Sector Omega from HR head Ross's redevelopment scheme)."
+    },
+    {
+      "kind": "location",
+      "key": "nautiloss",
+      "name": "Nautiloss - The Alien Mothership",
+      "text": "A vast biomechanic alien ship like a giant cephalopod, escorted by insect-like craft, that rains robotic monstrosities onto planet Ellipsis and captures survivors. Keywords: deception, invasion, extermination, revenge. A potential campaign turning point and site of a first, false ending. A typical Alien Mothership has especially advanced weapons, a cutting-edge cloaking/defense system, unknown time-space movement tech, and a near-extinct alien bloodline with unfathomable motivations. Story hooks: The Nightmare Within (the womb of cells, the armory, the Reaver prototype with traits like the invaded planet's inhabitants, the charging cells); What Remains (the tracking chip, the 'Thoriath' code of an aliens who transferred their consciousnesses into the ship, and Verlon, a major Villain and the last flesh-and-blood Thoriath who controls robots remotely and uses Esper-like powers, having traveled from the future to prevent his people's extermination); Cynthia (a terrorized escapee who may be an alien ploy, leading to a prisoner-'reconversion' project and the reward of an interactive Nautiloss map)."
+    },
+    {
+      "kind": "location",
+      "key": "nidavellir",
+      "name": "Nidavellir - The Military Lab",
+      "text": "A glacier-surrounded top-secret military lab of aseptic corridors where scientists carry out ruthless experiments. Keywords: immorality, mutation, progress, top secret. A likely late-game location whose secret can redirect the campaign. A typical Military Lab has a secret high-potential weapon plan, grotesque results of experimentation, an amoral competition to reach the pinnacle of evolution, and a captive alien species. Story hooks: Sector Exia 1-0 (containment capsules of dehumanized monsters, the research hub, and Experiment alpha, a champion-rank shapeshifter that marks each creature it hits for extra damage, recovers 5 HP and one status effect at the end of each round while in Crisis, is Immune to poison, Resists ice and dark, and is Vulnerable to light and bolt); Recycling (mutated wanderers of the icefields, a genome-recombining surgical bed, and Dr. Evyus, a minor Villain who throws chemicals/explosives inflicting dazed, is Immune to ice, Vulnerable to fire/bolt/poison, and injects a serum in Crisis for Resistance to physical); Information Leak (saving Elya from a memory-erasing 'reset' procedure, with a 10-section escape Clock to fill within 5 Checks)."
+    },
+    {
+      "kind": "location",
+      "key": "septentrion",
+      "name": "Septentrion - The Corporate City",
+      "text": "A city-factory on a massive asteroid at the edge of Gerion's Belt, ruled by the three corporations of the technocratic League of Patriots. Keywords: manipulation, rebellion, exploitation. A common starting point whose first arc fights the local corporations. A typical Corporate City has a corrupt unstable administrative council, relentless fear-exploiting propaganda, a strong class gap masked as meritocracy, and an armed corporate police force. Story hooks: The Outer Citadel (Triskel Plaza with corporations Aurumcore, Halleni, and Courier; the Council Palace; the residential ring; Halleni Hospital's tiered insurance; the undercity); Things Do Not Add Up (the Elysium Reactor that tears the poorest population's spirits from the stream of souls and stores their memory patterns as fuel); The City Hungers, the City Forgets (activist Andrea Laskin seeks his disappeared mother Valeria, a subject of Dr. Alston, a minor Villain who does not intend the radiation-resistance test subjects to survive)."
+    },
+    {
+      "kind": "location",
+      "key": "soul_nexus",
+      "name": "Soul Nexus - Heart of the Network",
+      "text": "The kaleidoscopic heart of the soul network, a place of infinite echoing data whose shape and size change with its user's will; the untrained can be lost forever as wandering ghosts. Keywords: change, freedom, bewilderment. Themes: between the real and the digital, the divine dimension, ideas as data conglomerates. Terrain: digital forest, suspended ocean, void. Dangers include creatures erased from existence ('corrupted data') and false realities leading to impossible locations. Discoveries include backup copies of former visitors that restore Inventory Points and a hidden .zip folder for safe rest."
+    },
+    {
+      "kind": "location",
+      "key": "vragarath",
+      "name": "Vragarath - The Wreckage Wastes",
+      "text": "The Wreckage Wastes: a devastated junkyard-frontier location from the atlas's set of ten techno fantasy locations (Agathyon, Axis, Bentham Complex, Donum Coeli, Extractor 7, Nautiloss, Nidavellir, Septentrion, Soul Nexus, Vragarath), presented with 'at a glance' keywords/themes/terrain, questions for the group, typical features, and three story hooks in the same format as the other locations."
+    },
+    {
+      "kind": "conflict",
+      "key": "power_dynamics",
+      "name": "Power Dynamics and Oppression",
+      "text": "The core of techno fantasy conflicts is dynamics where one side wields crushing power over another. When building them, attend to: who actually gains (often not the public power-holders); obvious manifestations (surveillance drones, tiered cities, patrols, Federation warships); subtle manifestations (media manipulation, negationism, privatization of education/healthcare/resources, profiling of dissidents, corruption of parties and unions); connections to the PCs' past; and those who rebel. These conflicts sit within a society based on lack of trust that keeps the disenfranchised divided; Villains embrace this, and the PCs are called to embody hope. Major and supreme Villains dream of surpassing humanity's limits and can perform inhuman cruelty with poise. Fantasy survives through magic (the stream of souls stays central) and heroic destiny (the protagonists truly can change things)."
+    },
+    {
+      "kind": "conflict",
+      "key": "law_and_justice",
+      "name": "Law and Justice",
+      "text": "The tension between law and justice is typical: the law serves power (norms shaped by the privileged; police, surveillance, and prisons as tools of control), while justice is complex (widely reduced to merit and punishment, which Villains exploit to divide society, whereas the PCs understand that a truly just world needs drastic restructuring). These ideas connect to the PCs' Themes and should culminate in a memorable clash between different understandings of humanity and its destiny. Decide how much to explore these themes before play, and adjust intensity or pause to discuss during play. Every tension or conflict scene should include an element enhancing the oppressive, dystopian nature of the setting or representing the cost of failure (e.g. a countdown to a colossal spiritual cannon, conscripts forced into service for healthcare/education, cultural-surveillance analysts, cyborgs built from employees' corpses, a factory-founder statue whose folds shelter fired workers, psychic demons born of the population's fear)."
+    },
+    {
+      "kind": "conflict",
+      "key": "high_tension",
+      "name": "High Tension: Infiltration, Chases, and Vehicle Clashes",
+      "text": "Techno fantasy conflicts should be frantic and high-stakes with little room for error. Infiltration and sabotage: use two Clocks, one for reaching the goal and one for rising alertness (which, if filled, triggers a fight or chase), likely capped by a boss. Chases: play out in detail only if all parties travel at comparable speeds; otherwise the escape can be handled with a Clock or a conflict. Clashes with vehicles and mecha: treat vehicles as the stage for battles, use Clocks to manage the fight, and build construct-Species NPC profiles for enemy machines (which still follow all normal creature rules, since in Fabula Ultima magic influences matter at the atomic level). See the Vehicle-Scale Battles and Group Vehicle optional rules for more depth."
+    },
+    {
+      "kind": "magic",
+      "key": "magic_as_symbol",
+      "name": "Magic as a Symbol",
+      "text": "In techno fantasy, magical and spiritual energy always play a symbolic role, defined ideally at session zero. If the campaign explores exploitation of resources and creatures, Villains treat magic as a mere tool or energy source (e.g. magic as electricity in circuits, or radioactive crystallized magic harnessed in plants whose residue poisons the soul stream), and fixing the stream of souls may not be possible. If the theme is more social/philosophical, the stream of souls carries the echoes of people's thoughts, fears, and desires, enabling communication, manipulation of public opinion, and even the creation of life (ideal for the Esper Class and the Diabolist Quirk; spellcasters and hackers overlap, and demons become central). If the focus is existence, faith, and destiny, the stream of souls may be an intruder from beyond, entwined with life and hinted at in mythology and religion (e.g. magic originating from a planet-sized egg containing a growing alien entity worshiped via cyclopean portals); such revelations are usually a second-half plot twist."
+    },
+    {
+      "kind": "technology",
+      "key": "everyday_life",
+      "name": "Everyday Life and Colossal Machines",
+      "text": "Depending on the setting's tech level, PCs may have gadgets and services: portable coms (define range as regional/continental/planetary/interplanetary/interstellar, possibly with instant translation via the soul network); images and video (easing information storage but also surveillance); public transport (buses, trains, cruise ships, planes, using Core Rulebook service costs unchanged); vending machines offering Inventory Points, equipment, or technospheres; and hospitals/clinics providing magical healing via high-tech catalyzers. Use these to showcase differences between poor and privileged areas. Colossal and fantastical machines should be extraordinary (an armored city-state on metal legs with a soulstream extraction plant, a secret military station in a giant asteroid, a hyperspeed corporate train on an oceanic planet using gravitational propulsion); express a machine's role through its appearance and its relationship to the environment rather than realism."
+    },
+    {
+      "kind": "technology",
+      "key": "cybernetics",
+      "name": "Cybernetics",
+      "text": "Prosthetic limbs and cybernetic implants should tell a story about the character. Rules: implants provide no mechanical benefit by default, but their impact can be expressed through Skills or equipment (e.g. an Elementalist manipulating magic via a neural implant, or custom weapons representing integrated/transformable armaments). Transhuman characters: where synthetic bodies are common, PCs or Villains may use Surrendering and Escaping to avoid death by transferring their consciousness into a spare body through the soul network (with open questions about equipment transfer), while a Sacrifice compromises the backup beyond repair; with the integrated-technospheres option, characters can change their abilities by placing spheres directly in their bodies. Implants have no intrinsically positive or negative connotation - what makes one a symbol of freedom or oppression are the circumstances and the right to choose whether to use them."
+    },
+    {
+      "kind": "rare_item",
+      "key": "connector",
+      "name": "Connector",
+      "text": "Flail, two-handed, melee, 600z. Accuracy [DEX + DEX], damage [HR + 8] physical. You gain a +2 bonus to Checks you perform for the Magitech Override Skill (see Core Rulebook, page 215)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "therion_ripper",
+      "name": "Therion Ripper",
+      "text": "Brawling, one-handed, melee, martial (E), 700z. Accuracy [DEX + MIG]+1, damage [HR + 10] physical. This weapon deals extra damage equal to your Skill Level in Akromorphosis (page 155) and its Category is always identical to that of your unarmed strikes. It also benefits from the Greater Akromorphosis Heroic Skill (page 174) as if it was an unarmed strike."
+    },
+    {
+      "kind": "rare_item",
+      "key": "carbon_bow",
+      "name": "Carbon Bow",
+      "text": "Bow, two-handed, ranged, 800z. Accuracy [DEX + DEX]+1, damage [HR + 8] physical. Attacks with this weapon treat the Defense of each target as being equal to their current Dexterity die size."
+    },
+    {
+      "kind": "rare_item",
+      "key": "grenade_launcher",
+      "name": "Grenade Launcher",
+      "text": "Firearm, two-handed, ranged, martial (E), 1000z. Accuracy [DEX + INS], damage [HR + 16] physical. When you apply an infusion (see Core Rulebook, page 214) to an attack made with this weapon, that attack deals extra damage equal to your Skill Level in Gadgets (see Core Rulebook, page 211)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "ignition_spear",
+      "name": "Ignition Spear",
+      "text": "Spear, two-handed, melee, martial (E), 1000z. Accuracy [DEX + MIG], damage [HR + 16] fire. When you use the Compression Tech Skill (page 159) to summon your personal vehicle, you can pay 10 Mind Points to do so instead of the normal cost in Inventory Points."
+    },
+    {
+      "kind": "rare_item",
+      "key": "interface_ring",
+      "name": "Interface Ring",
+      "text": "Arcane, one-handed, melee, 1000z. Accuracy [WLP + WLP], damage [HR + 6] physical. You halve the Mind Point cost of all Rituals tied to the soul network that you perform through the Cognitive Ghost Quirk (page 121) or the Navigator Skill (page 151)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "scale_thresher",
+      "name": "Scale Thresher",
+      "text": "Heavy, two-handed, melee, martial (E), 1100z. Accuracy [MIG + MIG], damage [HR + 14] physical. When you use this weapon with the Breach Skill (see Core Rulebook, page 219), if you hit the target you can choose two of the available options instead of one. If you choose only one option, the target loses an amount of Hit Points equal to your High Roll in the Accuracy Check."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rngenerator",
+      "name": "RNGenerator",
+      "text": "Thrown, one-handed, ranged, 1200z. Accuracy [DEX + INS], damage [HR + 8] dark. When you cast the Gamble spell (see Core Rulebook, page 193), if you have the Lucky Seven Skill (see Core Rulebook, page 191), you can use it to replace one of the dice you have rolled. This counts as the use of Lucky Seven for the scene."
+    },
+    {
+      "kind": "rare_item",
+      "key": "steady_knuckles",
+      "name": "Steady Knuckles",
+      "text": "Brawling, one-handed, melee, martial (E), 1200z. Accuracy [DEX + MIG], damage [HR + 10] physical. As long as the current die size of one of your Attributes is higher than its base die size, your attacks with this weapon deal extra damage equal to your Skill Level in Withstand (see Core Rulebook, page 195)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "butterfly_dream",
+      "name": "Butterfly Dream",
+      "text": "Sword, one-handed, melee, martial (E), 1300z. Accuracy [DEX + INS]+1, damage [HR + 10] air. When you hit one or more creatures with this weapon, if your Brainwave Clock (page 152) has three or more filled sections, you can erase 1."
+    },
+    {
+      "kind": "rare_item",
+      "key": "azotophore",
+      "name": "Azotophore",
+      "text": "Dagger, one-handed, melee, 1400z. Accuracy [DEX + INS]+1, damage [HR + 8] ice. Spells you cast that deal ice damage will deal 5 extra damage."
+    },
+    {
+      "kind": "rare_item",
+      "key": "seismic_pillar",
+      "name": "Seismic Pillar",
+      "text": "Heavy, two-handed, melee, martial (E), 1600z. Accuracy [MIG + MIG], damage [HR + 18] earth. Damage dealt by this weapon to creatures whose current Might die size is lower than yours ignores Immunities and Resistances."
+    },
+    {
+      "kind": "rare_item",
+      "key": "sniper_rifle",
+      "name": "Sniper Rifle",
+      "text": "Firearm, two-handed, ranged, martial (E), 1800z. Accuracy [DEX + INS]+1, damage [HR + 16] physical. If you have acquired the Hawkeye Skill (see Core Rulebook, page 205), treat your Skill Level in it as if it were increased by 3 (up to a maximum of SL 8)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "thunder_vulcan",
+      "name": "Thunder Vulcan",
+      "text": "Firearm, two-handed, ranged, martial (E), 3000z. Accuracy [DEX + INS]+1, damage [HR + 16] bolt. When you perform the Attack action for the first time during a turn using this weapon, you can perform up to three attacks (against a single target or multiple targets). If you do, all of these attacks follow the two-weapon fighting rules (see Core Rulebook, page 69)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "misdirector",
+      "name": "Misdirector",
+      "text": "Armor, 1000z. Defense DEX die +1, Magic Defense INS die +1, Initiative -1. As long as you have no shield equipped, you are Resistant to physical damage."
+    },
+    {
+      "kind": "rare_item",
+      "key": "lab_coat",
+      "name": "Lab Coat",
+      "text": "Armor, 1500z. Defense DEX die +1, Magic Defense INS die +2, Initiative -2. If you have acquired the Secret Formula Skill (see Core Rulebook, page 211), treat your Skill Level in it as if it were increased by 2 (up to a maximum of SL 7)."
+    },
+    {
+      "kind": "rare_item",
+      "key": "biocloak",
+      "name": "Biocloak",
+      "text": "Armor, 1800z. Defense DEX die +1, Magic Defense INS die +1, Initiative -. When you use a Skill that requires you to spend Hit Points, like Ecdysis (page 155) or Vismagus (see Core Rulebook, page 207), you halve that cost."
+    },
+    {
+      "kind": "rare_item",
+      "key": "psyskeleton",
+      "name": "Psyskeleton",
+      "text": "Armor, martial (E), 2000z. Defense 11, Magic Defense INS die +1, Initiative -3. After performing the Guard action, if your Brainwave Clock is full, you can erase it completely."
+    },
+    {
+      "kind": "rare_item",
+      "key": "icebreaker",
+      "name": "Icebreaker",
+      "text": "Shield, martial (E), 700z. Defense +2, Magic Defense +2, Initiative -. All physical and fire damage you deal ignores Resistances."
+    },
+    {
+      "kind": "rare_item",
+      "key": "ballistic_shield",
+      "name": "Ballistic Shield",
+      "text": "Shield, 800z. Defense +2, Magic Defense -, Initiative -. You gain a +1 bonus to your Accuracy Check with ranged weapons."
+    },
+    {
+      "kind": "rare_item",
+      "key": "windshield",
+      "name": "Windshield",
+      "text": "Shield, martial (E), 1000z. Defense +2, Magic Defense +2, Initiative -. While driving your personal vehicle (page 160), you gain Resistance to air and ice damage."
+    },
+    {
+      "kind": "rare_item",
+      "key": "hekat_shield",
+      "name": "Hekat Shield",
+      "text": "Shield, martial (E), 2000z. Defense +2, Magic Defense +2, Initiative -. You have Resistance to damage dealt by spells. When a spell deals damage to you, you recover 5 Mind Points."
+    },
+    {
+      "kind": "rare_item",
+      "key": "spare_magazine",
+      "name": "Spare Magazine",
+      "text": "Accessory, 600z. Once per scene, after rolling an Accuracy Check with a Firearm, you may reroll one of the dice for that Check."
+    },
+    {
+      "kind": "rare_item",
+      "key": "flashbang_grenades",
+      "name": "Flashbang Grenades",
+      "text": "Accessory, 800z. When you deal damage to a creature using an elemental shard, that creature also suffers the dazed status effect."
+    },
+    {
+      "kind": "rare_item",
+      "key": "gas_mask",
+      "name": "Gas Mask",
+      "text": "Accessory, 900z. You have Resistance to poison damage and are immune to the poisoned status effect."
+    },
+    {
+      "kind": "rare_item",
+      "key": "maverick_helmet",
+      "name": "Maverick Helmet",
+      "text": "Accessory, 1000z. At the start of your turn during a conflict, if you are in Crisis and driving your personal vehicle (page 160), you may recover from a single status effect of your choice."
+    },
+    {
+      "kind": "rare_item",
+      "key": "ego_mask",
+      "name": "Ego Mask",
+      "text": "Accessory, 1500z. After summoning an Arcanum on your turn during a conflict, you may perform a free attack with a weapon you have equipped. If you do, treat your High Roll as 0 when calculating damage dealt by this attack and you cannot willingly dismiss your Arcanum during this turn."
+    },
+    {
+      "kind": "rare_item",
+      "key": "medikit",
+      "name": "Medikit",
+      "text": "Accessory, 1500z. When you cause one or more creatures to recover Hit Points with a potion or spell, if at least one of those creatures is in Crisis, each of them recovers 5 additional Hit Points."
+    },
+    {
+      "kind": "rare_item",
+      "key": "portable_assembler",
+      "name": "Portable Assembler",
+      "text": "Accessory, 1500z. Once per scene, when you have to pay an Inventory Point cost, you may halve that cost instead."
+    },
+    {
+      "kind": "rare_item",
+      "key": "omnidex",
+      "name": "Omnidex",
+      "text": "Accessory, 2000z. When you perform a Check to examine an NPC's profile (see Core Rulebook, page 319), treat any Result of 12 or lower as being 13, unless it is a fumble."
+    },
+    {
+      "kind": "rare_item",
+      "key": "rare_weapon_modules",
+      "name": "Sample Rare Weapon Modules (Pilot)",
+      "text": "Rare weapon modules for the Pilot's personal vehicle (their special rules are not Qualities): Richter Grasp 800z, [DEX+INS] / [HR+12] earth (Brawling, melee; can interact with the scene as a normal free hand). Scrapper 900z, [DEX+INS]+1 / [HR+12] physical (Heavy, melee; deals 5 extra damage to constructs). Fimbulvetr Battery 1000z, [DEX+INS] / [HR+10] ice (Firearm, ranged; damage ignores Resistances). EMP Cannon 1100z, [DEX+INS] / [HR+14] bolt (Firearm, ranged; each construct hit suffers dazed; no other weapon module). Vanguard Pike 1100z, [DEX+INS]+1 / [HR+14] physical (Spear, melee; deals 5 extra damage during the first round of each conflict; no other weapon module). Crescens 1200z, [DEX+INS]+1 / [HR+12] physical (Sword, melee; deals extra damage equal to your Skill Level in Personal Vehicle). Hookclaw 1200z, [DEX+INS] / [HR+10] physical (Flail, melee; attacks can target flying creatures). Arbalest Mk II 1300z, [DEX+INS]+1 / [HR+16] physical (Bow, ranged; deals 5 extra damage to flying creatures or those in midair; no other weapon module). Reactive Deflector 1500z (as long as you drive with a Counterstrike support module enabled, apply its effects even against melee attacks; has all Shield-module effects). Mercurialis 1600z, [DEX+WLP] / [HR+12] fire (Arcane, melee; when a spell you cast deals damage to a single creature, it deals 5 extra damage to that target; no other weapon module). Morphshield 1800z (at the start of your turn, disable this to enable a different disabled weapon module, re-swapping at end of turn; has all Shield-module effects). Plasma Rifle 1800z, [DEX+INS]+1 / [HR+14] light (Firearm, ranged; Accuracy Checks trigger a critical success on matching dice, not a fumble). Aerowitzer 2000z, [DEX+INS] / [HR+18] air (Firearm, ranged; +2 Defense while driving; no other weapon module). Warp Cannon 2800z, [DEX+INS]+1 / [HR+18] dark (Firearm, ranged; multi (2), and all damage ignores Resistances, Immunities and Absorption; no other weapon module)."
+    },
+    {
+      "kind": "artifact",
+      "key": "aion",
+      "name": "Aion",
+      "text": "A towering mecha of white metal (snow-white armor with gold and silver inlays), recovered from deep space and moored near the Babylon Solar Station; its origin and technology are unknown. Scientists believe it needs a whole crew to pilot (see large-size group vehicles), yet it lies inert - perhaps it needs a special key, or awaits the arrival of someone."
+    },
+    {
+      "kind": "artifact",
+      "key": "alien_umbilical_cord",
+      "name": "Alien Umbilical Cord",
+      "text": "The unsettling remains of a massive, segmented tentacle-like organ extracted from a mysterious creature, its molecular composition indicating another universe. Genetic material can be extracted from it to strengthen the body, though some test subjects displayed sudden and irreversible physical and behavioral mutations, often staring into the distance as if listening to a sound no one else can hear."
+    },
+    {
+      "kind": "artifact",
+      "key": "ark_of_hope",
+      "name": "Ark of Hope",
+      "text": "The remains of an ancient alien vessel lost in space, its hull torn in several places, spotted adrift near a dangerous asteroid field. Apparently only those with a specific genetic makeup can pilot it. Its systems hide traces of a sleeping consciousness whose main code is guarded by a still-sealed central core."
+    },
+    {
+      "kind": "artifact",
+      "key": "the_black_gear",
+      "name": "The Black Gear",
+      "text": "A toothed disk that absorbs all light around it, seemingly composed of shadow. The strange metal can be safely handled only by organic beings; if it touches a machine, the gear slides inside and fully subjugates it to the will of its unknown master. It can spread its corrupting influence to other damaged units near an infected machine; corrupted non-sentient machines can only be used by the gear's owner, while androids and robotics become soldiers serving its master."
+    },
+    {
+      "kind": "artifact",
+      "key": "cloning_vat",
+      "name": "Cloning Vat",
+      "text": "A large basin full of shiny green liquid concealing a sleeping, seemingly incomplete creature. This artifact can clone any living creature; the result is indistinguishable from the original but instantly liquifies into a gelatinous puddle if its Hit Points or Mind Points are reduced to 0. With each use, the soul of the original becomes fragmented as it gives life to the copy, so overindulgence causes complete loss of identity."
+    },
+    {
+      "kind": "artifact",
+      "key": "demon_downloader",
+      "name": "Demon Downloader",
+      "text": "An electronic bracelet with a small touch screen, almost identical to a smartwatch, containing one of the few copies of the Lemegeton.apk program, which can find and temporarily summon entities from the soul network (page 74). The process is the same as a Ritualism Ritual with medium or major potency, and the user must negotiate a contract with the summoned demon (which cruel magic or tech could evade). If the demon grants help, the bearer gains access to a specific spell or Ritual discipline (GM's choice) as long as the contract's terms are respected; a demon can also negate the entire MP cost of a spell or Ritual, though this always ends the contract. Each demon can only be placed under contract once."
+    },
+    {
+      "kind": "artifact",
+      "key": "euscal_inc_folder",
+      "name": "Euscal Inc. Folder",
+      "text": "An overflowing single-copy collection of incriminating documents, the only hope for uncovering the crimes of the chemical megacorp Euscal Inc. (corruption of officials, threats against unions and reporters, treaty violations, paramilitary occupation of poor neighborhoods). Whoever holds it holds Euscal's destiny, but sharing its contents also hands the corporation's formulae and dangerous inventions to competitors, attracting several Villains."
+    },
+    {
+      "kind": "artifact",
+      "key": "m_dyad_model",
+      "name": "M-Dyad Model",
+      "text": "The hilt of a sword found in a mysterious lab, possibly far older than it looks. When its wielder focuses their will within the hilt it manifests a long blade of intermingled light and shadow, but the Dyad tests the wielder: the unworthy are drained of all energy and immediately reduced to 0 Hit Points. For the worthy, it becomes a rare transforming custom weapon (each form belongs to the sword Category; one deals light, the other dark damage) and can absorb and shatter magic like an Entropism Ritual with no MP cost and a Difficulty Level scaling with the effect's power."
+    },
+    {
+      "kind": "artifact",
+      "key": "nephele_system_plans",
+      "name": "Nephele System Plans",
+      "text": "A palm-sized disk holding intel on the few weak points of Olympia Defense Systems' Nephele System, an independent remote-controlled orbital station that can choke entire planets with a dense miasma, blocking sunlight and condemning inhabitants to a fate worse than death. The galaxy's last hope against it."
+    },
+    {
+      "kind": "artifact",
+      "key": "pulsar_morphmodule",
+      "name": "Pulsar Morphmodule",
+      "text": "An eye-catching injector containing a swarm of shining nanobots that can fuse with any means of transportation, encasing it in a flashy, tough aerodynamic exoskeleton. It amplifies the transport's performance, removing all Vulnerabilities and granting a +2 bonus to any Open or Opposed Checks it can contribute to. It also grants enough energy to move at lightspeed for exactly one second, after which it deactivates until exposed to extraordinary heat."
+    },
+    {
+      "kind": "artifact",
+      "key": "scarlet_key",
+      "name": "Scarlet Key",
+      "text": "A thin laminated red card covered in magitech circuits forming the arcane symbol of the planet Mercury, drawing the attention of anyone with an affinity for magic or arcane knowledge. Placed in any card-reader device connected to the soul network (page 74), it lets its user and companions enter a cyberspace 'bubble' where the device's software and hardware become a dungeon that can be influenced from within. The card's opposite side returns to the real world, possibly exiting from a different, network-connected device far away."
+    },
+    {
+      "kind": "artifact",
+      "key": "spiritual_reconstruction_protocol",
+      "name": "Spiritual Reconstruction Protocol",
+      "text": "An enigmatic tablet covered in fine writing, traces of which appear across chronicles, legends, and images from many times and places, usually coinciding with revolutions and profound shifts. It draws from the fabric of the soul network (page 74) to reshape an individual's mind and memories, using information from the past or future; the one thing it cannot create is a soul, instead making a cold and heartless husk before disappearing within the folds of space and time."
+    },
+    {
+      "kind": "artifact",
+      "key": "universal_source_code",
+      "name": "Universal Source Code",
+      "text": "A featherweight globe of iridescent, vibrant light - a sphere of condensed code said by the bravest Soul Divers to be hidden in the depths of the soul network (page 74). Its data is believed to reveal the spiritual structure of the known world; changing it would mean changing reality itself, reshaping space and time. With each use the artifact becomes heavier and denser, as if something within it grows."
+    },
+    {
+      "kind": "artifact",
+      "key": "warpslice_engine",
+      "name": "Warpslice Engine",
+      "text": "A huge device akin to a triple-barrelled railgun, currently configured to connect to the hulls of star cruisers and warships, though not originally meant for war. It is a force-projection system that marks three real vertices and a fourth imaginary one in a parallel dimension, then nullifies the partition of space within this tetrahedron to force open a dimensional rift. It requires extreme precision and computational power; the slightest error would let unknown forces cross the rift, with catastrophic consequences."
+    },
+    {
+      "kind": "artifact",
+      "key": "world_tear",
+      "name": "World Tear",
+      "text": "A small tear-shaped alabaster stone marred by a single dark crack of unknown origin (possibly ancient magic, or the embodiment of the exploitation and pollution of the stream of souls). Whoever holds it can feel the joy and pain of the planet, and is temporarily able to perform Spiritism Rituals to communicate with the soul stream and to unleash ancient, long-forgotten powers."
+    },
+    {
+      "kind": "option",
+      "key": "custom_weapons",
+      "name": "Custom Weapons (rules)",
+      "text": "Rules to create a unique custom weapon during character creation (rare versions later via Core Rulebook page 268; custom weapons are not necessarily better than basic weapons). A custom weapon: belongs to one Category of your choice (arcane, bow, brawling, dagger, firearm, flail, heavy, spear, sword, or thrown); is not martial (E) but may become so via customizations; is two-handed and cannot benefit from Monkey Grip (always occupies both hand slots); is melee or ranged (your choice, regardless of Category); costs 300 zenit; its Accuracy Check uses [DEX + INS] or [DEX + MIG] (your choice); and deals physical damage equal to [HR + 5]. It also receives three customizations, each chosen only once. Customizations: Accurate (+2 to the Accuracy Check formula); Defense Boost (+2 Defense and you count as having a shield equipped for Skills like Defensive Mastery or Dodge); Elemental (choose air/bolt/dark/earth/fire/ice/light/poison; the weapon deals that type instead of physical, and 2 extra damage); Magic Defense Boost E (+2 Magic Defense); Powerful E (5 extra damage, or 7 if a heavy weapon; not available for arcane or dagger weapons, or for weapons with the quick customization); Quick (counts as two customizations) E (when you Attack with this weapon you may perform two attacks, both following two-weapon fighting rules); Transforming (+100 zenit; the weapon has a second form built as a separate custom weapon that also has transforming and costs no zenit; you can swap forms freely, during a conflict only on your turn before or after an action and once per turn; a transforming weapon can only have one Quality, applying to both forms). If one form is melee and the other ranged, or they belong to different Categories, you only gain the benefits of one form at a time."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "aegis_blades",
+      "name": "Aegis Blades (Gladius Shield / Blazing Aegis)",
+      "text": "A telescopic sword stored inside a tough magnetic shield. Base form Gladius Shield E, 300z: Sword, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 10] physical; has the accurate, defense boost and powerful customizations. Rare evolution Blazing Aegis E, 2000z: Sword, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 14] fire; when you enter your personal vehicle (page 160) during a conflict, you may have its weapon modules deal 5 extra damage and change all damage they deal to fire (this type cannot be changed), lasting until you leave; has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "armored_boots",
+      "name": "Armored Boots (Wallbreakers / Megaton Boots)",
+      "text": "Modified boots that count as weapons. Base form Wallbreakers E, 300z: Brawling, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 10] physical; has the accurate, defense boost and powerful customizations. Rare evolution Megaton Boots E, 2100z: Brawling, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 14] earth; creatures hit by this weapon suffer shaken; has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "combustion_yoyos",
+      "name": "Combustion Yo-Yos (Combustion Spinner / Infernal Twister)",
+      "text": "Bulky combustion-powered yo-yos. Base form Combustion Spinner E, 300z: Flail, two-handed, melee; Accuracy [DEX + INS], damage [HR + 7] fire; has the elemental and quick customizations. Rare evolution Infernal Twister E, 1600z: Flail, two-handed, melee; Accuracy [DEX + INS]+1, damage [HR + 11] fire; deals extra damage equal to the number of times you hit one or more creatures with it during the current scene; has the elemental and quick customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "flux_rifles",
+      "name": "Flux Rifles (Ectorifle / Asclepius)",
+      "text": "Transforming rifles used by the Federation's Medical Units. Base form Ectorifle, 400z: Form I - Firearm, two-handed, ranged; Accuracy [DEX + INS]+2, damage [HR + 10] physical; has accurate, powerful and transforming. Form II E - Arcane, two-handed, ranged; Accuracy [DEX + INS]+2, damage [HR + 7] light; has accurate, elemental and transforming. Rare evolution Asclepius, 1200z: Form I E - Firearm, two-handed, ranged; Accuracy [DEX + INS]+2, damage [HR + 14] physical; if you have Healing Power (Core Rulebook page 207), your Skill Level in it is increased by 1 (max SL 3); has accurate, powerful and transforming. Form II E - Arcane, two-handed, ranged; Accuracy [DEX + INS]+2, damage [HR + 11] light; same Healing Power benefit; has accurate, elemental and transforming."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "giant_wrenches",
+      "name": "Giant Wrenches (Gearwrench / Fixer Grip)",
+      "text": "Gigantic monkey wrenches. Base form Gearwrench E, 300z: Heavy, two-handed, melee; Accuracy [DEX + MIG], damage [HR + 12] physical; has the defense boost, magic defense boost and powerful customizations. Rare evolution Fixer Grip E, 1000z: Heavy, two-handed, melee; Accuracy [DEX + MIG], damage [HR + 16] physical; at the end of your turn during a conflict, you may restore 5 Hit Points to a construct you can see; has the defense boost, magic defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "mortar_halberds",
+      "name": "Mortar Halberds (Blastpike / Thundermaw)",
+      "text": "Weapons combining a mortar barrel with a spear shaft. Base form Blastpike E, 300z: Firearm, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 10] physical; has the accurate, defense boost and powerful customizations. Rare evolution Thundermaw E, 900z: Firearm, two-handed, melee; Accuracy [DEX + MIG]+2, damage [HR + 10] bolt; deals 5 extra damage to beasts and monsters; has the accurate, defense boost and powerful customizations."
+    },
+    {
+      "kind": "custom_weapon",
+      "key": "spy_cases",
+      "name": "Spy Cases (Overnight Caliber / Cold Case)",
+      "text": "Reinforced cases hiding powerful handguns. Base form Overnight Caliber, 400z: Form I E - Brawling, two-handed, melee; Accuracy [DEX + MIG], damage [HR + 5] physical; has defense boost, magic defense boost and transforming. Form II E - Firearm, two-handed, ranged; Accuracy [DEX + MIG]+2, damage [HR + 10] physical; has accurate, powerful and transforming. Rare evolution Cold Case, 1600z: Form I E - Brawling, two-handed, melee; Accuracy [DEX + MIG], damage [HR + 9] ice; after an Accuracy Check with this weapon, recover 1 Inventory Point for each die showing 8 or higher; has defense boost, magic defense boost and transforming. Form II E - Firearm, two-handed, ranged; Accuracy [DEX + MIG]+2, damage [HR + 14] ice; same Inventory-Point recovery; has accurate, powerful and transforming."
+    },
+    {
+      "kind": "quirk",
+      "key": "agitator",
+      "name": "Agitator",
+      "text": "You have been riling people up to fight oppressors for years. When you rest inside or near a settlement, you may choose one option: you learn what the locals are mainly angry about or afraid of, or you create a contact that lives and operates in this area (give them a name and specialization, and the GM tells you what they ask of you)."
+    },
+    {
+      "kind": "quirk",
+      "key": "cognitive_ghost",
+      "name": "Cognitive Ghost",
+      "text": "You are a presence born within the depths of the soul network, straddling the line between demons and humans. Choose two damage types from air, bolt, dark, earth, fire, ice, and light: you gain Resistance to the chosen damage types. However, you also gain Vulnerability to a third damage type chosen from the list. You gain the ability to perform Rituals of the Ritualism discipline, and you may use these Rituals to transport creatures in and out of the soul network, as well as to gain information and track entities while inside the soul network."
+    },
+    {
+      "kind": "quirk",
+      "key": "diabolist",
+      "name": "Diabolist",
+      "text": "You can shape the energies of the soul network into a demonic familiar. Together with your group, create your familiar: a level 5 NPC belonging to the demon Species. This creature has no initiative score and does not level up, can have a maximum of two basic attacks, gains a +3 bonus to Accuracy Checks and Magic Checks, and its maximum Hit Points equal [five times the familiar's base Might die size + half your level]. At level 20 your familiar gains an additional Skill; at level 40, another. When an NPC you can see that belongs to the demon Species falls to 0 Hit Points, if you are present on the scene, you may spend 20 Mind Points: the GM reveals that creature's entire profile, and you may replace one of your familiar's Skills with one of that creature's Skills (GM has final say). You may not acquire the Faithful Companion Skill (Wayfarer) if you have this Quirk, and vice versa. Your familiar doesn't get an independent turn during conflicts, but you can use an action to have them perform an action (once per turn); turn-related effects on it are based on your turn. It joins and leaves scenes with you and gains your rest benefits; if reduced to 0 Hit Points it vanishes and reforms at your side at the start of the next scene in which you are present, with current HP equal to its Crisis score."
+    },
+    {
+      "kind": "quirk",
+      "key": "enigmatic_relic",
+      "name": "Enigmatic Relic",
+      "text": "You possess a strange weapon capable of shaping the weave of reality. Together with your group, create a relic: a rare custom weapon (page 112) worth 1200 zenit or less. The relic is an artifact, may only be destroyed through a PC's Sacrifice, and may only be stolen from you or lost due to a Surrender. As long as a PC or Villain has it equipped, they may perform the Skill action to manifest a power from the following: (PCs only) ask the GM a single question, which they answer truthfully while the relic shows visions; or choose a discipline from Chimerism, Elementalism, Entropism, Ritualism, and Spiritism - until the end of the scene, any character with the relic equipped may perform Rituals of that discipline at half MP cost; or until the end of the scene, all attacks with the relic deal 5 extra damage and all damage ignores Absorptions, Immunities and Resistances, and the character may immediately perform a free attack with the relic. The second and third options are cumulative with themselves (e.g. using the second for Chimerism three times makes Chimerism Rituals cost 1/8 normal MP). After the relic manifests a power in a PC's hands, it generates 1d6 Paradox Points; if Paradox Points reach 10 or higher, all are lost and the Player rolls a d6: 1-4 the relic becomes inert until a GM-set condition is fulfilled; 5-6 the relic unleashes a terrible force causing death and destruction, an alteration of time and space, or a new threat (GM's choice). When a Villain uses the relic's power, it never generates Paradox Points. If you Sacrifice yourself and the relic is not destroyed, it remains in the campaign and can now be lost or stolen like any object (still only destroyed through a Sacrifice)."
+    },
+    {
+      "kind": "quirk",
+      "key": "from_a_distant_world",
+      "name": "From a Distant World",
+      "text": "Your presence here is an anomaly, and sometimes you really do seem to follow your own rules. When you participate in a conflict scene, you automatically gain 1 Fabula Point. Additionally, you can invoke a Trait to reroll dice even if you fumbled your Check (if you do so, you do not receive a Fabula Point for the fumble)."
+    },
+    {
+      "kind": "quirk",
+      "key": "fugitive_experiment",
+      "name": "Fugitive Experiment",
+      "text": "Engineered within a secluded laboratory, you are a being with no precedents. When a rule or ability requires you to spend 100 or fewer Hit Points, Mind Points, or Inventory Points, you may suffer 1d8 Instability Points to ignore that cost. At the end of each session (approximately four hours of play), you lose 1d6 Instability Points (to a minimum of zero). If your Instability Points ever reach 10 or more, you are immediately reduced to 0 Hit Points and must Surrender (consequences tied to losing control of your abilities). Then, you lose all Instability Points."
+    },
+    {
+      "kind": "quirk",
+      "key": "hundred_faces",
+      "name": "Hundred Faces",
+      "text": "You can disguise yourself as pretty much anybody else. If you are away from prying eyes, you may use the Skill action and spend 1 Fabula Point to disguise yourself as another creature of humanoid size and shape. If the creature is someone you had a chance to meet, observe or research, you may also adopt their voice and mannerisms. Your disguise will reliably fool any soldier-rank creature, but elite- and champion-rank creatures might see through it due to a failed Check or opportunity. If a Villain is present on the scene with you, they may spend 1 Ultima Point to reveal your true identity through sheer coincidence or superior intuition."
+    },
+    {
+      "kind": "quirk",
+      "key": "inventor_prodigy",
+      "name": "Inventor Prodigy",
+      "text": "You have a burning passion for technology and strange devices. Once per conflict scene, if you need to spend Inventory Points, you can instead ignore that cost. You may initiate Projects. If a Project requires a special ingredient or material, you may spend 1 Fabula Point to declare you have that item with you. If you do, the invention must have a terrible flaw (see Core Rulebook, page 134)."
+    },
+    {
+      "kind": "quirk",
+      "key": "neo_human",
+      "name": "Neo-Human",
+      "text": "You represent the next evolutionary stage of humanity. When you acquire this Quirk, choose Dexterity, Insight, Might, or Willpower. When you join a conflict scene, you may choose one option: you increase that Attribute by one die size (up to a maximum of d12) or, if its base die size is d12, you treat it as having a current die size of d20 during Checks you perform (only during Checks, and regardless of status effects). The chosen effect lasts until the end of the scene. When you choose one of the above options, the Game Master gains an opportunity which can be spent during the current scene or later, to showcase the unexpected collateral effects of your abilities."
+    },
+    {
+      "kind": "quirk",
+      "key": "planet_oracle",
+      "name": "Planet Oracle",
+      "text": "The stream of souls itself speaks through your mouth. When you cause one or more allies to recover Hit Points and/or Mind Points, each of those allies recovers 5 additional Hit Points and/or Mind Points and you choose a status effect from among dazed, enraged, poisoned, shaken, slow, and weak: each of those allies recovers from the chosen status effect. The recovery effect increases to 10 Hit Points and/or Mind Points if you are level 30 or higher. You also gain the ability to perform Rituals of the Spiritism discipline."
+    },
+    {
+      "kind": "quirk",
+      "key": "repentant_enforcer",
+      "name": "Repentant Enforcer",
+      "text": "You were part of a gang, armed group, police force or military unit; your hands and heart are stained with the blood of innocents. You may acquire this Quirk only if your character's Theme is Doubt or Guilt, and your Theme cannot be changed as long as you have this Quirk. When you acquire it, describe the organization you worked for, name the Villain who leads it, and list their three main strategies; that organization becomes a threat for your world. You managed to steal something: you obtain a single rare item worth 1000 zenit or less. At the end of each session (approximately four hours of play), if you hindered one or more of the organization's strategies, or remedied some of the harm they have done, gain 1 Subversion Point (you always have the final say on whether this happened). When you need to spend Fabula Points, you may instead spend 1 Subversion Point (regardless of the amount required). Once the Villain leading the organization is defeated and Surrenders, you lose this Quirk, permanently increase your maximum Hit Points and Mind Points by 10, and change your Theme to one of: Belonging, Duty, or Justice."
+    },
+    {
+      "kind": "quirk",
+      "key": "robot",
+      "name": "Robot",
+      "text": "You are a humanoid creature, partially or fully mechanical. You are not considered a living creature and gain Immunity to poison damage and Resistance to earth damage. You are also immune to the poisoned status effect. You do not need to breathe, eat or drink, but you still follow the normal rules for resting; you also recover Hit Points and recover from status effects as normal. You gain a +2 bonus to all Checks you perform to examine or interact with machines, technology and constructs (except for Accuracy Checks and Magic Checks)."
+    },
+    {
+      "kind": "quirk",
+      "key": "stolen_transport",
+      "name": "Stolen Transport",
+      "text": "You own a reliable transport that you kinda... borrowed. You obtain a transport of your choice from among those on Core Rulebook page 125 (such as a land vehicle, a ship, or an airship) or you obtain a spaceship (page 79). The size can be medium or large. It is enough to accommodate you and the rest of your group plus a dozen guests, and is fitted with armaments that allow for vehicle combat (page 65). Once per session (approximately four hours of play), the Game Master can give you 2 Fabula Points to introduce a narrative complication related to the nature of the transport or its original owner. However, the transport can never be destroyed without your permission."
+    },
+    {
+      "kind": "quirk",
+      "key": "survivor",
+      "name": "Survivor",
+      "text": "You are among the few who survived a catastrophic event, military attack or corporate raid. Permanently increase your maximum Hit Points and maximum Mind Points by 5. Choose one option: gain the ability to equip martial melee and ranged weapons, martial armor, and martial shields; or learn any one spell from the Elementalist or Spiritist lists (see Core Rulebook, pages 188 and 208); or permanently increase your maximum Inventory Points by 2."
+    },
+    {
+      "kind": "quirk",
+      "key": "the_beast_who_spoke",
+      "name": "The Beast Who Spoke",
+      "text": "You are the last remnant (or so it seems) of an ancient species of highly intelligent beasts, betrayed and hunted down by humans. You may not equip any items, with the exception of accessories and weapon and armor modules (page 161). However, as long as your armor slot is empty, you gain a +2 bonus to Defense and a +2 bonus to Magic Defense. You also gain two benefits of your choice from the following: you may also equip custom weapons (page 112); you learn one NPC spell (see Core Rulebook, pages 310-311; you cannot choose the Devastation spell; if it requires a Magic Check, use [MIG + WLP]; customize its effects as needed); your attacks with unarmed strikes deal 6 extra damage (increasing to 10 extra damage if you are level 30 or higher)."
+    },
+    {
+      "kind": "quirk",
+      "key": "xiphosymbiosis",
+      "name": "Xiphosymbiosis",
+      "text": "Your ability to manifest a physical body is tied to a weapon, which must be wielded by another person. When you acquire this Quirk, choose another Player Character to act as your wielder. You both immediately create a Bond towards each other, which has 1 emotion chosen from admiration, inferiority, loyalty, and mistrust. Together with your group, create your core: a rare custom weapon (page 115) worth 1200 zenit or less. The core cannot be lost, stolen or destroyed by external means, but automatically disintegrates if you Sacrifice yourself; it is never martial (E) and anyone can equip it. A character who has it equipped may perform the Skill action to change its Accuracy Check's Attributes into any combination of two different Attributes (apply to both forms if a transforming weapon). As long as you have this Quirk, only your wielder may equip your core. Your current Hit Points may never go below 1 - any excess loss of Hit Points is instead suffered by your wielder (regardless of distance). When your wielder Surrenders, you immediately vanish, retreating within the core (regardless of distance) and becoming dormant until they regain consciousness; the GM may impose the Surrender consequences on you or your wielder. When your wielder Sacrifices themselves, choose: Awakening (only if your Bonds have total strength 8 or higher) - you lose this Quirk, your core appears in your hands, and you immediately perform the Equipment action for free to equip it; Legacy (only if another willing PC you can see is present) - that PC becomes your new wielder and your core appears inside their backpack; or Shatter - you Sacrifice yourself in place of the wielder, who immediately recovers Hit Points equal to their Crisis score and no longer needs to Surrender or Sacrifice. Whenever you gain a level, if your Bonds have a total strength of 10 or higher, you may trigger an Awakening as described (no Sacrifice needed)."
+    },
+    {
+      "kind": "technosphere",
+      "key": "mnemospheres",
+      "name": "Mnemospheres",
+      "text": "Mnemospheres are technospheres generated by the accumulation of thoughts, emotions and knowledge in the stream of souls; each is associated with a Class and grants its user access to some of that Class's Skills. A mnemosphere holds at most 5 levels; investing a level develops a new Skill of its Class or raises an existing Skill's level. Once it reaches level 5 it is mastered and develops a Heroic Skill of its Class (or a generic Heroic Skill, decided as a group) whose requirements must be fully met by that mnemosphere alone. While a PC has an item containing mnemospheres equipped, they gain access to all Skills (including Heroic Skills) inside it; unequipping the item loses all benefits (including Chimerist-mnemosphere spells, which belong to the sphere not the character). Mnemospheres do NOT grant Class free benefits, Projects, or Rituals (Skills tied to these cannot be acquired); those must come from Innate Classes. An item cannot hold two mnemospheres that share a Skill (including Heroic Skills), and a character may never equip an item whose mnemosphere grants a Skill they already have access to. Recommended Classes: Chanter, Chimerist, Commander, Dancer, Elementalist, Entropist, Esper, Fury, Guardian, Loremaster, Orator, Rogue, Sharpshooter, Spiritist, Weaponmaster. It is useful to give a developed mnemosphere a custom name (e.g. a spell-support Entropist mnemosphere renamed 'Controller', or a Cheap-Shot-only Rogue mnemosphere renamed 'Dirty Fighter')."
+    },
+    {
+      "kind": "technosphere",
+      "key": "hoplospheres",
+      "name": "Hoplospheres",
+      "text": "Hoplospheres are 'clots' of soul energy tied to a specific element (such as fire or earth) or concept (such as healing or spellcasting); they reinforce the item they are placed in or the abilities of whoever equips it, replacing the normal system for granting Qualities. Many feature coagulation (Coag.) effects added when identical hoplospheres are placed in the same item; you can place two or more identical hoplospheres in one item to trigger coagulation. A weapon cannot contain hoplospheres tied to different damage types (this limitation does not apply to armor). Some hoplospheres occupy more than one slot; those marked * can only be placed within weapons, never armor. To randomly generate one, roll a d66. Sample list (d66 / name / effect while equipped): 11 Agile (Dexterity one die size higher, max d12; occupies 2 slots); 12 Arctic (Resistance to ice; if a weapon, all its damage becomes ice; Coag.2 Immunity to ice; Coag.3 your ice damage ignores Resistances and you may change dealt damage to ice); 13 Blessed* (+2 damage to undead; Coag.2 +1 Magic Defense); 14 Brave (Willpower one die size higher, max d12; occupies 2 slots); 15 Crystalline (immune to dazed; Coag.2 +2 to Open Checks to examine creatures/items/locations); 16 Cyclonic (Resistance to air; weapon damage becomes air; Coag.2 Immunity to air; Coag.3 air damage ignores Resistances, may change to air); 21 Dark (Resistance to dark; weapon damage becomes dark; Coag.2 Immunity; Coag.3 ignores Resistances, may change to dark); 22 Dazing* (each target hit suffers dazed; occupies 2 slots); 23 Disrupting* (+2 damage to constructs; Coag.2 +1 Defense); 24 Draining* (when you hit one or more creatures, recover 3 HP and 3 MP); 25 Energizing (immune to weak; Coag.2 +2 HP when you recover HP); 26 Expansive* (attacks gain multi (2); occupies 2 slots); 31 Ghastly* (each target hit suffers shaken; occupies 2 slots); 32 Gladiator* (+2 damage to humanoids; Coag.2 +1 Defense); 33 Knightly* (+2 damage to monsters; Coag.2 +1 Magic Defense); 34 Medical (+2 HP/MP recovery from potions; Coag.2 +1 more HP/MP); 35 Mighty (Might one die size higher, max d12; occupies 2 slots); 36 Occult* (+2 damage to elementals; Coag.2 +1 Magic Defense); 41 Piercing* (damage ignores Resistances; Coag.2 ignores Resistances and Immunities); 42 Poisonous (Resistance to poison; weapon damage becomes poison; Coag.2 Immunity; Coag.3 ignores Resistances, may change to poison); 43 Predator* (+2 damage to beasts; Coag.2 +1 Defense); 44 Quick (immune to slow; Coag.2 +2 Initiative Modifier); 45 Radiant (Resistance to light; weapon damage becomes light; Coag.2 Immunity; Coag.3 ignores Resistances, may change to light); 46 Reaping* (+2 damage to plants; Coag.2 +1 Defense); 51 Revealing (Insight one die size higher, max d12; occupies 2 slots); 52 Sharpening* (+1 to Accuracy Checks; Coag.2 +2 damage); 53 Scornful* (each target hit suffers enraged; occupies 2 slots); 54 Seismic (Resistance to earth; weapon damage becomes earth; Coag.2 Immunity; Coag.3 ignores Resistances, may change to earth); 55 Skeptical* (+2 damage to demons; Coag.2 +1 Magic Defense); 56 Snaring* (each target hit suffers slow; occupies 2 slots); 61 Sorcerous* (attacks target Magic Defense; Coag.2 spells deal +2 damage and heal +2 HP); 62 Steadfast (immune to shaken; Coag.2 +2 MP when you recover MP); 63 Tiring* (each target hit suffers weak; occupies 2 slots); 64 Toxic* (each target hit suffers poisoned; occupies 2 slots); 65 Volcanic (Resistance to fire; weapon damage becomes fire; Coag.2 Immunity; Coag.3 ignores Resistances, may change to fire); 66 Voltaic (Resistance to bolt; weapon damage becomes bolt; Coag.2 Immunity; Coag.3 ignores Resistances, may change to bolt). For rewards/selling, each technosphere is worth ~500 zenit."
+    },
+    {
+      "kind": "villain",
+      "key": "commissioner_vyne",
+      "name": "Commissioner Vyne (Shea Vyne)",
+      "level": 10,
+      "species": "Humanoid",
+      "rank": "Minor Villain (5 Ultima Points); champion 3 (worth 3 soldiers)",
+      "attributes": "DEX d6, INS d8, MIG d8, WLP d10",
+      "hp": "180 (Crisis 90)",
+      "mp": 140,
+      "init": 8,
+      "def": "+3",
+      "mdef": "+2",
+      "traits": "arrogant, authoritarian, cruel, violent",
+      "affinities": "Resists air and bolt; Vulnerable to fire, ice and dark",
+      "text": "The privatized police commissioner who runs the City-State of Columbia's armed forces as pharmaceutical multinational SynTech's private army, crushing all who interfere. Equipment: shock baton (iron hammer that deals bolt damage, 300 zenit), riot shield (as bronze shield), reinforced military uniform (as sage robe). Attacks: Shield Bash [MIG + MIG]+4, [HR + 5] physical; Shock Baton [MIG + WLP]+4, [HR + 6] bolt and the target suffers shaken. Spell: Charge! 20 MP, one creature, Instantaneous - the target may immediately perform a free attack with a weapon they have equipped (or a basic attack if an NPC). Cannon Fodder - when about to suffer damage, she can choose one ally she can see who is Resistant or Immune to that damage type to suffer it instead of her (in Crisis, she chooses at random among all her allies, even those not Resistant/Immune). Crush the Worms - when she deals damage to a creature suffering from one or more status effects, she deals extra damage equal to [5 + the number of status effects on the creature]. Infamous - while she is present, other creatures cannot recover from shaken. Make it Rain! - when she uses Charge! on a surveillance drone, that drone's Suppressive Fire attack gains multi (2). Media Presence - +3 to Opposed Checks when she can take advantage of her public persona or SynTech media manipulation. You're Done When I Say So - when a creature she can see reaches 0 Hit Points, if not suffering shaken, she immediately performs a free attack against it with her Shock Baton; if it hits, it deals no damage and the target cannot Surrender nor Sacrifice, instead recovering 20 Hit Points and suffering dazed and shaken. Supporting enemies (not full bosses): SynTech Cop (Lv 10 Humanoid), Surveillance Drone (Lv 10 Construct), and enhanced mastiffs (environmental effect dealing [5 + the number of status effects on the target] damage to a random PC at the end of each round; grafts disabled via an Objective action and ~6-section Clock)."
+    },
+    {
+      "kind": "villain",
+      "key": "ardent_squadron",
+      "name": "Ardent Squadron (Seven, Eight, Nine)",
+      "level": 20,
+      "species": "Construct",
+      "rank": "Major Villain (10 shared Ultima Points); variable rank (Eight is Champion 2)",
+      "attributes": "Eight: DEX d8 INS d10 MIG d10 WLP d6; Nine: DEX d6 INS d8 MIG d8 WLP d12; Seven: DEX d8 INS d10 MIG d8 WLP d8",
+      "hp": "Eight 200 (100); Nine 80 (40); Seven 80 (40)",
+      "mp": "Eight 100; Nine 80; Seven 70",
+      "init": "Eight 15; Nine 7; Seven 9",
+      "def": "Eight +1; Nine +0; Seven +0",
+      "mdef": "Eight +2; Nine +0; Seven +0",
+      "traits": "Eight: imposing, loyal to the Squadron, radicalized, strategic; Nine: disillusioned, loyal to the Squadron, reckless, undisciplined; Seven: acrobatic, calm, loyal to the Squadron, radicalized",
+      "affinities": "All Constructs immune to poisoned and Flying; individual Resist/Vulnerable spreads per profile (Eight, Nine, Seven each vary)",
+      "text": "A Republic of Augusta special-forces mecha unit; VII, VIII and IX are the only survivors of the first generation of kidnapped, conditioned child pilots. Treated as a single Villain sharing one 10-point Ultima pool (they generate 1 Fabula Point on entry rather than 3; any member can spend from the pool to Invoke a Trait or Recover for themselves; one spending 1 Ultima Point to Escape lets all others present leave safely). EIGHT (VIII, Champion 2), in the mecha Whiterook: Linebreaker Tackle [DEX + MIG]+2, [HR + 10] earth; Ion Cannon [DEX + INS]+2, [HR + 10] bolt; Defensive Swarm (spend 20 MP to halve damage to Seven or Nine, losing HP equal to the damage prevented); Seven, Nine! No! (when they hit 0 HP she loses control, recovers all HP, +3 Accuracy, and is enraged for the scene); Squad Tactics (declare one per round, not twice in a row: Defensive Formation +2 Defense/Magic Defense to her and allies; Magebreaker Protocol enemies' spell/Skill MP cost +10; No Quarter she and allies deal +5 and suffer +5 damage). NINE (IX), in Greenknight: Typhoon Missile [INS + MIG]+2, [HR + 15] air; Gamma Cannon (r) [INS + WLP]+5, 10 MP, one creature, [HR + 20] ice and weak; Ventus (r) [INS + WLP]+5, 10 MP x T, up to three creatures, [HR + 20] air (Opportunity: each flying target is forced to land); I'll Cover You! (free Typhoon Missile after Eight misses with Linebreaker Tackle, HR treated as 0); Perhaps It's Better This Way (in Crisis, cannot recover from status effects); Seven, Eight! No! (free Gamma Cannon against whoever downed an ally, then her damage ignores Resistances for the scene). SEVEN (VII), in Redqueen: Caduceus Lance [DEX + WLP]+2, [HR + 10] dark; Heal 10 MP x T, up to three creatures, each recovers 50 HP; Eight, Nine! No! (once per scene per character, keep a downed ally at exactly 1 HP); Energy Feedback (after Eight misses with Ion Cannon, an ally regains 10 MP); Repair Subroutine (start of turn, an ally recovers from weak or slow)."
+    },
+    {
+      "kind": "villain",
+      "key": "deepfusion",
+      "name": "DeepFusion",
+      "level": 30,
+      "species": "Demon",
+      "rank": "Major Villain (10 Ultima Points); Primary Core is champion 3 (worth 3 soldiers)",
+      "attributes": "Primary Core: DEX d8 INS d10 MIG d6 WLP d10; Digital Limb A: DEX d10 INS d8 MIG d10 WLP d6; Digital Limb B: DEX d8 INS d10 MIG d8 WLP d8",
+      "hp": "Primary Core 270 (135); Limb A 120 (60); Limb B 100 (50)",
+      "mp": "Primary Core 200; Limb A 60; Limb B 70",
+      "init": "Primary Core 12; Limb A 13; Limb B 9",
+      "def": "Primary Core +0; Limb A +0; Limb B +1",
+      "mdef": "Primary Core +0; Limb A +0; Limb B +2",
+      "traits": "Primary Core: corrupted, gluttonous, uncreative, uncritical; Limb A: nimble, powerful, rendered, temporary; Limb B: nimble, predictable, rendered, temporary",
+      "affinities": "Primary Core immune to physical and poisoned, Vulnerable to bolt and fire, Absorbs light, Resists dark (its standard Vulnerabilities are negated while a digital limb is present); limbs immune to physical and poisoned, Resist ice and dark, Vulnerable to bolt and fire",
+      "text": "An ExMedia 'Artificial Conscience' that scans the soul network to extrapolate the population's dreams and desires, tearing the network to pieces. Divided in a conflict between the primary core and the digital limbs (in the material world it can only appear in server rooms and lacks CTRL + ALT + DEL, Binary Presence and Rewrite the Code). PRIMARY CORE (Champion 3, Demon): Unstable Diffusion [DEX + INS]+3, deals bolt damage equal to the last instance of damage it suffered this scene (max 40); Antivirus Program [INS + WLP]+3, [HR + 10] light (if the target has status effects, they lose MP equal to the damage dealt but recover from all status effects); Computer Virus (r) [INS + WLP]+3, 10 MP x T, up to three creatures, each suffers poisoned; CTRL + ALT + DEL 30 MP, Special, Instantaneous - choose any number of creatures it can see, each suffers 35 bolt damage (once per turn, only during its last turn). Binary Presence (in the soul network, gains an opportunity whenever the High Roll is 1, 10 or 11, even on a fumble); CTRL + C / CTRL + V (copies any potion/elemental shard/symbol a creature creates and applies its basic effect to itself); Digital Augmentation (no standard Vulnerabilities while a digital limb is present); Rewrite the Code (uses opportunities in the soul network to roll a d8 for a status - dazed 1-2, weak 3-4, slow 5-6, shaken 7-8 - and either all creatures recover from it or all suffer it). DIGITAL LIMB A: Identify and Acquire [DEX + MIG]+6, [HR + 10] light and slow (multi (2) while inside the soul network); Component Optimization (recover 10 HP when recovering from status effects). DIGITAL LIMB B: [IF (...) ELSE] [INS + WLP]+3, targets Magic Defense, no damage, applies a status-based effect (Dazed: must Attack including the primary core; Weak: lose 20 HP; Slow: one fewer action next turn; Shaken: lose 20 MP; priority dazed > weak > slow > shaken); Component Optimization (recover 10 HP when recovering from status effects)."
+    },
+    {
+      "kind": "villain",
+      "key": "admiral_ceryon",
+      "name": "Admiral Ceryon (Tach Ceryon)",
+      "level": 40,
+      "species": "Humanoid",
+      "rank": "Major Villain (10 Ultima Points); variable rank (The Relentless and Bioengine are Champion 3)",
+      "attributes": "Ceryon: DEX d10 INS d10 MIG d8 WLP d8; The Relentless: DEX d6 INS d10 MIG d10 WLP d10; Bioengine: DEX d12 INS d6 MIG d12 WLP d6",
+      "hp": "Ceryon 120 (60); Relentless 390 (195); Bioengine 420 (210)",
+      "mp": "Ceryon 80; Relentless 180; Bioengine 140",
+      "init": "Ceryon 9; Relentless 11; Bioengine 12",
+      "def": "Ceryon +1; Relentless +0; Bioengine +2",
+      "mdef": "Ceryon +1; Relentless +0; Bioengine +4",
+      "traits": "Ceryon: cowardly, cruel, egotistical, opportunistic; Relentless: colossal, mechanical, tenacious, transport; Bioengine: aching, engineered, eyeless, mighty",
+      "affinities": "Ceryon Resists all damage types except dark (neutral); Relentless immune to poisoned, Resists air/bolt/earth/fire/light (Vulnerabilities are set dynamically by Target Locked); Bioengine immune to poisoned, Resists air/bolt/earth/fire, Absorbs dark, Vulnerable to ice and light",
+      "text": "The commander of the Relentless, a massive starcruiser with unlimited energy, who focuses on a personal escape plan with encoded data of his team's eugenic and biotechnological experiments, and if cornered unleashes the ship's genetically modified fuel-creature, the Bioengine. The first battle uses the optional group-vehicle rules against the ship. THE RELENTLESS (Champion 3, Construct): Ramming Speed [INS + MIG]+4, [HR + 20] physical; Aurora Batteries [INS + WLP]+4, [HR + 20] (type set by Target Locked; if it suffered no Vulnerable damage this round, the target also suffers dazed, weak, slow and shaken); Fire! [DEX + INS]+4, [HR + 15] fire, multi (2); No Hesitation (in Crisis, spend 10 MP to become dazed but deal +5 with all attacks while dazed); Target Locked (choose an enemy who becomes locked, roll d6 for Aurora damage type - 1-2 air, 3-4 fire, 5-6 light - and gain a matching Vulnerability, bolt/ice/dark respectively, until it fires); Code Red (while in Crisis and dazed, Defense/Magic Defense treated as 16; recovers from dazed when it suffers Vulnerable damage in Crisis). Attack Wing and Support Wing (Lv 40 Constructs) provide swarms with Reinforcements! (transferring the Relentless's HP). ADMIRAL CERYON himself (Lv 40 Humanoid): equipment misdirector, standard-issue sidearm (pistol that deals 4 extra damage, 450 zenit); Gunshot [DEX + INS]+4, [HR + 22] physical; Frantic Burst [DEX + INS]+4, [HR + 22] physical, multi (2), only if he has no ally on the scene; Do Something, You Stupid Beast! (Bioengine recovers 30 HP and deals +5 damage until his next turn); Seal the Bulkheads! (-5 to the next 'To the Bridge!' Clock Check); Escape Plan (fill 1 section of the 'Escape Pod' Clock at the end of each turn, or 2 if 'To the Bridge!' is full). Boarding starts an 'Escape Pod' Clock (10 sections, only via Progress Opportunity and Escape Plan) and a 'To the Bridge!' Clock (8 sections; until full, Ceryon cannot be targeted). BIOENGINE (Champion 3, Monster): Smash [MIG + MIG]+4, [HR + 20] physical; Lightning Quill [DEX + MIG]+4, [HR + 15] bolt and slow; Adrenal Overcharge (lose 30 HP, Lightning Quill gains multi (2) until end of next turn); Bioelectric Converter (physical damage becomes bolt as it loses equal MP); Growing Anger (gains 1 Rage Point on non-bolt/physical damage; at 5+ it loses all, regains HP equal to [Rage Points lost x 10], and makes a free Lightning Quill with bonus damage); His Love, Returned (when 'To the Bridge!' reaches 8, if it lives and Ceryon hasn't left, it drags him into space, both doomed); Short Circuit (at 0 HP, it fills the 'To the Bridge!' Clock)."
+    },
+    {
+      "kind": "villain",
+      "key": "innocentius_xv",
+      "name": "Innocentius XV",
+      "level": 50,
+      "species": "Humanoid (Phase 1 Patriarch), Demon (Phase 2 Conceptual Dyad), ??? (Phase 3 Pure Concept)",
+      "rank": "Supreme Villain (15 Ultima Points); variable rank (Phase 1 Patriarch Champion 3; Phase 2 Conceptual Dyad Champion 5; Phase 3 Pure Concept Champion 5)",
+      "attributes": "Patriarch: DEX d6 INS d10 MIG d8 WLP d12; Conceptual Dyad: DEX d8 INS d10 MIG d8 WLP d10; Pure Concept: DEX d8 INS d8 MIG d8 WLP d8",
+      "hp": "Patriarch 420 (210); Conceptual Dyad 700 (350); Pure Concept 560 (280)",
+      "mp": "Patriarch 220; Conceptual Dyad 200; Pure Concept 200",
+      "init": "Patriarch 9; Conceptual Dyad 18; Pure Concept 12",
+      "def": "Patriarch +4; Conceptual Dyad +3; Pure Concept +3",
+      "mdef": "Patriarch +5; Conceptual Dyad +3; Pure Concept +3",
+      "traits": "Patriarch: charismatic, egotistic, manipulative, zealous; Conceptual Dyad: analytical, arrogant, imposing, incongruous; Pure Concept: apathetic, divine, incomprehensible, inhuman",
+      "affinities": "Patriarch immune to air and light, Vulnerable to ice, dark and bolt; Conceptual Dyad Resists air and bolt, Vulnerable to fire (dynamic per amplified concept); Pure Concept Resists air/bolt/earth/fire/ice/light, Vulnerable to physical and poison, Absorbs light",
+      "text": "The Patriarch of the Cult of Universal Monotheosis, who seeks to hatch a synthetic egg saturated with alien magical power and ascend to Divinity, escalating across three phases. PHASE 1 - THE PATRIARCH (Champion 3, Humanoid): equipment Patriarch's scepter (as yellow book, +5 extra damage to spells, included) and black tunic; Patriarch's Scepter [WLP + WLP]+5, [HR + 16] physical; Blinding Light (r) [INS + WLP]+8, 10 MP, one creature, [HR + 35] light and dazed; Enveloping Shadow (r) [INS + WLP]+8, 10 MP, one creature, [HR + 35] dark and slow; Judgment 30 MP, Special, Instantaneous - choose any number of creatures, each suffers 50 light damage (once per turn, only during his last turn); Gospel of Strife (r) [INS + WLP]+8, 10 MP x T, up to three creatures, each suffers enraged; Ontological Proscription (name a random PC Class; no character with that Class can use Skill/Spell actions for its Skills or spells until he acts again); Deep Insight (learns a secret when filling a Clock via diplomacy/charm/deception/intimidation); Heed My Words (+3 to persuade/convince/deceive); Witness My Conviction (in Crisis, +10 MP recovered). His bodyguards Right Hand and Left Hand (both Lv 50 Humanoid) support him. PHASE 2 - CONCEPTUAL DYAD (Champion 5, Demon): Direct Proof [INS + WLP]+8, [HR + 20] physical, targets the lower of Defense or Magic Defense; Indirect Proof [DEX + MIG]+8, [HR + 15] physical, multi (2) or multi (3) in Crisis; Imperishable Dyad (recover from all status effects, losing 20 MP each); Manifest Dyad (roll d6 for an amplified concept: 1-2 Pneuma [dark/light], 3-4 Psyche [air/bolt], 5-6 Soma [fire/ice]; not twice in a row; while it has 1+ MP and is not in Crisis, becomes Immune to all damage except its concept's types); Reductio ad Absurdum (deal 9999 typeless damage to a single PC it can see); Proof by Construction / Deduction / Induction (concept-based damage typing, exposure/Vulnerability chains, and Axiom Points raising Defense/Magic Defense to 99). PHASE 3 - THE PURE CONCEPT (Champion 5, ???): So Below [DEX + MIG]+5, [HR + 15], roll d6 (1-2 physical, 3-4 earth, 5-6 poison); As Above [INS + WLP]+5, [HR + 15], roll d6 (1-2 air, 3-4 ice, 5-6 light); Kaleidomachy (r) [MIG + WLP]+5, 10 MP x T, up to three creatures, [HR + 25] of the last type it dealt this scene; Glory (all Attributes one die size higher, cumulative to d12); Transcendence (recover from all status effects, remove symbols, end 'Scene' spells); Magnum Opus (redirect PC HP loss into the 'Foundations of a New Universe' Clock); Paradise Lost (on first Crisis, erase the Clock, PCs recover 9999 MP and gain Fabula Points); Power of Creation / Disruption / Transformation. Starting the third phase begins a 137-section 'Foundations of a New Universe' Clock; if filled, all PCs automatically Surrender. When the Pure Concept reaches 0 HP the entity ceases to exist and the stream of souls is freed."
+    }
+  ]
+}

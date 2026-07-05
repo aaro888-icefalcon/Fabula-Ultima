@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_background",
+ "title": "Elements — Character_Background",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandoned"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Abuse"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Academic"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Activity"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Adventurous"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Adversity"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Art"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Assist"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Average"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bad"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bizarre"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bleak"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Bold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Burden"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Business"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Care"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Career"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Chaotic"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cheat"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Combat"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Commitment"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Community"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Competition"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Conflict"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Control"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Crime"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Damaged"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Danger"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Death"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Deceive"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Decrease"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Defeated"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Disaster"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Dispute"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Emotion"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Environment"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Escape"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Exile"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Experience"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Failure"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Faith"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Fame"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Family"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Fortunate"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Free"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Freedom"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Friend"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Gifts"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Good"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Guided"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Hard"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Harm"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Harsh"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Heal"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Helped"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Heroic"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Humble"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Humiliation"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Imprisonment"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Independent"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Inherit"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Injury"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Injustice"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Legal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Loss"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Military"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Mistake"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Mundane"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Nature"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Outsider"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Person"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Place"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Poor"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Power"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Prestige"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Privilege"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Pursued"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Recruited"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Religion"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rural"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Saved"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Search"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Seclusion"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Service"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Sheltered"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Skill"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Successful"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Survival"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tradition"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Training"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Trauma"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Travel"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Urban"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "War"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Wealth"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Wild"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Work"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wounded"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Youth"
+  }
+ ],
+ "checksum": "sha256:c85826205b3799da"
+}

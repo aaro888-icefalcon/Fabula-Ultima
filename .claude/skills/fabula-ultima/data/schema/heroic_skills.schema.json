@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/heroic_skills.schema.json",
+  "title": "Fabula Ultima — Heroic Skills",
+  "type": "object",
+  "required": ["id", "source", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "requirements", "text"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "requirements": { "type": "string", "description": "e.g. 'Rogue, level 10+' — verbatim" },
+          "class": { "type": "string", "description": "associated class key if any, else 'general'" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

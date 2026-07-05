@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.city_descriptors",
+ "title": "Elements — City_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Activity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aromatic"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Average"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Beautiful"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bleak"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Block"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bridge"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bustling"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Calm"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Chaotic"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Clean"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Colorful"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Commerce"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Conflict"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Control"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Crime"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Dangerous"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dense"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Developed"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dirty"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Efficient"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Energy"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enormous"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Environment"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Extravagant"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Festive"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Flawless"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Frightening"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Government"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Happy"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Harsh"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Healthy"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Helpful"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Hills"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "History"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Illness"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Important"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Impressive"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Industry"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Interesting"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Intrigues"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Isolated"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Lacking"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Lake"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Large"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Lavish"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Leadership"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Liberty"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Loud"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Magnificent"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Masses"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Meaningful"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Mechanical"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Messy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mighty"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Military"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Miserable"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Misfortune"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Modern"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mountain"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Mundane"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Mysterious"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Nature"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Odd"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Old"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Oppress"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Opulence"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Peace"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Poor"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Powerful"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Protected"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Public"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Quiet"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Rare"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Reassuring"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Remarkable"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "River"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rough"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Ruined"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Rustic"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Simple"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Small"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Sparse"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Structures"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Struggle"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Success"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Suffering"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Technology"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Tension"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Travel"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Troubled"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Valuable"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warm"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Water"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weak"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weather"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Work"
+  }
+ ],
+ "checksum": "sha256:2ab2e517f4b84943"
+}

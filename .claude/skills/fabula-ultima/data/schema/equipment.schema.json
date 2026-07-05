@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/equipment.schema.json",
+  "title": "Fabula Ultima — weapons, armor, shields, accessories, consumables",
+  "type": "object",
+  "required": ["id", "source", "weapons", "armor", "shields"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "weapon_categories": { "type": "array", "items": { "type": "string" } },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "cost", "accuracy", "damage", "martial", "category", "hands", "range"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "cost": { "type": "integer" },
+          "category": { "type": "string", "description": "e.g. Arcane, Blade, Bow, Brawling, Dagger, Firearm, Flail, Heavy, Spear, Thrown" },
+          "martial": { "type": "boolean" },
+          "hands": { "type": "integer", "enum": [1, 2] },
+          "range": { "type": "string", "enum": ["melee", "ranged"] },
+          "accuracy": {
+            "type": "object",
+            "required": ["attributes", "bonus"],
+            "properties": {
+              "attributes": { "type": "array", "minItems": 2, "items": { "type": "string", "enum": ["DEX", "INS", "MIG", "WLP"] } },
+              "bonus": { "type": "integer" }
+            }
+          },
+          "damage": {
+            "type": "object",
+            "required": ["bonus", "type"],
+            "properties": {
+              "hr": { "const": true, "description": "damage = High Roll + bonus" },
+              "bonus": { "type": "integer" },
+              "type": { "type": "string", "enum": ["physical", "air", "bolt", "dark", "earth", "fire", "ice", "light", "poison"] }
+            }
+          },
+          "qualities": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "armor": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "cost", "martial", "defense", "magic_defense"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "cost": { "type": "integer" },
+          "martial": { "type": "boolean" },
+          "defense": { "type": "string", "description": "e.g. 'DEX die' or '+N' or fixed integer as string" },
+          "magic_defense": { "type": "string" },
+          "initiative": { "type": "integer", "description": "initiative modifier (usually 0 or negative)" },
+          "qualities": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "shields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "cost", "martial", "defense", "magic_defense"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "cost": { "type": "integer" },
+          "martial": { "type": "boolean" },
+          "defense": { "type": "string" },
+          "magic_defense": { "type": "string" },
+          "initiative": { "type": "integer" },
+          "qualities": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "accessories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "text"],
+        "additionalProperties": true,
+        "properties": { "key": { "type": "string" }, "name": { "type": "string" }, "cost": { "type": "integer" }, "text": { "type": "string" } }
+      }
+    },
+    "consumables": {
+      "type": "array",
+      "description": "potions, remedies, etc. — purchased with zenit or crafted; some use Inventory Points",
+      "items": {
+        "type": "object",
+        "required": ["name", "text"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "cost": { "type": "integer" },
+          "ip_cost": { "type": "integer" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

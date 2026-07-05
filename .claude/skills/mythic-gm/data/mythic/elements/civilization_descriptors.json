@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.civilization_descriptors",
+ "title": "Elements — Civilization_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Active"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Advanced"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Adventurous"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Aggressive"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Agricultural"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Ancient"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Angry"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Anxious"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Artistic"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Average"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Beautiful"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bizarre"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Bleak"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Bold"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Bureaucratic"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Carefree"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Careful"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Careless"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cautious"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Classy"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Clean"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Colorful"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Combative"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Commercial"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Competitive"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Constructive"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Controlling"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Crazy"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Creative"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Creepy"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Cruel"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Curious"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Dangerous"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Declining"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Defiant"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Delightful"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Developed"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Distrustful"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Dominant"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Dull"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Efficient"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Expanding"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Failed"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Famous"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Fearful"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Festive"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Free"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Generous"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Greedy"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Happy"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Healthy"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Helpful"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Helpless"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Historical"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Important"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Industrial"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Influential"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Intolerant"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Large"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Lawful"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Lawless"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Magnificent"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Mighty"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Militaristic"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Miserable"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Modern"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Mundane"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Mysterious"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Old"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Open"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Oppressive"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Peaceful"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Polite"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Poor"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Powerful"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Primitive"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Punitive"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Quaint"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Religious"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Ruined"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Rustic"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Ruthless"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Scary"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Simple"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Small"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strong"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Struggling"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Successful"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Suffering"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Suppressed"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Suspicious"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Treacherous"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warlike"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Weak"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Wealthy"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Welcoming"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:07efd91d914a5357"
+}

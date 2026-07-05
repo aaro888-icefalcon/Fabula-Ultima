@@ -1,0 +1,311 @@
+{
+ "id": "ac.plot_points.tension",
+ "title": "Plot Point Table — Tension",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-points-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 8,
+   "value": "Conclusion (ends the Thread if an Advancement)"
+  },
+  {
+   "min": 9,
+   "max": 24,
+   "value": "None"
+  },
+  {
+   "min": 25,
+   "max": 26,
+   "value": "Into The Unknown"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "A Needed Resource Runs Out"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Impending Doom"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "A Motive Free Crime"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Collateral Damage"
+  },
+  {
+   "min": 31,
+   "max": 32,
+   "value": "Shady Places"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Do It, Or Else"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Remote Location"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Catastrophe"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Grisly Tone"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Something Is Getting Away"
+  },
+  {
+   "min": 38,
+   "max": 39,
+   "value": "Retaliation"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "A Character Disappears",
+   "char": true
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Hunted",
+   "char": true
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Bad Decision"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Wanted By The Law"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Something Exotic"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Immediately"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Betrayal!",
+   "char": true
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "A Character Is Incapacitated",
+   "char": true
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Nowhere To Run"
+  },
+  {
+   "min": 49,
+   "max": 50,
+   "value": "At Night"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "A Secret Weapon"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Heavily Guarded"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Dead",
+   "char": true
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Suspicion",
+   "char": true
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Lose Lose"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Out In The Open"
+  },
+  {
+   "min": 57,
+   "max": 58,
+   "value": "A Character Is Diminished",
+   "char": true
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Enemies",
+   "char": true
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Menacing Tone"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "A Crucial Life Support System Begins To Fail"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Victory!"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Taking Chances"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Sole Survivor",
+   "char": true
+  },
+  {
+   "min": 65,
+   "max": 66,
+   "value": "A Problem Returns"
+  },
+  {
+   "min": 67,
+   "max": 68,
+   "value": "Stuck"
+  },
+  {
+   "min": 69,
+   "max": 70,
+   "value": "Disarmed"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Quiet Catastrophe"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Standoff"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Hidden Threat"
+  },
+  {
+   "min": 74,
+   "max": 75,
+   "value": "A Need To Hide"
+  },
+  {
+   "min": 76,
+   "max": 77,
+   "value": "Followed"
+  },
+  {
+   "min": 78,
+   "max": 79,
+   "value": "It's A Trap!"
+  },
+  {
+   "min": 80,
+   "max": 81,
+   "value": "Time Limit"
+  },
+  {
+   "min": 82,
+   "max": 83,
+   "value": "A Needed Resource Is Running Short"
+  },
+  {
+   "min": 84,
+   "max": 85,
+   "value": "Bad News"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Hunker Down"
+  },
+  {
+   "min": 87,
+   "max": 88,
+   "value": "Abandoned"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Used Against Them"
+  },
+  {
+   "min": 90,
+   "max": 91,
+   "value": "Creepy Tone"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Travel Setting"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "A New Enemy",
+   "char": true
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Rural Setting"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Vulnerability Exploited"
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "value": "Roll on the Meta Plot Points Table"
+  }
+ ],
+ "note": "1-8 Conclusion (if advancement); 9-24 None; 96-100 Meta. Names hand-verified from canon. entries with char=true invoke the Characters List.",
+ "checksum": "sha256:862243a4d91dd37d"
+}

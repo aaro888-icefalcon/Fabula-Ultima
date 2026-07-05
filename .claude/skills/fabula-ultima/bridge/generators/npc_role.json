@@ -1,0 +1,16 @@
+{ "id": "fu.npc_role", "title": "NPC Role (Fabula Ultima world)", "type": "list_d100", "dice": "1d100",
+  "note": "generate:character table for the engine's auto-fire NEW-CHARACTER hook (generators_map.character, mode conjunction = also runs the AC Character Crafter). Roll a role, then flesh the NPC as a native of setting-canon.md via interpretation.md: a want, a faction/place, and a Bond hook to a PC.",
+  "entries": [
+    {"min": 1, "max": 10, "value": "Commoner — farmer, fisher, laborer, or innkeeper"},
+    {"min": 11, "max": 20, "value": "Artisan or craftsperson — smith, tailor, apothecary"},
+    {"min": 21, "max": 30, "value": "Merchant, trader, or caravan master"},
+    {"min": 31, "max": 40, "value": "Guard, soldier, or sworn blade"},
+    {"min": 41, "max": 49, "value": "Adventurer, hunter, or wandering mercenary"},
+    {"min": 50, "max": 58, "value": "Scholar, sage, or physician"},
+    {"min": 59, "max": 67, "value": "Priest, monk, or spiritist of a local faith"},
+    {"min": 68, "max": 76, "value": "Official, magistrate, or guild functionary"},
+    {"min": 77, "max": 84, "value": "Noble, courtier, or landed gentry"},
+    {"min": 85, "max": 91, "value": "Mage, artificer, or arcanist"},
+    {"min": 92, "max": 97, "value": "Outcast, criminal, or rebel with a cause"},
+    {"min": 98, "max": 100, "value": "Power-broker — warlord, high priest, guildmaster, or a monster in human guise"}
+  ] }

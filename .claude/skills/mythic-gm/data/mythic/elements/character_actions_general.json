@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.character_actions_general",
+ "title": "Elements — Character_Actions_General",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abandon"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Amusing"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Anger"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Antagonize"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Anxious"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Assist"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bestow"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Betray"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Block"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bold"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Break"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Calm"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Care"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Careful"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Careless"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Celebrate"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Change"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Combative"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Communicate"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Control"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Crazy"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Creepy"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dangerous"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Deceive"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Decrease"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Defiant"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Delay"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Disrupt"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Dominate"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Efficient"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Energetic"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Excited"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Expose"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fearful"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Feeble"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fierce"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fight"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Foolish"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Frantic"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Frightening"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Generous"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Gentle"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Harm"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Harsh"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Hasty"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Helpful"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Imitate"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Important"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Imprison"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Increase"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Inspect"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Intense"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Juvenile"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Kind"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Lazy"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Leadership"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Lethal"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Loud"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Loyal"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mature"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Meaningful"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Messy"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Move"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mundane"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Mysterious"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Nice"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Normal"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Odd"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Official"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Open"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Oppose"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Passion"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Peace"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Playful"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Pleasures"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Possessions"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Punish"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Pursue"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Release"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Return"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Simple"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Slow"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Start"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Stop"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Struggle"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Swift"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tactics"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Take"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Technology"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Threatening"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trust"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Violent"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Waste"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weapons"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Wild"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Work"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Yield"
+  }
+ ],
+ "checksum": "sha256:b1d5bd6903bfbca8"
+}

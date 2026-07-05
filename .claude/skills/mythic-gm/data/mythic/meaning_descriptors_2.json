@@ -1,0 +1,511 @@
+{
+ "id": "mythic.meaning.descriptors_2",
+ "title": "Meaning — descriptors_2",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abnormal"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Amusing"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Artificial"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Average"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Beautiful"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bizarre"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Boring"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bright"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Broken"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Clean"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Cold"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Colorful"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Colorless"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Comforting"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Creepy"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Cute"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Damaged"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Dark"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Defeated"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dirty"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Dry"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Dull"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Empty"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enormous"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Extraordinary"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Extravagant"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Faded"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Familiar"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Fancy"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Feeble"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Festive"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Flawless"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Forlorn"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fragile"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fragrant"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fresh"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Full"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Glorious"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Graceful"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Hard"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Harsh"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Healthy"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Heavy"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Historical"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Horrible"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Important"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Interesting"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Juvenile"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Lacking"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Large"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Lavish"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Lean"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Less"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Lethal"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Lively"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Lonely"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Lovely"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Magnificent"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Mature"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Messy"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mighty"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Military"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Modern"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mundane"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mysterious"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Natural"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Normal"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Odd"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Old"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Pale"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Peaceful"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Petite"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Plain"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Poor"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Powerful"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Protective"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Quaint"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Rare"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Reassuring"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Remarkable"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Rotten"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Rough"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Ruined"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Rustic"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Scary"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Shocking"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Simple"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Small"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Smooth"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Soft"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Strong"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Stylish"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Unpleasant"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Valuable"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Vibrant"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Warm"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Watery"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weak"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "complete": true,
+ "checksum": "sha256:f2af11c93e1e3a24"
+}

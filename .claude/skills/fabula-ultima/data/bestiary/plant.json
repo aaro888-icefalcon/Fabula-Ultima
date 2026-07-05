@@ -1,0 +1,375 @@
+{
+  "id": "fu.bestiary.plant",
+  "source": "core",
+  "species": "plant",
+  "entries": [
+    {
+      "key": "alraune",
+      "name": "Alraune",
+      "level": 5,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 50,
+      "mp": 45,
+      "crisis": 25,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "resistant",
+        "earth": "resistant",
+        "ice": "vulnerable",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Vine Slap",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "This attack deals 5 extra damage to shaken targets."
+        },
+        {
+          "name": "Alraune Scream",
+          "accuracy": "【WLP + WLP】",
+          "damage": "No damage",
+          "range": "ranged",
+          "text": "The target suffers shaken. This attack targets Magic Defense and has no effect on targets unable to hear the alraune."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Plant",
+          "text": "The alraune is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "creepy",
+        "fast",
+        "malevolent",
+        "tiny"
+      ],
+      "text": "Tiny but malicious, these plants are known for bringing terrible misfortune to anyone they encounter.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "cursed-pumpkin",
+      "name": "Cursed Pumpkin",
+      "level": 5,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 8
+      },
+      "hp": 50,
+      "mp": 55,
+      "crisis": 25,
+      "initiative": 8,
+      "defense": 9,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "resistant",
+        "earth": "vulnerable",
+        "fire": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Rotten Bite",
+          "accuracy": "【DEX + MIG】+3",
+          "damage": "【HR + 5】 poison",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Pumpkin Puke",
+          "accuracy": "【MIG + WLP】",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Scene. Until this spell ends, the target suffers 5 extra damage from all sources that deal poison damage."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Plant",
+          "text": "The cursed pumpkin is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "furious",
+        "rotting",
+        "small",
+        "smelly"
+      ],
+      "text": "The wrathful remains of carved pumpkins, thrown away at the end of an old autumn festival. Frequent protagonists of horror tales.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "pestervine",
+      "name": "Pestervine",
+      "level": 10,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 6
+      },
+      "hp": 60,
+      "mp": 40,
+      "crisis": 30,
+      "initiative": 9,
+      "defense": 10,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "immune",
+        "earth": "resistant",
+        "fire": "vulnerable",
+        "poison": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Corrupting Vines",
+          "accuracy": "【DEX + DEX】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": "The target suffers weak. As long as they are weak, the target cannot perform the Guard action."
+        },
+        {
+          "name": "Dark Bite",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 dark",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Plant",
+          "text": "The pestervine is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "aggressive",
+        "cursed",
+        "quick",
+        "thorny"
+      ],
+      "text": "A tangle of vines surrounding a thorny core that vertically splits into a bottomless maw. Some say it was a failed experiment.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "shroomkin",
+      "name": "Shroomkin",
+      "level": 10,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 70,
+      "mp": 60,
+      "crisis": 35,
+      "initiative": 7,
+      "defense": 8,
+      "magic_defense": 9,
+      "affinities": {
+        "dark": "resistant",
+        "earth": "resistant",
+        "ice": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Shroom Slap",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Spore Belch",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 poison",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 poison damage and suffers dazed."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Plant",
+          "text": "The shroomkin is immune to dazed, enraged, and shaken."
+        },
+        {
+          "name": "Wide Cap",
+          "text": "When the shroomkin performs the Guard action, it may choose another creature. That creature gains Resistance to all damage types until the start of the shroomkin's next turn."
+        }
+      ],
+      "traits": [
+        "eyeless",
+        "mud-loving",
+        "peaceful",
+        "slow"
+      ],
+      "text": "These squat, lumbering creatures are generally peaceful, but might become aggressive if their bogs are contaminated.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    },
+    {
+      "key": "cactroll",
+      "name": "Cactroll",
+      "level": 15,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 12,
+        "WLP": 6
+      },
+      "hp": 90,
+      "mp": 55,
+      "crisis": 45,
+      "initiative": 7,
+      "defense": 8,
+      "magic_defense": 6,
+      "affinities": {
+        "air": "resistant",
+        "earth": "resistant",
+        "fire": "resistant",
+        "ice": "vulnerable",
+        "light": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Piercing Hug",
+          "accuracy": "【MIG + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Thorn Barrage",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 physical",
+          "range": "ranged",
+          "text": ""
+        },
+        {
+          "name": "Moisture Drain",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 poison",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 poison damage. Then, the cactroll recovers an amount of Hit Points equal to half the Hit Points loss suffered by the target."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cactroll Juice",
+          "text": "The cactroll heals from slow and weak. Then, the cactroll performs Thorn Barrage as a free attack."
+        },
+        {
+          "name": "Plant",
+          "text": "The cactroll is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "creepy",
+        "hulking",
+        "territorial",
+        "water sensitive"
+      ],
+      "text": "These towering cacti spend most of their days standing still amidst the desert dunes, but become much more active at night.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "dragontrap",
+      "name": "Dragontrap",
+      "level": 20,
+      "species": "plant",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 90,
+      "mp": 60,
+      "crisis": 45,
+      "initiative": 8,
+      "defense": 8,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "resistant",
+        "bolt": "vulnerable",
+        "earth": "vulnerable",
+        "fire": "resistant",
+        "light": "resistant",
+        "poison": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Dragoneater",
+          "accuracy": "【MIG + MIG】+5",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "If a target hit by this attack is weak, they are swallowed by the dragontrap: a swallowed creature will suffer minor (20) physical damage at the beginning of each of the dragontrap's turns and can perform no actions except for Objective (with the goal of freeing themselves). Freeing a swallowed target is a four-sections Clock; a soldier dragontrap can only have one creature swallowed at the same time, but an elite or champion dragontrap can hold up to two creatures in its maws at a time. If a dragontrap has all mouths occupied and swallows a creature, it must also release one of the creatures it had previously swallowed."
+        },
+        {
+          "name": "Lashing Vines",
+          "accuracy": "【DEX + MIG】+5",
+          "damage": "【HR + 15】 air",
+          "range": "ranged",
+          "text": "The target suffers weak."
+        },
+        {
+          "name": "Numbing Gas",
+          "accuracy": "【MIG + WLP】+2",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 10 × T MP · Up to three creatures · Instantaneous. Each target loses half of their current Mind Points."
+        },
+        {
+          "name": "Pre-digestion",
+          "accuracy": "【MIG + WLP】+2",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Scene. Until this spell ends, the target suffers 10 extra damage from all sources that deal physical damage."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Plant",
+          "text": "The dragontrap is immune to dazed, enraged, and shaken."
+        }
+      ],
+      "traits": [
+        "colossal",
+        "hungry",
+        "patient",
+        "rooted in place"
+      ],
+      "text": "These colossal plants have a well-earned name: their maws are large enough to engulf the limbs of an adult dragon. These are, however, more often used to capture and digest animals and humanoids. The only good news about these monstrosities is that they are deeply rooted in the ground — you can run away from them, assuming you escape their lethal vines.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    }
+  ]
+}

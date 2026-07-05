@@ -1,0 +1,12 @@
+{
+ "id": "mythic.scene_test",
+ "title": "Testing the Expected Scene",
+ "type": "logic",
+ "dice": "1d10",
+ "source": "references/canon/Mythic-GME.md#testing-the-expected-scene",
+ "rule": {
+  "over_cf": "Expected Scene",
+  "within_cf_odd": "Altered Scene",
+  "within_cf_even": "Interrupt Scene"
+ }
+}

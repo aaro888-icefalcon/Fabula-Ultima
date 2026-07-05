@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/spells.schema.json",
+  "title": "Fabula Ultima — spells",
+  "type": "object",
+  "required": ["id", "source", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "class", "mp_cost", "target", "duration", "text"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "class": { "type": "string", "description": "discipline / class key: elementalist, entropist, spiritist, arcanist(ritual), chimerist(spells), etc." },
+          "mp_cost": { "type": "string", "description": "verbatim MP cost, may scale e.g. '5 x T' or '20'" },
+          "target": { "type": "string" },
+          "duration": { "type": "string", "description": "Instantaneous / Scene / etc." },
+          "offensive": { "type": "boolean", "description": "requires a Magic Check vs Magic Defense" },
+          "damage_type": { "type": "string", "enum": ["physical", "air", "bolt", "dark", "earth", "fire", "ice", "light", "poison"] },
+          "opportunity": { "type": "string", "description": "the spell's opportunity clause, if any" },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

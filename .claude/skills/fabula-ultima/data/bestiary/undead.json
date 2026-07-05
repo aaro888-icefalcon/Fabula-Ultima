@@ -1,0 +1,472 @@
+{
+  "id": "fu.bestiary.undead",
+  "source": "core",
+  "species": "undead",
+  "entries": [
+    {
+      "key": "dread-urn",
+      "name": "Dread Urn",
+      "level": 5,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 50,
+      "mp": 55,
+      "crisis": 25,
+      "initiative": 8,
+      "defense": 11,
+      "magic_defense": 8,
+      "affinities": {
+        "physical": "vulnerable",
+        "dark": "immune",
+        "fire": "vulnerable",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Urn Poke",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Chaos Cackle",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 dark",
+          "range": "ranged",
+          "text": "The target suffers shaken. This attack targets Magic Defense."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Undead",
+          "text": "The dread urn is immune to poisoned and HP recovery may harm them (page 305)."
+        }
+      ],
+      "traits": [
+        "cackling",
+        "fragile",
+        "floating",
+        "tiny"
+      ],
+      "text": "A sepulchral urn, filled with old bones and inhabited by a restless soul fueled by envy towards the living.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "zombie",
+      "name": "Zombie",
+      "level": 5,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 6,
+        "MIG": 12,
+        "WLP": 8
+      },
+      "hp": 70,
+      "mp": 45,
+      "crisis": 35,
+      "initiative": 6,
+      "defense": 8,
+      "magic_defense": 7,
+      "affinities": {
+        "dark": "immune",
+        "earth": "vulnerable",
+        "fire": "vulnerable",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Ravenous Bite",
+          "accuracy": "【DEX + MIG】",
+          "damage": "【HR + 5】 dark",
+          "range": "melee",
+          "text": "The target suffers weak."
+        },
+        {
+          "name": "Zombie Rake",
+          "accuracy": "【MIG + MIG】",
+          "damage": "【HR + 5】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Empty Mind",
+          "text": "The zombie is immune to dazed, enraged, and shaken."
+        },
+        {
+          "name": "Undead",
+          "text": "The zombie is immune to poisoned and HP recovery may harm it (page 305)."
+        }
+      ],
+      "traits": [
+        "creepy",
+        "mindless",
+        "rotting",
+        "slow"
+      ],
+      "text": "The rotting remains of a humanoid, animated by dark magic and driven by an insatiable hunger. Tough, but clumsy.",
+      "magic_defense_bonus": 1,
+      "defense_bonus": 2
+    },
+    {
+      "key": "skeletal-mage",
+      "name": "Skeletal Mage",
+      "level": 10,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 8,
+        "MIG": 8,
+        "WLP": 10
+      },
+      "hp": 60,
+      "mp": 70,
+      "crisis": 30,
+      "initiative": 5,
+      "defense": 8,
+      "magic_defense": 12,
+      "affinities": {
+        "dark": "immune",
+        "earth": "vulnerable",
+        "fire": "resistant",
+        "ice": "resistant",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Staff",
+          "accuracy": "【WLP + WLP】+1",
+          "damage": "【HR + 6】 physical",
+          "range": "melee",
+          "text": "The mage recovers 5 MP."
+        },
+        {
+          "name": "Umbra",
+          "accuracy": "【INS + WLP】+1",
+          "damage": "【HR + 15】 dark",
+          "range": "ranged",
+          "text": "Offensive spell. 10 × T MP · Up to three creatures · Instantaneous. Each target suffers 【HR + 15】 dark damage. Opportunity: Each target suffers shaken."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Undead",
+          "text": "The skeletal mage is immune to poisoned and HP recovery may harm them (page 305)."
+        }
+      ],
+      "traits": [
+        "ambitious",
+        "clever",
+        "knowledgeable",
+        "ruthless"
+      ],
+      "equipment": [
+        "staff",
+        "sage robe"
+      ],
+      "text": "Often acting as a necromancer's lieutenants, these animated corpses are gifted with nefarious intellect and can channel dark magic.",
+      "magic_defense_bonus": 4,
+      "defense_bonus": 2
+    },
+    {
+      "key": "skeletal-soldier",
+      "name": "Skeletal Soldier",
+      "level": 10,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 70,
+      "mp": 40,
+      "crisis": 35,
+      "initiative": 6,
+      "defense": 12,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "immune",
+        "earth": "vulnerable",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Bronze Sword",
+          "accuracy": "【DEX + MIG】+5",
+          "damage": "【HR + 11】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Empty Mind",
+          "text": "The skeletal soldier is immune to dazed, enraged, and shaken."
+        },
+        {
+          "name": "Undead",
+          "text": "The skeletal soldier is immune to poisoned and HP recovery may harm it (page 305)."
+        }
+      ],
+      "equipment": [
+        "bronze sword",
+        "bronze shield",
+        "brigandine"
+      ],
+      "text": "An animated skeleton clad in armor and armed for battle.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": null,
+      "defense_fixed": true
+    },
+    {
+      "key": "bone-howler",
+      "name": "Bone Howler",
+      "level": 15,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 10,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 6
+      },
+      "hp": 80,
+      "mp": 55,
+      "crisis": 40,
+      "initiative": 8,
+      "defense": 10,
+      "magic_defense": 6,
+      "affinities": {
+        "physical": "resistant",
+        "air": "vulnerable",
+        "dark": "immune",
+        "ice": "resistant",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Serrated Maw",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "The target suffers slow."
+        },
+        {
+          "name": "Rot Breath",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 dark",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 dark damage and suffers weak."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Undead",
+          "text": "The bone howler is immune to poisoned and HP recovery may harm it (page 305)."
+        }
+      ],
+      "traits": [
+        "eternally hungry",
+        "fast",
+        "resilient",
+        "vicious"
+      ],
+      "text": "Stripped of their life and loyalty, these skeletal abominations are driven by a ferocious and insatiable hunger.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "ghoul",
+      "name": "Ghoul",
+      "level": 15,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 12,
+        "WLP": 6
+      },
+      "hp": 90,
+      "mp": 45,
+      "crisis": 45,
+      "initiative": 7,
+      "defense": 8,
+      "magic_defense": 6,
+      "affinities": {
+        "dark": "immune",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Furious Claws",
+          "accuracy": "【MIG + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "This attack has multi (2)."
+        },
+        {
+          "name": "Poison Breath",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 5】 poison",
+          "range": "melee",
+          "text": "The target suffers poisoned."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Undead",
+          "text": "The ghoul is immune to poisoned and HP recovery may harm them (page 305)."
+        }
+      ],
+      "traits": [
+        "aggressive",
+        "large",
+        "powerful",
+        "terrifying"
+      ],
+      "text": "Hulking corpses inhabited by a soul driven mad by a terrible curse. Ghouls haunt graveyards and feed on the freshly deceased.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "mummy",
+      "name": "Mummy",
+      "level": 20,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 6,
+        "INS": 8,
+        "MIG": 10,
+        "WLP": 10
+      },
+      "hp": 90,
+      "mp": 70,
+      "crisis": 45,
+      "initiative": 7,
+      "defense": 6,
+      "magic_defense": 8,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "immune",
+        "fire": "vulnerable",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Grave Claw",
+          "accuracy": "【MIG + WLP】+5",
+          "damage": "【HR + 10】 earth",
+          "range": "melee",
+          "text": "Each target hit by this attack suffers slow; if a target is already slow, they become Vulnerable to all damage types until they recover from the slow status effect."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Ancient Curse",
+          "text": "When reduced to 0 HP, the mummy crumbles to dust and utters a powerful curse: all living creatures present on the scene suffer shaken and weak."
+        },
+        {
+          "name": "Empty Mind",
+          "text": "The mummy is immune to dazed, enraged, and shaken."
+        },
+        {
+          "name": "Undead",
+          "text": "The mummy is immune to poisoned and HP recovery may harm it (page 305)."
+        }
+      ],
+      "traits": [
+        "cursed",
+        "eternally loyal",
+        "flammable",
+        "silent"
+      ],
+      "text": "Preserved through ancient rituals, these shambling horrors are devoid of any will save for the original commands they received.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "shackled-soul",
+      "name": "Shackled Soul",
+      "level": 20,
+      "species": "undead",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 12,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 70,
+      "mp": 70,
+      "crisis": 35,
+      "initiative": 10,
+      "defense": 12,
+      "magic_defense": 8,
+      "affinities": {
+        "physical": "immune",
+        "air": "vulnerable",
+        "dark": "immune",
+        "earth": "resistant",
+        "fire": "vulnerable",
+        "ice": "resistant",
+        "light": "vulnerable",
+        "poison": "immune"
+      },
+      "attacks": [
+        {
+          "name": "Fury Claw",
+          "accuracy": "【DEX + WLP】+5",
+          "damage": "【HR + 10】 dark",
+          "range": "melee",
+          "text": "The target suffers enraged."
+        },
+        {
+          "name": "Ghastly Wail",
+          "accuracy": "【INS + WLP】+5",
+          "damage": "【HR + 20】 ice",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 20】 ice damage and suffers shaken."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Undead",
+          "text": "The shackled soul is immune to poisoned and HP recovery may harm them (page 305)."
+        }
+      ],
+      "traits": [
+        "anguished",
+        "cursed",
+        "ethereal",
+        "vengeful"
+      ],
+      "text": "Spirits whose tormented existence made it impossible to find peace in the afterlife sometimes transform into powerful ghosts.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    }
+  ]
+}

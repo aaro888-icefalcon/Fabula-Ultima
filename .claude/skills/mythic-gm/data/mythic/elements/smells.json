@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.smells",
+ "title": "Elements — Smells",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Acrid"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Animal"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Antiseptic"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Aromatic"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Artificial"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Attractive"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bad"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bizarre"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Burnt"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Chemical"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Clean"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Comforting"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cooking"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Decrepit"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Delicious"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Delightful"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Dirty"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Disagreeable"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Disgusting"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dry"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Dull"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Earthy"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Electrical"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Evocative"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Faded"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Faint"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Familiar"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Fetid"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Fishy"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Floral"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Food"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Foul"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fragrant"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Fresh"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fruity"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Funky"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Good"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Grassy"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Gratifying"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Heady"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Heavy"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Herbal"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Horrible"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Humid"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Industrial"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Interesting"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Intoxicating"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Irritating"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Lacking"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Laden"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Malodorous"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Meaningful"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Medicinal"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Metallic"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Mildew"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Moist"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mossy"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Musky"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Musty"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Mysterious"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Natural"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Nature"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Nauseating"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Normal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Odd"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Odorless"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Offensive"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Overpowering"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Perfumed"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Pleasurable"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Powerful"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Pungent"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Punishing"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Putrid"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Rancid"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Reassuring"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Reek"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Rich"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Ripe"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Rot"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Rotten"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Savory"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Smelly"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Smokey"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Sour"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Stagnant"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Stale"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Stench"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Stinging"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Strange"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Strong"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Stuffy"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Sulphuric"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Sweet"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warm"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Waste"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Watery"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weak"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weather"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Woody"
+  }
+ ],
+ "checksum": "sha256:54367232159d0bcd"
+}

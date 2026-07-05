@@ -1,0 +1,405 @@
+{
+  "id": "fu.equipment",
+  "source": "core",
+  "weapon_categories": ["Arcane", "Bow", "Brawling", "Dagger", "Firearm", "Flail", "Heavy", "Spear", "Sword", "Thrown"],
+  "weapons": [
+    {
+      "key": "staff",
+      "name": "Staff",
+      "cost": 100,
+      "category": "Arcane",
+      "martial": false,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["WLP", "WLP"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "tome",
+      "name": "Tome",
+      "cost": 100,
+      "category": "Arcane",
+      "martial": false,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["INS", "INS"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "crossbow",
+      "name": "Crossbow",
+      "cost": 150,
+      "category": "Bow",
+      "martial": false,
+      "hands": 2,
+      "range": "ranged",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 8, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "shortbow",
+      "name": "Shortbow",
+      "cost": 200,
+      "category": "Bow",
+      "martial": false,
+      "hands": 2,
+      "range": "ranged",
+      "accuracy": { "attributes": ["DEX", "DEX"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 8, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "unarmed-strike",
+      "name": "Unarmed Strike",
+      "cost": 0,
+      "category": "Brawling",
+      "martial": false,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 0, "type": "physical" },
+      "qualities": "Automatically equipped in each empty hand slot."
+    },
+    {
+      "key": "improvised-melee",
+      "name": "Improvised (Melee)",
+      "cost": 0,
+      "category": "Brawling",
+      "martial": false,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 2, "type": "physical" },
+      "qualities": "Breaks after the attack."
+    },
+    {
+      "key": "iron-knuckle",
+      "name": "Iron Knuckle",
+      "cost": 150,
+      "category": "Brawling",
+      "martial": false,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "steel-dagger",
+      "name": "Steel Dagger",
+      "cost": 150,
+      "category": "Dagger",
+      "martial": false,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 1 },
+      "damage": { "hr": true, "bonus": 4, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "pistol",
+      "name": "Pistol",
+      "cost": 250,
+      "category": "Firearm",
+      "martial": true,
+      "hands": 1,
+      "range": "ranged",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 8, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "chain-whip",
+      "name": "Chain Whip",
+      "cost": 150,
+      "category": "Flail",
+      "martial": false,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "DEX"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 8, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "iron-hammer",
+      "name": "Iron Hammer",
+      "cost": 200,
+      "category": "Heavy",
+      "martial": false,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["MIG", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "broadaxe",
+      "name": "Broadaxe",
+      "cost": 250,
+      "category": "Heavy",
+      "martial": true,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["MIG", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 10, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "waraxe",
+      "name": "Waraxe",
+      "cost": 250,
+      "category": "Heavy",
+      "martial": true,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["MIG", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 14, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "light-spear",
+      "name": "Light Spear",
+      "cost": 200,
+      "category": "Spear",
+      "martial": true,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 8, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "heavy-spear",
+      "name": "Heavy Spear",
+      "cost": 200,
+      "category": "Spear",
+      "martial": true,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 12, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "bronze-sword",
+      "name": "Bronze Sword",
+      "cost": 200,
+      "category": "Sword",
+      "martial": true,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 1 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "greatsword",
+      "name": "Greatsword",
+      "cost": 200,
+      "category": "Sword",
+      "martial": true,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 1 },
+      "damage": { "hr": true, "bonus": 10, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "katana",
+      "name": "Katana",
+      "cost": 200,
+      "category": "Sword",
+      "martial": true,
+      "hands": 2,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 1 },
+      "damage": { "hr": true, "bonus": 10, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "rapier",
+      "name": "Rapier",
+      "cost": 200,
+      "category": "Sword",
+      "martial": true,
+      "hands": 1,
+      "range": "melee",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 1 },
+      "damage": { "hr": true, "bonus": 6, "type": "physical" },
+      "qualities": "No Quality."
+    },
+    {
+      "key": "improvised-ranged",
+      "name": "Improvised (Ranged)",
+      "cost": 0,
+      "category": "Thrown",
+      "martial": false,
+      "hands": 1,
+      "range": "ranged",
+      "accuracy": { "attributes": ["DEX", "MIG"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 2, "type": "physical" },
+      "qualities": "Breaks after the attack."
+    },
+    {
+      "key": "shuriken",
+      "name": "Shuriken",
+      "cost": 150,
+      "category": "Thrown",
+      "martial": false,
+      "hands": 1,
+      "range": "ranged",
+      "accuracy": { "attributes": ["DEX", "INS"], "bonus": 0 },
+      "damage": { "hr": true, "bonus": 4, "type": "physical" },
+      "qualities": "No Quality."
+    }
+  ],
+  "armor": [
+    {
+      "key": "no-armor",
+      "name": "No Armor",
+      "cost": 0,
+      "martial": false,
+      "defense": "DEX die",
+      "magic_defense": "INS die",
+      "initiative": 0,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "silk-shirt",
+      "name": "Silk Shirt",
+      "cost": 100,
+      "martial": false,
+      "defense": "DEX die",
+      "magic_defense": "INS die +2",
+      "initiative": -1,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "travel-garb",
+      "name": "Travel Garb",
+      "cost": 100,
+      "martial": false,
+      "defense": "DEX die +1",
+      "magic_defense": "INS die +1",
+      "initiative": -1,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "combat-tunic",
+      "name": "Combat Tunic",
+      "cost": 150,
+      "martial": false,
+      "defense": "DEX die +1",
+      "magic_defense": "INS die +1",
+      "initiative": 0,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "sage-robe",
+      "name": "Sage Robe",
+      "cost": 200,
+      "martial": false,
+      "defense": "DEX die +1",
+      "magic_defense": "INS die +2",
+      "initiative": -2,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "brigandine",
+      "name": "Brigandine",
+      "cost": 150,
+      "martial": true,
+      "defense": "10",
+      "magic_defense": "INS die",
+      "initiative": -2,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "bronze-plate",
+      "name": "Bronze Plate",
+      "cost": 200,
+      "martial": true,
+      "defense": "11",
+      "magic_defense": "INS die",
+      "initiative": -3,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "runic-plate",
+      "name": "Runic Plate",
+      "cost": 250,
+      "martial": true,
+      "defense": "11",
+      "magic_defense": "INS die +1",
+      "initiative": -3,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "steel-plate",
+      "name": "Steel Plate",
+      "cost": 300,
+      "martial": true,
+      "defense": "12",
+      "magic_defense": "INS die",
+      "initiative": -4,
+      "qualities": "No Quality."
+    }
+  ],
+  "shields": [
+    {
+      "key": "bronze-shield",
+      "name": "Bronze Shield",
+      "cost": 100,
+      "martial": false,
+      "defense": "+2",
+      "magic_defense": "-",
+      "initiative": 0,
+      "qualities": "No Quality."
+    },
+    {
+      "key": "runic-shield",
+      "name": "Runic Shield",
+      "cost": 150,
+      "martial": true,
+      "defense": "+2",
+      "magic_defense": "+2",
+      "initiative": 0,
+      "qualities": "No Quality."
+    }
+  ],
+  "consumables": [
+    {
+      "key": "elixir",
+      "name": "Elixir",
+      "ip_cost": 3,
+      "text": "One creature recovers 50 Mind Points."
+    },
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "ip_cost": 3,
+      "text": "One creature recovers 50 Hit Points."
+    },
+    {
+      "key": "tonic",
+      "name": "Tonic",
+      "ip_cost": 2,
+      "text": "One creature recovers from a single status effect."
+    },
+    {
+      "key": "elemental-shard",
+      "name": "Elemental Shard",
+      "ip_cost": 2,
+      "text": "One creature suffers 10 damage of a type of your choice (air, bolt, earth, fire, or ice)."
+    },
+    {
+      "key": "magic-tent",
+      "name": "Magic Tent",
+      "ip_cost": 4,
+      "text": "Allows the entire group to rest in the wilderness."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "ac.plot_point_theme",
+ "title": "Plot Point Theme Table",
+ "type": "list_d10",
+ "dice": "1d10",
+ "source": "references/canon/The-Adventure-Crafter.md#plot-point-theme-table",
+ "entries": [
+  {
+   "min": 1,
+   "max": 4,
+   "value": "First Priority"
+  },
+  {
+   "min": 5,
+   "max": 7,
+   "value": "Second Priority"
+  },
+  {
+   "min": 8,
+   "max": 9,
+   "value": "Third Priority"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Fourth Priority (cycle to Fifth)"
+  }
+ ]
+}

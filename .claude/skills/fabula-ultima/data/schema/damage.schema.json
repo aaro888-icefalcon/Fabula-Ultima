@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/damage.schema.json",
+  "title": "Fabula Ultima — damage types & affinity matrix",
+  "type": "object",
+  "required": ["id", "source", "types", "affinities", "affinity_resolution"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "types": {
+      "type": "array",
+      "minItems": 9,
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "key": { "type": "string", "enum": ["physical", "air", "bolt", "dark", "earth", "fire", "ice", "light", "poison"] },
+          "name": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "no_type_damage": {
+      "type": "object",
+      "description": "Damage with no type is unaffected by affinities (e.g. Arcanum of the Sword).",
+      "properties": { "text": { "type": "string" } }
+    },
+    "affinities": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "multiplier", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "key": { "type": "string", "enum": ["vulnerable", "resistant", "immune", "absorb"] },
+          "abbr": { "type": "string", "enum": ["VU", "RS", "IM", "AB"] },
+          "name": { "type": "string" },
+          "multiplier": { "description": "HP delta as a factor of incoming damage: 2, 0.5, 0, -1 (absorb heals)", "enum": [2, 0.5, 0, -1] },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "affinity_resolution": {
+      "type": "object",
+      "description": "How conflicting affinities collapse.",
+      "required": ["text"],
+      "properties": {
+        "vulnerable_and_resistant": { "type": "string" },
+        "immunity_supersedes": { "type": "string" },
+        "absorption_supersedes": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    },
+    "improvised_damage": {
+      "type": "array",
+      "description": "Improvised/hazard damage by level band (minor/heavy/massive).",
+      "items": {
+        "type": "object",
+        "required": ["level_min", "minor", "heavy", "massive"],
+        "properties": {
+          "level_min": { "type": "integer" },
+          "minor": { "type": "integer" },
+          "heavy": { "type": "integer" },
+          "massive": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

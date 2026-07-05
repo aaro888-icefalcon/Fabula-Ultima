@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.descriptors",
+ "title": "Elements — DESCRIPTORS",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Activity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Ancient"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Animals"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Aromatic"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Art"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Beautiful"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bizarre"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bleak"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Blocked"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Boulder"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Bright"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Cliff"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Climb"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Closed"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cold"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Collapsed"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Colorful"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Cracked"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cramped"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Crawl"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Creature"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Creepy"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Crumbling"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Curious"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Damaged"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Dangerous"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Dark"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Difficult"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Dirty"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Discouraging"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Dripping"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Dry"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Echo"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Elements"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Empty"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Enormous"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Exit"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Exotic"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fall"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Flora"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Frightening"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Full"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Fungus"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Good"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Hard"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Harm"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Harsh"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Hole"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Huge"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Icy"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Interesting"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Large"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Ledge"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Lethal"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Light"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Loud"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Magnificent"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Message"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Messy"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Minerals"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Misfortune"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mist"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Mysterious"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Natural"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Nature"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Normal"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Occupied"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Odd"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Open"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Path"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Plants"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Pool"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Quiet"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Reassuring"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Remarkable"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Riches"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "River"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Rock"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Rough"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Scary"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Simple"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Slippery"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Slope"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Small"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Smelly"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Smooth"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Sounds"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Stalactites"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Strange"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Threatening"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Tight"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tranquil"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Treasure"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Unnatural"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unstable"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Untouched"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Warm"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Waste"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Water"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Windy"
+  }
+ ],
+ "checksum": "sha256:375736965abfdb6f"
+}

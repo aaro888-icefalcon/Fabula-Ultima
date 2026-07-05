@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.visions_dreams",
+ "title": "Elements — Visions_Dreams",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Activity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Adversity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Allies"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Assist"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Attainment"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bizarre"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bleak"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Catastrophe"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Celebrate"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Change"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Colorful"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Conflict"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Contact"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Control"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Creepy"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Crisis"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cruelty"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Danger"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Dark"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Death"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Defeat"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Disruption"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Elements"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Emotions"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enemies"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Energy"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Environment"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Event"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Evil"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Failure"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fears"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Festive"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fight"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Friendship"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Frightening"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Future"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Goals"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Good"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Guidance"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Harm"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Helpful"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Helpless"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Hint"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Hope"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Horrible"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Hurry"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Ideas"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Implore"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Important"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Incomplete"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Information"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Instruction"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Liberty"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Lies"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Love"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Malice"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Masses"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mechanical"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Message"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Messy"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Military"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Misfortune"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Mundane"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Mysterious"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Natural"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Obscure"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Odd"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Oppose"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Path"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Peace"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "People"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Place"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Plans"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Plot"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Positive"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Possessions"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Power"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Preventable"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Reassuring"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Riches"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Riddle"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Ruin"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Scary"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Simple"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Strange"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Struggle"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Success"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Suffering"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Suppress"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tension"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Threat"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Time"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Travel"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trouble"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Trust"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Uncertain"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Unsettling"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Violence"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Warning"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapon"
+  }
+ ],
+ "checksum": "sha256:7fbee2256ecd2692"
+}

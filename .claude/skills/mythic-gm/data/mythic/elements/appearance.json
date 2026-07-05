@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.appearance",
+ "title": "Elements — APPEARANCE",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Abnormal"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Armed"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aromatic"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Athletic"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Attractive"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Average"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bald"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Beautiful"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bizarre"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Brutish"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Casual"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Classy"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Clean"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Clothing"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Colorful"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Common"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cool"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Creepy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Cute"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dainty"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Delicate"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Desperate"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Different"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dirty"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Drab"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Elegant"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Equipment"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Exotic"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Expensive"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Extravagant"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Eyewear"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Familiar"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Fancy"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Features"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Feminine"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Festive"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Frail"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Hair"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Hairy"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Headwear"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Heavy"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Hurt"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Innocent"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Insignia"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Intense"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Interesting"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Intimidating"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Jewelry"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Large"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Lavish"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Lean"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Limbs"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Lithe"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Masculine"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Mature"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Messy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mighty"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Modern"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Mundane"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Muscular"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mysterious"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Natural"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Neat"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Normal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Odd"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Official"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Old"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Petite"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Piercing"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Powerful"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Professional"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Reassuring"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Regal"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Remarkable"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Rough"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Rustic"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Scar"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Scary"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Scented"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Scholarly"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Short"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Simple"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Sinister"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Small"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Smelly"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Stocky"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Striking"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Strong"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Stylish"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Tall"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tattoo"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Tools"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Trendy"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unusual"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Very"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weak"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weapon"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wounded"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:ea5cc7dba1f905d3"
+}

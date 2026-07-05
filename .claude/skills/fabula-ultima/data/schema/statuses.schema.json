@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/statuses.schema.json",
+  "title": "Fabula Ultima — the six status effects + downgrade logic",
+  "type": "object",
+  "required": ["id", "source", "floor_die", "statuses", "rules"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "floor_die": { "description": "Attributes cannot be reduced below this die size.", "enum": [6] },
+    "statuses": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "downgrades", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "key": { "type": "string", "enum": ["dazed", "enraged", "poisoned", "shaken", "slow", "weak"] },
+          "name": { "type": "string" },
+          "downgrades": {
+            "type": "array",
+            "description": "Which attribute die sizes this status reduces by one step.",
+            "items": { "type": "string", "enum": ["Dexterity", "Insight", "Might", "Willpower"] }
+          },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "description": "Stacking, re-application no-op, immunity, recovery.",
+      "required": ["text"],
+      "properties": {
+        "cumulative": { "type": "string" },
+        "reapply_noop": { "type": "string" },
+        "immunity": { "type": "string" },
+        "recovery": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    },
+    "non_status_afflictions": {
+      "type": "object",
+      "description": "asleep / petrified etc. are NOT status effects.",
+      "properties": { "text": { "type": "string" } }
+    }
+  }
+}

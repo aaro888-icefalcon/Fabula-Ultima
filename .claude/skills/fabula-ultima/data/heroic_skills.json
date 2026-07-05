@@ -1,0 +1,727 @@
+{
+  "id": "fu.heroic_skills",
+  "source": "core",
+  "entries": [
+    {
+      "key": "ambidextrous",
+      "name": "Ambidextrous",
+      "requirements": "None (available to all characters).",
+      "class": "general",
+      "text": "You may apply the benefits of two-weapon fighting (page 69) to weapons belonging to different categories, even if one is a melee weapon and the other is a ranged weapon (such as a dagger and a firearm, for instance)."
+    },
+    {
+      "key": "extra_hp",
+      "name": "Extra HP",
+      "requirements": "None (available to all characters).",
+      "class": "general",
+      "text": "Permanently increase your maximum Hit Points by 10. The amount of additional HP increases to 20 if you are level 40 or higher."
+    },
+    {
+      "key": "extra_ip",
+      "name": "Extra IP",
+      "requirements": "None (available to all characters).",
+      "class": "general",
+      "text": "Permanently increase your maximum Inventory Points by 4."
+    },
+    {
+      "key": "extra_mp",
+      "name": "Extra MP",
+      "requirements": "None (available to all characters).",
+      "class": "general",
+      "text": "Permanently increase your maximum Mind Points by 10. The amount of additional MP increases to 20 if you are level 40 or higher."
+    },
+    {
+      "key": "extra_spells",
+      "name": "Extra Spells",
+      "requirements": "None (available to all characters).",
+      "class": "general",
+      "text": "When you acquire this Skill, learn any two spells from one of the following lists: Elementalist, Entropist, or Spiritist. Both spells chosen this way must come from the same list, and they follow the standard rules for casting spells of that Class."
+    },
+    {
+      "key": "adversity",
+      "name": "Adversity",
+      "requirements": "You must have mastered the Darkblade Class.",
+      "class": "darkblade",
+      "text": "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks for every status effect you are suffering from, and you deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items or any other method)."
+    },
+    {
+      "key": "arcane_echoes",
+      "name": "Arcane Echoes",
+      "requirements": "You must have mastered the Arcanist Class.",
+      "class": "arcanist",
+      "text": "When you successfully perform a Check to fill or erase one or more sections of a Clock, if the domains of one or more Arcana you have bound are applicable to the Check in question, you may fill or erase an additional section of that Clock. The Game Master has final say on whether a given domain applies or not."
+    },
+    {
+      "key": "chimeric_mastery",
+      "name": "Chimeric Mastery",
+      "requirements": "You must have mastered the Chimerist Class.",
+      "class": "chimerist",
+      "text": "Choose two creature Species among construct, demon, elemental, and undead. You can now use spell mimic to learn spells from creatures of the chosen Species. This Heroic Skill may be acquired up to twice, each time selecting two Species from the list above. Whenever you acquire this Skill, you also increase your upper limit for memorized Chimerist spells by 2."
+    },
+    {
+      "key": "comet",
+      "name": "Comet",
+      "requirements": "You must have mastered the Entropist Class.",
+      "class": "entropist",
+      "text": "You learn the ultimate Entropist spell: Comet. Comet — MP: 50, Target: Special, Duration: Instantaneous. You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option: one creature you can see suffers 60 damage; or you choose any number of creatures you can see, and each of them suffers 40 damage. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher. Damage dealt by this spell has no type (thus being unaffected by damage Affinities)."
+    },
+    {
+      "key": "deep_pockets",
+      "name": "Deep Pockets",
+      "requirements": "You must have mastered the Tinkerer Class.",
+      "class": "tinkerer",
+      "text": "When you spend Inventory Points, you spend 1 less Inventory Point (minimum 1)."
+    },
+    {
+      "key": "disarming_rhetoric",
+      "name": "Disarming Rhetoric",
+      "requirements": "You must have mastered the Orator Class.",
+      "class": "orator",
+      "text": "During a conflict scene, you may use an action and choose a soldier-rank creature that can hear and understand you (the Game Master must tell you who is a valid target). If that creature is shaken or in Crisis, you may spend an amount of Mind Points equal to 【 20 + half that creature's level 】 to have them peacefully leave the conflict. Describe how you convince them to desist."
+    },
+    {
+      "key": "heartbreaker",
+      "name": "Heartbreaker",
+      "requirements": "You must have mastered the Darkblade Class.",
+      "class": "darkblade",
+      "text": "When you hit a creature with an attack, if that attack only targeted that creature and you have a Bond towards them, you may choose to spend half of your current Hit Points, rounded down. If you do, the attack deals extra damage equal to 【 10 multiplied by the strength of your Bond towards the target 】. You may use this Skill only on your turn during a conflict, and only once per turn."
+    },
+    {
+      "key": "heroic_companion",
+      "name": "Heroic Companion",
+      "requirements": "You must have mastered the Wayfarer Class, and must have acquired the Faithful Companion Skill.",
+      "class": "wayfarer",
+      "text": "Your bond with your companion grows stronger. You gain the following benefits: The companion's maximum Hit Points increase by 10. Choose one of the companion's Attributes: Dexterity, Insight, Might, or Willpower. The chosen Attribute is permanently increased by one die size (up to a maximum size of d12). The companion gains an additional Skill. When you reach level 40, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players."
+    },
+    {
+      "key": "hope",
+      "name": "Hope",
+      "requirements": "You must have mastered the Spiritist Class.",
+      "class": "spiritist",
+      "text": "You learn the ultimate Spiritist spell: Hope. Hope — MP: 40, Target: Special, Duration: Instantaneous. You rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who surrendered but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their Crisis score. Note that this spell will not undo the consequences of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on. A Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must sacrifice themselves or surrender as per the normal rules (including a new consequence and 2 more Fabula Points if they surrender)."
+    },
+    {
+      "key": "mathemagic",
+      "name": "Mathemagic",
+      "requirements": "You must have mastered the Loremaster Class.",
+      "class": "loremaster",
+      "text": "When you cast a spell with a target of \"One creature\", you may double the spell's total MP cost. If you do, choose an Attribute (Dexterity, Insight, Might, or Willpower) and a die size (d6, d8, d10 or d12). The spell now targets all creatures present on the scene whose current Attribute die size matches your choice, regardless of whether they are friends or foes (you might even end up targeting yourself). The effects of the spell are fully applied to every target. If the spell is an offensive (r) spell, it follows the normal rules: you perform a single Magic Check and confront it with the Magic Defense of each target to determine who is hit by the spell."
+    },
+    {
+      "key": "monkey_grip",
+      "name": "Monkey Grip",
+      "requirements": "You must have mastered the Fury Class.",
+      "class": "fury",
+      "text": "You may equip two-handed weapons belonging to the flail, heavy, spear, or sword Categories in a single hand slot. This allows you, for instance, to enjoy the benefits of two-weapon fighting (page 69) while wielding a pair of two-handed weapons, or to equip a two-handed weapon in your main hand slot and a shield in your off-hand slot."
+    },
+    {
+      "key": "perfect_aim",
+      "name": "Perfect Aim",
+      "requirements": "You must have mastered the Sharpshooter Class, and must have acquired the Warning Shot Skill.",
+      "class": "sharpshooter",
+      "text": "When you hit one or more creatures with a ranged attack and choose to deal no damage in order to gain the benefits of the Warning Shot Skill, you may choose two options instead of one (for instance, you could inflict both shaken and slow on each creature, or inflict a status effect on each creature while also lowering their Mind Points)."
+    },
+    {
+      "key": "pillage",
+      "name": "Pillage",
+      "requirements": "You must have mastered the Rogue Class, and must have acquired the Soul Steal Skill.",
+      "class": "rogue",
+      "text": "When you use the Soul Steal Skill, you may target any number of creatures at the same time (you perform a single Check and compare it to the Magic Defense of each creature you are attempting to steal from)."
+    },
+    {
+      "key": "powerful_shot",
+      "name": "Powerful Shot",
+      "requirements": "You must have mastered the Sharpshooter Class.",
+      "class": "sharpshooter",
+      "text": "When you hit one or more creatures with a ranged attack, that attack deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are level 40 or higher."
+    },
+    {
+      "key": "powerful_spell",
+      "name": "Powerful Spell",
+      "requirements": "You must have mastered one or more Classes among the following: Chimerist, Elementalist, Entropist, or Spiritist.",
+      "class": "general",
+      "text": "When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are level 40 or higher."
+    },
+    {
+      "key": "powerful_strike",
+      "name": "Powerful Strike",
+      "requirements": "You must have mastered one or more Classes among the following: Fury or Weaponmaster.",
+      "class": "general",
+      "text": "When you hit one or more creatures with a melee attack, that attack deals 5 extra damage to each creature. The amount of extra damage increases to 10 if you are level 40 or higher."
+    },
+    {
+      "key": "predictable",
+      "name": "Predictable!",
+      "requirements": "You must have mastered the Loremaster Class.",
+      "class": "loremaster",
+      "text": "During a conflict, you may use an action and spend 20 Mind Points to anticipate the upcoming moves of a creature you can see, as long as you know two or more of that creature's Traits. If you do so, choose one type of action among the following: Attack, Guard, Objective, Spell, or Skill. Until the start of your next turn, the creature must spend 20 Mind Points whenever they wish to perform that action. If they can't, they must perform a different action."
+    },
+    {
+      "key": "rampart",
+      "name": "Rampart",
+      "requirements": "You must have mastered the Guardian Class.",
+      "class": "guardian",
+      "text": "During the first round of each conflict scene, you have Resistance to all damage types and cannot suffer status effects (you do not recover from preexisting status effects, however). These benefits only last until the end of the first round."
+    },
+    {
+      "key": "repetition",
+      "name": "Repetition",
+      "requirements": "You must have mastered the Orator Class.",
+      "class": "orator",
+      "text": "Once per turn during a conflict, after you use the Condemn Skill or the Encourage Skill, you may immediately perform that same Skill again (on the same target or a different one). You must still pay the Mind Point cost for the second use of the Skill."
+    },
+    {
+      "key": "revelation",
+      "name": "Revelation",
+      "requirements": "You must have mastered the Arcanist Class.",
+      "class": "arcanist",
+      "text": "You make contact with an unknown Arcanum and bind it to your soul. This Arcanum must be something you design together with the rest of the group; as long as you live, no one else in your world will be able to bind that Arcanum. Once per scene while you are merged with an Arcanum, you may use an action and spend 2 Fabula Points to trigger that Arcanum's dismiss effect (if any) without dismissing them. Doing so does not trigger the Arcane Circle Skill (page 177)."
+    },
+    {
+      "key": "status_immunity",
+      "name": "Status Immunity",
+      "requirements": "You must have mastered the Wayfarer Class.",
+      "class": "wayfarer",
+      "text": "You become completely immune to a single status effect of your choice."
+    },
+    {
+      "key": "tempest_strike",
+      "name": "Tempest Strike",
+      "requirements": "You must have mastered the Weaponmaster Class.",
+      "class": "weaponmaster",
+      "text": "When you perform a melee attack with the multi property, if you choose to target only one creature, the attack deals 5 extra damage if the attack had multi (2), or 10 extra damage if the attack had multi (3 or higher)."
+    },
+    {
+      "key": "unbreakable",
+      "name": "Unbreakable",
+      "requirements": "You must have mastered the Guardian Class.",
+      "class": "guardian",
+      "text": "Once per scene when you are about to be reduced to 0 Hit Points, you may instead choose to withstand the pain and be reduced to exactly 1 Hit Point."
+    },
+    {
+      "key": "upgrade",
+      "name": "Upgrade",
+      "requirements": "You must have mastered the Tinkerer Class.",
+      "class": "tinkerer",
+      "text": "Once per rest, you may choose one option: add a Quality to a single weapon, armor, or shield that doesn't have one; or replace the current Quality of a single weapon, armor, or shield with a different Quality. When you use this Skill, you must select a Quality from the default list for that item type as long as the cost modifier associated with that ability is +1000 zenit or lower. Then, you must spend an amount of zenit equal to twice the cost modifier of the chosen ability. The modified item will be ready at the end of the rest; you may only modify one item per rest. The default list of weapon abilities can be found on page 269, while the default list of armor and shield abilities can be found on page 280."
+    },
+    {
+      "key": "vanish",
+      "name": "Vanish",
+      "requirements": "You must have mastered the Rogue Class.",
+      "class": "rogue",
+      "text": "When you hit one or more creatures with an attack, you may spend 1 Fabula Point. If you do, each of those creatures will be unable to perform any action that requires them to be able to see you until the start of your next turn."
+    },
+    {
+      "key": "volcano",
+      "name": "Volcano",
+      "requirements": "You must have mastered the Elementalist Class.",
+      "class": "elementalist",
+      "text": "You learn the ultimate Elementalist spell: Volcano. Volcano — MP: 40, Target: Special, Duration: Instantaneous. You channel the fury of the planet into a powerful wave of fire and magma. Choose one option: one creature you can see suffers 50 fire damage; or you choose any number of creatures you can see, and each of them suffers 30 fire damage. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher. Damage dealt by this spell ignores Resistances and Immunities."
+    },
+    {
+      "key": "arcane_mark",
+      "name": "Arcane Mark",
+      "requirements": "you must have mastered one or more Classes among Sharpshooter, Symbolist, and Weaponmaster.",
+      "class": "sharpshooter",
+      "source": "high",
+      "text": "When you hit one or more creatures with an attack using a weapon that belongs to the arcane Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell you cast during this scene only targets the chosen creature, its Magic Check will trigger a critical success if both dice show the same number (and the Check is not a fumble)."
+    },
+    {
+      "key": "bimagus",
+      "name": "Bimagus",
+      "requirements": "you must have mastered two or more Classes among Elementalist, Entropist, and Spiritist, and your character must be level 30 or higher.",
+      "class": "elementalist",
+      "source": "high",
+      "text": "Once per turn during a conflict, if you have an arcane weapon equipped, you may use an action and spend 20 to 50 Mind Points to perform the Spell action for free twice, casting two spells without needing to pay their MP costs. If you do, the two spells must have a combined total MP cost equal to or lower than [20 + the amount of MP you spent to use this Skill], and the second spell must have a total MP cost that is equal to or lower than half the total MP cost of the first spell."
+    },
+    {
+      "key": "blade_adept",
+      "name": "Blade Adept",
+      "requirements": "you must have mastered one or more Classes among Rogue and Weaponmaster.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "While you have one or more melee dagger weapons equipped, you gain a +1 bonus to Defense and Magic Defense, and you treat those weapons as also belonging to the brawling, sword, and thrown Categories for the purpose of Skills and effects. Additionally, your attacks with weapons that belong to the dagger Category may target creatures that cannot normally be targeted by melee attacks."
+    },
+    {
+      "key": "bullet_break",
+      "name": "Bullet Break",
+      "requirements": "you must have mastered the Sharpshooter Class.",
+      "class": "sharpshooter",
+      "source": "high",
+      "text": "After you negate a ranged attack with the Crossfire Skill, if the Result of the Accuracy Check was an even number, you may perform a free attack against the attacker with a ranged firearm weapon you have equipped. This attack must have that enemy as its only target; treat your High Roll (HR) as 0 when calculating damage dealt by it."
+    },
+    {
+      "key": "ceaseless_battlefield",
+      "name": "Ceaseless Battlefield",
+      "requirements": "you must have mastered the Commander Class.",
+      "class": "commander",
+      "source": "high",
+      "text": "The MP costs for your Bishop's Edict, Charging Cavalry and King's Castle are halved."
+    },
+    {
+      "key": "clean_slate",
+      "name": "Clean Slate",
+      "requirements": "you must have mastered the Symbolist Class.",
+      "class": "symbolist",
+      "source": "high",
+      "text": "You may use an action and spend up to 30 Mind Points to choose one creature you can see for every 5 MP spent this way. Each creature chosen this way recovers from all status effects and is no longer affected by any spells with a duration of \"Scene\" that were affecting them."
+    },
+    {
+      "key": "double_arrow",
+      "name": "Double Arrow",
+      "requirements": "you must have mastered one or more Classes among Commander and Sharpshooter.",
+      "class": "sharpshooter",
+      "source": "high",
+      "text": "When you perform the Attack action with a ranged weapon that belongs to the bow Category, if you have no other weapon equipped, you may perform two separate attacks instead of one (against the same target or against different targets). If you do, both attacks follow the rules for two-weapon fighting: each attack loses the multi property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage. Note that this Heroic Skill does not stack with a custom weapon's quick customization (using Twin Arrows with a quick bow doesn't allow more than two attacks, in short)."
+    },
+    {
+      "key": "fast_rituals",
+      "name": "Fast Rituals",
+      "requirements": "you must have mastered one or more Classes among Chimerist, Elementalist, Entropist, and Spiritist.",
+      "class": "elementalist",
+      "source": "high",
+      "text": "When you initiate a Ritual during a conflict scene, its Ritual Clock is created with two fewer sections than normal, to a minimum of four sections."
+    },
+    {
+      "key": "fleeting_moment",
+      "name": "Fleeting Moment",
+      "requirements": "you must have mastered the Weaponmaster Class, and must have acquired the Counterattack Skill.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "When you perform a Counterattack using a melee weapon that belongs to the sword Category, you may add your High Roll to the damage dealt by the attack (you do not have to treat it as being 0)."
+    },
+    {
+      "key": "grand_summoning",
+      "name": "Grand Summoning",
+      "requirements": "you must have mastered the Arcanist Class, and your character must be level 30 or higher.",
+      "class": "arcanist",
+      "source": "high",
+      "text": "When you summon an Arcanum, you may decide to spend 1 Fabula Point and spend half of your current Hit Points (rounded down) to shape your lifeforce into a full manifestation of their power. If you do, the Arcanum manifests as a soldier-rank creature of the demon Species under your control (they count as an ally and have their own independent turn during conflicts; if used during a conflict, the Arcanum joins at the end of the current round). You do not gain any of the merge benefits you would normally enjoy. The summoned creature has the following profile: Level equal to your level (gaining the bonuses under step 8 on page 303 of the Core Rulebook); a d10 in one Attribute of your choice and a d8 in all others; maximum HP equal to [twice the creature's base Might die size, plus half of your maximum HP], no Mind Points; Resistance to two damage types of your choice; all the merge benefits the Arcanum would grant when summoned; a melee basic attack whose Accuracy Check relies on two different Attributes of your choice and deals [HR + 8] physical damage (choose two different options: ranged attack; +4 damage; a damage type other than physical; or the Check relies on a single Attribute). The creature may use the Skill action to produce one dismiss effect of that Arcanum, but doing so causes it to vanish unless you spend 20 Mind Points. The creature is always summoned at full HP with no status effects; it vanishes at 0 HP, if you die/lose consciousness/leave the scene, if you summon or Grand Summon again, when a scene ends, or if you command it. Take note of all Attribute and basic attack choices the first time you Grand Summon a given Arcanum: these remain unchanged in the future."
+    },
+    {
+      "key": "hoplite",
+      "name": "Hoplite",
+      "requirements": "you must have mastered one or more Classes among Commander and Guardian.",
+      "class": "commander",
+      "source": "high",
+      "text": "As long as you have a weapon equipped in your main hand slot and a shield equipped in your off-hand slot, your attacks with that weapon deal 5 extra damage and you gain a +1 bonus to Defense. This Skill cannot be combined with custom weapons with the defence boost customization (page 107), nor with the Dual Shieldbearer Skill (page 197 of the Core Rulebook)."
+    },
+    {
+      "key": "iron_forest",
+      "name": "Iron Forest",
+      "requirements": "you must have mastered one or more Classes among Commander and Weaponmaster.",
+      "class": "commander",
+      "source": "high",
+      "text": "After you hit one or more creatures with a melee attack using a weapon that belongs to the spear Category, if you have no other weapon equipped, you may spend 20 Mind Points and choose one of those creatures. If you do so, the attack deals half the normal amount of damage to each of its targets, and you choose one type of action among the following: Attack, Guard, Objective, Spell, or Skill. From now on, the chosen creature must spend 10 Mind Points whenever they wish to perform that type of action. If they can't, they must perform a different type of action. This effect lasts until the start of your next turn, or until you use this Skill again."
+    },
+    {
+      "key": "magic_guard",
+      "name": "Magic Guard",
+      "requirements": "you must have mastered one or more Classes among Chimerist, Elementalist, Entropist, and Spiritist.",
+      "class": "elementalist",
+      "source": "high",
+      "text": "When you perform the Guard action, if you choose not to provide cover to another creature, you gain the following benefit until the start of your next turn: when a creature you can see casts a spell, after that creature pays for the spell's MP cost, you may spend an amount of Mind Points equal to [10 + the spell's total MP cost] in order to completely stop the casting of the spell and negate its effects (the spell isn't cast, but the creature is still considered to have spent their action)."
+    },
+    {
+      "key": "paso_doble",
+      "name": "Paso Doble",
+      "requirements": "you must have mastered the Dancer Class, and must have acquired the Follow My Lead Skill.",
+      "class": "dancer",
+      "source": "high",
+      "text": "While you are in Crisis, you ignore the MP cost for your Follow My Lead Skill."
+    },
+    {
+      "key": "power_chord",
+      "name": "Power Chord",
+      "requirements": "you must have mastered the Chanter Class.",
+      "class": "chanter",
+      "source": "high",
+      "text": "When you sing a verse with medium or high volume, you may double the verse's cost in Mind Points, or spend 1 Fabula Point. If you do, you and every ally that is able to hear you gain the following benefit until the start of your next turn: your Accuracy Checks trigger a critical success when both dice show the same number (as long as the Check is not a fumble)."
+    },
+    {
+      "key": "pulverizing_strike",
+      "name": "Pulverizing Strike",
+      "requirements": "you must have mastered one or more Classes among Darkblade, Fury, and Weaponmaster.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "After you hit a creature with Breach, if you attacked with a melee weapon that belongs to the heavy Category, you may have the attack deal damage equal to your High Roll (HR) instead of dealing no damage. Any source of extra damage, including the extra damage from the third option of the Breach Skill itself, still applies; ignore the damage dealt by the weapon."
+    },
+    {
+      "key": "rising_tide",
+      "name": "Rising Tide",
+      "requirements": "you must have mastered one or more Classes among Fury and Weaponmaster.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "When you perform a melee attack using a weapon that belongs to the brawling Category, if you have no martial armor and no shields equipped, you gain 1 Bravery Point. Your melee attacks using weapons that belong to the brawling Category deal extra damage equal to your current Bravery Points. At the end of each scene, or if you have 5 or more Bravery Points at the end of your turn, you must spend all your accumulated Bravery Points and recover 10 Hit Points and Mind Points."
+    },
+    {
+      "key": "ritual_seals",
+      "name": "Ritual Seals",
+      "requirements": "you must have mastered the Symbolist Class.",
+      "class": "symbolist",
+      "source": "high",
+      "text": "When you perform a Ritual outside a conflict scene, if that Ritual has a total cost equal to or lower than 60 Mind Points, you may stop the process immediately before the Magic Check and store the Ritual's effect inside a Ritual seal placed on a surface you can touch. If you do, name a condition; this can be anything from \"when I enter Crisis\" to \"as soon as I snap my fingers\". When that condition is met, the seal vanishes and the Ritual is unleashed at the seal's location: you perform the Magic Check and resolve the effects as normal (even if you are unconscious or not present on the scene). You may only have one Ritual seal active at the same time; if you die or create a new Ritual seal, the one you previously created will vanish."
+    },
+    {
+      "key": "showstopper",
+      "name": "Showstopper",
+      "requirements": "you must have mastered the Dancer Class.",
+      "class": "dancer",
+      "source": "high",
+      "text": "At the start of your turn during a conflict, if you have no martial armor equipped, you may spend 1 Fabula Point to immediately perform up to three different dances among those you know, in the order you prefer and without paying their MP cost. If you do, you cannot perform dances in any way until the end of your next turn."
+    },
+    {
+      "key": "spiders_web",
+      "name": "Spider's Web",
+      "requirements": "you must have mastered the Weaponmaster Class.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "When you perform the Attack action with a melee weapon that belongs to the flail Category, if you have no other weapon equipped, you may perform two separate attacks instead of one (against the same target or against different targets). If you do, both attacks follow the rules for two-weapon fighting: each attack loses the multi property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage. Note that this Heroic Skill does not stack with a custom weapon's quick customization (using Spider's Web with a quick flail doesn't allow more than two attacks, in short)."
+    },
+    {
+      "key": "swirling_swarm",
+      "name": "Swirling Swarm",
+      "requirements": "you must have mastered one or more Classes among Dancer, Fury, and Sharpshooter.",
+      "class": "sharpshooter",
+      "source": "high",
+      "text": "When you perform a ranged attack using a weapon that belongs to the thrown Category, if you have no martial armor and no shields equipped, you gain 1 Momentum Point. You may never have more than 5 Momentum Points. Your ranged attacks using weapons that belong to the thrown Category deal extra damage equal to your current Momentum Points. When a creature hits you with an attack targeting your Defense, you must spend all your accumulated Momentum Points and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss). You also lose all Momentum Points at the end of each scene."
+    },
+    {
+      "key": "tabula_rasa",
+      "name": "Tabula Rasa",
+      "requirements": "you must have mastered the Commander Class.",
+      "class": "commander",
+      "source": "high",
+      "text": "After you use Bishop's Edict or King's Castle Skills, if you are in Crisis, you may have every enemy creature present on the scene lose 10 Hit Points. This amount increases to 20 Hit Points if you are level 20 or higher, or 30 Hit Points if you are level 40 or higher."
+    },
+    {
+      "key": "theme_song",
+      "name": "Theme Song",
+      "requirements": "you must have mastered the Chanter Class.",
+      "class": "chanter",
+      "source": "high",
+      "text": "When you acquire this Skill, you obtain a theme song; give it a name and assign it a key from the ones you have learned (you can also choose a real-world song for this). Once per conflict scene after you sing a verse in your theme song's key, you may start your theme song. While singing your theme song, you gain the following benefits: You gain Resistance to [theme song's key type] damage. When you deal [theme song's key type] damage, you deal 5 extra damage and the type of that damage cannot be changed. The MP cost for singing verses in the same key as your theme song is halved (this applies to you and to any of your allies who are able to sing verses). The theme song lasts until the end of the scene or until you leave the scene, die, or fall unconscious. The theme song also ends as soon as you sing a verse in a key other than the theme song's, if your turn ends and you have not sung any verse, or if another character starts their theme song."
+    },
+    {
+      "key": "triple_slash",
+      "name": "Triple Slash",
+      "requirements": "you must have mastered one or more Classes among Dancer and Weaponmaster.",
+      "class": "weaponmaster",
+      "source": "high",
+      "text": "As long as you have a one-handed melee weapon that belongs to the dagger or sword Categories equipped in each of your normal hand slots, you may treat your armor slot as if it were a second off-hand slot. You may only use this special slot to equip a one-handed melee weapon that belongs to the dagger or sword Categories; note that the Monkey Grip Skill does not turn two-handed weapons into one-handed weapons, and thus cannot be used in combination with Triple Slash. When you perform the Attack action while you have three daggers and/or swords equipped, you may attack once with each weapon. This follows the normal rules for two-weapon fighting: each of the three attacks loses the multi property and cannot gain it, and you treat the High Roll (HR) of each Accuracy Check as being equal to 0 when determining damage."
+    },
+    {
+      "key": "all_you_can_eat",
+      "name": "All You Can Eat",
+      "requirements": "you must have mastered the Gourmet Class.",
+      "class": "gourmet",
+      "source": "natural",
+      "text": "Once per scene when you use the Cooking Skill, you may combine four ingredients into a delicacy (thus ignoring the normal limit of three ingredients). Other than that, the delicacy follows the normal rules."
+    },
+    {
+      "key": "auramancers_refraction",
+      "name": "Auramancer's Refraction",
+      "requirements": "you must have mastered one or more Classes among Arcanist and Spiritist, and must have learned the Aura spell and/or the Barrier spell.",
+      "class": "arcanist",
+      "source": "natural",
+      "text": "Choose a damage type among air, bolt, earth, fire, ice, and light. When an enemy you can see deals damage to one or more creatures who are affected by an Aura and/or Barrier spell you cast, the damage suffered by each of those creatures is reduced by an amount equal to 【half your level in the Spiritist Class】 or to 【your level, divided by 10】 (use whichever value is higher; this reduction is applied before damage Affinities). Then, you may deal an amount of damage of the chosen type equal to 【half your level】 to that enemy. If you do, you cannot deal damage this way until the start of your next turn."
+    },
+    {
+      "key": "bend_magic",
+      "name": "Bend Magic",
+      "requirements": "you must have mastered one or more Classes among Elementalist, Entropist, Invoker, and Symbolist (see High Fantasy Atlas, page 146), and must have acquired the Invocation Skill.",
+      "class": "invoker",
+      "source": "natural",
+      "text": "After an enemy you can see hits or misses you with an offensive spell (r), if the Result of their Magic Check was an even number, you may immediately use the Invocation Skill for free (after the spell has been fully resolved) to perform an invocation you have access to against that enemy, without spending Mind Points. This invocation must not be a \"hex\", and it may target only that enemy (you cannot use the Linked Invocation Skill with it)."
+    },
+    {
+      "key": "brambleheart",
+      "name": "Brambleheart",
+      "requirements": "you must have mastered one or more classes among Darkblade and Floralist, and must have acquired the Chloromancy Skill.",
+      "class": "floralist",
+      "source": "natural",
+      "text": "You are Resistant to light damage and poison damage. After you lose Hit Points, if you are in Crisis and a magiseed is present in your garden, you may fill 1 section of your Growth Clock. Additionally, when you use the Shadow Strike Skill, you may have your attack deal poison damage instead of dark damage (the damage type still cannot be changed). If you do, your Shadow Strike deals extra damage equal to 【twice the number of filled sections in your Growth Clock】."
+    },
+    {
+      "key": "brave_bash",
+      "name": "Brave Bash",
+      "requirements": "you must have mastered one or more Classes among Commander (see High Fantasy Atlas, page 140), Fury, Guardian, Pilot (see Techno Fantasy Atlas, page 158), and Weaponmaster.",
+      "class": "general",
+      "source": "natural",
+      "text": "When you use the Bone Crusher Skill, if your attack targets only one creature and you have a shield equipped, you may challenge that creature until the end of your next turn. The challenge also ends if that creature is challenged by someone else, or if you challenge another creature. The creature you are challenging must include you among the targets of their attacks and offensive spells (r), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are challenging with a free attack using a one-handed melee weapon, or with a custom weapon belonging to the dagger or sword Category, you may deal 5 extra damage to that creature."
+    },
+    {
+      "key": "cheer_up",
+      "name": "Cheer Up!",
+      "requirements": "you must have mastered one or more Classes among Chanter (see High Fantasy Atlas, page 136), Esper (see Techno Fantasy Atlas, page 150) and Orator, and must have acquired the My Trust in You Skill.",
+      "class": "orator",
+      "source": "natural",
+      "text": "When you use My Trust in You on another Player Character, that character chooses Dexterity, Insight, Might, or Willpower: they treat the chosen Attribute as being increased by one die size (up to a maximum of d12) until the end of the scene or until you use My Trust in You on them again."
+    },
+    {
+      "key": "chimeric_soul",
+      "name": "Chimeric Soul",
+      "requirements": "you must have mastered one or more Classes among Chimerist and Mutant (see Techno Fantasy Atlas, page 154), and must have acquired the Spell Mimic Skill.",
+      "class": "chimerist",
+      "source": "natural",
+      "text": "When you cast one of your Chimerist spells, you gain a benefit based on the Species of the creature you originally learned that spell from. Choose one option: you gain Resistance to both damage types associated with that Species; or when you deal damage of a type associated with that Species, you deal 5 extra damage. The chosen benefit lasts until the end of the scene, or until you cast a Chimerist spell again. The damage types associated to each Species are air and ice (beast), earth and poison (construct), fire and ice (demon), air and bolt (elemental), bolt and fire (monster), earth and light (plant), dark and poison (undead)."
+    },
+    {
+      "key": "cleansing_moonlight",
+      "name": "Cleansing Moonlight",
+      "requirements": "you must have mastered one or more Classes among Entropist and Spiritist.",
+      "class": "spiritist",
+      "source": "natural",
+      "text": "When you hit one or more creatures with an offensive spell (r), if you have an arcane weapon equipped and the High Roll of your Magic Check is 8 or higher, you may have each of those creatures no longer be affected by all spells with a duration of \"Scene\" that are currently affecting them. When you cast a spell targeting one or more allies, if you have an arcane weapon equipped, you may choose one status effect among dazed, enraged, poisoned, shaken, slow, and weak: if you do, each target recovers from the chosen status effect."
+    },
+    {
+      "key": "ephemeral_tranquility",
+      "name": "Ephemeral Tranquility",
+      "requirements": "you must have mastered one or more Classes among Dancer (see High Fantasy Atlas, page 142), Esper (see Techno Fantasy Atlas, page 150), Rogue, Spiritist, and Symbolist (see High Fantasy Atlas, page 146).",
+      "class": "spiritist",
+      "source": "natural",
+      "text": "When you cast the Hallucination or Torpor spells (see Core Rulebook, page 208-209), you may apply both status effects to each target hit by the spell. During a conflict, you may use an action and spend up to 20 Mind Points. For every 10 Mind Points spent this way, you may choose a different enemy you can see who is suffering from two or more status effects. Every enemy chosen this way recovers from all status effects and loses an amount of Hit Points equal to 【half your level + (the number of status effects that enemy recovered from this way, multiplied by 10)】. Then, you recover 20 Mind Points for each of those enemies that entered Crisis or was reduced to 0 Hit Points by this effect."
+    },
+    {
+      "key": "fitcast",
+      "name": "Fitcast",
+      "requirements": "you must have mastered one or more Classes among Chimerist, Darkblade, Esper (see Techno Fantasy Atlas, page 150), Fury, and Wayfarer.",
+      "class": "general",
+      "source": "natural",
+      "text": "When you perform a Magic Check for a spell or Ritual, you may replace one of the Attributes with Might (such as 【MIG + MIG】 for a Chimerism Ritual). As long as the Accuracy formula of a weapon you have equipped includes Might, you may treat that weapon as also belonging to the arcane Category for the purpose of Skills and effects that require it."
+    },
+    {
+      "key": "for_a_better_future",
+      "name": "For a Better Future",
+      "requirements": "you must have mastered the Merchant Class, and must have acquired the Real Treasure and Winds of Trade Skills.",
+      "class": "merchant",
+      "source": "natural",
+      "text": "When you need to spend one or more Fabula Points, if you are not spending them to alter the story (see Core Rulebook, page 98), you may spend that many Trade Points instead. Additionally, when you gain two or more Trade Points through the Real Treasure or Winds of Trade Skills, you may choose to gain exactly 1 Trade Point instead. If you do, choose a settlement within 1 travel day of your position and increase its prosperity by an amount equal to 【your Skill Level in Winds of Trade + your Skill Level in Real Treasure】; a settlement's prosperity starts at 0 and has no upper limit. The chart below indicates the effects of your donations on the settlement and on anything within 1 travel day of it. Prosperity Effects within 1 travel day of the settlement: [10 or more] When you or an ally need to pay a cost in zenit, whatever the reason, that cost is halved. [15 or more] People gladly accommodate you and your allies: while in this area, you can always rest freely, without spending zenit. Furthermore, any travel rolls made in this area never use a die greater than d8. [20 or more] When a Villain in this area spends Ultima Points, they must spend twice as many Ultima Points."
+    },
+    {
+      "key": "greater_chloromancy",
+      "name": "Greater Chloromancy",
+      "requirements": "you must have mastered the Floralist Class.",
+      "class": "floralist",
+      "source": "natural",
+      "text": "Once per turn when a magiseed leaves your garden, if that magiseed has one or more \"at the end of your turn\" effects, you may spend 20 Mind Points. If you do, reproduce one of those effects (you may also choose an effect that doesn't match the current sections of your Growth Clock). Additionally, if you have acquired the Verdant Sway Skill, your Rituals can now also influence and control soldier-Rank creatures belonging to the plant Species (but you are still unable to create them)."
+    },
+    {
+      "key": "green_thumb",
+      "name": "Green Thumb",
+      "requirements": "you must have mastered the Floralist Class.",
+      "class": "floralist",
+      "source": "natural",
+      "text": "When you fill 1 or more sections of your Growth Clock, you may choose one option: you fill 1 additional section of your Growth Clock; or you fill 1 fewer section of your Growth Clock (to a minimum of 0 sections filled). If you do, you cannot use this effect again until after your Growth Clock has become completely empty. Additionally, damage dealt by your magiseeds ignores Resistances."
+    },
+    {
+      "key": "inner_wellspring",
+      "name": "Inner Wellspring",
+      "requirements": "you must have mastered the Invoker Class.",
+      "class": "invoker",
+      "source": "natural",
+      "text": "When you acquire this Heroic Skill and whenever you rest, you may choose one wellspring: air, earth, fire, lightning, or water. If you do, you gain the following benefits until your next rest: You always treat the chosen wellspring as being available during each scene, in addition to whatever wellsprings are already available. You may perform Rituals of the Elementalism discipline, but only if those Rituals manipulate the element of the chosen wellspring. You gain Resistance to the damage type corresponding to the chosen wellspring. When you deal damage, you may change its type to the one corresponding to the chosen wellspring. If you do, that damage ignores Resistances."
+    },
+    {
+      "key": "power_nap",
+      "name": "Power Nap",
+      "requirements": "you must have mastered one or more Classes among Guardian, Merchant, and Wayfarer.",
+      "class": "general",
+      "source": "natural",
+      "text": "On your turn during a conflict, you may use an action to recover an amount of Hit Points and Mind Points equal to 【20 + half your level】 and also recover from all status effects. If you do, your turn ends immediately, you lose the ability to hear and see, and your Defense and Magic Defense scores become equal to 5 and cannot be modified in any way (but you may still use the Protect Skill from the Guardian Class, if you have acquired it!). These penalties last until the start of your next turn, until after you lose Hit Points, or until after you are hit by an attack or offensive spell (r)."
+    },
+    {
+      "key": "side_by_side",
+      "name": "Side by Side",
+      "requirements": "you must have mastered the Wayfarer Class, and must have acquired the Faithful Companion Skill.",
+      "class": "wayfarer",
+      "source": "natural",
+      "text": "When your companion deals damage, they deal 5 extra damage. When your companion performs a Check, you may spend 1 Fabula Point and invoke one of your companion's Traits in order to let them reroll one or both dice (as per the rules on page 46 of the Core Rulebook). After you use the Faithful Companion Skill to have your companion perform an action during your turn, you may choose one option (after the companion's action has been resolved): you and your companion each recover 10 Mind Points; or the first time you or your companion perform a Check before the end of your next turn, that Check gains a bonus equal to 【your Skill Level in Faithful Companion】."
+    },
+    {
+      "key": "silent_hunter",
+      "name": "Silent Hunter",
+      "requirements": "you must have mastered one or more Classes among Rogue, Sharpshooter, and Weaponmaster, and must have acquired the High Speed Skill.",
+      "class": "general",
+      "source": "natural",
+      "text": "When you use the High Speed Skill to perform a free attack with a weapon belonging to the bow, spear, or thrown Category, the attack deals extra damage equal to 【your Skill Level in the High Speed Skill, multiplied by 5】. Additionally, when you attack one or more creatures with a weapon that belongs to the bow, spear, or thrown Category, those creatures cannot perform free attacks until the end of the current turn."
+    },
+    {
+      "key": "skillful_dosage",
+      "name": "Skillful Dosage",
+      "requirements": "you must have mastered one or more Classes among Gourmet, Loremaster, Merchant, and Tinkerer.",
+      "class": "general",
+      "source": "natural",
+      "text": "Potions and delicacies you create, as well as spells you cast, can now cause creatures to recover Hit Points and Mind Points beyond their maximum HP and MP scores. This cannot cause a creature's current HP and/or MP to go above 150% of the respective maximum scores; at the end of each scene, if the current Hit Points and/or Mind Points of a creature are still above their maximum scores, they become equal to the maximum score."
+    },
+    {
+      "key": "specialty_of_the_house",
+      "name": "Specialty of the House",
+      "requirements": "you must have mastered the Gourmet Class.",
+      "class": "gourmet",
+      "source": "natural",
+      "text": "When you acquire this Heroic Skill, choose three different tastes among bitter, salty, sour, sweet, and umami. Then, choose three different effects among the following: You deal 20 (choose one: dark, light) damage to each of this delicacy's targets. This amount increases to 30 damage if you are level 30 or higher. Choose the type of this effect when you acquire this Heroic Skill. During the next turn of each of this delicacy's targets, all damage they deal becomes (choose one: dark, light) and its type cannot change. Choose the type of this effect when you acquire this Heroic Skill. For each of this delicacy's targets, if they are affected by one or more spells with a duration of \"Scene\", instead they are no longer affected by any of those spells. Choose yourself or an ally you can see. For each of this delicacy's targets, the next time that target performs an attack or cast an offensive spell (r) before the end of this scene, they must include the chosen creature among the targets of that attack or spell (if able). Each of this delicacy's targets suffers enraged. Each of this delicacy's targets suffers poisoned. Each of this delicacy's targets recovers 30 Hit Points and 30 Mind Points, or 40 Hit Points and 40 Mind Points if you are level 30 or higher. Each of this delicacy's targets recovers from a single status of their choice. Each of this delicacy's targets recovers from dazed, enraged, and shaken. Each of this delicacy's targets recovers from poisoned, slow, and weak. When you create a delicacy using exactly 3 ingredients during a conflict, if each ingredient matches a different taste among those chosen when you acquired this Heroic Skill, you may ignore all of that delicacy's normal effects. If you do, you may instead apply one, two, or all the effects you chose when you acquired this Heroic Skill."
+    },
+    {
+      "key": "strength_of_five_wellsprings",
+      "name": "Strength of Five Wellsprings",
+      "requirements": "you must have mastered the Invoker Class.",
+      "class": "invoker",
+      "source": "natural",
+      "text": "After you perform an invocation during a conflict, you and up to one ally you can see increase one of your Attributes' die sizes by one (up to a maximum of d12). This increase lasts until the end of the scene or until you use this Skill again, and the Attribute is based on the wellspring you invoked: air (Insight), earth (one Attribute of your choice), fire (Dexterity), lightning (Might), or water (Willpower)."
+    },
+    {
+      "key": "wise_counsel",
+      "name": "Wise Counsel",
+      "requirements": "you must have mastered one or more Classes among Commander (see High Fantasy Atlas, page 140), Loremaster, and Orator.",
+      "class": "general",
+      "source": "natural",
+      "text": "When you perform a Support Check, if the leader of the Group Check can hear and understand you, you may use 【INS + INS】, 【INS + WLP】, or 【WLP + WLP】 instead of the normal Attributes required by the Support Check. Additionally, when you use the teamwork option (see Core Rulebook, page 76) to support another Player Character's Check during their turn in a conflict scene, you may spend 10 Mind Points. If you do, choose up to two of the following benefits: That character recovers 20 Mind Points. That character recovers from dazed, enraged and shaken. At the end of that character's turn, choose one option: perform a free attack with a weapon you have equipped; or perform the Spell action for free, casting a spell whose total MP cost is equal to or lower than 20. If that character succeeds on their Check and the Check allows them to fill or erase one or more sections of a Clock, they may fill or erase 1 additional section of it."
+    },
+    {
+      "key": "arcane_soldier",
+      "name": "Arcane Soldier",
+      "requirements": "you must have mastered one or more Classes out of Elementalist, Sharpshooter and Weaponmaster, and must know at least two offensive (r) spells.",
+      "class": "general",
+      "source": "techno",
+      "text": "You may use an action to perform a free attack with a weapon you have equipped. This attack must target a single enemy. If the attack is successful, treat your High Roll as 0 when determining damage dealt by it. After the attack has been resolved, if it was successful, you may immediately perform the Spell action for free: the spell you cast this way must be an offensive (r) spell with a total MP cost equal to or lower than 20, and it may only target the enemy you attacked (you must still spend the appropriate Mind Points and perform the Magic Check). Treat your Magic Check's High Roll as 0 when determining damage or other effects caused by this spell."
+    },
+    {
+      "key": "brainwave_discharge",
+      "name": "Brainwave Discharge",
+      "requirements": "you must have mastered the Esper Class.",
+      "class": "esper",
+      "source": "techno",
+      "text": "While your Brainwave Clock is full, you may use an action to erase all of its sections. If you do, you may choose one option: you deal 20 physical damage to every enemy that is present on the scene, or you deal 30 physical damage to a single enemy you can see. This amount increases by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher."
+    },
+    {
+      "key": "bullet_time",
+      "name": "Bullet Time",
+      "requirements": "you must have mastered one or more Classes out of Entropist and Rogue, and acquired one or more Skills out of Dodge and Stolen Time.",
+      "class": "general",
+      "source": "techno",
+      "text": "You gain a bonus to your Initiative modifier equal to [your SL in Dodge + your SL in Stolen Time]. As long as you have no shields and no martial armor equipped, all damage you suffer is reduced by an amount equal to [your SL in Dodge] (applied before damage Affinities) and you deal extra damage equal to [your SL in Stolen Time]."
+    },
+    {
+      "key": "decoy_bait",
+      "name": "Decoy Bait",
+      "requirements": "you must have mastered the Sharpshooter Class, and acquired the Hawkeye Skill.",
+      "class": "sharpshooter",
+      "source": "techno",
+      "text": "When you use your Hawkeye Skill and choose the first option, if no decoy bait is present on the scene, you may spend 10 Mind Points. If you do, you create a decoy bait with Hit Points equal to [half your level + (your SL in Hawkeye, multiplied by 5)]. When an enemy who can see your decoy bait deals damage to one or more creatures, your decoy bait automatically suffers damage in place of one of those creatures, chosen randomly (your decoy bait is always treated as having neutral Affinity towards all damage types, and cannot gain any other Affinity). When an enemy reduces your decoy bait to 0 Hit Points, your decoy bait is automatically destroyed and you roll 1d10. If the number rolled is equal to or lower than [3 + your SL in Hawkeye], you may immediately perform a free attack with a bow or firearm weapon you have equipped. This attack may only target that enemy, gains a bonus equal to [your SL in Hawkeye] to its Accuracy Check, and its damage ignores Immunities and Resistances. Your decoy bait cannot recover Hit Points and is automatically destroyed at the end of the scene."
+    },
+    {
+      "key": "dreamslice",
+      "name": "Dreamslice",
+      "requirements": "you must have mastered one or more Classes out of Darkblade and Esper.",
+      "class": "general",
+      "source": "techno",
+      "text": "When you hit one or more creatures with an attack from your Shadow Strike Skill using a weapon that belongs to the sword Category, each of those creatures loses an amount of Mind Points equal to [the number you rolled on your Might die for Shadow Strike]. Then, if [the number you rolled on your Might die for Shadow Strike] was 8 or higher, you may choose one creature hit by the attack. If that creature is your focus or you have a Bond towards them, that creature will perform one fewer action during their next turn (to a minimum of zero actions)."
+    },
+    {
+      "key": "dynamic_synchronization",
+      "name": "Dynamic Synchronization",
+      "requirements": "you must have mastered the Pilot Class.",
+      "class": "pilot",
+      "source": "techno",
+      "text": "At the start of your turn during a conflict, if you are driving your personal vehicle, you may choose one option: you synchronize with another Player Character who is present on the scene and driving their own personal vehicle, or you synchronize with another Player Character who is a passenger on your personal vehicle. You and the chosen character both receive the following benefits as long as the synchronization remains active: when you perform a Check, you may use the current Attribute die sizes of the other PC in place of yours (for one or both dice); when you deal damage, deal extra damage equal to [the strength of your Bond towards the other PC, plus the strength of their Bond towards you]; you may use an action to perform a free attack with one enabled or disabled weapon module present on the personal vehicle the other PC is currently on; when your turn ends, if the other PC has yet to take their turn during this round, they may take their turn immediately after yours. This synchronization lasts until the end of the scene, or until you or the other Player Character die, fall unconscious, leave the scene, synchronize with someone else, or are no longer aboard a personal vehicle."
+    },
+    {
+      "key": "greater_akromorphosis",
+      "name": "Greater Akromorphosis",
+      "requirements": "you must have mastered the Mutant Class and acquired the Akromorphosis Skill.",
+      "class": "mutant",
+      "source": "techno",
+      "text": "You gain the following benefits based on the current Category of your unarmed strikes. Arcane, brawling, dagger, thrown: your attacks with unarmed strikes treat the Defense of each target as being equal to their current Insight die size. Bow, sword: your attacks with unarmed strikes that target two or more creatures deal 5 extra damage. Firearm, heavy: your unarmed strikes deal 5 extra damage to constructs, and 5 extra damage to non-construct creatures who have at least one shield and/or martial armor equipped. Flail, spear: you gain a +2 bonus to Defense, and your attacks with unarmed strikes may target flying creatures. If your unarmed strikes are treated as belonging to more than one Category (for instance due to the Blade Adept Heroic Skill; see High Fantasy Atlas, page 154), you gain all the benefits of the corresponding Categories."
+    },
+    {
+      "key": "greater_ecdysis",
+      "name": "Greater Ecdysis",
+      "requirements": "you must have mastered the Mutant Class.",
+      "class": "mutant",
+      "source": "techno",
+      "text": "When you use the Ecdysis Skill, you may also choose one or both options: you recover from all status effects, and/or if you are affected by one or more spells with a duration of \"Scene\", you are no longer affected by any of those spells."
+    },
+    {
+      "key": "greater_theriomorphosis",
+      "name": "Greater Theriomorphosis",
+      "requirements": "you must have mastered the Mutant Class.",
+      "class": "mutant",
+      "source": "techno",
+      "text": "When you use the Theriomorphosis Skill on your turn during a conflict, if this did not happen through the Genoclepsis Skill, you may manifest the effects of up to three therioforms from those you have learned (instead of two). Then, you may immediately perform an additional action. This additional action cannot be used for the Theriomorphosis Skill."
+    },
+    {
+      "key": "hit_the_nerve",
+      "name": "Hit the Nerve",
+      "requirements": "you must have mastered one or more Classes out of Chanter (see High Fantasy Atlas, page 136) and Orator and acquired the Condemn Skill.",
+      "class": "general",
+      "source": "techno",
+      "text": "When you successfully use the Condemn Skill against an enemy you know one or more Traits of, you recover an amount of Mind Points equal to half the amount of MP lost by the target, and you may have them suffer enraged instead of the normal status effects. Additionally, when you perform an Opposed Check against an enraged creature, or an Accuracy Check or Magic Check for an attack or offensive spell (r) that includes one or more enraged creatures among its targets, you trigger a critical success when both dice show the same number (as long as the Check is not a fumble)."
+    },
+    {
+      "key": "make_it_or_break_it",
+      "name": "Make it or Break it",
+      "requirements": "you must have mastered one or more Classes out of Darkblade and Fury.",
+      "class": "general",
+      "source": "techno",
+      "text": "When you attack with a weapon, you may declare \"make it or break it!\" before the Accuracy Check. If you do, the Check's High Roll is doubled when determining damage, and you apply the following penalties if the result is an even number: if the weapon you used is transforming (see page 113), it immediately changes form and it cannot change form again until the end of the scene; if the weapon you used is not transforming, or if it is a transforming weapon that cannot change form (see above), it is placed inside your backpack and cannot be equipped until the end of the scene, however you may immediately perform the Equipment action for free. This Heroic Skill does not apply to attacks with unarmed strikes, improvised weapons, weapon modules (see page 161), or Twin Shields (see Core Rulebook, page 197)."
+    },
+    {
+      "key": "mimeoclepsis",
+      "name": "Mimeoclepsis",
+      "requirements": "you must have mastered one or more Classes out of Chimerist or Mutant and acquired both the Genoclepsis and Spell Mimic Skills.",
+      "class": "general",
+      "source": "techno",
+      "text": "When you use the Genoclepsis Skill on an NPC, if that NPC's Species is among those you can learn spells from with the Spell Mimic Skill, the Game Master must reveal all spells known by that NPC. Then, if that NPC knows one or more spells, you may learn one of those spells as a Chimerist spell of your own."
+    },
+    {
+      "key": "nebulization",
+      "name": "Nebulization",
+      "requirements": "you must have mastered the Tinkerer Class and acquired the advanced Alchemy benefit from the Gadget Skill.",
+      "class": "tinkerer",
+      "source": "techno",
+      "text": "When you create a potion, you gain 1 Nebulization Point, or 2 Nebulization Points if that potion was created via the Alchemy benefit of the Gadget Skill. Potions and elemental shards you create deal extra damage equal to twice your current Nebulization Points. Potions you create that restore Hit Points and/or Mind Points restore additional HP and/or MP equal to [your current Nebulization Points, multiplied by 5]. You may never have more than 5 Nebulization Points, and you lose all of them at the end of each scene."
+    },
+    {
+      "key": "overload_burst",
+      "name": "Overload Burst",
+      "requirements": "you must have mastered the Pilot Class and acquired the Compression Tech Skill.",
+      "class": "pilot",
+      "source": "techno",
+      "text": "Choose a damage type from bolt, dark, fire, ice, and light. When you are reduced to 0 Hit Points for the first time during a scene, if you are driving your personal vehicle, you may choose to be reduced to exactly 1 Hit Point instead. If you do, you and any passengers leave your personal vehicle, which disappears from the game world. Then, you may deal an amount of damage equal to your Crisis score to a single creature you can see. This damage is of the type you have chosen from the list above. If your personal vehicle disappears from the game world this way, the next use of your Compression Tech Skill has an additional cost of 1 Fabula Point."
+    },
+    {
+      "key": "psychic_field",
+      "name": "Psychic Field",
+      "requirements": "you must have mastered the Esper Class.",
+      "class": "esper",
+      "source": "techno",
+      "text": "Your gifts with event \"When you deal damage\" can also be used \"When an ally who is able to hear you deals damage\". Your psychic shield gift, if you have acquired it, has its effect changed to \"You and every ally who is able to hear you may treat your Defense and Magic Defense scores as being equal to [your current Willpower die size + (the number of filled sections in your Brainwave Clock, multiplied by 2)] against that Check (you may still use your normal scores if better).\""
+    },
+    {
+      "key": "quantum_magicannon",
+      "name": "Quantum Magicannon",
+      "requirements": "you must have mastered the Tinkerer Class and acquired the advanced Magitech benefit from the Gadget Skill.",
+      "class": "tinkerer",
+      "source": "techno",
+      "text": "Your attacks with the magicannon deal 5 extra damage. When you perform the Attack action with your magicannon, you may choose one option: destroy the magicannon and immediately create and equip a new one for free (ignore the IP cost), using this newly equipped magicannon for your attack; or the attack gains multi (3); or you perform two separate attacks instead of one, following the rules for two-weapon fighting (see Core Rulebook, page 69)."
+    },
+    {
+      "key": "quick_scan",
+      "name": "Quick Scan",
+      "requirements": "you must have mastered the Loremaster Class.",
+      "class": "loremaster",
+      "source": "techno",
+      "text": "When you perform the Study action during a conflict, you may examine the profiles of all enemies you can see. If you do, you perform a single [INS + INS] Open Check and apply the result separately to each enemy (see Core Rulebook, page 319). However, if you have acquired the Flash of Insight Skill, this Check cannot trigger it."
+    },
+    {
+      "key": "steel_witch",
+      "name": "Steel Witch",
+      "requirements": "you must have mastered the Pilot Class.",
+      "class": "pilot",
+      "source": "techno",
+      "text": "After you cast the first spell of your turn during a conflict, if you are driving your personal vehicle, you may choose one option (after the spell has been resolved): choose one enabled module and disable it, then choose one disabled module and enable it; or the next spell you cast before the end of this scene that deals damage deals 5 extra damage; or the next spell you cast before the end of this scene that restores Hit Points to one or more creatures restores 10 additional Hit Points to each of those creatures."
+    }
+  ]
+}

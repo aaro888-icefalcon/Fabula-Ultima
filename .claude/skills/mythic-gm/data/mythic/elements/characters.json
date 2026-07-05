@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.characters",
+ "title": "Elements — Characters",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Accompanied"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Active"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Aggressive"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ambush"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Animal"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Anxious"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Armed"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Beautiful"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Bold"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Busy"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Calm"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Careless"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Casual"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Cautious"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Classy"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Colorful"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Combative"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Crazy"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Creepy"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Curious"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Dangerous"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Deceitful"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Defeated"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Defiant"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Delightful"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Emotional"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Energetic"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Equipped"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Excited"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Expected"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Familiar"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fast"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Feeble"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Feminine"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Ferocious"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Foe"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Foolish"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Fortunate"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Fragrant"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Frantic"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Friend"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Frightened"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Frightening"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Generous"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Glad"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Happy"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Harmful"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Helpful"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Helpless"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Hurt"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Important"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Inactive"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Influential"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Innocent"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Intense"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Knowledgeable"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Large"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Lonely"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Loud"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Loyal"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Masculine"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mighty"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Miserable"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Multiple"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Mundane"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mysterious"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Natural"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Odd"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Official"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Old"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Passive"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Peaceful"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Playful"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Powerful"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Professional"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Protected"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Protecting"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Questioning"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Quiet"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Reassuring"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Resourceful"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Seeking"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Skilled"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Slow"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Small"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Stealthy"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Strange"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strong"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Tall"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Thieving"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Threatening"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Triumphant"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Unexpected"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Unnatural"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unusual"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Violent"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Vocal"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weak"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wild"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Young"
+  }
+ ],
+ "checksum": "sha256:09c4b321d3292397"
+}

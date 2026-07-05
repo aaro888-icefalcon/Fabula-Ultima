@@ -1,0 +1,511 @@
+{
+ "id": "mythic.meaning.descriptors_1",
+ "title": "Meaning — descriptors_1",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Adventurously"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressively"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Anxiously"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Awkwardly"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Beautifully"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Bleakly"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Boldly"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bravely"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Busily"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Calmly"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Carefully"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Carelessly"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cautiously"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Ceaselessly"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cheerfully"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Combatively"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Coolly"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Crazily"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Curiously"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Dangerously"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Defiantly"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Deliberately"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Delicately"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Delightfully"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Dimly"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Efficiently"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Emotionally"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Energetically"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Enormously"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Enthusiastically"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Excitedly"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fearfully"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Ferociously"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Fiercely"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Foolishly"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fortunately"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Frantically"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Freely"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Frighteningly"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Fully"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Generously"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Gently"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Gladly"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Gracefully"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Gratefully"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Happily"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Hastily"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Healthily"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Helpfully"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Helplessly"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Hopelessly"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Innocently"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Intensely"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Interestingly"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Irritatingly"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Joyfully"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Kindly"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Lazily"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Lightly"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Loosely"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Loudly"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Lovingly"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Loyally"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Majestically"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Meaningfully"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Mechanically"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Mildly"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Miserably"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Mockingly"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Mysteriously"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Naturally"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Neatly"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Nicely"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Oddly"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Offensively"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Officially"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Partially"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Passively"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Peacefully"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Perfectly"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Playfully"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Politely"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Positively"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Powerfully"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Quaintly"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Quarrelsomely"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Quietly"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Roughly"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Rudely"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Ruthlessly"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Slowly"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Softly"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Strangely"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Swiftly"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Threateningly"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Timidly"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Very"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Violently"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wildly"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Yieldingly"
+  }
+ ],
+ "complete": true,
+ "checksum": "sha256:7a1459a16f0487bc"
+}

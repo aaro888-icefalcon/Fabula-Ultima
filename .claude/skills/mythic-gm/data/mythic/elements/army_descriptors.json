@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.army_descriptors",
+ "title": "Elements — Army_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Active"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Allies"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Ambush"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Animals"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Arrive"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Assist"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Average"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Betray"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bizarre"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Block"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bold"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Calm"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Careless"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Cautious"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Ceaseless"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Celebrate"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Colorful"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Communicate"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Creepy"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Deceive"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Defensive"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Defiant"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Delay"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Disorganized"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Divide"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Efficient"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Enemies"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Energy"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Failure"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Ferocious"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fight"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Food"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Foolish"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fortunate"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Frantic"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Fresh"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Frightening"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Helpful"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Helpless"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Illness"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Lacking"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Large"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Lavish"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Lazy"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Leadership"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Lethal"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Loud"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Loyal"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Mighty"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Mysterious"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Normal"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Path"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Persecute"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Power"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Problems"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Punish"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Pursue"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Quiet"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Ready"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Reassuring"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Recruit"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Release"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Riches"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Rough"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Ruin"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Ruthless"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Simple"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Skilled"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Slow"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Small"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Stalemate"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Start"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Stop"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Strange"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Strong"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Struggle"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Success"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Suffering"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Supplies"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Swift"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Tactics"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Take"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Technology"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Tension"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Testing"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Threatening"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Tired"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Travel"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Triumph"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Truce"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Trust"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Unequipped"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Unexpected"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Untrained"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Victory"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Violate"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Waste"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weak"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapons"
+  }
+ ],
+ "checksum": "sha256:476676408e1cbf38"
+}

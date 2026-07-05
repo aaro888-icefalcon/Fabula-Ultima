@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.alien_species_descriptors",
+ "title": "Elements — Alien_Species_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Advanced"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Aggressive"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Agile"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Amphibious"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Ancient"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Anxious"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Aquatic"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Arrogant"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Artistic"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Avian"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Beautiful"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Bizarre"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Carapace"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Clawed"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Colorful"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Combative"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Conquering"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Dangerous"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Declining"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Defensive"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Desperate"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Destructive"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Dominating"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Emotionless"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Enormous"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Exploitive"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Explorers"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Familiar"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Fast"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Feeble"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Feral"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Ferocious"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Friendly"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Frightening"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Fungal"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Furry"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Generous"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Gentle"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Glowing"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Graceful"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Harsh"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Helpful"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Humanoid"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Hungry"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Immortal"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Insectlike"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Insubstantial"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Intelligent"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Intimidating"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Large"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Lethal"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Levitating"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Liquid"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Mammalian"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Many-eyed"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Militaristic"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mysterious"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Nightmarish"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Odd"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Oppressive"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Passive"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Peaceful"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Perfect"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Plant"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Powered"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Powerful"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Powers"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Primitive"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Prosperous"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Psychic"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Reptilian"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Robotic"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Scary"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Scientific"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Secretive"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Servitor"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Simple"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Skilled"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Slender"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Slow"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Small"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Smelly"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Strange"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Strong"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Suffering"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Tail"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Tall"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Technological"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Tentacled"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Threatening"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Toothy"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Travelers"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Treacherous"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Violent"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warlike"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Wary"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Watery"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Weak"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wings"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wormish"
+  }
+ ],
+ "checksum": "sha256:c978c10b6397bf5b"
+}

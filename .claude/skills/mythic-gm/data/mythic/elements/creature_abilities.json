@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.creature_abilities",
+ "title": "Elements — Creature_Abilities",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Ambush"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Animate"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Armor"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Arrive"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Attach"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Attack"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Attract"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bite"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Block"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Blunt"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Break"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Breath"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Carry"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Change"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Climb"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Cold"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Common"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Communicate"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Conceal"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Contact"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Control"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Create"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Damage"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dark"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Death"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Deceive"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Decrease"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Defense"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Depower"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Detect"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Disrupt"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Distract"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Dominate"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Drain"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Element"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Energy"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Enhanced"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Entangle"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Environment"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Extra"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Fear"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Fight"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Fire"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Flight"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Harm"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Heal"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Illness"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Illusion"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Imitate"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Immune"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Imprison"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Increase"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Intelligent"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Itself"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Lethal"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Light"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Limited"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mind"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Move"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Multiple"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Natural"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Normal"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Open"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Others"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Paralyze"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Physical"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Pierce"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Poison"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Power"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Protection"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Proximity"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Pursue"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Ranged"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Rechargeable"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Resistance"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Self-Sufficient"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Senses"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Skill"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Sleep"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Speed"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Spy"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Stealth"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Stop"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Strange"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Stun"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Substance"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Summon"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Suppress"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Swim"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Take"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Telepathy"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Touch"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Transform"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Travel"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Trick"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Uncommon"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Vision"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Vulnerable"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weak"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Weapon"
+  }
+ ],
+ "checksum": "sha256:a0276bb52296c602"
+}

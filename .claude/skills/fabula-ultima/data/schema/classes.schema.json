@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/classes.schema.json",
+  "title": "Fabula Ultima — character classes",
+  "type": "object",
+  "required": ["id", "source", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "free_benefits", "skills"],
+        "additionalProperties": true,
+        "properties": {
+          "key": { "type": "string" },
+          "name": { "type": "string" },
+          "also": { "type": "array", "description": "alternate class names (ALSO: ...)", "items": { "type": "string" } },
+          "source": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+          "flavor": { "type": "string" },
+          "free_benefits": {
+            "type": "array",
+            "description": "gained automatically on taking the first level of this class",
+            "items": { "type": "string" }
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "name", "sl_max", "text"],
+              "additionalProperties": true,
+              "properties": {
+                "key": { "type": "string" },
+                "name": { "type": "string" },
+                "sl_max": { "type": "integer", "description": "the (SL n) cap on this skill; the ç glyph in the OCR" },
+                "text": { "type": "string", "description": "exact rules wording, SL scaling preserved e.g. [SL x 5]" }
+              }
+            }
+          },
+          "spellcasting": {
+            "type": "object",
+            "description": "present for casters; the spell list itself lives in spells.json tagged by class",
+            "properties": {
+              "discipline": { "type": "string" },
+              "magic_check": { "type": "string", "description": "e.g. 'WLP + WLP'" },
+              "text": { "type": "string" }
+            }
+          },
+          "text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

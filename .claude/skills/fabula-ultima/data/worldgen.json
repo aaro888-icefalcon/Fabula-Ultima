@@ -1,0 +1,116 @@
+{
+  "id": "worldgen",
+  "source": "core",
+  "before_you_start": {
+    "text": "Before creating your world and characters, discuss these topics as a group.",
+    "topics": [
+      { "key": "commitment_and_expectations", "text": "Discuss time and effort: fixed number of sessions or open-ended? How often will you play? Session length (the game assumes ~4-hour sessions; check for Experience Points about every four hours)? How will you handle missing Players and their characters?" },
+      { "key": "tone_and_themes", "text": "Agree on tone (heavily dramatic vs. fantastical good-vs-evil), themes you want to explore, whether the party can have crises and disagreements, and whether over-the-top anime descriptions or a fable-like approach fit the group." },
+      { "key": "rules_and_challenge", "text": "Decide which optional rules you adopt (especially conflicts and advancement) and how 'hardcore' / optimized / challenging the experience should be." },
+      { "key": "safety", "text": "Discuss lines and veils and anything that might make players uncomfortable: depiction of violence (default is low gore), the nature of evil (mind control, persecution, imperialism), and romances, relationships, and sexuality." }
+    ]
+  },
+  "world_creation": {
+    "text": "The shared creation of the game world (setting) in which the characters' adventures take place. Involves both the Game Master and the Players. You will need the world sheet and the map sheet. Keep the Eight Pillars in mind — pay special attention to Souls, Conflicts and struggles, and a fantastical, diverse world. The flowchart presents the steps in an intuitive order, but you can always go back and adjust. Whenever a step states each person should contribute an element, that element can be developed through group dialogue.",
+    "steps": [
+      { "key": "shape", "prompt": "Choose a shape for your world.", "text": "Is it round, flat, or are the regions floating amidst the clouds? Could it be donut-shaped, in typical JRPG fashion? You might even decide that the shape of your world is yet to be discovered." },
+      { "key": "map", "prompt": "Grab a map sheet that fits your concept (or draw a custom map).", "text": "Leave plenty of blank space for settlements and locations. Your world can span more than one sheet. Remember to establish the length of a travel day on the map." },
+      { "key": "magic_and_technology", "prompt": "Decide the role of magic and technology in your setting.", "text": "Are you in an age of industrial development, or is it more Renaissance-like? Is magic seen as a form of science, or mostly as a great mystery? Use the Magic and Technology table (roll a d20 or choose) for ideas; options can apply to the whole world or to a specific nation or region.", "choices": [
+        "Magitech disturbs the natural balance.",
+        "Those who can wield magic carry a unique brand on their bodies.",
+        "Magic is inherited through bloodline.",
+        "The advent of magic is very recent.",
+        "The Ancients lived in harmony with magical creatures.",
+        "All magic in the world comes from a single sacred location.",
+        "The world is kept together by some ancient and powerful magic.",
+        "Technology is an offense to the gods.",
+        "The world is a science-fiction dystopia where magic is experimented on.",
+        "Magic is a gift from the gods.",
+        "Magic comes from another dimension.",
+        "There are parts of the world where no people are born who can use magic.",
+        "Airships revolutionized travel and war.",
+        "Magic is largely a forbidden art.",
+        "Spellcasters are trained in academies and then hired by nobles.",
+        "Steam engines are commonplace and great golems join armies in battle.",
+        "In the past, the world was almost destroyed.",
+        "Magic was taught by dragons.",
+        "Monsters are born from the restless souls of the dead.",
+        "Magic comes from ancient crystals."
+      ] },
+      { "key": "kingdoms_and_nations", "prompt": "Create the major kingdoms and nations, mark their borders, and discuss their relations.", "text": "Mutual trust, strained alliances, or open conflict? Each person at the table should contribute at least one kingdom or nation, with details about customs, beliefs, industry, denizens, and creatures. Kingdoms and Nations table (roll a d8 or choose).", "choices": ["Empire", "Kingdom", "Villages", "City-state", "Union", "Holy Kingdom", "Tribes", "Protectorate"] },
+      { "key": "historical_events", "prompt": "Discuss the major historical events that shaped your world.", "text": "Each person at the table should contribute at least one important event that dramatically altered the history of your setting. Use the Historical Events, Mysteries and Threats table (roll a d20 or choose)." },
+      { "key": "enigmas_and_mysteries", "prompt": "Define the great enigmas and mysteries of the world.", "text": "The questions left unanswered, and the truths now indistinguishable from legend. Each person should contribute at least one mystery they want to explore over the course of the group's adventures. Use the Historical Events, Mysteries and Threats table (roll a d20 or choose)." },
+      { "key": "threats", "prompt": "Determine the terrible threats that cast a shadow over your world.", "text": "Environmental disasters, furious deities, power-hungry empires, or clouds of corrupting miasma. Each person should contribute a threat, preferably something endangering the future of entire nations. The Game Master will base a majority of their villains and antagonists on these worldwide threats. Use the Historical Events, Mysteries and Threats table (roll a d20 or choose)." }
+    ],
+    "events_mysteries_threats_table": [
+      "The death of an important figure.",
+      "Monsters are restless and aggressive.",
+      "A meteor will hit the planet.",
+      "The ocean levels are rising.",
+      "The discovery of uncharted lands.",
+      "An ancient evil is being reborn.",
+      "The world is transforming.",
+      "The destruction of the moon.",
+      "Visitors from another world.",
+      "People have grown apathetic.",
+      "The rise of a new military power.",
+      "Gods are forsaking the world.",
+      "A legendary monster appears.",
+      "The world is plunged into darkness.",
+      "Magic is slowly leaving the world.",
+      "Technological advancement.",
+      "A dimensional gate opens.",
+      "The loss of important knowledge.",
+      "A new religion is spreading.",
+      "The world is dying."
+    ]
+  },
+  "group_creation": {
+    "text": "Group creation isn't particularly structured; it establishes the fundamental themes of your early adventures. Choosing a group type says 'this is how we want to explore the world we just created.' It informs the kind of heroes made in the next step. You can give your group a name (e.g., the Brotherhood of the Griffin, the Queenshields). The GM should treat this as an opportunity to learn what situations, stories, and antagonists everyone is excited about.",
+    "steps": [
+      { "key": "choose_group_type", "prompt": "Choose a group type (premise) for your party.", "text": "Select one of the five premises below. Each comes with guiding questions to define the party's shared story.", "choices": ["Brought Together by Fate", "Guardians", "Heroes of the Resistance", "Revolutionaries", "Seekers"] }
+    ],
+    "group_types": [
+      { "key": "brought_together_by_fate", "name": "Brought Together by Fate", "text": "You find yourselves working together because of the circumstances. This is the most difficult premise since the group will lack a precise goal; Bonds become incredibly important. Consider switching to another group type once a common goal develops. Questions: What emotional or familial connections exist between your characters? Have your characters met in the past? Are there tensions or rivalries? What do you have in common (beliefs, enemies, past experiences)?" },
+      { "key": "guardians", "name": "Guardians", "text": "One of the Player Characters is a Chosen One, tasked with a mission that could change the fate of the world. Everyone else has sworn to protect the Chosen One. Questions: What bonds, ties or rivalries exist between each guardian and the Chosen One? What is your mission and who gave it to you? Do the authorities approve? Why does the Chosen One need protection, and who or what threatens their mission?" },
+      { "key": "heroes_of_the_resistance", "name": "Heroes of the Resistance", "text": "You are the last line of defense against a terrible power (a power-hungry kingdom or oppressive empire) threatening to envelop the known world. Questions: Why is this task up to you? Have you fought this enemy before? Which factions helped you and which betrayed or opposed you? Who are the most infamous enemy leaders and followers?" },
+      { "key": "revolutionaries", "name": "Revolutionaries", "text": "You form a small force fighting against a dominant power (a tyrannical government, military occupation, or ruthless industrial company). Society probably considers you criminals or terrorists. Questions: What price did your character pay for their insubordination? Which factions promised help, and which might oppose you? What are your enemies' crimes, and why is no one else opposing them?" },
+      { "key": "seekers", "name": "Seekers", "text": "You are desperately searching for someone or something (a powerful witch, an ancient relic, a legendary location, a lost technological marvel) that is the world's last hope. Questions: What are you trying to prevent or remedy, and what are you looking for? What do you know of your mission and who gave you the information? Who doesn't want you to find what you seek? What prompted each of you to join this mission?" }
+    ]
+  },
+  "character_creation": {
+    "text": "Characters are normally created at level 5 (see higher-level PC rules for exceptions). Presented as a series of steps; you may take them out of order and go back to modify choices anytime. Better done together with the whole group so the heroes have chemistry from the start. Finish by describing your character and choosing a name and pronouns. Each Player Character enters play with 3 Fabula Points.",
+    "attribute_arrays": [
+      { "name": "Jack of All Trades", "dice": [8, 8, 8, 8] },
+      { "name": "Average", "dice": [10, 8, 8, 6] },
+      { "name": "Specialized", "dice": [10, 10, 6, 6] }
+    ],
+    "starting_zenit": 500,
+    "starting_classes": 5,
+    "starting_class_rules": {
+      "min_classes": 2,
+      "max_classes": 3,
+      "levels_to_distribute": 5,
+      "total_classes_available": 15,
+      "text": "Your character begins play at level 5, with five levels to distribute among any of the fifteen available Classes. You must have at least two Classes and no more than three. Whenever you invest a level in a Class you acquire one of its Skills; Skills marked (ç N) can be acquired up to N times. starting_classes here records the 5 skill points / class levels a starting PC distributes."
+    },
+    "starting_hp": "total_character_level + 5*baseMIG_die_size (+ Class/Skill/equipment modifiers)",
+    "starting_mp": "total_character_level + 5*baseWLP_die_size (+ Class/Skill/equipment modifiers)",
+    "starting_crisis": "floor(max_hp / 2)",
+    "starting_inventory_points": 6,
+    "starting_defense": "current_DEX_die_size (+ armor/shield)",
+    "starting_magic_defense": "current_INS_die_size (+ armor/shield)",
+    "starting_initiative_modifier": "0 (+ armor modifier)",
+    "initial_savings": "leftover zenit from the 500 budget + 2d6 × 10",
+    "steps": [
+      { "key": "identity", "prompt": "Create your character's Identity.", "text": "A short sentence that summarizes how they currently see themselves (e.g., 'The Last Princess of Platea'). Keep an eye on the list of Classes and make sure a combination of two or three Classes fits your Identity. You can invoke your Identity to gain an edge on Checks. Use the Identity Creation tables (Core Concept, Adjectives, Detail) for ideas." },
+      { "key": "theme", "prompt": "Choose or create your character's Theme.", "text": "A strong ideal, emotion or feeling that dominates your character's actions. First characters should pick from the suggested list; describe how it applies (Ambition, Duty, Vengeance, etc.). Theme can be invoked and can change during play.", "choices": ["Ambition", "Anger", "Belonging", "Doubt", "Duty", "Guilt", "Hope", "Justice", "Mercy", "Vengeance"] },
+      { "key": "origin", "prompt": "Choose or create your character's Origin.", "text": "The place they hail from. Pick a location already on the map sheet or add a new one. Origin may be invoked to reroll dice during a Check, but normally cannot be changed in play." },
+      { "key": "classes", "prompt": "Choose two or three Classes and distribute your initial five levels among them.", "text": "You have five levels to distribute among any of the fifteen available Classes; at least two Classes and no more than three. Take note of the free benefits and Skills gained (free benefits from multiple Classes stack). Investing a level acquires one Class Skill.", "choices": ["Arcanist", "Chimerist", "Darkblade", "Elementalist", "Entropist", "Fury", "Guardian", "Loremaster", "Orator", "Rogue", "Sharpshooter", "Spiritist", "Tinkerer", "Wayfarer", "Weaponmaster"] },
+      { "key": "attributes", "prompt": "Determine the base die size of your four Attributes (Dexterity, Insight, Might, Willpower).", "text": "Each Attribute ranges from d6 to d12. Choose one of the profiles and distribute the die sizes: Jack of All Trades (d8, d8, d8, d8); Average (d10, d8, d8, d6); Specialized (d10, d10, d6, d6). Take your choice of Classes and Skills into account." },
+      { "key": "secondary_scores", "prompt": "Calculate your starting Hit Points, Mind Points, Inventory Points, Defense, Magic Defense, and Initiative modifier.", "text": "Max HP = total character level + 5 × base Might die size. Max MP = total character level + 5 × base Willpower die size. Crisis = half max HP (rounded down). Max Inventory Points = 6. Defense = current Dexterity die size; Magic Defense = current Insight die size; Initiative modifier = 0. All further modified by Class, Skills, and equipment. Begin with full HP, MP, and IP." },
+      { "key": "equipment", "prompt": "Use a starting budget of 500 zenit to purchase equipment.", "text": "By default you can only buy basic weapons and basic armor and shields; to equip a martial item you must first gain that ability from a Class (Darkblade, Fury, Guardian, Sharpshooter, Weaponmaster). Ranged weapons don't track ammunition. Rare items or transports require group agreement." },
+      { "key": "initial_savings", "prompt": "Roll for initial savings.", "text": "Begin play with zenit equal to 2d6 × 10; add any leftover zenit from the equipment step to this amount." }
+    ]
+  }
+}

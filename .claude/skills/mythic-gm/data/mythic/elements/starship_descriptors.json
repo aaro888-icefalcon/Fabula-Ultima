@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.starship_descriptors",
+ "title": "Elements — Starship_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Activity"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Adversity"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Assist"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Automated"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Battle"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Beautiful"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Bestow"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Bleak"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Block"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Bright"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Business"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Clean"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Cold"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Colorful"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Combative"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Communicate"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Computer"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Contain"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Control"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Creepy"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Crew"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Damaged"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Danger"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Dark"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Death"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Defense"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Elaborate"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Empty"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Energy"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Engine"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Enormous"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Environment"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Escape"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Exit"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Exterior"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Fear"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Food"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Full"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Hall"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Health"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Helpful"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Important"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Information"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Inquire"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Interesting"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Lacking"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Large"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Lavish"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Lethal"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Loud"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Magnificent"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Maintenance"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Meaningful"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Mechanical"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Message"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Messy"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Mighty"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Military"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Modern"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Multiple"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Mundane"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Mysterious"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Natural"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Normal"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Odd"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Portal"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Possessions"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Power"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Powerful"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Prison"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Protection"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Quiet"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Rare"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Reassuring"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Remarkable"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Resources"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Room"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Rough"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Ruined"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Scary"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Security"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Simple"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Small"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Sounds"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Start"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Stop"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Storage"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Strange"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Supplies"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Survival"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "System"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Tactics"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Technology"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Travel"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Unusual"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Valuable"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Vehicle"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Warm"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Weapon"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Work"
+  }
+ ],
+ "checksum": "sha256:c8c633486bebab52"
+}

@@ -1,0 +1,233 @@
+{
+  "id": "fu.bestiary.demon",
+  "source": "core",
+  "species": "demon",
+  "entries": [
+    {
+      "key": "imp",
+      "name": "Imp",
+      "level": 5,
+      "species": "demon",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 8,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 50,
+      "mp": 55,
+      "crisis": 25,
+      "initiative": 8,
+      "defense": 8,
+      "magic_defense": 8,
+      "affinities": {
+        "dark": "resistant",
+        "fire": "immune",
+        "ice": "resistant",
+        "light": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Freezing Nails",
+          "accuracy": "【DEX + WLP】",
+          "damage": "【HR + 5】 ice",
+          "range": "melee",
+          "text": "This attack targets Magic Defense."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Enrage",
+          "text": "【INS + WLP】 · 10 MP · One creature · Instantaneous. Offensive spell. The target suffers enraged and cannot perform the Guard or Spell actions on their next turn."
+        },
+        {
+          "name": "Shell",
+          "text": "10 MP · Self · Scene. Until this spell ends, the imp gains Resistance to physical damage."
+        }
+      ],
+      "traits": [
+        "cowardly",
+        "cunning",
+        "mischievous",
+        "tainted"
+      ],
+      "text": "The weakest of demons. Imps originate from the dark thoughts of a single person or small community. They are cowards.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "lightning-wheel",
+      "name": "Lightning Wheel",
+      "level": 10,
+      "species": "demon",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 12,
+        "INS": 6,
+        "MIG": 6,
+        "WLP": 8
+      },
+      "hp": 60,
+      "mp": 60,
+      "crisis": 30,
+      "initiative": 9,
+      "defense": 12,
+      "magic_defense": 6,
+      "affinities": {
+        "bolt": "absorb",
+        "dark": "resistant",
+        "earth": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Sharp Turn",
+          "accuracy": "【DEX + MIG】+1",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": ""
+        }
+      ],
+      "skills": [
+        {
+          "name": "Fulgur",
+          "text": "【INS + WLP】+1 · 10 × T MP · Up to three creatures · Instantaneous. Offensive spell. Each target suffers 【HR + 15】 bolt damage. Opportunity: Each target suffers dazed."
+        },
+        {
+          "name": "Quick",
+          "text": "When the lightning wheel fills or erases sections of a Clock related to escaping or pursuing, they may fill or erase two additional sections."
+        }
+      ],
+      "traits": [
+        "bright",
+        "cackling",
+        "cruel",
+        "fast"
+      ],
+      "text": "Born from the fears of travelers, these cruel demons ride inside a large wooden wheel surrounded by lightning.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    },
+    {
+      "key": "shadow-howler",
+      "name": "Shadow Howler",
+      "level": 15,
+      "species": "demon",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 6,
+        "MIG": 10,
+        "WLP": 8
+      },
+      "hp": 80,
+      "mp": 55,
+      "crisis": 40,
+      "initiative": 7,
+      "defense": 9,
+      "magic_defense": 8,
+      "affinities": {
+        "bolt": "vulnerable",
+        "dark": "resistant",
+        "fire": "resistant"
+      },
+      "attacks": [
+        {
+          "name": "Ghostbite",
+          "accuracy": "【DEX + MIG】+4",
+          "damage": "【HR + 10】 physical",
+          "range": "melee",
+          "text": "Targets Magic Defense."
+        },
+        {
+          "name": "Ember Breath",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "【HR + 15】 fire",
+          "range": "ranged",
+          "text": "Offensive spell. 10 MP · One creature · Instantaneous. The target suffers 【HR + 15】 fire damage and suffers weak."
+        },
+        {
+          "name": "Howls of Tragedy",
+          "accuracy": "【MIG + WLP】+1",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 5 MP · One creature · Instantaneous. The target suffers shaken."
+        }
+      ],
+      "skills": [],
+      "traits": [
+        "ghastly",
+        "large",
+        "silent",
+        "unearthly"
+      ],
+      "text": "This massive dog is said to appear when a great catastrophe is about to take place — they are not evil but mere harbingers of tragedy.",
+      "magic_defense_bonus": 2,
+      "defense_bonus": 1
+    },
+    {
+      "key": "echidna",
+      "name": "Echidna",
+      "level": 20,
+      "species": "demon",
+      "rank": "soldier",
+      "attributes": {
+        "DEX": 8,
+        "INS": 10,
+        "MIG": 6,
+        "WLP": 10
+      },
+      "hp": 70,
+      "mp": 80,
+      "crisis": 35,
+      "initiative": 9,
+      "defense": 8,
+      "magic_defense": 10,
+      "affinities": {
+        "air": "vulnerable",
+        "dark": "resistant",
+        "fire": "immune",
+        "ice": "resistant",
+        "light": "vulnerable"
+      },
+      "attacks": [
+        {
+          "name": "Tangle of Vipers",
+          "accuracy": "【DEX + INS】+5",
+          "damage": "【HR + 15】 poison",
+          "range": "melee",
+          "text": ""
+        },
+        {
+          "name": "Cold Glare",
+          "accuracy": "【DEX + WLP】+5",
+          "damage": "【HR + 10】 ice",
+          "range": "ranged",
+          "text": "The target cannot perform the Objective action on their next turn. This attack targets Magic Defense."
+        },
+        {
+          "name": "Brain Melt",
+          "accuracy": "【INS + WLP】+2",
+          "damage": "",
+          "range": "ranged",
+          "text": "Offensive spell. 5 × T MP · Up to three creatures · Instantaneous. Each target loses 【HR + 10】 Mind Points."
+        }
+      ],
+      "skills": [
+        {
+          "name": "Eloquent",
+          "text": "The echidna gains a +3 bonus to Opposed Checks during social occasions."
+        }
+      ],
+      "traits": [
+        "clever",
+        "knowledgeable",
+        "slithering",
+        "unfathomable"
+      ],
+      "text": "These dangerous fiends are the embodiments of suspicion and strife. Their legs end in a twisting swarm of snakes.",
+      "magic_defense_bonus": 0,
+      "defense_bonus": 0
+    }
+  ]
+}

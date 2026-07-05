@@ -1,0 +1,510 @@
+{
+ "id": "mythic.elements.creature_descriptors",
+ "title": "Elements — Creature_Descriptors",
+ "type": "list_d100",
+ "dice": "1d100",
+ "source": "references/canon/Mythic-GME.md#meaning-tables-elements",
+ "entries": [
+  {
+   "min": 1,
+   "max": 1,
+   "value": "Aggressive"
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "value": "Agile"
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "value": "Air"
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "value": "Alien"
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "value": "Amorphous"
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "value": "Animal"
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "value": "Aquatic"
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "value": "Armored"
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "value": "Avian"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "value": "Beast"
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "value": "Beautiful"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "value": "Body"
+  },
+  {
+   "min": 13,
+   "max": 13,
+   "value": "Bony"
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "value": "Carapace"
+  },
+  {
+   "min": 15,
+   "max": 15,
+   "value": "Clawed"
+  },
+  {
+   "min": 16,
+   "max": 16,
+   "value": "Clothed"
+  },
+  {
+   "min": 17,
+   "max": 17,
+   "value": "Cold"
+  },
+  {
+   "min": 18,
+   "max": 18,
+   "value": "Color"
+  },
+  {
+   "min": 19,
+   "max": 19,
+   "value": "Composite"
+  },
+  {
+   "min": 20,
+   "max": 20,
+   "value": "Constructed"
+  },
+  {
+   "min": 21,
+   "max": 21,
+   "value": "Decayed"
+  },
+  {
+   "min": 22,
+   "max": 22,
+   "value": "Defensive"
+  },
+  {
+   "min": 23,
+   "max": 23,
+   "value": "Dripping"
+  },
+  {
+   "min": 24,
+   "max": 24,
+   "value": "Elements"
+  },
+  {
+   "min": 25,
+   "max": 25,
+   "value": "Exotic"
+  },
+  {
+   "min": 26,
+   "max": 26,
+   "value": "Extra Limbs"
+  },
+  {
+   "min": 27,
+   "max": 27,
+   "value": "Fangs"
+  },
+  {
+   "min": 28,
+   "max": 28,
+   "value": "Feminine"
+  },
+  {
+   "min": 29,
+   "max": 29,
+   "value": "Feral"
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "value": "Filthy"
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "value": "Fire"
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "value": "Fungal"
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "value": "Furry"
+  },
+  {
+   "min": 34,
+   "max": 34,
+   "value": "Gaunt"
+  },
+  {
+   "min": 35,
+   "max": 35,
+   "value": "Glowing"
+  },
+  {
+   "min": 36,
+   "max": 36,
+   "value": "Group"
+  },
+  {
+   "min": 37,
+   "max": 37,
+   "value": "Growling"
+  },
+  {
+   "min": 38,
+   "max": 38,
+   "value": "Healthy"
+  },
+  {
+   "min": 39,
+   "max": 39,
+   "value": "Horns"
+  },
+  {
+   "min": 40,
+   "max": 40,
+   "value": "Humanoid"
+  },
+  {
+   "min": 41,
+   "max": 41,
+   "value": "Inscribed"
+  },
+  {
+   "min": 42,
+   "max": 42,
+   "value": "Insect-like"
+  },
+  {
+   "min": 43,
+   "max": 43,
+   "value": "Insubstantial"
+  },
+  {
+   "min": 44,
+   "max": 44,
+   "value": "Intelligent"
+  },
+  {
+   "min": 45,
+   "max": 45,
+   "value": "Intimidating"
+  },
+  {
+   "min": 46,
+   "max": 46,
+   "value": "Large"
+  },
+  {
+   "min": 47,
+   "max": 47,
+   "value": "Levitating"
+  },
+  {
+   "min": 48,
+   "max": 48,
+   "value": "Limited"
+  },
+  {
+   "min": 49,
+   "max": 49,
+   "value": "Liquid"
+  },
+  {
+   "min": 50,
+   "max": 50,
+   "value": "Loud"
+  },
+  {
+   "min": 51,
+   "max": 51,
+   "value": "Mammalian"
+  },
+  {
+   "min": 52,
+   "max": 52,
+   "value": "Mandibles"
+  },
+  {
+   "min": 53,
+   "max": 53,
+   "value": "Masculine"
+  },
+  {
+   "min": 54,
+   "max": 54,
+   "value": "Mechanical"
+  },
+  {
+   "min": 55,
+   "max": 55,
+   "value": "Metallic"
+  },
+  {
+   "min": 56,
+   "max": 56,
+   "value": "Movement"
+  },
+  {
+   "min": 57,
+   "max": 57,
+   "value": "Multiple"
+  },
+  {
+   "min": 58,
+   "max": 58,
+   "value": "Mutant"
+  },
+  {
+   "min": 59,
+   "max": 59,
+   "value": "Natural"
+  },
+  {
+   "min": 60,
+   "max": 60,
+   "value": "Nature"
+  },
+  {
+   "min": 61,
+   "max": 61,
+   "value": "Nightmarish"
+  },
+  {
+   "min": 62,
+   "max": 62,
+   "value": "Object"
+  },
+  {
+   "min": 63,
+   "max": 63,
+   "value": "Odorous"
+  },
+  {
+   "min": 64,
+   "max": 64,
+   "value": "Passive"
+  },
+  {
+   "min": 65,
+   "max": 65,
+   "value": "Plant"
+  },
+  {
+   "min": 66,
+   "max": 66,
+   "value": "Reptilian"
+  },
+  {
+   "min": 67,
+   "max": 67,
+   "value": "Robotic"
+  },
+  {
+   "min": 68,
+   "max": 68,
+   "value": "Rooted"
+  },
+  {
+   "min": 69,
+   "max": 69,
+   "value": "Rough"
+  },
+  {
+   "min": 70,
+   "max": 70,
+   "value": "Shape"
+  },
+  {
+   "min": 71,
+   "max": 71,
+   "value": "Shifting"
+  },
+  {
+   "min": 72,
+   "max": 72,
+   "value": "Silent"
+  },
+  {
+   "min": 73,
+   "max": 73,
+   "value": "Simple"
+  },
+  {
+   "min": 74,
+   "max": 74,
+   "value": "Slender"
+  },
+  {
+   "min": 75,
+   "max": 75,
+   "value": "Small"
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "value": "Solitary"
+  },
+  {
+   "min": 77,
+   "max": 77,
+   "value": "Spider-like"
+  },
+  {
+   "min": 78,
+   "max": 78,
+   "value": "Spiked"
+  },
+  {
+   "min": 79,
+   "max": 79,
+   "value": "Steaming"
+  },
+  {
+   "min": 80,
+   "max": 80,
+   "value": "Sticky"
+  },
+  {
+   "min": 81,
+   "max": 81,
+   "value": "Stinger"
+  },
+  {
+   "min": 82,
+   "max": 82,
+   "value": "Strange"
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "value": "Strong"
+  },
+  {
+   "min": 84,
+   "max": 84,
+   "value": "Supernatural"
+  },
+  {
+   "min": 85,
+   "max": 85,
+   "value": "Tail"
+  },
+  {
+   "min": 86,
+   "max": 86,
+   "value": "Tentacled"
+  },
+  {
+   "min": 87,
+   "max": 87,
+   "value": "Tongue"
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "value": "Toothy"
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "value": "Transparent"
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "value": "Tree-like"
+  },
+  {
+   "min": 91,
+   "max": 91,
+   "value": "Twisted"
+  },
+  {
+   "min": 92,
+   "max": 92,
+   "value": "Undead"
+  },
+  {
+   "min": 93,
+   "max": 93,
+   "value": "Unnatural"
+  },
+  {
+   "min": 94,
+   "max": 94,
+   "value": "Verbal"
+  },
+  {
+   "min": 95,
+   "max": 95,
+   "value": "Warm"
+  },
+  {
+   "min": 96,
+   "max": 96,
+   "value": "Weak"
+  },
+  {
+   "min": 97,
+   "max": 97,
+   "value": "Weapon"
+  },
+  {
+   "min": 98,
+   "max": 98,
+   "value": "Wings"
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "value": "Wooden"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "value": "Wormish"
+  }
+ ],
+ "checksum": "sha256:6526d72813716807"
+}

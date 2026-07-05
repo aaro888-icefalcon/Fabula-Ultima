@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fu/front.schema.json",
+  "title": "Fabula Ultima — a Front: an antagonist/threat agenda advanced by the tick",
+  "type": "object",
+  "required": ["id", "kind", "name", "clock"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string" },
+    "kind": { "const": "front" },
+    "name": { "type": "string" },
+    "drive": { "type": "string", "description": "the agenda (a villain_drive value)" },
+    "genre": { "type": "string", "enum": ["core", "high", "natural", "techno"] },
+    "owner": { "type": "string", "description": "entity id of the villain/faction pursuing this front" },
+    "clock": {
+      "type": "object",
+      "required": ["size", "filled"],
+      "properties": { "size": { "type": "integer" }, "filled": { "type": "integer" } }
+    },
+    "stage": { "type": "integer", "description": "how many telegraphs have surfaced" },
+    "telegraphs": { "type": "array", "items": { "type": "string" },
+      "description": "escalating signs shown as the clock advances (telegraph ladder)" },
+    "linked_entities": { "type": "array", "items": { "type": "string" } },
+    "resolved": { "type": "boolean" }
+  }
+}
