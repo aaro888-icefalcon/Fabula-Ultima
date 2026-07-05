@@ -79,6 +79,14 @@ _Σ weighted slots = 10_
 - **Self-audit drift counter (consecutive soft scenes):** 0
 - **Ultima pool available to the Quiet Hand (from Eira):** 10 (log spends via `fu.py points ultima`)
 
+### LIVE COMBAT — Scene 1, top of enemy response (mid-round)
+- Kestrel sold "harmless" (Deceive 10 vs DL10 SUCCESS) → then went LOUD. **Cover BLOWN** to party + foes. Witnesses reaching Voss/court = open thread (depends on survivors, esp. the Quiet Hand fleeing).
+- Kestrel turn: High Speed + Bladestorm x2 + Acceleration = **50 MP spent → MP 0**. 4 rapier swings, 1 hit. Acceleration active on self (1 extra action left, ends after his next turn). Counterattack + **Lucky Seven** unspent. Position: at the water ~30ft from carriage.
+- Foes: Scout #A (crossbow, 60/60), Scout #B (crossbow, **47/60**, shoulder run through), Scout #C (spear, 60/60, cart-gap). All DEF 11 (+1 formation while ≥2 = 12), M.DEF 8. Heavy Spear HR+12 / Crossbow HR+8.
+- **The Quiet Hand** at Odile's window, mid-cast (Leyline Manacle → shaken + Capture tick). Capture clock still [0/4]; reinforcement clock [0/4] telegraphed LOUD (engine close).
+- Companions unacted this round: Odile (HP35, M.DEF12, Ignis/Glacies), Emeric (HP35, Feral Speech, far door), Isabeau (HP40, pistol drawn).
+- Pending player decision: burn Lucky Seven? + party's response as the Quiet Hand's rod comes down on Odile.
+
 ## Archive pointer
 - Resolved threads / dead characters → `archive.md`
 - ARCHIVED (setting reset): the Leyline Pilgrimage premise, the Processional Lumen scene, front `front.a-pilgrimage-or-quest-de` ("relinquish the innocent" may yet echo — the Kindred canon survives)

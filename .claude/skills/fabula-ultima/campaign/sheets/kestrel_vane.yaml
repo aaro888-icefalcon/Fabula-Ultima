@@ -13,7 +13,7 @@ max_hp: 40
 hp: 40
 crisis: 20
 max_mp: 50
-mp: 50
+mp: 0
 defense: 11
 magic_defense: 13
 initiative: 0
@@ -72,5 +72,5 @@ equipment:
   - key: combat-tunic
     slot: armor
     note: "rumpled scholar's robes over a fencer's tunic"
-notes: "UNDERCOVER: only Duke Advain knows what he is. Cover: doddering buffoon; Lucky Seven explains away his 'accidents' of competence. Rapier DEX+INS+1. Entropism Magic Check INS+WLP. DEF 8+1 tunic+2 shield=11; MDEF 10+1+2=13."
+notes: "UNDERCOVER: only Duke Advain knows what he is. Cover: doddering buffoon; Lucky Seven explains away his 'accidents' of competence. Rapier DEX+INS+1. Entropism Magic Check INS+WLP. DEF 8+1 tunic+2 shield=11; MDEF 10+1+2=13. | COMBAT S1: MP spent to 0 (HighSpeed+Bladestorm x2 + Acceleration). Acceleration active on self (1 extra action left, ends after next turn). COVER BLOWN at Sedge Ford. Lucky Seven still available."
 spells: [acceleration]
