@@ -3,28 +3,28 @@
 
 The world created at session zero. This is the live ground truth and overrides recollection.
 
-**Genre:** natural  ·  featured classes: floralist, gourmet, invoker, merchant
+**Genre:** high  ·  featured classes: chanter, commander, dancer, symbolist
 
 ## Shape of the World
-_TODO: Choose a shape for your world._
+The Even Land: a single continent planed unnaturally flat and smooth by the gods at the dawn of days, so their gift of magic could flow evenly along dead-straight leylines. Rivers run slow and wide; roads run true for a hundred miles; at the world's rim the land simply stops, falling into the mists of the Worldfall.
 
 ## The Map
-_TODO: Grab a map sheet that fits your concept (or draw a custom map)._
+At the center, the Kingdom of Vairelle and its capital Aurelance, built where nine leylines cross. Eastward lies the Greywatch March, the fortified border province, and beyond it the Hearthshires and the Reedmark: two belts of free villages under old pacts, where the land grows less smooth and the Kindred still walk openly.
 
 ## Magic & Technology
-magic: medium, technology: low  (Natural Fantasy)
+Magic is a gift from the gods (high magic, medium tech). It flows along the leylines and is anchored by the Kindred: small, uncannily endearing god-beasts the Ancients once lived beside in harmony. The gift runs strongest in god-touched bloodlines, the royal line of Vairelle above all. Magitech is new and hungry: the chartered Gildern Foundry has learned to draw power by caging Kindred, and its engines are becoming fashionable in Aurelance, as are the Kindred themselves, kept as pets by the wealthy.
 
 ## Kingdoms & Nations
-_TODO: Create the major kingdoms and nations, mark their borders, and discuss their relations._
+The Kingdom of Vairelle (central, its royal blood the living conduit of the gods' gift); the Hearthshires and the Reedmark, free village-lands self-governed under the old pacts with the Kindred; between them the Greywatch March, held for the crown by the Counts of Greywatch, wardens of the frontier.
 
 ## Historical Events
-_TODO: Discuss the major historical events that shaped your world._
+The God-Planing, when the gods leveled the world and gave it magic. The Age of Harmony, when the Ancients lived beside the Kindred. The Erasure: the Ancients vanished, and every record of who overthrew whom was scoured from stone and memory; no one knows if they were the victors or the vanquished. The Founding of Vairelle around the first Leyline Pilgrimage.
 
 ## Enigmas & Mysteries
-_TODO: Define the great enigmas and mysteries of the world._
+Who was overthrown in the war that history forgot, and by whom? Where did the Ancients go? Why do the Kindred gather in growing numbers at the Greywatch March, as if waiting for something? And why does the Leyline Pilgrimage demand what it demands?
 
 ## Threats
-_TODO: Determine the terrible threats that cast a shadow over your world._
+The Leyline Pilgrimage itself: each generation the royal blood must walk the leylines to renew the gods' gift, and the rite demands a terrible sacrifice; the court does not speak of what it will be this time. The craze for caged Kindred, foolishly adored as pets while each cage quietly frays the old covenants. The Gildern Foundry, whose Kindred-fired engines promise an empire's power to whoever controls them.
 
 ## The Group
-- **choose_group_type**: _TODO_
+- **choose_group_type**: Guardians: sworn protectors of the royal children of Vairelle on their Leyline Pilgrimage. The party guards Prince Emeric and Princess Odile, with their aunt Countess Isabeau of Greywatch, heir to the March, and the royal tutor, a knight of arcane arts.

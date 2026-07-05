@@ -1,0 +1,29 @@
+{
+ "kind": "character",
+ "entries": [
+  {
+   "name": "Prince Emeric",
+   "weight": 1
+  },
+  {
+   "name": "Princess Odile",
+   "weight": 1
+  },
+  {
+   "name": "Countess Isabeau",
+   "weight": 1
+  },
+  {
+   "name": "The Gildern Foundry",
+   "weight": 1
+  },
+  {
+   "name": "The Kindred",
+   "weight": 1
+  },
+  {
+   "name": "King Aldous IV of Vairelle",
+   "weight": 1
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "scene": 0,
+  "chaos": 5,
+  "genre": "high",
+  "entities": [
+    "pc.princess-odile",
+    "pc.prince-emeric",
+    "pc.ser-kestrel-vane",
+    "pc.countess-isabeau"
+  ],
+  "fronts": [
+    "front.a-pilgrimage-or-quest-de"
+  ],
+  "seeds": []
+}

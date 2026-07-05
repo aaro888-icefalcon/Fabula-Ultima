@@ -1,0 +1,67 @@
+name: Countess Isabeau
+kind: companion
+level: 5
+identity: "Countess and heir to the Greywatch March, the children's aunt; a border-bred tactician in court silk"
+theme: Ambition
+origin: The Greywatch March
+attributes:
+  DEX: 8
+  INS: 8
+  MIG: 6
+  WLP: 10
+max_hp: 40
+hp: 40
+crisis: 20
+max_mp: 60
+mp: 60
+defense: 8
+magic_defense: 10
+initiative: -1
+inventory_points: 6
+fabula_points: 3
+zenit: 220
+classes:
+  - name: commander
+    level: 3
+  - name: orator
+    level: 2
+skills:
+  - class: commander
+    key: charging_cavalry
+    name: Charging Cavalry
+    sl: 1
+  - class: commander
+    key: queens_gambit
+    name: "Queen's Gambit"
+    sl: 1
+  - class: commander
+    key: bishops_edict
+    name: "Bishop's Edict"
+    sl: 1
+  - class: orator
+    key: encourage
+    name: Encourage
+    sl: 1
+  - class: orator
+    key: my_trust_in_you
+    name: My Trust in You
+    sl: 1
+bonds:
+  - toward: Prince Emeric
+    emotions: [affection]
+    strength: 1
+  - toward: Princess Odile
+    emotions: [affection]
+    strength: 1
+  - toward: Ser Kestrel Vane
+    emotions: [admiration]
+    strength: 1
+statuses: []
+equipment:
+  - key: pistol
+    slot: weapon
+    note: "a Gildern leyline-pistol, a gift she distrusts but carries"
+  - key: silk-shirt
+    slot: armor
+    note: "court silk over a rider's spine"
+notes: "Heir to the Greywatch March. Commander: may equip martial melee + ranged."

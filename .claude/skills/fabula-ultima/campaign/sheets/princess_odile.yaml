@@ -1,0 +1,61 @@
+name: Princess Odile
+kind: companion
+level: 5
+identity: "Princess of Vairelle, nine years old; a wild scamp the Kindred follow like ducklings"
+theme: Mercy
+origin: "Aurelance, the capital"
+attributes:
+  DEX: 8
+  INS: 8
+  MIG: 6
+  WLP: 10
+max_hp: 35
+hp: 35
+crisis: 17
+max_mp: 60
+mp: 60
+defense: 10
+magic_defense: 9
+initiative: -1
+inventory_points: 6
+fabula_points: 3
+zenit: 280
+classes:
+  - name: chimerist
+    level: 3
+  - name: rogue
+    level: 2
+skills:
+  - class: chimerist
+    key: feral_speech
+    name: Feral Speech
+    sl: 1
+  - class: chimerist
+    key: spell_mimic
+    name: Spell Mimic
+    sl: 2
+  - class: rogue
+    key: dodge
+    name: Dodge
+    sl: 1
+  - class: rogue
+    key: see_you_later
+    name: See You Later
+    sl: 1
+bonds:
+  - toward: Ser Kestrel Vane
+    emotions: [mistrust]
+    strength: 1
+  - toward: Countess Isabeau
+    emotions: [affection]
+    strength: 1
+statuses: []
+equipment:
+  - key: steel-dagger
+    slot: weapon
+    note: a fruit knife she is absolutely not allowed to have
+  - key: travel-garb
+    slot: armor
+    note: "play clothes, pockets full of crumbs for the Kindred"
+notes: "Spell Mimic: no spells yet — learns from creatures in play. Dodge +1 DEF baked in. Feral Speech: can talk with the Kindred."
+spells: []

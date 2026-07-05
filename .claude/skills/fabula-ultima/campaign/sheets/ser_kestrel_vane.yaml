@@ -1,0 +1,60 @@
+name: Ser Kestrel Vane
+kind: pc
+level: 5
+identity: Royal tutor to the heirs of Vairelle; a knight of brutal arcane arts wrapped in impeccable manners
+theme: Duty
+origin: The Greywatch March
+attributes:
+  DEX: 6
+  INS: 8
+  MIG: 10
+  WLP: 8
+max_hp: 60
+hp: 60
+crisis: 30
+max_mp: 50
+mp: 50
+defense: 7
+magic_defense: 9
+initiative: 0
+inventory_points: 6
+fabula_points: 3
+zenit: 180
+classes:
+  - name: weaponmaster
+    level: 3
+  - name: elementalist
+    level: 2
+skills:
+  - class: weaponmaster
+    key: melee_weapon_mastery
+    name: Melee Weapon Mastery
+    sl: 2
+  - class: weaponmaster
+    key: bone_crusher
+    name: Bone Crusher
+    sl: 1
+  - class: elementalist
+    key: elemental_magic
+    name: Elemental Magic
+    sl: 2
+bonds:
+  - toward: Prince Emeric
+    emotions: [loyalty]
+    strength: 1
+  - toward: Princess Odile
+    emotions: [affection]
+    strength: 1
+  - toward: Countess Isabeau
+    emotions: [admiration, mistrust]
+    strength: 2
+statuses: []
+equipment:
+  - key: waraxe
+    slot: weapon
+    note: "the tutor's rune-scored 'teaching implement'"
+  - key: combat-tunic
+    slot: armor
+    note: immaculate court blacks cut for war
+notes: "Waraxe two-handed (no shield). Spells: Elemental Weapon, Fulgur. Magic Check INS+WLP."
+spells: [elemental-weapon, fulgur]
